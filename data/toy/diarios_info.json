@@ -1,0 +1,25 @@
+{
+    "22144": {
+        "horarios_aulas_abreviacao": "2M56 / 5M45",
+        "disciplina": "Produção de Textos Técnico e Científico",
+        "horarios_aulas": {
+            "60491": {
+                "abreviacao": "2M5"
+            },
+            "60492": {
+                "abreviacao": "2M6"
+            },
+            "60493": {
+                "abreviacao": "5M5"
+            },
+            "60494": {
+                "abreviacao": "5M4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.1423",
+        "qtd_alunos": 31,
+        "id": 22144
+    }
+}
