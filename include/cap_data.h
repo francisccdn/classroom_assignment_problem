@@ -79,7 +79,7 @@ private:
     // q_i  -- i in A
     std::vector<int> num_students_in_class;
     // m_j  -- j in I
-    std::vector<float> location_computer_cost;
+    std::map<int, float> location_computer_cost;
     // s_j  -- j in L
     std::vector<float> location_setup_cost;
     // d_j  -- j in L
@@ -125,7 +125,7 @@ public:
     // q_i  -- i in A
     std::vector<int> get_num_students_in_class() { return num_students_in_class; }
     // m_j  -- j in I
-    std::vector<float> get_location_computer_cost() { return location_computer_cost; }
+    std::map<int, float> get_location_computer_cost() { return location_computer_cost; }
     // s_j  -- j in L
     std::vector<float> get_location_setup_cost() { return location_setup_cost; }
     // d_j  -- j in L

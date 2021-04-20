@@ -63,7 +63,7 @@ CapResults Cap::Solve(double upper_bound)
     // q_i  -- i in A
     vector<int> num_students_in_class = data.get_num_students_in_class();
     // m_j  -- j in I
-    vector<float> location_computer_cost = data.get_location_cost();
+    map<int, float> location_computer_cost = data.get_location_computer_cost();
     // s_j  -- j in L
     vector<float> location_setup_cost = data.get_location_setup_cost();
     // d_j  -- j in L
@@ -74,18 +74,7 @@ CapResults Cap::Solve(double upper_bound)
     */
 
     // X_ikj  -- i in B, k in H_i, j in S_i
-    IloBoolVar *x[num_classes_classroom][num_timeslots][num_locations_classroom];
-    for (int i = 0; i < num_classes_classroom; i++)
-    {
-        for (int k = 0; k < num_timeslots; k++)
-        {
-            for (int j = 0; j < num_locations_classroom; j++)
-            {
-                x[i][k][j] = NULL;
-            }
-        }
-    }
-
+    map<int, map<int, map<int, IloBoolVar>>> x;
     for (int i = 0; i < num_classes_classroom; i++)
     {
         for (int k : lectures_of_class[i_in_A(i, false)])
@@ -95,26 +84,15 @@ CapResults Cap::Solve(double upper_bound)
                 if (data.ValidVar(false, i_in_A(i, false), k, j))
                 {
                     sprintf(name, "X_%s_%d_%s", data.get_class_name(i_in_A(i, false)).c_str(), k, data.get_location_name(j).c_str());
-                    x[i][k][j] = new IloBoolVar(env, name);
-                    model.add(*x[i][k][j]);
+                    x[i][k][j] = IloBoolVar(env, name);
+                    model.add(x[i][k][j]);
                 }
             }
         }
     }
 
     // T_ikj  -- i in C, k in H_i, j in I_i
-    IloBoolVar *t[num_classes_computer][num_timeslots][num_locations];
-    for (int i = 0; i < num_classes_computer; i++)
-    {
-        for (int k = 0; k < num_timeslots; k++)
-        {
-            for (int j = 0; j < num_locations; j++)
-            {
-                t[i][k][j] = NULL;
-            }
-        }
-    }
-
+    map<int, map<int, map<int, IloBoolVar>>> t;
     for (int i = 0; i < num_classes_computer; i++)
     {
         for (int k : lectures_of_class[i_in_A(i, true)])
@@ -124,62 +102,46 @@ CapResults Cap::Solve(double upper_bound)
                 if (data.ValidVar(true, i_in_A(i, true), k, j))
                 {
                     sprintf(name, "T_%s_%d_%s", data.get_class_name(i_in_A(i, true)).c_str(), k, data.get_location_name(j).c_str());
-                    t[i][k][j] = new IloBoolVar(env, name);
-                    model.add(*t[i][k][j]);
+                    t[i][k][j] = IloBoolVar(env, name);
+                    model.add(t[i][k][j]);
                 }
             }
         }
     }
 
     // Y_ij  -- i in B, j in S_i
-    IloBoolVar *y[num_classes_classroom][num_locations_classroom];
-    for (int i = 0; i < num_classes_classroom; i++)
-    {
-        for (int j = 0; j < num_locations_classroom; j++)
-        {
-            y[i][j] = NULL;
-        }
-    }
-
+    map<int, map<int, IloBoolVar>> y;
     for (int i = 0; i < num_classes_classroom; i++)
     {
         for (int j : location_contains_class_classroom[i])
         {
             sprintf(name, "Y_%s_%s", data.get_class_name(i_in_A(i, false)).c_str(), data.get_location_name(j).c_str());
-            y[i][j] = new IloBoolVar(env, name);
-            model.add(*y[i][j]);
+            y[i][j] = IloBoolVar(env, name);
+            model.add(y[i][j]);
         }
     }
 
     // U_ij  -- i in C, j in I_i
-    IloBoolVar *u[num_classes_computer][num_locations];
-    for (int i = 0; i < num_classes_computer; i++)
-    {
-        for (int j = 0; j < num_locations; j++)
-        {
-            u[i][j] = NULL;
-        }
-    }
-
+    map<int, map<int, IloBoolVar>> u;
     for (int i = 0; i < num_classes_computer; i++)
     {
         for (int j : location_contains_class_computer[i])
         {
             sprintf(name, "U_%s_%s", data.get_class_name(i_in_A(i, true)).c_str(), data.get_location_name(j).c_str());
-            u[i][j] = new IloBoolVar(env, name);
-            model.add(*u[i][j]);
+            u[i][j] = IloBoolVar(env, name);
+            model.add(u[i][j]);
         }
     }
 
     // W_lj  -- l in E, j in S
-    IloBoolVar *w[num_itc_groups][num_locations_classroom];
+    map<int, map<int, IloBoolVar>> w;
     for (int l = 0; l < num_itc_groups; l++)
     {
         for (int j = 0; j < num_locations_classroom; j++)
         {
             sprintf(name, "W_%d_%s", data.get_itc_group_id(l), data.get_location_name(j).c_str());
-            w[l][j] = new IloBoolVar(env, name);
-            model.add(*w[l][j]);
+            w[l][j] = IloBoolVar(env, name);
+            model.add(w[l][j]);
         }
     }
 
@@ -196,10 +158,10 @@ CapResults Cap::Solve(double upper_bound)
         {
             for (int j : location_contains_class_classroom[i])
             {
-                if (x[i][k][j] == NULL)
+                if (x[i][k].count(j) == 0)
                     continue;
 
-                of_sum += location_cost[j] * *x[i][k][j];
+                of_sum += location_cost[j] * x[i][k][j];
             }
         }
     }
@@ -211,10 +173,10 @@ CapResults Cap::Solve(double upper_bound)
         {
             for (int j : location_contains_class_computer[i])
             {
-                if (t[i][k][j] == NULL)
+                if (t[i][k].count(j) == 0)
                     continue;
 
-                of_sum += (location_cost[j] + (num_students_in_class[i_in_A(i, true)] * location_computer_cost[j])) * *t[i][k][j];
+                of_sum += (location_cost[j] + (num_students_in_class[i_in_A(i, true)] * location_computer_cost[j])) * t[i][k][j];
             }
         }
     }
@@ -235,10 +197,10 @@ CapResults Cap::Solve(double upper_bound)
 
             for (int j : location_contains_class_classroom[i])
             {
-                if (x[i][k][j] == NULL)
+                if (x[i][k].count(j) == 0)
                     continue;
 
-                sum_bc1_x += *x[i][k][j];
+                sum_bc1_x += x[i][k][j];
             }
 
             IloRange constraint = (sum_bc1_x - 1 == 0);
@@ -257,10 +219,10 @@ CapResults Cap::Solve(double upper_bound)
 
             for (int j : location_contains_class_computer[i])
             {
-                if (t[i][k][j] == NULL)
+                if (t[i][k].count(j) == 0)
                     continue;
 
-                sum_bc1_t += *t[i][k][j];
+                sum_bc1_t += t[i][k][j];
             }
 
             IloRange constraint = (sum_bc1_t - 1 == 0);
@@ -281,20 +243,20 @@ CapResults Cap::Solve(double upper_bound)
 
             for (int i : classes_classroom_per_timeslot[k])
             {
-                if (x[i][k][j] == NULL)
+                if (x[i][k].count(j) == 0)
                     continue;
 
-                sum_bc2_x += *x[i][k][j];
+                sum_bc2_x += x[i][k][j];
             }
 
             IloExpr sum_bc2_t(env);
 
             for (int i : classes_computer_per_timeslot[k])
             {
-                if (t[i][k][j] == NULL)
+                if (t[i][k].count(j) == 0)
                     continue;
 
-                sum_bc2_t += *t[i][k][j];
+                sum_bc2_t += t[i][k][j];
             }
 
             IloRange constraint = (sum_bc2_x + sum_bc2_t - 1 <= 0);
@@ -314,10 +276,10 @@ CapResults Cap::Solve(double upper_bound)
             {
                 for (int j : location_contains_class_classroom[i])
                 {
-                    if (x[i][k][j] == NULL || y[i][j] == NULL)
+                    if (x[i][k].count(j) == 0 || y[i].count(j) == 0)
                         continue;
 
-                    IloRange constraint = (*x[i][k][j] - *y[i][j] == 0);
+                    IloRange constraint = (x[i][k][j] - y[i][j] == 0);
                     sprintf(name, "IC1(%s,%d,%s)", data.get_class_name(i_in_A(i, false)).c_str(), k, data.get_location_name(j).c_str());
                     constraint.setName(name);
 
@@ -332,10 +294,10 @@ CapResults Cap::Solve(double upper_bound)
             {
                 for (int j : location_contains_class_computer[i])
                 {
-                    if (t[i][k][j] == NULL || u[i][j] == NULL)
+                    if (t[i][k].count(j) == 0 || u[i].count(j) == 0)
                         continue;
 
-                    IloRange constraint = (*t[i][k][j] - *u[i][j] == 0);
+                    IloRange constraint = (t[i][k][j] - u[i][j] == 0);
                     sprintf(name, "IC1(%s,%d,%s)", data.get_class_name(i_in_A(i, true)).c_str(), k, data.get_location_name(j).c_str());
                     constraint.setName(name);
 
@@ -356,10 +318,10 @@ CapResults Cap::Solve(double upper_bound)
                 {
                     for (int j : location_contains_class_classroom[i])
                     {
-                        if (x[i][k][j] == NULL || w[l][j] == NULL)
+                        if (x[i][k].count(j) == 0 || w[l].count(j) == 0)
                             continue;
 
-                        IloRange constraint = (*x[i][k][j] - *w[l][j] == 0);
+                        IloRange constraint = (x[i][k][j] - w[l][j] == 0);
                         sprintf(name, "IC2(%d,%s,%d,%s)", data.get_itc_group_id(l), data.get_class_name(i_in_A(i, false)).c_str(),
                                 k, data.get_location_name(j).c_str());
                         constraint.setName(name);
@@ -414,12 +376,12 @@ CapResults Cap::Solve(double upper_bound)
         {
             for (int j : location_contains_class_classroom[i])
             {
-                if (x[i][k][j] == NULL)
+                if (x[i][k].count(j) == 0)
                     continue;
 
-                if (cplex.getValue(*x[i][k][j]) >= 1 - eps)
+                if (cplex.getValue(x[i][k][j]) >= 1 - eps)
                 {
-                    results.variables += x[i][k][j]->getName();
+                    results.variables += x[i][k][j].getName();
                     results.variables += " ";
                 }
             }
@@ -432,76 +394,15 @@ CapResults Cap::Solve(double upper_bound)
         {
             for (int j : location_contains_class_computer[i])
             {
-                if (t[i][k][j] == NULL)
+                if (t[i][k].count(j) == 0)
                     continue;
 
-                if (cplex.getValue(*t[i][k][j]) >= 1 - eps)
+                if (cplex.getValue(t[i][k][j]) >= 1 - eps)
                 {
-                    results.variables += t[i][k][j]->getName();
+                    results.variables += t[i][k][j].getName();
                     results.variables += " ";
                 }
             }
-        }
-    }
-
-    /*
-    * CLEANUP
-    */
-
-    // X_ikj  -- i in B, k in H_i, j in S_i
-    for (int i = 0; i < num_classes_classroom; i++)
-    {
-        for (int k : lectures_of_class[i_in_A(i, false)])
-        {
-            for (int j : location_contains_class_classroom[i])
-            {
-                if (x[i][k][j] == NULL)
-                    continue;
-
-                delete x[i][k][j];
-            }
-        }
-    }
-
-    // T_ikj  -- i in C, k in H_i, j in I_i
-    for (int i = 0; i < num_classes_computer; i++)
-    {
-        for (int k : lectures_of_class[i_in_A(i, true)])
-        {
-            for (int j : location_contains_class_computer[i])
-            {
-                if (t[i][k][j] == NULL)
-                    continue;
-
-                delete t[i][k][j];
-            }
-        }
-    }
-
-    // Y_ij  -- i in B, j in S_i
-    for (int i = 0; i < num_classes_classroom; i++)
-    {
-        for (int j : location_contains_class_classroom[i])
-        {
-            delete y[i][j];
-        }
-    }
-
-    // U_ij  -- i in C, j in I_i
-    for (int i = 0; i < num_classes_computer; i++)
-    {
-        for (int j : location_contains_class_computer[i])
-        {
-            delete u[i][j];
-        }
-    }
-
-    // W_lj  -- l in E, j in S
-    for (int l = 0; l < num_itc_groups; l++)
-    {
-        for (int j = 0; j < num_locations_classroom; j++)
-        {
-            delete w[l][j];
         }
     }
 

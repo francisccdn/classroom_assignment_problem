@@ -131,7 +131,6 @@ CapData::CapData(int scenario, string instance_name, bool setup, bool setup_befo
 
     location_cost = vector<float>();
     num_students_in_class = vector<int>();
-    location_computer_cost = vector<float>();
     location_setup_cost = vector<float>();
     location_setup_duration = vector<float>();
 
@@ -257,7 +256,7 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
     *location_contains_class = vector<vector<int>>(*classes, vector<int>());
 
     // Index for each location - j in L
-    int j = is_computer ? num_classes_classroom : 0;
+    int j = is_computer ? num_locations_classroom : 0;
 
     // Loop through each location, adding themselves and their data to corresponding subsets
     for (auto location_j : locations_json->items())
@@ -278,7 +277,7 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
             location_setup_duration.push_back(location_data["duracao_setup"]);
             if (is_computer)
             {
-                location_computer_cost.push_back(location_data["gasto_pc_por_aula"]);
+                location_computer_cost[j] = location_data["gasto_pc_por_aula"];
             }
 
             j++;

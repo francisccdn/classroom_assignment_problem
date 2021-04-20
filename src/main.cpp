@@ -11,7 +11,7 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    const string instance = "20191";
+    const string instance = "toy";
     const int scenario = 10;
     const bool setup = false;
     const bool setup_before_class = false;
