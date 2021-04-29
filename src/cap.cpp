@@ -194,6 +194,7 @@ CapResults Cap::Solve(double upper_bound)
         for (int k : lectures_of_class[i_in_A(i, false)])
         {
             IloExpr sum_bc1_x(env);
+            bool sum_is_empty = true;
 
             for (int j : location_contains_class_classroom[i])
             {
@@ -201,13 +202,17 @@ CapResults Cap::Solve(double upper_bound)
                     continue;
 
                 sum_bc1_x += x[i][k][j];
+                sum_is_empty = false;
             }
 
-            IloRange constraint = (sum_bc1_x - 1 == 0);
-            sprintf(name, "BC1(%s,%d)", data.get_class_name(i_in_A(i, false)).c_str(), k);
-            constraint.setName(name);
+            if (!sum_is_empty)
+            {
+                IloRange constraint = (sum_bc1_x - 1 == 0);
+                sprintf(name, "BC1(%s,%d)", data.get_class_name(i_in_A(i, false)).c_str(), k);
+                constraint.setName(name);
 
-            model.add(constraint);
+                model.add(constraint);
+            }
         }
     }
 
@@ -216,6 +221,7 @@ CapResults Cap::Solve(double upper_bound)
         for (int k : lectures_of_class[i_in_A(i, true)])
         {
             IloExpr sum_bc1_t(env);
+            bool sum_is_empty = true;
 
             for (int j : location_contains_class_computer[i])
             {
@@ -223,13 +229,17 @@ CapResults Cap::Solve(double upper_bound)
                     continue;
 
                 sum_bc1_t += t[i][k][j];
+                sum_is_empty = false;
             }
 
-            IloRange constraint = (sum_bc1_t - 1 == 0);
-            sprintf(name, "BC1(%s,%d)", data.get_class_name(i_in_A(i, true)).c_str(), k);
-            constraint.setName(name);
+            if (!sum_is_empty)
+            {
+                IloRange constraint = (sum_bc1_t - 1 == 0);
+                sprintf(name, "BC1(%s,%d)", data.get_class_name(i_in_A(i, true)).c_str(), k);
+                constraint.setName(name);
 
-            model.add(constraint);
+                model.add(constraint);
+            }
         }
     }
 
@@ -239,6 +249,8 @@ CapResults Cap::Solve(double upper_bound)
     {
         for (int k = 0; k < num_timeslots; k++)
         {
+            int sum_size = 0;
+
             IloExpr sum_bc2_x(env);
 
             for (int i : classes_classroom_per_timeslot[k])
@@ -247,6 +259,7 @@ CapResults Cap::Solve(double upper_bound)
                     continue;
 
                 sum_bc2_x += x[i][k][j];
+                sum_size++;
             }
 
             IloExpr sum_bc2_t(env);
@@ -257,13 +270,17 @@ CapResults Cap::Solve(double upper_bound)
                     continue;
 
                 sum_bc2_t += t[i][k][j];
+                sum_size++;
             }
 
-            IloRange constraint = (sum_bc2_x + sum_bc2_t - 1 <= 0);
-            sprintf(name, "BC2(%s,%d)", data.get_location_name(j).c_str(), k);
-            constraint.setName(name);
+            if (sum_size > 1)
+            {
+                IloRange constraint = (sum_bc2_x + sum_bc2_t - 1 <= 0);
+                sprintf(name, "BC2(%s,%d)", data.get_location_name(j).c_str(), k);
+                constraint.setName(name);
 
-            model.add(constraint);
+                model.add(constraint);
+            }
         }
     }
 
@@ -338,6 +355,8 @@ CapResults Cap::Solve(double upper_bound)
     */
 
     IloCplex cplex(model);
+    // Gap tolerance
+    cplex.setParam(IloCplex::Param::MIP::Tolerances::MIPGap, 1e-08);
     // Time limit
     cplex.setParam(IloCplex::Param::TimeLimit, 1 * 60 * 60);
     // Set upper bound

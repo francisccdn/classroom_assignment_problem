@@ -275,7 +275,7 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
             location_cost.push_back(location_data["gasto_por_aula"]);
             location_setup_cost.push_back(location_data["gasto_setup"]);
             location_setup_duration.push_back(location_data["duracao_setup"]);
-            if (is_computer)
+            if (!location_data["gasto_pc_por_aula"].is_null())
             {
                 location_computer_cost[j] = location_data["gasto_pc_por_aula"];
             }
