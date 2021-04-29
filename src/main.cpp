@@ -11,8 +11,14 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    const string instance = "toy";
-    const int scenario = 10;
+    if (argc < 3)
+    {
+        cerr << "Invalid number of arguments. Try: ./$EXECUTABLE $INSTANCE $SCENARIO" << endl;
+        return 1;
+    }
+
+    const string instance = argv[1];
+    const int scenario = atoi(argv[2]);
     const bool setup = false;
     const bool setup_before_class = false;
     const bool heuristic = false;
@@ -51,21 +57,22 @@ int main(int argc, char **argv)
 
     // EXPORT DATA //
     nlohmann::json outjson = {
-        {"periodo", instance},
-        {"cenario", scenario},
+        {"instance", instance},
+        {"scenario", scenario},
         {"setup", setup},
-        {"setup antes da aula", setup_before_class},
-        {"gulosa", heuristic},
-        {"tempo pre processamento", timer_preprocessing.count()},
-        {"tempo heuristica", timer_heuristic_count},
-        {"tempo resolvedor", timer_solver.count()},
-        {"valor heuristica", heuristic_obj_value},
+        {"setup before class", setup_before_class},
+        {"heuristic", heuristic},
+        {"time pre processing", timer_preprocessing.count()},
+        {"time heuristic", timer_heuristic_count},
+        {"time solver", timer_solver.count()},
+        {"value heuristic", heuristic_obj_value},
         {"status", results.status},
-        {"valor", results.objValue},
-        {"resultado", results.variables}};
+        {"value", results.objValue},
+        {"results", results.variables}};
 
     ofstream outstream("results/" + data.get_instance_name() + ".json");
     outstream << std::setw(4) << outjson << std::endl;
+    outstream.close();
 
     return 0;
 }
