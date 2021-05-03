@@ -118,9 +118,17 @@ CapResults Cap::Solve(double upper_bound)
     {
         for (int j : location_contains_class_classroom[i])
         {
-            sprintf(name, "Y_%s_%s", data.get_class_name(i_in_A(i, false)).c_str(), data.get_location_name(j).c_str());
-            y[i][j] = IloBoolVar(env, name);
-            model.add(y[i][j]);
+            for (int k : lectures_of_class[i_in_A(i, false)])
+            {
+                if (x[i][k].count(j) == 0)
+                    continue;
+
+                sprintf(name, "Y_%s_%s", data.get_class_name(i_in_A(i, false)).c_str(), data.get_location_name(j).c_str());
+                y[i][j] = IloBoolVar(env, name);
+                model.add(y[i][j]);
+
+                break;
+            }
         }
     }
 
@@ -130,9 +138,17 @@ CapResults Cap::Solve(double upper_bound)
     {
         for (int j : location_contains_class_computer[i])
         {
-            sprintf(name, "U_%s_%s", data.get_class_name(i_in_A(i, true)).c_str(), data.get_location_name(j).c_str());
-            u[i][j] = IloBoolVar(env, name);
-            model.add(u[i][j]);
+            for (int k : lectures_of_class[i_in_A(i, true)])
+            {
+                if (t[i][k].count(j) == 0)
+                    continue;
+
+                sprintf(name, "U_%s_%s", data.get_class_name(i_in_A(i, true)).c_str(), data.get_location_name(j).c_str());
+                u[i][j] = IloBoolVar(env, name);
+                model.add(u[i][j]);
+
+                break;
+            }
         }
     }
 
@@ -140,11 +156,22 @@ CapResults Cap::Solve(double upper_bound)
     map<int, map<int, IloBoolVar>> w;
     for (int l = 0; l < num_itc_groups; l++)
     {
-        for (int j = 0; j < num_locations_classroom; j++)
+        for (int i : classes_classroom_of_itc_group[l])
         {
-            sprintf(name, "W_%d_%s", data.get_itc_group_id(l), data.get_location_name(j).c_str());
-            w[l][j] = IloBoolVar(env, name);
-            model.add(w[l][j]);
+            for (int k : lectures_of_class[i])
+            {
+                for (int j : location_contains_class_classroom[i])
+                {
+                    if (x[i][k].count(j) == 0)
+                        continue;
+
+                    sprintf(name, "W_%d_%s", data.get_itc_group_id(l), data.get_location_name(j).c_str());
+                    w[l][j] = IloBoolVar(env, name);
+                    model.add(w[l][j]);
+
+                    break;
+                }
+            }
         }
     }
 
