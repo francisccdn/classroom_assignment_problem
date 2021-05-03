@@ -1,5 +1,6 @@
 #include <ilcplex/ilocplex.h>
 #include <iostream>
+#include <chrono>
 
 #include "../include/cap.h"
 #include "../include/cap_data.h"
@@ -72,6 +73,8 @@ CapResults Cap::Solve(double upper_bound)
     /*
     * VARIABLES
     */
+
+    auto timer_start_model = chrono::system_clock::now();
 
     // X_ikj  -- i in B, k in H_i, j in S_i
     map<int, map<int, map<int, IloBoolVar>>> x;
@@ -350,6 +353,9 @@ CapResults Cap::Solve(double upper_bound)
         }
     }
 
+    auto timer_end_model = chrono::system_clock::now();
+    chrono::duration<double> timer_model = timer_end_model - timer_start_model;
+
     /*
     * SOLVE
     */
@@ -365,10 +371,17 @@ CapResults Cap::Solve(double upper_bound)
     // Export LP
     string lp_name = "lp/" + data.get_instance_name() + ".lp";
     cplex.exportModel(lp_name.c_str());
+    // Timer
+    chrono::duration<double> timer_solver;
 
     try
     {
+        auto timer_start_solver = chrono::system_clock::now();
+
         cplex.solve();
+
+        auto timer_end_solver = chrono::system_clock::now();
+        timer_solver = timer_end_solver - timer_start_solver;
     }
     catch (IloException &e)
     {
@@ -388,6 +401,8 @@ CapResults Cap::Solve(double upper_bound)
     results.objValue = cplex.getObjValue();
     results.status = cplex.getStatus();
     results.variables = "";
+    results.solverTime = timer_solver.count();
+    results.modelTime = timer_model.count();
 
     for (int i = 0; i < num_classes_classroom; i++)
     {

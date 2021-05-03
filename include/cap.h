@@ -10,6 +10,8 @@ typedef struct capResults
     double objValue;
     int status;
     std::string variables;
+    double solverTime;
+    double modelTime;
 } CapResults;
 
 class Cap

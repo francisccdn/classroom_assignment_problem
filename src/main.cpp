@@ -47,13 +47,8 @@ int main(int argc, char **argv)
     }
 
     // SOLVER //
-    auto timer_start_solver = chrono::system_clock::now();
-
     Cap cap = Cap(data);
     CapResults results = cap.Solve(heuristic_obj_value);
-
-    auto timer_end_solver = chrono::system_clock::now();
-    chrono::duration<double> timer_solver = timer_end_solver - timer_start_solver;
 
     // EXPORT DATA //
     nlohmann::json outjson = {
@@ -64,7 +59,8 @@ int main(int argc, char **argv)
         {"heuristic", heuristic},
         {"time pre processing", timer_preprocessing.count()},
         {"time heuristic", timer_heuristic_count},
-        {"time solver", timer_solver.count()},
+        {"time model", results.modelTime},
+        {"time solver", results.solverTime},
         {"value heuristic", heuristic_obj_value},
         {"status", results.status},
         {"value", results.objValue},
