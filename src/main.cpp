@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 
     const string instance = argv[1];
     const int scenario = atoi(argv[2]);
-    const bool setup = false;
+    const bool setup = true;
     const bool setup_before_class = false;
     const bool heuristic = false;
 

@@ -153,6 +153,9 @@ public:
     int get_num_timeslots() { return num_timeslots; }
 
     std::string get_instance_name() { return instance_full_name; }
+
+    bool is_setup() { return setup; }
+    bool is_setup_before_class() { return setup_before_class; }
 };
 
 #endif
