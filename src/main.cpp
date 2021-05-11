@@ -64,6 +64,7 @@ int main(int argc, char **argv)
         {"value heuristic", heuristic_obj_value},
         {"status", results.status},
         {"value", results.objValue},
+        {"gap", results.gap},
         {"results", results.variables}};
 
     ofstream outstream("results/" + data.get_instance_name() + ".json");

@@ -8,6 +8,7 @@
 typedef struct capResults
 {
     double objValue;
+    double gap;
     int status;
     std::string variables;
     double solverTime;

@@ -528,7 +528,7 @@ CapResults Cap::Solve(double upper_bound)
     // Gap tolerance
     cplex.setParam(IloCplex::Param::MIP::Tolerances::MIPGap, 1e-06);
     // Time limit
-    cplex.setParam(IloCplex::Param::TimeLimit, 1 * 60 * 60);
+    cplex.setParam(IloCplex::Param::TimeLimit, 1 * 30 * 60);
     // Set upper bound
     if (upper_bound >= 0)
         cplex.setParam(IloCplex::Param::MIP::Tolerances::UpperCutoff, upper_bound);
@@ -563,6 +563,7 @@ CapResults Cap::Solve(double upper_bound)
 
     CapResults results;
     results.objValue = cplex.getObjValue();
+    results.gap = cplex.getMIPRelativeGap();
     results.status = cplex.getStatus();
     results.variables = "";
     results.solverTime = timer_solver.count();
