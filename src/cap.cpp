@@ -18,7 +18,7 @@ int Cap::i_in_A(int i, int is_computer)
     return is_computer ? i + data.get_classes_classroom() : i;
 }
 
-CapResults Cap::Solve(double upper_bound)
+CapResults Cap::Solve(int time_limit_min, double upper_bound)
 {
     IloEnv env;
     IloModel model(env);
@@ -542,7 +542,8 @@ CapResults Cap::Solve(double upper_bound)
     // Gap tolerance
     cplex.setParam(IloCplex::Param::MIP::Tolerances::MIPGap, 1e-06);
     // Time limit
-    cplex.setParam(IloCplex::Param::TimeLimit, 1 * 30 * 60);
+    if (time_limit_min > 0)
+        cplex.setParam(IloCplex::Param::TimeLimit, time_limit_min * 60);
     // Set upper bound
     if (upper_bound >= 0)
         cplex.setParam(IloCplex::Param::MIP::Tolerances::UpperCutoff, upper_bound);

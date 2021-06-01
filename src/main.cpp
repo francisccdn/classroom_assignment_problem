@@ -11,17 +11,20 @@ using namespace std;
 
 int main(int argc, char **argv)
 {
-    if (argc < 3)
+    // PROBLEM PARAMETERS //
+    if (argc < 5)
     {
-        cerr << "Invalid number of arguments. Try: ./$EXECUTABLE $INSTANCE $SCENARIO" << endl;
+        cerr << "Invalid number of arguments. Try: ./$EXECUTABLE $INSTANCE $SCENARIO $SETUP $SETUP_BEFORE" << endl;
         return 1;
     }
 
     const string instance = argv[1];
     const int scenario = atoi(argv[2]);
-    const bool setup = true;
-    const bool setup_before_class = false;
+    const bool setup = atoi(argv[3]) == 0 ? false : true;
+    const bool setup_before_class = atoi(argv[4]) == 0 ? false : true;
     const bool heuristic = false;
+
+    const int time_limit = 30; // In minutes. Non-positive values for no limit.
 
     // PRE PROCESSING //
     auto timer_start_preprocessing = chrono::system_clock::now();
@@ -48,7 +51,7 @@ int main(int argc, char **argv)
 
     // SOLVER //
     Cap cap = Cap(data);
-    CapResults results = cap.Solve(heuristic_obj_value);
+    CapResults results = cap.Solve(time_limit, heuristic_obj_value);
 
     // EXPORT DATA //
     nlohmann::json outjson = {

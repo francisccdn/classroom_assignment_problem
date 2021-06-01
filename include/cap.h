@@ -26,7 +26,7 @@ private:
 public:
     Cap(const CapData &capdata);
 
-    CapResults Solve(double upper_bound);
+    CapResults Solve(int time_limit_min, double upper_bound);
 };
 
 #endif
