@@ -84,11 +84,18 @@ CapResults Cap::Solve(double upper_bound)
         {
             for (int j : location_contains_class_classroom[i])
             {
-                if (data.ValidVar(false, i_in_A(i, false), k, j))
+                sprintf(name, "X_%s_%d_%s", data.get_class_name(i_in_A(i, false)).c_str(), k, data.get_location_name(j).c_str());
+                x[i][k][j] = IloBoolVar(env, name);
+                model.add(x[i][k][j]);
+
+                if (!data.ValidVar(false, i_in_A(i, false), k, j))
                 {
-                    sprintf(name, "X_%s_%d_%s", data.get_class_name(i_in_A(i, false)).c_str(), k, data.get_location_name(j).c_str());
-                    x[i][k][j] = IloBoolVar(env, name);
-                    model.add(x[i][k][j]);
+                    IloRange constraint = (x[i][k][j] <= 0);
+                    sprintf(name, "InvalidVar(%s,%d,%s)", data.get_class_name(i_in_A(i, false)).c_str(),
+                            k, data.get_location_name(j).c_str());
+                    constraint.setName(name);
+
+                    model.add(constraint);
                 }
             }
         }
@@ -102,11 +109,18 @@ CapResults Cap::Solve(double upper_bound)
         {
             for (int j : location_contains_class_computer[i])
             {
-                if (data.ValidVar(true, i_in_A(i, true), k, j))
+                sprintf(name, "T_%s_%d_%s", data.get_class_name(i_in_A(i, true)).c_str(), k, data.get_location_name(j).c_str());
+                t[i][k][j] = IloBoolVar(env, name);
+                model.add(t[i][k][j]);
+
+                if (!data.ValidVar(true, i_in_A(i, true), k, j))
                 {
-                    sprintf(name, "T_%s_%d_%s", data.get_class_name(i_in_A(i, true)).c_str(), k, data.get_location_name(j).c_str());
-                    t[i][k][j] = IloBoolVar(env, name);
-                    model.add(t[i][k][j]);
+                    IloRange constraint = (t[i][k][j] <= 0);
+                    sprintf(name, "InvalidVar(%s,%d,%s)", data.get_class_name(i_in_A(i, true)).c_str(),
+                            k, data.get_location_name(j).c_str());
+                    constraint.setName(name);
+
+                    model.add(constraint);
                 }
             }
         }
@@ -194,9 +208,9 @@ CapResults Cap::Solve(double upper_bound)
     {
         for (int i : classes_classroom_of_itc_group[l])
         {
-            for (int k : lectures_of_class[i])
+            for (int j : location_contains_class_classroom[i])
             {
-                for (int j : location_contains_class_classroom[i])
+                for (int k : lectures_of_class[i])
                 {
                     if (x[i][k].count(j) == 0)
                         continue;
