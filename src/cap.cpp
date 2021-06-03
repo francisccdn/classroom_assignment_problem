@@ -140,8 +140,8 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                         continue;
 
                     sprintf(name, "Z_%s_%d_%s", data.get_class_name(i_in_A(i, false)).c_str(), k, data.get_location_name(j).c_str());
-                    z[i][k][j] = IloBoolVar(env, name);
-                    model.add(z[i][k][j]);
+                    z[i_in_A(i, false)][k][j] = IloBoolVar(env, name);
+                    model.add(z[i_in_A(i, false)][k][j]);
                 }
             }
         }
@@ -155,8 +155,8 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                         continue;
 
                     sprintf(name, "Z_%s_%d_%s", data.get_class_name(i_in_A(i, true)).c_str(), k, data.get_location_name(j).c_str());
-                    z[i][k][j] = IloBoolVar(env, name);
-                    model.add(z[i][k][j]);
+                    z[i_in_A(i, true)][k][j] = IloBoolVar(env, name);
+                    model.add(z[i_in_A(i, true)][k][j]);
                 }
             }
         }
@@ -270,13 +270,13 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
             {
                 for (int j : location_contains_class_classroom[i])
                 {
-                    if (z[i][k].count(j) == 0)
+                    if (z[i_in_A(i, false)][k].count(j) == 0)
                         continue;
 
                     if (data.is_setup_before_class())
-                        of_sum += location_setup_cost[j] * z[i][k][j];
+                        of_sum += location_setup_cost[j] * z[i_in_A(i, false)][k][j];
                     else
-                        of_sum += (location_setup_cost[j] - (location_cost[j] * location_setup_duration[j])) * z[i][k][j];
+                        of_sum += (location_setup_cost[j] - (location_cost[j] * location_setup_duration[j])) * z[i_in_A(i, false)][k][j];
                 }
             }
         }
@@ -286,13 +286,13 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
             {
                 for (int j : location_contains_class_computer[i])
                 {
-                    if (z[i][k].count(j) == 0)
+                    if (z[i_in_A(i, true)][k].count(j) == 0)
                         continue;
 
                     if (data.is_setup_before_class())
-                        of_sum += location_setup_cost[j] * z[i][k][j];
+                        of_sum += location_setup_cost[j] * z[i_in_A(i, true)][k][j];
                     else
-                        of_sum += (location_setup_cost[j] - (location_cost[j] * location_setup_duration[j])) * z[i][k][j];
+                        of_sum += (location_setup_cost[j] - (location_cost[j] * location_setup_duration[j])) * z[i_in_A(i, true)][k][j];
                 }
             }
         }
@@ -476,7 +476,7 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
             {
                 for (int j : location_contains_class_classroom[i])
                 {
-                    if (x[i][k].count(j) == 0 || z[i][k].count(j) == 0)
+                    if (x[i][k].count(j) == 0 || z[i_in_A(i, false)][k].count(j) == 0)
                         continue;
 
                     IloExpr sum_zc1_x(env);
@@ -489,7 +489,7 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                         sum_zc1_x += x[i1][k - 1][j];
                     }
 
-                    IloRange constraint = (sum_zc1_x + z[i][k][j] - x[i][k][j] >= 0);
+                    IloRange constraint = (sum_zc1_x + z[i_in_A(i, false)][k][j] - x[i][k][j] >= 0);
                     sprintf(name, "ZC1(%s,%d,%s)", data.get_class_name(i_in_A(i, false)).c_str(), k, data.get_location_name(j).c_str());
                     constraint.setName(name);
 
@@ -508,7 +508,7 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
             {
                 for (int j : location_contains_class_computer[i])
                 {
-                    if (t[i][k].count(j) == 0 || z[i][k].count(j) == 0)
+                    if (t[i][k].count(j) == 0 || z[i_in_A(i, true)][k].count(j) == 0)
                         continue;
 
                     IloExpr sum_zc2_t(env);
@@ -521,7 +521,7 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                         sum_zc2_t += t[i1][k - 1][j];
                     }
 
-                    IloRange constraint = (sum_zc2_t + z[i][k][j] - t[i][k][j] >= 0);
+                    IloRange constraint = (sum_zc2_t + z[i_in_A(i, true)][k][j] - t[i][k][j] >= 0);
                     sprintf(name, "ZC2(%s,%d,%s)", data.get_class_name(i_in_A(i, true)).c_str(), k, data.get_location_name(j).c_str());
                     constraint.setName(name);
 
@@ -596,9 +596,9 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                     results.variables += " ";
                 }
 
-                if (z[i][k].count(j) != 0 && cplex.getValue(z[i][k][j]) >= 1 - eps)
+                if (z[i_in_A(i, false)][k].count(j) != 0 && cplex.getValue(z[i_in_A(i, false)][k][j]) >= 1 - eps)
                 {
-                    results.variables += z[i][k][j].getName();
+                    results.variables += z[i_in_A(i, false)][k][j].getName();
                     results.variables += " ";
                 }
             }
@@ -617,9 +617,9 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                     results.variables += " ";
                 }
 
-                if (z[i][k].count(j) != 0 && cplex.getValue(z[i][k][j]) >= 1 - eps)
+                if (z[i_in_A(i, true)][k].count(j) != 0 && cplex.getValue(z[i_in_A(i, true)][k][j]) >= 1 - eps)
                 {
-                    results.variables += z[i][k][j].getName();
+                    results.variables += z[i_in_A(i, true)][k][j].getName();
                     results.variables += " ";
                 }
             }
