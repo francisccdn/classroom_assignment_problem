@@ -480,16 +480,24 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                         continue;
 
                     IloExpr sum_zc1_x(env);
-
-                    for (int i1 : classes_classroom_per_timeslot[k - 1])
+                    for (int m : classes_classroom_per_timeslot[k - 1])
                     {
-                        if (x[i1][k - 1].count(j) == 0)
+                        if (x[m][k - 1].count(j) == 0)
                             continue;
 
-                        sum_zc1_x += x[i1][k - 1][j];
+                        sum_zc1_x += x[m][k - 1][j];
                     }
 
-                    IloRange constraint = (sum_zc1_x + z[i_in_A(i, false)][k][j] - x[i][k][j] >= 0);
+                    IloExpr sum_zc1_t(env);
+                    for (int n : classes_computer_per_timeslot[k - 1])
+                    {
+                        if (t[n][k - 1].count(j) == 0)
+                            continue;
+
+                        sum_zc1_t += t[n][k - 1][j];
+                    }
+
+                    IloRange constraint = (sum_zc1_x + sum_zc1_t + z[i_in_A(i, false)][k][j] - x[i][k][j] >= 0);
                     sprintf(name, "ZC1(%s,%d,%s)", data.get_class_name(i_in_A(i, false)).c_str(), k, data.get_location_name(j).c_str());
                     constraint.setName(name);
 
@@ -511,17 +519,25 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                     if (t[i][k].count(j) == 0 || z[i_in_A(i, true)][k].count(j) == 0)
                         continue;
 
-                    IloExpr sum_zc2_t(env);
-
-                    for (int i1 : classes_computer_per_timeslot[k - 1])
+                    IloExpr sum_zc2_x(env);
+                    for (int m : classes_classroom_per_timeslot[k - 1])
                     {
-                        if (t[i1][k - 1].count(j) == 0)
+                        if (x[m][k - 1].count(j) == 0)
                             continue;
 
-                        sum_zc2_t += t[i1][k - 1][j];
+                        sum_zc2_x += x[m][k - 1][j];
                     }
 
-                    IloRange constraint = (sum_zc2_t + z[i_in_A(i, true)][k][j] - t[i][k][j] >= 0);
+                    IloExpr sum_zc2_t(env);
+                    for (int n : classes_computer_per_timeslot[k - 1])
+                    {
+                        if (t[n][k - 1].count(j) == 0)
+                            continue;
+
+                        sum_zc2_t += t[n][k - 1][j];
+                    }
+
+                    IloRange constraint = (sum_zc2_x + sum_zc2_t + z[i_in_A(i, true)][k][j] - t[i][k][j] >= 0);
                     sprintf(name, "ZC2(%s,%d,%s)", data.get_class_name(i_in_A(i, true)).c_str(), k, data.get_location_name(j).c_str());
                     constraint.setName(name);
 

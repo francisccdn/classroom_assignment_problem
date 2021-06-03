@@ -5,9 +5,9 @@ RED="\033[0;33m"
 NC="\033[0m"
 
 echo -e "${RED}.......| Classroom Assignment Problem |.......${NC}"
-echo "Rodando todas as intâncias..."
+echo "Rodando todas as instâncias..."
 
-# Para retomar as rodadas a partir de outro ponto, caso sejam interrompidas, mude o '1' para o cenario desejado
+# Para retomar as rodadas a partir de outro ponto, caso sejam interrompidas, mude o 'X' para o cenario desejado
 for SCENARIO in {1..10}
 do
     for INSTANCE in 20181 20182 20191

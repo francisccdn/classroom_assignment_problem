@@ -1,1 +1,3377 @@
-{"12032":{"horarios_aulas_abreviacao":"5M3456","disciplina":"Gestão de Projetos","horarios_aulas":{"34852":{"abreviacao":"5M3"},"34853":{"abreviacao":"5M4"},"34854":{"abreviacao":"5M5"},"34855":{"abreviacao":"5M6"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0265","qtd_alunos":4,"id":12032},"11777":{"horarios_aulas_abreviacao":"4V345","disciplina":"Tópicos Especiais","horarios_aulas":{"29242":{"abreviacao":"4V3"},"29243":{"abreviacao":"4V4"},"29244":{"abreviacao":"4V5"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0448","qtd_alunos":21,"id":11777},"12034":{"horarios_aulas_abreviacao":"3M23","disciplina":"Interpolação Espacial","horarios_aulas":{"32243":{"abreviacao":"3M2"},"32244":{"abreviacao":"3M3"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0259","qtd_alunos":8,"id":12034},"12033":{"horarios_aulas_abreviacao":"2M123","disciplina":"Disponibilização de Dados Geográficos na Internet","horarios_aulas":{"28515":{"abreviacao":"2M1"},"28516":{"abreviacao":"2M2"},"28517":{"abreviacao":"2M3"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0261","qtd_alunos":7,"id":12033},"14764":{"horarios_aulas_abreviacao":"2N45","disciplina":"Eletrônica Digital","horarios_aulas":{"34689":{"abreviacao":"2N4"},"34690":{"abreviacao":"2N5"}},"id_turma":0,"id_curso":192,"codigo_disciplina":"TSUB.0138","qtd_alunos":19,"id":14764},"12887":{"horarios_aulas_abreviacao":"3V345","disciplina":"Desenho Arquitetônico II","horarios_aulas":{"30930":{"abreviacao":"3V3"},"30931":{"abreviacao":"3V4"},"30932":{"abreviacao":"3V5"}},"id_turma":0,"id_curso":76,"codigo_disciplina":"TIN.0244","qtd_alunos":18,"id":12887},"11764":{"horarios_aulas_abreviacao":"4V12 / 6V45","disciplina":"Persistência de Objetos","horarios_aulas":{"29192":{"abreviacao":"6V4"},"29193":{"abreviacao":"6V5"},"29190":{"abreviacao":"4V1"},"29191":{"abreviacao":"4V2"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0435","qtd_alunos":4,"id":11764},"12888":{"horarios_aulas_abreviacao":"4V12","disciplina":"Desenho Aplicado Auxiliado por Computador Ampliado","horarios_aulas":{"30920":{"abreviacao":"4V1"},"30919":{"abreviacao":"4V2"}},"id_turma":0,"id_curso":76,"codigo_disciplina":"TIN.0427","qtd_alunos":15,"id":12888},"11438":{"horarios_aulas_abreviacao":"3M34 / 5M23","disciplina":"Desenho Auxiliado por Computador","horarios_aulas":{"28668":{"abreviacao":"3M3"},"28669":{"abreviacao":"3M4"},"28670":{"abreviacao":"5M2"},"28671":{"abreviacao":"5M3"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0077","qtd_alunos":14,"id":11438},"13809":{"horarios_aulas_abreviacao":"4V45","disciplina":"Informática Básica","horarios_aulas":{"32806":{"abreviacao":"4V4"},"32807":{"abreviacao":"4V5"}},"id_turma":0,"id_curso":76,"codigo_disciplina":"TIN.0018","qtd_alunos":21,"id":13809},"14618":{"horarios_aulas_abreviacao":"2V345 / 3V123","disciplina":"Desenho Arquitetônico I","horarios_aulas":{"51615":{"abreviacao":"3V3"},"51598":{"abreviacao":"2V4"},"51599":{"abreviacao":"2V3"},"51613":{"abreviacao":"3V1"},"51614":{"abreviacao":"3V2"},"51597":{"abreviacao":"2V5"}},"id_turma":0,"id_curso":76,"codigo_disciplina":"TIN.0240","qtd_alunos":24,"id":14618},"13103":{"horarios_aulas_abreviacao":"5M12","disciplina":"Eletrônica Digital","horarios_aulas":{"31676":{"abreviacao":"5M1"},"31677":{"abreviacao":"5M2"}},"id_turma":0,"id_curso":81,"codigo_disciplina":"TIN.0321","qtd_alunos":13,"id":13103},"12600":{"horarios_aulas_abreviacao":"5M123 / 6M45","disciplina":"Fundamentos de Redes de Computadores - RC","horarios_aulas":{"29801":{"abreviacao":"6M4"},"29802":{"abreviacao":"6M5"},"36101":{"abreviacao":"5M1"},"29798":{"abreviacao":"5M2"},"29799":{"abreviacao":"5M3"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0158","qtd_alunos":42,"id":12600},"11554":{"horarios_aulas_abreviacao":"4M123","disciplina":"Programação Aplicada","horarios_aulas":{"29608":{"abreviacao":"4M3"},"29606":{"abreviacao":"4M1"},"29607":{"abreviacao":"4M2"}},"id_turma":0,"id_curso":56,"codigo_disciplina":"TEC.1226","qtd_alunos":5,"id":11554},"12593":{"horarios_aulas_abreviacao":"3M45 / 5M23","disciplina":"Eletricidade Aplicada","horarios_aulas":{"29776":{"abreviacao":"5M3"},"29773":{"abreviacao":"3M4"},"29774":{"abreviacao":"3M5"},"29775":{"abreviacao":"5M2"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.1418","qtd_alunos":45,"id":12593},"13097":{"horarios_aulas_abreviacao":"5V34 / 6V345","disciplina":"Protocolos de Interconexão de Redes de Computadores","horarios_aulas":{"31560":{"abreviacao":"6V3"},"31561":{"abreviacao":"6V4"},"31562":{"abreviacao":"6V5"},"31558":{"abreviacao":"5V3"},"31559":{"abreviacao":"5V4"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0421","qtd_alunos":9,"id":13097},"11818":{"horarios_aulas_abreviacao":"2N5 / 4N345","disciplina":"Gestão de Projetos TLC","horarios_aulas":{"28922":{"abreviacao":"2N5"},"28923":{"abreviacao":"4N3"},"28924":{"abreviacao":"4N4"},"28925":{"abreviacao":"4N5"}},"id_turma":0,"id_curso":66,"codigo_disciplina":"TEC.0336","qtd_alunos":10,"id":11818},"13099":{"horarios_aulas_abreviacao":"3M456","disciplina":"Informática Básica Aplicada","horarios_aulas":{"31661":{"abreviacao":"3M4"},"31662":{"abreviacao":"3M5"},"31663":{"abreviacao":"3M6"}},"id_turma":0,"id_curso":81,"codigo_disciplina":"TIN.0516","qtd_alunos":16,"id":13099},"13100":{"horarios_aulas_abreviacao":"4M456","disciplina":"Informática Básica Aplicada","horarios_aulas":{"31664":{"abreviacao":"4M4"},"31665":{"abreviacao":"4M5"},"31666":{"abreviacao":"4M6"}},"id_turma":0,"id_curso":81,"codigo_disciplina":"TIN.0516","qtd_alunos":14,"id":13100},"13106":{"horarios_aulas_abreviacao":"2M456","disciplina":"Sistemas Microcontrolados","horarios_aulas":{"32036":{"abreviacao":"2M6"},"32037":{"abreviacao":"2M5"},"32038":{"abreviacao":"2M4"}},"id_turma":0,"id_curso":81,"codigo_disciplina":"TIN.0525","qtd_alunos":17,"id":13106},"12590":{"horarios_aulas_abreviacao":"3M123 / 5M45","disciplina":"Introdução à Programação","horarios_aulas":{"29760":{"abreviacao":"5M5"},"29756":{"abreviacao":"3M1"},"29757":{"abreviacao":"3M2"},"29758":{"abreviacao":"3M3"},"29759":{"abreviacao":"5M4"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0624","qtd_alunos":44,"id":12590},"12591":{"horarios_aulas_abreviacao":"2M123 / 6M45","disciplina":"Fundamentos de Redes de Computadores","horarios_aulas":{"29761":{"abreviacao":"2M1"},"29762":{"abreviacao":"2M2"},"29763":{"abreviacao":"2M3"},"29764":{"abreviacao":"6M4"},"29765":{"abreviacao":"6M5"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0047","qtd_alunos":45,"id":12591},"12592":{"horarios_aulas_abreviacao":"2M45 / 4M23","disciplina":"Fundamentos de Tecnologia da Informção","horarios_aulas":{"29769":{"abreviacao":"2M4"},"29770":{"abreviacao":"2M5"},"29771":{"abreviacao":"4M2"},"29772":{"abreviacao":"4M3"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.1417","qtd_alunos":47,"id":12592},"11825":{"horarios_aulas_abreviacao":"4N345 / 6N34","disciplina":"Protocolos e Interconexão de Redes de Computadores","horarios_aulas":{"28960":{"abreviacao":"6N4"},"28956":{"abreviacao":"4N3"},"28957":{"abreviacao":"4N4"},"28958":{"abreviacao":"4N5"},"28959":{"abreviacao":"6N3"}},"id_turma":0,"id_curso":66,"codigo_disciplina":"TEC.0365","qtd_alunos":25,"id":11825},"12594":{"horarios_aulas_abreviacao":"6M123","disciplina":"Introdução à Sistemas Abertos","horarios_aulas":{"29777":{"abreviacao":"6M1"},"29778":{"abreviacao":"6M2"},"29779":{"abreviacao":"6M3"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.1419","qtd_alunos":31,"id":12594},"11828":{"horarios_aulas_abreviacao":"5N345 / 6N12","disciplina":"Comunicações Digitais","horarios_aulas":{"28947":{"abreviacao":"5N3"},"28948":{"abreviacao":"5N4"},"28949":{"abreviacao":"5N5"},"28950":{"abreviacao":"6N1"},"28951":{"abreviacao":"6N2"}},"id_turma":0,"id_curso":66,"codigo_disciplina":"TEC.0371","qtd_alunos":8,"id":11828},"12597":{"horarios_aulas_abreviacao":"3M23 / 5M45","disciplina":"Estruturas de Dados - RC","horarios_aulas":{"29788":{"abreviacao":"3M2"},"29789":{"abreviacao":"3M3"},"29790":{"abreviacao":"5M4"},"29791":{"abreviacao":"5M5"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0157","qtd_alunos":23,"id":12597},"13110":{"horarios_aulas_abreviacao":"5M12","disciplina":"Fundamentos de Redes de Computadores","horarios_aulas":{"31915":{"abreviacao":"5M1"},"31916":{"abreviacao":"5M2"}},"id_turma":5472,"id_curso":341,"codigo_disciplina":"TIN.0672","qtd_alunos":19,"id":13110},"12490":{"horarios_aulas_abreviacao":"3N123","disciplina":"Conservação de Energia Elétrica Predial e","horarios_aulas":{"31626":{"abreviacao":"3N1"},"31627":{"abreviacao":"3N2"},"31628":{"abreviacao":"3N3"}},"id_turma":0,"id_curso":192,"codigo_disciplina":"TSUB.0297","qtd_alunos":11,"id":12490},"12857":{"horarios_aulas_abreviacao":"3V45","disciplina":"Informática Básica","horarios_aulas":{"30688":{"abreviacao":"3V5"},"30687":{"abreviacao":"3V4"}},"id_turma":0,"id_curso":76,"codigo_disciplina":"TIN.0018","qtd_alunos":18,"id":12857},"12603":{"horarios_aulas_abreviacao":"3M45 / 5M45","disciplina":"Programação de Script","horarios_aulas":{"29809":{"abreviacao":"3M4"},"29810":{"abreviacao":"3M5"},"29811":{"abreviacao":"5M4"},"29812":{"abreviacao":"5M5"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0165","qtd_alunos":14,"id":12603},"12604":{"horarios_aulas_abreviacao":"3M23 / 5M23","disciplina":"Programação Orientada a Objetos - RC","horarios_aulas":{"29816":{"abreviacao":"5M3"},"29813":{"abreviacao":"3M2"},"29814":{"abreviacao":"3M3"},"29815":{"abreviacao":"5M2"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0164","qtd_alunos":17,"id":12604},"12606":{"horarios_aulas_abreviacao":"2M34 / 4M345","disciplina":"Sistemas Operacionais - RC","horarios_aulas":{"29824":{"abreviacao":"4M3"},"29825":{"abreviacao":"4M4"},"29826":{"abreviacao":"4M5"},"29822":{"abreviacao":"2M3"},"29823":{"abreviacao":"2M4"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0163","qtd_alunos":17,"id":12606},"12469":{"horarios_aulas_abreviacao":"2N23","disciplina":"Eletrônica Digital","horarios_aulas":{"31484":{"abreviacao":"2N2"},"31485":{"abreviacao":"2N3"}},"id_turma":0,"id_curso":192,"codigo_disciplina":"TSUB.0138","qtd_alunos":15,"id":12469},"11584":{"horarios_aulas_abreviacao":"4M3456","disciplina":"Administração de Sistemas de Informação","horarios_aulas":{"30560":{"abreviacao":"4M4"},"30561":{"abreviacao":"4M6"},"30562":{"abreviacao":"4M5"},"30559":{"abreviacao":"4M3"}},"id_turma":0,"id_curso":39,"codigo_disciplina":"TEC.0316","qtd_alunos":25,"id":11584},"11510":{"horarios_aulas_abreviacao":"4N45 / 6N345","disciplina":"Análise de Circuitos Eletrônicos","horarios_aulas":{"28896":{"abreviacao":"4N4"},"28897":{"abreviacao":"4N5"},"28898":{"abreviacao":"6N3"},"28899":{"abreviacao":"6N4"},"28900":{"abreviacao":"6N5"}},"id_turma":0,"id_curso":66,"codigo_disciplina":"TEC.0268","qtd_alunos":7,"id":11510},"11586":{"horarios_aulas_abreviacao":"4M12 / 5M56","disciplina":"Contabilidade Gerencial","horarios_aulas":{"30600":{"abreviacao":"4M1"},"30601":{"abreviacao":"4M2"},"30602":{"abreviacao":"5M5"},"30603":{"abreviacao":"5M6"}},"id_turma":0,"id_curso":39,"codigo_disciplina":"TEC.0323","qtd_alunos":20,"id":11586},"11588":{"horarios_aulas_abreviacao":"2M3456","disciplina":"Práticas de Pesquisa em Administração da Produção","horarios_aulas":{"30616":{"abreviacao":"2M4"},"31360":{"abreviacao":"2M5"},"31361":{"abreviacao":"2M6"},"30615":{"abreviacao":"2M3"}},"id_turma":0,"id_curso":39,"codigo_disciplina":"TEC.0308","qtd_alunos":17,"id":11588},"11589":{"horarios_aulas_abreviacao":"3M12 / 6M3456","disciplina":"Práticas de Pesquisa em Administração de Marketing","horarios_aulas":{"32800":{"abreviacao":"6M4"},"32801":{"abreviacao":"6M3"},"30626":{"abreviacao":"3M2"},"30625":{"abreviacao":"3M1"},"32798":{"abreviacao":"6M6"},"32799":{"abreviacao":"6M5"}},"id_turma":0,"id_curso":39,"codigo_disciplina":"TEC.0320","qtd_alunos":16,"id":11589},"12614":{"horarios_aulas_abreviacao":"3M12 / 5M12","disciplina":"Redes sem Fio","horarios_aulas":{"29848":{"abreviacao":"3M1"},"29849":{"abreviacao":"3M2"},"29850":{"abreviacao":"5M1"},"29851":{"abreviacao":"5M2"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0173","qtd_alunos":12,"id":12614},"12103":{"horarios_aulas_abreviacao":"4M456","disciplina":"Programação Aplicada ao SIG","horarios_aulas":{"29440":{"abreviacao":"4M4"},"29441":{"abreviacao":"4M5"},"29442":{"abreviacao":"4M6"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.1085","qtd_alunos":1,"id":12103},"12616":{"horarios_aulas_abreviacao":"2M45 / 3M345","disciplina":"Administração de Sistemas Proprietários","horarios_aulas":{"29856":{"abreviacao":"2M5"},"29857":{"abreviacao":"3M4"},"29858":{"abreviacao":"3M5"},"29859":{"abreviacao":"3M3"},"29855":{"abreviacao":"2M4"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0176","qtd_alunos":5,"id":12616},"12617":{"horarios_aulas_abreviacao":"4M456","disciplina":"Administração de Ativos de Redes","horarios_aulas":{"29860":{"abreviacao":"4M6"},"29861":{"abreviacao":"4M5"},"29862":{"abreviacao":"4M4"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0175","qtd_alunos":10,"id":12617},"12618":{"horarios_aulas_abreviacao":"3M45 / 5M45","disciplina":"Prática em Segurança de Redes","horarios_aulas":{"29864":{"abreviacao":"3M5"},"29865":{"abreviacao":"5M4"},"29866":{"abreviacao":"5M5"},"29863":{"abreviacao":"3M4"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0178","qtd_alunos":16,"id":12618},"11595":{"horarios_aulas_abreviacao":"6M3456","disciplina":"Práticas de Pesquisa em Recursos Materiais e Patrimoniais","horarios_aulas":{"30666":{"abreviacao":"6M6"},"30667":{"abreviacao":"6M5"},"30668":{"abreviacao":"6M4"},"30669":{"abreviacao":"6M3"}},"id_turma":0,"id_curso":39,"codigo_disciplina":"TEC.0330","qtd_alunos":21,"id":11595},"12876":{"horarios_aulas_abreviacao":"2V345 / 3V456","disciplina":"Desenho Arquitetônico I","horarios_aulas":{"30817":{"abreviacao":"3V6"},"30818":{"abreviacao":"3V5"},"51610":{"abreviacao":"2V5"},"51611":{"abreviacao":"2V4"},"51612":{"abreviacao":"2V3"},"30814":{"abreviacao":"3V4"}},"id_turma":0,"id_curso":76,"codigo_disciplina":"TIN.0240","qtd_alunos":20,"id":12876},"12621":{"horarios_aulas_abreviacao":"4M23 / 6M23","disciplina":"Redes Convergentes","horarios_aulas":{"29875":{"abreviacao":"4M2"},"29876":{"abreviacao":"4M3"},"29877":{"abreviacao":"6M2"},"29878":{"abreviacao":"6M3"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0181","qtd_alunos":17,"id":12621},"12755":{"horarios_aulas_abreviacao":"5M456","disciplina":"Informática Básica Aplicada","horarios_aulas":{"31667":{"abreviacao":"5M4"},"31668":{"abreviacao":"5M5"},"31669":{"abreviacao":"5M6"}},"id_turma":0,"id_curso":81,"codigo_disciplina":"TIN.0516","qtd_alunos":14,"id":12755},"11600":{"horarios_aulas_abreviacao":"2M34 / 5M12","disciplina":"Formação de Empreendedores","horarios_aulas":{"32786":{"abreviacao":"2M3"},"32787":{"abreviacao":"2M4"},"32238":{"abreviacao":"5M1"},"32239":{"abreviacao":"5M2"}},"id_turma":0,"id_curso":39,"codigo_disciplina":"TEC.0340","qtd_alunos":13,"id":11600},"12472":{"horarios_aulas_abreviacao":"3N2345 / 6N2345","disciplina":"Eletricidade I","horarios_aulas":{"31476":{"abreviacao":"3N2"},"31477":{"abreviacao":"3N3"},"31478":{"abreviacao":"3N4"},"31479":{"abreviacao":"3N5"},"31480":{"abreviacao":"6N2"},"31481":{"abreviacao":"6N3"},"31482":{"abreviacao":"6N4"},"31483":{"abreviacao":"6N5"}},"id_turma":0,"id_curso":192,"codigo_disciplina":"TSUB.0271","qtd_alunos":34,"id":12472},"12374":{"horarios_aulas_abreviacao":"3N123","disciplina":"Eletrônica Básica","horarios_aulas":{"28856":{"abreviacao":"3N1"},"28857":{"abreviacao":"3N2"},"28858":{"abreviacao":"3N3"}},"id_turma":0,"id_curso":66,"codigo_disciplina":"TEC.0143","qtd_alunos":24,"id":12374},"11775":{"horarios_aulas_abreviacao":"5V345","disciplina":"Desenvolvimento Ágil com Ferramenta RAD","horarios_aulas":{"29226":{"abreviacao":"5V3"},"29227":{"abreviacao":"5V4"},"29228":{"abreviacao":"5V5"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0446","qtd_alunos":15,"id":11775},"12598":{"horarios_aulas_abreviacao":"3M45","disciplina":"Laboratório de Redes de Computadores","horarios_aulas":{"29792":{"abreviacao":"3M4"},"29793":{"abreviacao":"3M5"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0160","qtd_alunos":31,"id":12598},"12619":{"horarios_aulas_abreviacao":"3M23 / 5M23","disciplina":"Projetos de Redes de Computadores","horarios_aulas":{"29867":{"abreviacao":"3M2"},"29868":{"abreviacao":"3M3"},"29869":{"abreviacao":"5M2"},"29870":{"abreviacao":"5M3"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0179","qtd_alunos":18,"id":12619},"12963":{"horarios_aulas_abreviacao":"3V56","disciplina":"Fundamentos da Metodologia","horarios_aulas":{"30968":{"abreviacao":"3V5"},"30969":{"abreviacao":"3V6"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0425","qtd_alunos":12,"id":12963},"12799":{"horarios_aulas_abreviacao":"4M45","disciplina":"Álgebra Booleana e Circuitos Lógicos","horarios_aulas":{"30680":{"abreviacao":"4M4"},"30682":{"abreviacao":"4M5"}},"id_turma":0,"id_curso":81,"codigo_disciplina":"TIN.0517","qtd_alunos":16,"id":12799},"14690":{"horarios_aulas_abreviacao":"2V6 / 3V56 / 4V6","disciplina":"Estágio Supervisionado","horarios_aulas":{"34412":{"abreviacao":"2V6"},"34413":{"abreviacao":"3V5"},"34414":{"abreviacao":"3V6"},"34415":{"abreviacao":"4V6"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0711","qtd_alunos":2,"id":14690},"11707":{"horarios_aulas_abreviacao":"4M45","disciplina":"Gerenciamento de Riscos Ambientais","horarios_aulas":{"32186":{"abreviacao":"4M4"},"32242":{"abreviacao":"4M5"}},"id_turma":0,"id_curso":61,"codigo_disciplina":"TEC.0477","qtd_alunos":13,"id":11707},"12902":{"horarios_aulas_abreviacao":"5V56","disciplina":"Planejamento e Orçamento de Obras","horarios_aulas":{"33226":{"abreviacao":"5V5"},"33227":{"abreviacao":"5V6"}},"id_turma":5409,"id_curso":76,"codigo_disciplina":"TIN.0140","qtd_alunos":39,"id":12902},"16744":{"horarios_aulas_abreviacao":"4V45 / 6V34","disciplina":"Linguagens de Marcação","horarios_aulas":{"40912":{"abreviacao":"4V5"},"40913":{"abreviacao":"6V3"},"40914":{"abreviacao":"6V4"},"40911":{"abreviacao":"4V4"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0588","qtd_alunos":35,"id":16744},"13674":{"horarios_aulas_abreviacao":"6M12","disciplina":"Prática Contábil I","horarios_aulas":{"32299":{"abreviacao":"6M1"},"32300":{"abreviacao":"6M2"}},"id_turma":0,"id_curso":70,"codigo_disciplina":"EJA.0062","qtd_alunos":20,"id":13674},"12907":{"horarios_aulas_abreviacao":"3V12","disciplina":"Projeto de Estruturas","horarios_aulas":{"31069":{"abreviacao":"3V2"},"48406":{"abreviacao":"3V1"}},"id_turma":5409,"id_curso":76,"codigo_disciplina":"TIN.0432","qtd_alunos":23,"id":12907},"12756":{"horarios_aulas_abreviacao":"3M45","disciplina":"Álgebra Booleana e Circuitos Lógicos","horarios_aulas":{"30265":{"abreviacao":"3M4"},"30266":{"abreviacao":"3M5"}},"id_turma":0,"id_curso":81,"codigo_disciplina":"TIN.0517","qtd_alunos":14,"id":12756},"12397":{"horarios_aulas_abreviacao":"3N345 / 6N234","disciplina":"Eletrônica Analógica I","horarios_aulas":{"30281":{"abreviacao":"3N3"},"30282":{"abreviacao":"3N4"},"30283":{"abreviacao":"3N5"},"30284":{"abreviacao":"6N2"},"30285":{"abreviacao":"6N3"},"30286":{"abreviacao":"6N4"}},"id_turma":0,"id_curso":191,"codigo_disciplina":"TSUB.0254","qtd_alunos":12,"id":12397},"15815":{"horarios_aulas_abreviacao":"5V12 / 6V12","disciplina":"Fundamentos de Redes de Computadores","horarios_aulas":{"36608":{"abreviacao":"6V2"},"36604":{"abreviacao":"5V1"},"36605":{"abreviacao":"5V2"},"36607":{"abreviacao":"6V1"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.1094","qtd_alunos":20,"id":15815},"12023":{"horarios_aulas_abreviacao":"3M12345","disciplina":"Posicionamento por Satélites","horarios_aulas":{"28555":{"abreviacao":"3M1"},"28556":{"abreviacao":"3M2"},"28557":{"abreviacao":"3M3"},"28558":{"abreviacao":"3M4"},"28559":{"abreviacao":"3M5"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0209","qtd_alunos":4,"id":12023},"11632":{"horarios_aulas_abreviacao":"2N5 / 3N345","disciplina":"Práticas de Pesquisa em Administração da Produção","horarios_aulas":{"31096":{"abreviacao":"3N3"},"31097":{"abreviacao":"3N4"},"31098":{"abreviacao":"3N5"},"31095":{"abreviacao":"2N5"}},"id_turma":0,"id_curso":39,"codigo_disciplina":"TEC.0308","qtd_alunos":15,"id":11632},"12658":{"horarios_aulas_abreviacao":"3M123 / 5M45","disciplina":"Algoritmo e Programação Estruturada - RC","horarios_aulas":{"30232":{"abreviacao":"3M1"},"30233":{"abreviacao":"3M2"},"30234":{"abreviacao":"3M3"},"30235":{"abreviacao":"5M4"},"30236":{"abreviacao":"5M5"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0075","qtd_alunos":23,"id":12658},"15219":{"horarios_aulas_abreviacao":"4V12 / 6V12","disciplina":"Linguagens de Script","horarios_aulas":{"36209":{"abreviacao":"4V1"},"36210":{"abreviacao":"4V2"},"36211":{"abreviacao":"6V1"},"36212":{"abreviacao":"6V2"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.1095","qtd_alunos":19,"id":15219},"12734":{"horarios_aulas_abreviacao":"4N5 / 5N12","disciplina":"Informática Básica","horarios_aulas":{"30256":{"abreviacao":"5N1"},"30257":{"abreviacao":"5N2"},"31452":{"abreviacao":"4N5"}},"id_turma":0,"id_curso":215,"codigo_disciplina":"TSUB.0100","qtd_alunos":34,"id":12734},"11776":{"horarios_aulas_abreviacao":"2V12 / 4V12","disciplina":"Inteligência Empresarial","horarios_aulas":{"29520":{"abreviacao":"2V1"},"29234":{"abreviacao":"2V2"},"29236":{"abreviacao":"4V1"},"29237":{"abreviacao":"4V2"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0447","qtd_alunos":20,"id":11776},"11639":{"horarios_aulas_abreviacao":"5N123 / 6N1","disciplina":"Práticas de Pesquisa em Recursos Materiais e Patrimoniais","horarios_aulas":{"30905":{"abreviacao":"5N2"},"30906":{"abreviacao":"5N3"},"32793":{"abreviacao":"5N1"},"30903":{"abreviacao":"6N1"}},"id_turma":0,"id_curso":39,"codigo_disciplina":"TEC.0330","qtd_alunos":19,"id":11639},"12664":{"horarios_aulas_abreviacao":"6M12","disciplina":"Informática Aplicada","horarios_aulas":{"31800":{"abreviacao":"6M1"},"31801":{"abreviacao":"6M2"}},"id_turma":5332,"id_curso":88,"codigo_disciplina":"TIN.0835","qtd_alunos":19,"id":12664},"11711":{"horarios_aulas_abreviacao":"4M12","disciplina":"Interpolação Espacial GA","horarios_aulas":{"29305":{"abreviacao":"4M1"},"29306":{"abreviacao":"4M2"}},"id_turma":0,"id_curso":61,"codigo_disciplina":"TEC.0479","qtd_alunos":7,"id":11711},"11388":{"horarios_aulas_abreviacao":"2N12 / 4N345","disciplina":"Desenho Arquitetônico","horarios_aulas":{"29362":{"abreviacao":"2N1"},"29363":{"abreviacao":"2N2"},"29364":{"abreviacao":"4N5"},"29365":{"abreviacao":"4N4"},"29366":{"abreviacao":"4N3"}},"id_turma":0,"id_curso":57,"codigo_disciplina":"TEC.0235","qtd_alunos":14,"id":11388},"13845":{"horarios_aulas_abreviacao":"4V45","disciplina":"Desenho Aplicado Auxiliado por Computador Ampliado","horarios_aulas":{"33005":{"abreviacao":"4V4"},"33006":{"abreviacao":"4V5"}},"id_turma":0,"id_curso":76,"codigo_disciplina":"TIN.0427","qtd_alunos":18,"id":13845},"11648":{"horarios_aulas_abreviacao":"2N45","disciplina":"Fundamentos da Metodologia da Pesquisa Científica","horarios_aulas":{"30744":{"abreviacao":"2N4"},"30745":{"abreviacao":"2N5"}},"id_turma":0,"id_curso":63,"codigo_disciplina":"TEC.0129","qtd_alunos":28,"id":11648},"12417":{"horarios_aulas_abreviacao":"4N12","disciplina":"Informática Básica","horarios_aulas":{"30146":{"abreviacao":"4N1"},"30147":{"abreviacao":"4N2"}},"id_turma":0,"id_curso":195,"codigo_disciplina":"TSUB.0074","qtd_alunos":27,"id":12417},"11650":{"horarios_aulas_abreviacao":"6N123","disciplina":"Informática Básica - ADM","horarios_aulas":{"30763":{"abreviacao":"6N1"},"30764":{"abreviacao":"6N2"},"30765":{"abreviacao":"6N3"}},"id_turma":0,"id_curso":63,"codigo_disciplina":"TEC.0114","qtd_alunos":29,"id":11650},"11397":{"horarios_aulas_abreviacao":"4M456","disciplina":"História do Design","horarios_aulas":{"27773":{"abreviacao":"4M4"},"28598":{"abreviacao":"4M5"},"28599":{"abreviacao":"4M6"}},"id_turma":0,"id_curso":59,"codigo_disciplina":"TEC.0035","qtd_alunos":32,"id":11397},"12609":{"horarios_aulas_abreviacao":"6M12345","disciplina":"Desenvolvimento Web","horarios_aulas":{"30209":{"abreviacao":"6M1"},"30210":{"abreviacao":"6M2"},"30211":{"abreviacao":"6M3"},"30212":{"abreviacao":"6M4"},"30213":{"abreviacao":"6M5"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0169","qtd_alunos":22,"id":12609},"12680":{"horarios_aulas_abreviacao":"6M56","disciplina":"Informática Aplicada","horarios_aulas":{"30428":{"abreviacao":"6M5"},"30429":{"abreviacao":"6M6"}},"id_turma":0,"id_curso":70,"codigo_disciplina":"TIN.0835","qtd_alunos":23,"id":12680},"13098":{"horarios_aulas_abreviacao":"3M456","disciplina":"Eletricidade Básica","horarios_aulas":{"31650":{"abreviacao":"3M4"},"31651":{"abreviacao":"3M5"},"31652":{"abreviacao":"3M6"}},"id_turma":0,"id_curso":81,"codigo_disciplina":"TIN.0647","qtd_alunos":14,"id":13098},"16738":{"horarios_aulas_abreviacao":"4V23","disciplina":"Projeto de Estruturas","horarios_aulas":{"48404":{"abreviacao":"4V2"},"48405":{"abreviacao":"4V3"}},"id_turma":5409,"id_curso":76,"codigo_disciplina":"TIN.0432","qtd_alunos":16,"id":16738},"11409":{"horarios_aulas_abreviacao":"4M12","disciplina":"Conforto Térmico DI","horarios_aulas":{"27932":{"abreviacao":"4M1"},"27933":{"abreviacao":"4M2"}},"id_turma":0,"id_curso":59,"codigo_disciplina":"TEC.0403","qtd_alunos":19,"id":11409},"11411":{"horarios_aulas_abreviacao":"5M123456","disciplina":"Projetos de Interiores Residenciais DI","horarios_aulas":{"28256":{"abreviacao":"5M5"},"28257":{"abreviacao":"5M6"},"28252":{"abreviacao":"5M1"},"28253":{"abreviacao":"5M2"},"28254":{"abreviacao":"5M3"},"28255":{"abreviacao":"5M4"}},"id_turma":0,"id_curso":59,"codigo_disciplina":"TEC.0400","qtd_alunos":19,"id":11411},"12800":{"horarios_aulas_abreviacao":"5M56","disciplina":"Álgebra Booleana e Circuitos Lógicos","horarios_aulas":{"30675":{"abreviacao":"5M5"},"30676":{"abreviacao":"5M6"}},"id_turma":0,"id_curso":81,"codigo_disciplina":"TIN.0517","qtd_alunos":14,"id":12800},"11671":{"horarios_aulas_abreviacao":"6M12345","disciplina":"Eletricidade Aplicada","horarios_aulas":{"29912":{"abreviacao":"6M2"},"29913":{"abreviacao":"6M3"},"29914":{"abreviacao":"6M4"},"29915":{"abreviacao":"6M5"},"29911":{"abreviacao":"6M1"}},"id_turma":0,"id_curso":68,"codigo_disciplina":"TEC.0054","qtd_alunos":24,"id":11671},"16536":{"horarios_aulas_abreviacao":"3V12 / 5V12","disciplina":"Banco de Dados I","horarios_aulas":{"39720":{"abreviacao":"3V1"},"39721":{"abreviacao":"3V2"},"39722":{"abreviacao":"5V1"},"39723":{"abreviacao":"5V2"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0423","qtd_alunos":25,"id":16536},"12462":{"horarios_aulas_abreviacao":"4N12","disciplina":"Desenho de Estruturas","horarios_aulas":{"29648":{"abreviacao":"4N1"},"29649":{"abreviacao":"4N2"}},"id_turma":0,"id_curso":186,"codigo_disciplina":"TSUB.0111","qtd_alunos":15,"id":12462},"11418":{"horarios_aulas_abreviacao":"5M23","disciplina":"Metodologia Científica DI","horarios_aulas":{"28601":{"abreviacao":"5M2"},"28602":{"abreviacao":"5M3"}},"id_turma":0,"id_curso":59,"codigo_disciplina":"TEC.0411","qtd_alunos":29,"id":11418},"13090":{"horarios_aulas_abreviacao":"5M6 / 6M123","disciplina":"Práticas de Sistemas Abertos","horarios_aulas":{"36225":{"abreviacao":"5M6"},"31364":{"abreviacao":"6M1"},"31365":{"abreviacao":"6M2"},"31366":{"abreviacao":"6M3"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0036","qtd_alunos":9,"id":13090},"12444":{"horarios_aulas_abreviacao":"3N345","disciplina":"Informática Aplicada","horarios_aulas":{"29501":{"abreviacao":"3N5"},"29502":{"abreviacao":"3N3"},"29503":{"abreviacao":"3N4"}},"id_turma":0,"id_curso":186,"codigo_disciplina":"TSUB.0189","qtd_alunos":23,"id":12444},"11421":{"horarios_aulas_abreviacao":"3M1234 / 6M3456","disciplina":"Projetos de Interiores Institucionais DI","horarios_aulas":{"28464":{"abreviacao":"6M6"},"28455":{"abreviacao":"3M1"},"28456":{"abreviacao":"3M2"},"28457":{"abreviacao":"3M3"},"28458":{"abreviacao":"3M4"},"28461":{"abreviacao":"6M3"},"28462":{"abreviacao":"6M4"},"28463":{"abreviacao":"6M5"}},"id_turma":0,"id_curso":59,"codigo_disciplina":"TEC.0412","qtd_alunos":29,"id":11421},"13168":{"horarios_aulas_abreviacao":"3M56","disciplina":"Informática Básica","horarios_aulas":{"34379":{"abreviacao":"3M5"},"34380":{"abreviacao":"3M6"}},"id_turma":5505,"id_curso":82,"codigo_disciplina":"TIN.0018","qtd_alunos":21,"id":13168},"12962":{"horarios_aulas_abreviacao":"5M456","disciplina":"Eletricidade Básica","horarios_aulas":{"31648":{"abreviacao":"5M5"},"31649":{"abreviacao":"5M6"},"31647":{"abreviacao":"5M4"}},"id_turma":0,"id_curso":81,"codigo_disciplina":"TIN.0647","qtd_alunos":16,"id":12962},"12451":{"horarios_aulas_abreviacao":"5N123","disciplina":"Desenho Auxiliado por Computador I - CAD I","horarios_aulas":{"29555":{"abreviacao":"5N1"},"29556":{"abreviacao":"5N2"},"29557":{"abreviacao":"5N3"}},"id_turma":0,"id_curso":186,"codigo_disciplina":"TSUB.0104","qtd_alunos":15,"id":12451},"13220":{"horarios_aulas_abreviacao":"2V45","disciplina":"Informática Básica","horarios_aulas":{"33149":{"abreviacao":"2V4"},"33150":{"abreviacao":"2V5"}},"id_turma":5523,"id_curso":82,"codigo_disciplina":"TIN.0018","qtd_alunos":18,"id":13220},"13733":{"horarios_aulas_abreviacao":"5V345","disciplina":"Desenho Arquitetônico II","horarios_aulas":{"33008":{"abreviacao":"5V4"},"33011":{"abreviacao":"5V3"},"33007":{"abreviacao":"5V5"}},"id_turma":0,"id_curso":76,"codigo_disciplina":"TIN.0244","qtd_alunos":14,"id":13733},"11431":{"horarios_aulas_abreviacao":"3M45 / 4M45","disciplina":"Lógica de Programação e Algorítimos","horarios_aulas":{"28648":{"abreviacao":"4M5"},"28645":{"abreviacao":"3M4"},"28646":{"abreviacao":"3M5"},"28647":{"abreviacao":"4M4"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0048","qtd_alunos":23,"id":11431},"12456":{"horarios_aulas_abreviacao":"6N123","disciplina":"Desenho Auxiliado por Computador II - CAD II","horarios_aulas":{"29596":{"abreviacao":"6N1"},"29597":{"abreviacao":"6N2"},"29598":{"abreviacao":"6N3"}},"id_turma":0,"id_curso":186,"codigo_disciplina":"TSUB.0107","qtd_alunos":11,"id":12456},"11505":{"horarios_aulas_abreviacao":"3N45 / 4N123","disciplina":"Campos e Ondas","horarios_aulas":{"31325":{"abreviacao":"3N5"},"31324":{"abreviacao":"3N4"},"28869":{"abreviacao":"4N1"},"28870":{"abreviacao":"4N2"},"28871":{"abreviacao":"4N3"}},"id_turma":0,"id_curso":66,"codigo_disciplina":"TEC.0146","qtd_alunos":13,"id":11505},"11436":{"horarios_aulas_abreviacao":"2M23","disciplina":"Introdução ao SIG","horarios_aulas":{"28676":{"abreviacao":"2M2"},"28677":{"abreviacao":"2M3"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.1076","qtd_alunos":11,"id":11436},"11437":{"horarios_aulas_abreviacao":"4M12 / 6M45","disciplina":"Banco de Dados","horarios_aulas":{"28672":{"abreviacao":"4M1"},"28673":{"abreviacao":"4M2"},"28674":{"abreviacao":"6M4"},"28675":{"abreviacao":"6M5"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0090","qtd_alunos":12,"id":11437},"11694":{"horarios_aulas_abreviacao":"3M23","disciplina":"Geoprocessamento","horarios_aulas":{"29256":{"abreviacao":"3M3"},"29255":{"abreviacao":"3M2"}},"id_turma":0,"id_curso":61,"codigo_disciplina":"TEC.0463","qtd_alunos":17,"id":11694},"12463":{"horarios_aulas_abreviacao":"2N1234","disciplina":"Projeto Hidrossanitário","horarios_aulas":{"29656":{"abreviacao":"2N4"},"29653":{"abreviacao":"2N1"},"29654":{"abreviacao":"2N2"},"29655":{"abreviacao":"2N3"}},"id_turma":0,"id_curso":186,"codigo_disciplina":"TSUB.0113","qtd_alunos":13,"id":12463},"11443":{"horarios_aulas_abreviacao":"3M45 / 5M34","disciplina":"Linguagem de Programação","horarios_aulas":{"28577":{"abreviacao":"3M4"},"28578":{"abreviacao":"3M5"},"28579":{"abreviacao":"5M3"},"28580":{"abreviacao":"5M4"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0080","qtd_alunos":7,"id":11443},"11445":{"horarios_aulas_abreviacao":"2M34 / 6M34","disciplina":"Banco de Dados Geográficos","horarios_aulas":{"28576":{"abreviacao":"6M4"},"28573":{"abreviacao":"2M3"},"28574":{"abreviacao":"2M4"},"28575":{"abreviacao":"6M3"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0217","qtd_alunos":7,"id":11445},"11446":{"horarios_aulas_abreviacao":"2M56 / 5M12","disciplina":"Representações Cartográficas","horarios_aulas":{"28584":{"abreviacao":"5M2"},"28581":{"abreviacao":"2M5"},"28582":{"abreviacao":"2M6"},"28583":{"abreviacao":"5M1"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0092","qtd_alunos":8,"id":11446},"11447":{"horarios_aulas_abreviacao":"4M23 / 5M56","disciplina":"SIG","horarios_aulas":{"32305":{"abreviacao":"5M5"},"32306":{"abreviacao":"5M6"},"28587":{"abreviacao":"4M2"},"28588":{"abreviacao":"4M3"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.1078","qtd_alunos":8,"id":11447},"11704":{"horarios_aulas_abreviacao":"5M45","disciplina":"Sensoriamento Remoto","horarios_aulas":{"29282":{"abreviacao":"5M4"},"29283":{"abreviacao":"5M5"}},"id_turma":0,"id_curso":61,"codigo_disciplina":"TEC.0467","qtd_alunos":15,"id":11704},"11705":{"horarios_aulas_abreviacao":"3M45 / 5M23","disciplina":"Sistema de Informações Geográficas  -  SIG","horarios_aulas":{"29284":{"abreviacao":"3M4"},"29285":{"abreviacao":"3M5"},"29286":{"abreviacao":"5M2"},"29287":{"abreviacao":"5M3"}},"id_turma":0,"id_curso":61,"codigo_disciplina":"TEC.0468","qtd_alunos":16,"id":11705},"11451":{"horarios_aulas_abreviacao":"3V45 / 5V345","disciplina":"Algoritmo e Programação Estruturada","horarios_aulas":{"29105":{"abreviacao":"3V4"},"29106":{"abreviacao":"3V5"},"29107":{"abreviacao":"5V3"},"29108":{"abreviacao":"5V4"},"29109":{"abreviacao":"5V5"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0034","qtd_alunos":70,"id":11451},"11453":{"horarios_aulas_abreviacao":"2V345","disciplina":"Fundamentos da Computação","horarios_aulas":{"29112":{"abreviacao":"2V5"},"29110":{"abreviacao":"2V3"},"29111":{"abreviacao":"2V4"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.1093","qtd_alunos":54,"id":11453},"11454":{"horarios_aulas_abreviacao":"5V12 / 6V12","disciplina":"Fundamentos de Redes de Computadores","horarios_aulas":{"29113":{"abreviacao":"5V1"},"29114":{"abreviacao":"5V2"},"29115":{"abreviacao":"6V1"},"29116":{"abreviacao":"6V2"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.1094","qtd_alunos":37,"id":11454},"11765":{"horarios_aulas_abreviacao":"3V34 / 5V34","disciplina":"Programação para Web I","horarios_aulas":{"29194":{"abreviacao":"3V3"},"29195":{"abreviacao":"3V4"},"29196":{"abreviacao":"5V3"},"29197":{"abreviacao":"5V4"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0434","qtd_alunos":5,"id":11765},"11456":{"horarios_aulas_abreviacao":"4V45 / 6V34","disciplina":"Linguagens de Marcação","horarios_aulas":{"29120":{"abreviacao":"6V4"},"29117":{"abreviacao":"4V4"},"29118":{"abreviacao":"4V5"},"29119":{"abreviacao":"6V3"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0588","qtd_alunos":32,"id":11456},"11457":{"horarios_aulas_abreviacao":"3V12 / 5V12","disciplina":"Banco de Dados I","horarios_aulas":{"29129":{"abreviacao":"3V1"},"29130":{"abreviacao":"3V2"},"29131":{"abreviacao":"5V1"},"29132":{"abreviacao":"5V2"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0423","qtd_alunos":25,"id":11457},"11458":{"horarios_aulas_abreviacao":"3V56 / 5V56","disciplina":"Estruturas de Dados","horarios_aulas":{"29136":{"abreviacao":"3V6"},"29137":{"abreviacao":"5V5"},"29138":{"abreviacao":"5V6"},"29135":{"abreviacao":"3V5"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0422","qtd_alunos":35,"id":11458},"11459":{"horarios_aulas_abreviacao":"3V34","disciplina":"Fundamentos da Metodologia","horarios_aulas":{"29139":{"abreviacao":"3V3"},"29140":{"abreviacao":"3V4"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0425","qtd_alunos":18,"id":11459},"11460":{"horarios_aulas_abreviacao":"5V34 / 6V34","disciplina":"Protocolos de Interconexão de Redes de Computadores","horarios_aulas":{"29145":{"abreviacao":"5V3"},"29146":{"abreviacao":"5V4"},"29147":{"abreviacao":"6V3"},"29148":{"abreviacao":"6V4"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.1096","qtd_alunos":11,"id":11460},"11461":{"horarios_aulas_abreviacao":"2V123 / 4V34","disciplina":"Sistemas Operacionais","horarios_aulas":{"29152":{"abreviacao":"4V3"},"29153":{"abreviacao":"4V4"},"29149":{"abreviacao":"2V2"},"29150":{"abreviacao":"2V1"},"29151":{"abreviacao":"2V3"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0424","qtd_alunos":26,"id":11461},"11463":{"horarios_aulas_abreviacao":"4V12 / 6V12","disciplina":"Linguagens de Script","horarios_aulas":{"29144":{"abreviacao":"6V2"},"29141":{"abreviacao":"4V1"},"29142":{"abreviacao":"4V2"},"29143":{"abreviacao":"6V1"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.1095","qtd_alunos":21,"id":11463},"12488":{"horarios_aulas_abreviacao":"6N45","disciplina":"Informática Aplicada","horarios_aulas":{"41009":{"abreviacao":"6N4"},"41010":{"abreviacao":"6N5"}},"id_turma":0,"id_curso":192,"codigo_disciplina":"TSUB.0062","qtd_alunos":13,"id":12488},"11466":{"horarios_aulas_abreviacao":"2V123 / 3V12","disciplina":"Banco de Dados II","horarios_aulas":{"29154":{"abreviacao":"2V1"},"29155":{"abreviacao":"2V2"},"29156":{"abreviacao":"2V3"},"29157":{"abreviacao":"3V1"},"29158":{"abreviacao":"3V2"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0429","qtd_alunos":28,"id":11466},"11467":{"horarios_aulas_abreviacao":"3V34 / 5V12","disciplina":"Interação Humano-Computador","horarios_aulas":{"29160":{"abreviacao":"3V4"},"29161":{"abreviacao":"5V1"},"29162":{"abreviacao":"5V2"},"29159":{"abreviacao":"3V3"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0427","qtd_alunos":16,"id":11467},"11469":{"horarios_aulas_abreviacao":"4V345 / 6V123","disciplina":"Programação Orientada a Objetos","horarios_aulas":{"29170":{"abreviacao":"4V3"},"29171":{"abreviacao":"4V4"},"29172":{"abreviacao":"4V5"},"29173":{"abreviacao":"6V1"},"29174":{"abreviacao":"6V2"},"29175":{"abreviacao":"6V3"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0428","qtd_alunos":26,"id":11469},"11958":{"horarios_aulas_abreviacao":"3V12 / 5V45","disciplina":"Química Computacional","horarios_aulas":{"28720":{"abreviacao":"5V5"},"28717":{"abreviacao":"3V1"},"28718":{"abreviacao":"3V2"},"28719":{"abreviacao":"5V4"}},"id_turma":0,"id_curso":48,"codigo_disciplina":"LIC.0092","qtd_alunos":3,"id":11958},"11768":{"horarios_aulas_abreviacao":"5V12 / 6V23","disciplina":"Programação para Dispositivos Móveis","horarios_aulas":{"29216":{"abreviacao":"5V1"},"29217":{"abreviacao":"5V2"},"29218":{"abreviacao":"6V2"},"29219":{"abreviacao":"6V3"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0438","qtd_alunos":15,"id":11768},"15223":{"horarios_aulas_abreviacao":"6M56","disciplina":"Informática Básica","horarios_aulas":{"41024":{"abreviacao":"6M6"},"41023":{"abreviacao":"6M5"}},"id_turma":5505,"id_curso":82,"codigo_disciplina":"TIN.0018","qtd_alunos":22,"id":15223},"12500":{"horarios_aulas_abreviacao":"2N2345","disciplina":"Desenho Auxiliado por Computador - CAD","horarios_aulas":{"31506":{"abreviacao":"2N2"},"31507":{"abreviacao":"2N3"},"31508":{"abreviacao":"2N4"},"31509":{"abreviacao":"2N5"}},"id_turma":0,"id_curso":206,"codigo_disciplina":"TSUB.0235","qtd_alunos":12,"id":12500},"12757":{"horarios_aulas_abreviacao":"4M456","disciplina":"Eletricidade Básica","horarios_aulas":{"31644":{"abreviacao":"4M4"},"31645":{"abreviacao":"4M5"},"31646":{"abreviacao":"4M6"}},"id_turma":0,"id_curso":81,"codigo_disciplina":"TIN.0647","qtd_alunos":14,"id":12757},"11769":{"horarios_aulas_abreviacao":"3V12 / 5V56","disciplina":"Padrões de Projeto de Software","horarios_aulas":{"29212":{"abreviacao":"3V1"},"29213":{"abreviacao":"3V2"},"29214":{"abreviacao":"5V5"},"29215":{"abreviacao":"5V6"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0439","qtd_alunos":11,"id":11769},"12793":{"horarios_aulas_abreviacao":"4M123","disciplina":"Projetos Eletrônicos","horarios_aulas":{"41235":{"abreviacao":"4M1"},"32099":{"abreviacao":"4M2"},"32100":{"abreviacao":"4M3"}},"id_turma":5362,"id_curso":81,"codigo_disciplina":"TIN.0526","qtd_alunos":26,"id":12793},"12509":{"horarios_aulas_abreviacao":"4N12","disciplina":"Eletrônica Básica","horarios_aulas":{"31530":{"abreviacao":"4N1"},"31531":{"abreviacao":"4N2"}},"id_turma":0,"id_curso":206,"codigo_disciplina":"TSUB.0237","qtd_alunos":9,"id":12509},"12487":{"horarios_aulas_abreviacao":"2N45","disciplina":"Proteção de Sistemas Elétricos","horarios_aulas":{"32216":{"abreviacao":"2N5"},"32215":{"abreviacao":"2N4"}},"id_turma":0,"id_curso":192,"codigo_disciplina":"TSUB.0296","qtd_alunos":14,"id":12487},"12615":{"horarios_aulas_abreviacao":"5M345","disciplina":"Métodos e Técnicas de Pesquisa - RC","horarios_aulas":{"29852":{"abreviacao":"5M3"},"29853":{"abreviacao":"5M4"},"29854":{"abreviacao":"5M5"}},"id_turma":0,"id_curso":64,"codigo_disciplina":"TEC.0174","qtd_alunos":8,"id":12615},"11771":{"horarios_aulas_abreviacao":"2V123","disciplina":"Comércio Eletrônico - SI","horarios_aulas":{"29201":{"abreviacao":"2V1"},"29202":{"abreviacao":"2V2"},"29203":{"abreviacao":"2V3"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0442","qtd_alunos":8,"id":11771},"13796":{"horarios_aulas_abreviacao":"6M34","disciplina":"Informática Aplicada","horarios_aulas":{"32782":{"abreviacao":"6M3"},"32783":{"abreviacao":"6M4"}},"id_turma":0,"id_curso":70,"codigo_disciplina":"TIN.0835","qtd_alunos":20,"id":13796},"12007":{"horarios_aulas_abreviacao":"3V123 / 5V12","disciplina":"Fundamentos de Redes de Computadores","horarios_aulas":{"32104":{"abreviacao":"5V1"},"32105":{"abreviacao":"5V2"},"32101":{"abreviacao":"3V1"},"32102":{"abreviacao":"3V2"},"32103":{"abreviacao":"3V3"}},"id_turma":0,"id_curso":68,"codigo_disciplina":"TEC.0047","qtd_alunos":4,"id":12007},"11502":{"horarios_aulas_abreviacao":"3N123","disciplina":"Eletrônica Básica","horarios_aulas":{"28859":{"abreviacao":"3N1"},"28860":{"abreviacao":"3N2"},"28861":{"abreviacao":"3N3"}},"id_turma":0,"id_curso":66,"codigo_disciplina":"TEC.0143","qtd_alunos":14,"id":11502},"11773":{"horarios_aulas_abreviacao":"3V12 / 5V12","disciplina":"Programação Distribuída","horarios_aulas":{"29240":{"abreviacao":"5V1"},"29241":{"abreviacao":"5V2"},"29238":{"abreviacao":"3V1"},"29239":{"abreviacao":"3V2"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0444","qtd_alunos":17,"id":11773},"12784":{"horarios_aulas_abreviacao":"2M123","disciplina":"Sistemas Microcontrolados","horarios_aulas":{"32033":{"abreviacao":"2M1"},"32034":{"abreviacao":"2M2"},"32035":{"abreviacao":"2M3"}},"id_turma":0,"id_curso":81,"codigo_disciplina":"TIN.0525","qtd_alunos":17,"id":12784},"11761":{"horarios_aulas_abreviacao":"2V12 / 3V12","disciplina":"Análise e Projeto de Sistemas","horarios_aulas":{"29179":{"abreviacao":"2V1"},"29180":{"abreviacao":"2V2"},"29181":{"abreviacao":"3V1"},"29182":{"abreviacao":"3V2"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0433","qtd_alunos":3,"id":11761},"11763":{"horarios_aulas_abreviacao":"4V345","disciplina":"Métodos e Técnicas de Pesquisa SI","horarios_aulas":{"29187":{"abreviacao":"4V3"},"29188":{"abreviacao":"4V4"},"29189":{"abreviacao":"4V5"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0436","qtd_alunos":9,"id":11763},"11508":{"horarios_aulas_abreviacao":"2N345 / 4N45","disciplina":"Eletrônica Analógica","horarios_aulas":{"28880":{"abreviacao":"2N5"},"28881":{"abreviacao":"4N4"},"28882":{"abreviacao":"4N5"},"28878":{"abreviacao":"2N3"},"28879":{"abreviacao":"2N4"}},"id_turma":0,"id_curso":66,"codigo_disciplina":"TEC.0263","qtd_alunos":11,"id":11508},"12021":{"horarios_aulas_abreviacao":"6M56","disciplina":"Cartografia Temática","horarios_aulas":{"28564":{"abreviacao":"6M5"},"28565":{"abreviacao":"6M6"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0226","qtd_alunos":2,"id":12021},"11766":{"horarios_aulas_abreviacao":"2V345","disciplina":"Segurança de Dados","horarios_aulas":{"29200":{"abreviacao":"2V5"},"29198":{"abreviacao":"2V3"},"29199":{"abreviacao":"2V4"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0432","qtd_alunos":8,"id":11766},"11767":{"horarios_aulas_abreviacao":"2V45 / 4V12","disciplina":"Gerência de Projetos de Software","horarios_aulas":{"29208":{"abreviacao":"2V4"},"29209":{"abreviacao":"2V5"},"29210":{"abreviacao":"4V1"},"29211":{"abreviacao":"4V2"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0599","qtd_alunos":7,"id":11767},"12024":{"horarios_aulas_abreviacao":"5M456","disciplina":"Automação Topográfica","horarios_aulas":{"28568":{"abreviacao":"5M6"},"28566":{"abreviacao":"5M4"},"28567":{"abreviacao":"5M5"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0204","qtd_alunos":3,"id":12024},"12025":{"horarios_aulas_abreviacao":"2M12 / 6M12","disciplina":"Empreendedorismo","horarios_aulas":{"28524":{"abreviacao":"2M1"},"28525":{"abreviacao":"2M2"},"28526":{"abreviacao":"6M1"},"28527":{"abreviacao":"6M2"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0029","qtd_alunos":5,"id":12025},"11770":{"horarios_aulas_abreviacao":"3V345 / 4V345","disciplina":"Programação para Web II","horarios_aulas":{"29220":{"abreviacao":"3V3"},"29221":{"abreviacao":"3V4"},"29222":{"abreviacao":"3V5"},"29223":{"abreviacao":"4V3"},"29224":{"abreviacao":"4V4"},"29225":{"abreviacao":"4V5"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0440","qtd_alunos":10,"id":11770},"12027":{"horarios_aulas_abreviacao":"4M123","disciplina":"SIG Livre","horarios_aulas":{"29437":{"abreviacao":"4M3"},"29438":{"abreviacao":"4M2"},"29439":{"abreviacao":"4M1"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0236","qtd_alunos":6,"id":12027},"12029":{"horarios_aulas_abreviacao":"4M45 / 6M34","disciplina":"Ajustamento de Observações","horarios_aulas":{"28530":{"abreviacao":"6M3"},"28531":{"abreviacao":"6M4"},"29436":{"abreviacao":"4M5"},"29435":{"abreviacao":"4M4"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0240","qtd_alunos":5,"id":12029},"11774":{"horarios_aulas_abreviacao":"2V34 / 3V34","disciplina":"Desenvolvimento e Execução de Projeto de Software","horarios_aulas":{"29232":{"abreviacao":"3V3"},"29233":{"abreviacao":"3V4"},"29230":{"abreviacao":"2V4"},"29521":{"abreviacao":"2V3"}},"id_turma":0,"id_curso":67,"codigo_disciplina":"TEC.0445","qtd_alunos":11,"id":11774},"12031":{"horarios_aulas_abreviacao":"2M345","disciplina":"Planejamento Físico-Territorial","horarios_aulas":{"29432":{"abreviacao":"2M3"},"29433":{"abreviacao":"2M4"},"29434":{"abreviacao":"2M5"}},"id_turma":0,"id_curso":60,"codigo_disciplina":"TEC.0248","qtd_alunos":3,"id":12031}}
+{
+    "12032": {
+        "horarios_aulas_abreviacao": "5M3456",
+        "disciplina": "Gestão de Projetos",
+        "horarios_aulas": {
+            "34852": {
+                "abreviacao": "5M3"
+            },
+            "34853": {
+                "abreviacao": "5M4"
+            },
+            "34854": {
+                "abreviacao": "5M5"
+            },
+            "34855": {
+                "abreviacao": "5M6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0265",
+        "qtd_alunos": 4,
+        "id": 12032
+    },
+    "11777": {
+        "horarios_aulas_abreviacao": "4V345",
+        "disciplina": "Tópicos Especiais",
+        "horarios_aulas": {
+            "29242": {
+                "abreviacao": "4V3"
+            },
+            "29243": {
+                "abreviacao": "4V4"
+            },
+            "29244": {
+                "abreviacao": "4V5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0448",
+        "qtd_alunos": 21,
+        "id": 11777
+    },
+    "12034": {
+        "horarios_aulas_abreviacao": "3M23",
+        "disciplina": "Interpolação Espacial",
+        "horarios_aulas": {
+            "32243": {
+                "abreviacao": "3M2"
+            },
+            "32244": {
+                "abreviacao": "3M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0259",
+        "qtd_alunos": 8,
+        "id": 12034
+    },
+    "12033": {
+        "horarios_aulas_abreviacao": "2M123",
+        "disciplina": "Disponibilização de Dados Geográficos na Internet",
+        "horarios_aulas": {
+            "28515": {
+                "abreviacao": "2M1"
+            },
+            "28516": {
+                "abreviacao": "2M2"
+            },
+            "28517": {
+                "abreviacao": "2M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0261",
+        "qtd_alunos": 7,
+        "id": 12033
+    },
+    "14764": {
+        "horarios_aulas_abreviacao": "2N45",
+        "disciplina": "Eletrônica Digital",
+        "horarios_aulas": {
+            "34689": {
+                "abreviacao": "2N4"
+            },
+            "34690": {
+                "abreviacao": "2N5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 192,
+        "codigo_disciplina": "TSUB.0138",
+        "qtd_alunos": 19,
+        "id": 14764
+    },
+    "12887": {
+        "horarios_aulas_abreviacao": "3V345",
+        "disciplina": "Desenho Arquitetônico II",
+        "horarios_aulas": {
+            "30930": {
+                "abreviacao": "3V3"
+            },
+            "30931": {
+                "abreviacao": "3V4"
+            },
+            "30932": {
+                "abreviacao": "3V5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 76,
+        "codigo_disciplina": "TIN.0244",
+        "qtd_alunos": 18,
+        "id": 12887
+    },
+    "11764": {
+        "horarios_aulas_abreviacao": "4V12 / 6V45",
+        "disciplina": "Persistência de Objetos",
+        "horarios_aulas": {
+            "29192": {
+                "abreviacao": "6V4"
+            },
+            "29193": {
+                "abreviacao": "6V5"
+            },
+            "29190": {
+                "abreviacao": "4V1"
+            },
+            "29191": {
+                "abreviacao": "4V2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0435",
+        "qtd_alunos": 4,
+        "id": 11764
+    },
+    "12888": {
+        "horarios_aulas_abreviacao": "4V12",
+        "disciplina": "Desenho Aplicado Auxiliado por Computador Ampliado",
+        "horarios_aulas": {
+            "30920": {
+                "abreviacao": "4V1"
+            },
+            "30919": {
+                "abreviacao": "4V2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 76,
+        "codigo_disciplina": "TIN.0427",
+        "qtd_alunos": 15,
+        "id": 12888
+    },
+    "11438": {
+        "horarios_aulas_abreviacao": "3M34 / 5M23",
+        "disciplina": "Desenho Auxiliado por Computador",
+        "horarios_aulas": {
+            "28668": {
+                "abreviacao": "3M3"
+            },
+            "28669": {
+                "abreviacao": "3M4"
+            },
+            "28670": {
+                "abreviacao": "5M2"
+            },
+            "28671": {
+                "abreviacao": "5M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0077",
+        "qtd_alunos": 14,
+        "id": 11438
+    },
+    "13809": {
+        "horarios_aulas_abreviacao": "4V45",
+        "disciplina": "Informática Básica",
+        "horarios_aulas": {
+            "32806": {
+                "abreviacao": "4V4"
+            },
+            "32807": {
+                "abreviacao": "4V5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 76,
+        "codigo_disciplina": "TIN.0018",
+        "qtd_alunos": 21,
+        "id": 13809
+    },
+    "14618": {
+        "horarios_aulas_abreviacao": "2V345 / 3V123",
+        "disciplina": "Desenho Arquitetônico I",
+        "horarios_aulas": {
+            "51615": {
+                "abreviacao": "3V3"
+            },
+            "51598": {
+                "abreviacao": "2V4"
+            },
+            "51599": {
+                "abreviacao": "2V3"
+            },
+            "51613": {
+                "abreviacao": "3V1"
+            },
+            "51614": {
+                "abreviacao": "3V2"
+            },
+            "51597": {
+                "abreviacao": "2V5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 76,
+        "codigo_disciplina": "TIN.0240",
+        "qtd_alunos": 24,
+        "id": 14618
+    },
+    "13103": {
+        "horarios_aulas_abreviacao": "5M12",
+        "disciplina": "Eletrônica Digital",
+        "horarios_aulas": {
+            "31676": {
+                "abreviacao": "5M1"
+            },
+            "31677": {
+                "abreviacao": "5M2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 81,
+        "codigo_disciplina": "TIN.0321",
+        "qtd_alunos": 13,
+        "id": 13103
+    },
+    "12600": {
+        "horarios_aulas_abreviacao": "5M123 / 6M45",
+        "disciplina": "Fundamentos de Redes de Computadores - RC",
+        "horarios_aulas": {
+            "29801": {
+                "abreviacao": "6M4"
+            },
+            "29802": {
+                "abreviacao": "6M5"
+            },
+            "36101": {
+                "abreviacao": "5M1"
+            },
+            "29798": {
+                "abreviacao": "5M2"
+            },
+            "29799": {
+                "abreviacao": "5M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0158",
+        "qtd_alunos": 42,
+        "id": 12600
+    },
+    "11554": {
+        "horarios_aulas_abreviacao": "4M123",
+        "disciplina": "Programação Aplicada",
+        "horarios_aulas": {
+            "29608": {
+                "abreviacao": "4M3"
+            },
+            "29606": {
+                "abreviacao": "4M1"
+            },
+            "29607": {
+                "abreviacao": "4M2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 56,
+        "codigo_disciplina": "TEC.1226",
+        "qtd_alunos": 5,
+        "id": 11554
+    },
+    "12593": {
+        "horarios_aulas_abreviacao": "3M45 / 5M23",
+        "disciplina": "Eletricidade Aplicada",
+        "horarios_aulas": {
+            "29776": {
+                "abreviacao": "5M3"
+            },
+            "29773": {
+                "abreviacao": "3M4"
+            },
+            "29774": {
+                "abreviacao": "3M5"
+            },
+            "29775": {
+                "abreviacao": "5M2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.1418",
+        "qtd_alunos": 45,
+        "id": 12593
+    },
+    "13097": {
+        "horarios_aulas_abreviacao": "5V34 / 6V345",
+        "disciplina": "Protocolos de Interconexão de Redes de Computadores",
+        "horarios_aulas": {
+            "31560": {
+                "abreviacao": "6V3"
+            },
+            "31561": {
+                "abreviacao": "6V4"
+            },
+            "31562": {
+                "abreviacao": "6V5"
+            },
+            "31558": {
+                "abreviacao": "5V3"
+            },
+            "31559": {
+                "abreviacao": "5V4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0421",
+        "qtd_alunos": 9,
+        "id": 13097
+    },
+    "11818": {
+        "horarios_aulas_abreviacao": "2N5 / 4N345",
+        "disciplina": "Gestão de Projetos TLC",
+        "horarios_aulas": {
+            "28922": {
+                "abreviacao": "2N5"
+            },
+            "28923": {
+                "abreviacao": "4N3"
+            },
+            "28924": {
+                "abreviacao": "4N4"
+            },
+            "28925": {
+                "abreviacao": "4N5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 66,
+        "codigo_disciplina": "TEC.0336",
+        "qtd_alunos": 10,
+        "id": 11818
+    },
+    "13099": {
+        "horarios_aulas_abreviacao": "3M456",
+        "disciplina": "Informática Básica Aplicada",
+        "horarios_aulas": {
+            "31661": {
+                "abreviacao": "3M4"
+            },
+            "31662": {
+                "abreviacao": "3M5"
+            },
+            "31663": {
+                "abreviacao": "3M6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 81,
+        "codigo_disciplina": "TIN.0516",
+        "qtd_alunos": 16,
+        "id": 13099
+    },
+    "13100": {
+        "horarios_aulas_abreviacao": "4M456",
+        "disciplina": "Informática Básica Aplicada",
+        "horarios_aulas": {
+            "31664": {
+                "abreviacao": "4M4"
+            },
+            "31665": {
+                "abreviacao": "4M5"
+            },
+            "31666": {
+                "abreviacao": "4M6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 81,
+        "codigo_disciplina": "TIN.0516",
+        "qtd_alunos": 14,
+        "id": 13100
+    },
+    "13106": {
+        "horarios_aulas_abreviacao": "2M456",
+        "disciplina": "Sistemas Microcontrolados",
+        "horarios_aulas": {
+            "32036": {
+                "abreviacao": "2M6"
+            },
+            "32037": {
+                "abreviacao": "2M5"
+            },
+            "32038": {
+                "abreviacao": "2M4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 81,
+        "codigo_disciplina": "TIN.0525",
+        "qtd_alunos": 17,
+        "id": 13106
+    },
+    "12590": {
+        "horarios_aulas_abreviacao": "3M123 / 5M45",
+        "disciplina": "Introdução à Programação",
+        "horarios_aulas": {
+            "29760": {
+                "abreviacao": "5M5"
+            },
+            "29756": {
+                "abreviacao": "3M1"
+            },
+            "29757": {
+                "abreviacao": "3M2"
+            },
+            "29758": {
+                "abreviacao": "3M3"
+            },
+            "29759": {
+                "abreviacao": "5M4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0624",
+        "qtd_alunos": 44,
+        "id": 12590
+    },
+    "12591": {
+        "horarios_aulas_abreviacao": "2M123 / 6M45",
+        "disciplina": "Fundamentos de Redes de Computadores",
+        "horarios_aulas": {
+            "29761": {
+                "abreviacao": "2M1"
+            },
+            "29762": {
+                "abreviacao": "2M2"
+            },
+            "29763": {
+                "abreviacao": "2M3"
+            },
+            "29764": {
+                "abreviacao": "6M4"
+            },
+            "29765": {
+                "abreviacao": "6M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0047",
+        "qtd_alunos": 45,
+        "id": 12591
+    },
+    "12592": {
+        "horarios_aulas_abreviacao": "2M45 / 4M23",
+        "disciplina": "Fundamentos de Tecnologia da Informção",
+        "horarios_aulas": {
+            "29769": {
+                "abreviacao": "2M4"
+            },
+            "29770": {
+                "abreviacao": "2M5"
+            },
+            "29771": {
+                "abreviacao": "4M2"
+            },
+            "29772": {
+                "abreviacao": "4M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.1417",
+        "qtd_alunos": 47,
+        "id": 12592
+    },
+    "11825": {
+        "horarios_aulas_abreviacao": "4N345 / 6N34",
+        "disciplina": "Protocolos e Interconexão de Redes de Computadores",
+        "horarios_aulas": {
+            "28960": {
+                "abreviacao": "6N4"
+            },
+            "28956": {
+                "abreviacao": "4N3"
+            },
+            "28957": {
+                "abreviacao": "4N4"
+            },
+            "28958": {
+                "abreviacao": "4N5"
+            },
+            "28959": {
+                "abreviacao": "6N3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 66,
+        "codigo_disciplina": "TEC.0365",
+        "qtd_alunos": 25,
+        "id": 11825
+    },
+    "12594": {
+        "horarios_aulas_abreviacao": "6M123",
+        "disciplina": "Introdução à Sistemas Abertos",
+        "horarios_aulas": {
+            "29777": {
+                "abreviacao": "6M1"
+            },
+            "29778": {
+                "abreviacao": "6M2"
+            },
+            "29779": {
+                "abreviacao": "6M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.1419",
+        "qtd_alunos": 31,
+        "id": 12594
+    },
+    "11828": {
+        "horarios_aulas_abreviacao": "5N345 / 6N12",
+        "disciplina": "Comunicações Digitais",
+        "horarios_aulas": {
+            "28947": {
+                "abreviacao": "5N3"
+            },
+            "28948": {
+                "abreviacao": "5N4"
+            },
+            "28949": {
+                "abreviacao": "5N5"
+            },
+            "28950": {
+                "abreviacao": "6N1"
+            },
+            "28951": {
+                "abreviacao": "6N2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 66,
+        "codigo_disciplina": "TEC.0371",
+        "qtd_alunos": 8,
+        "id": 11828
+    },
+    "12597": {
+        "horarios_aulas_abreviacao": "3M23 / 5M45",
+        "disciplina": "Estruturas de Dados - RC",
+        "horarios_aulas": {
+            "29788": {
+                "abreviacao": "3M2"
+            },
+            "29789": {
+                "abreviacao": "3M3"
+            },
+            "29790": {
+                "abreviacao": "5M4"
+            },
+            "29791": {
+                "abreviacao": "5M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0157",
+        "qtd_alunos": 23,
+        "id": 12597
+    },
+    "13110": {
+        "horarios_aulas_abreviacao": "5M12",
+        "disciplina": "Fundamentos de Redes de Computadores",
+        "horarios_aulas": {
+            "31915": {
+                "abreviacao": "5M1"
+            },
+            "31916": {
+                "abreviacao": "5M2"
+            }
+        },
+        "id_turma": 5472,
+        "id_curso": 341,
+        "codigo_disciplina": "TIN.0672",
+        "qtd_alunos": 19,
+        "id": 13110
+    },
+    "12490": {
+        "horarios_aulas_abreviacao": "3N123",
+        "disciplina": "Conservação de Energia Elétrica Predial e",
+        "horarios_aulas": {
+            "31626": {
+                "abreviacao": "3N1"
+            },
+            "31627": {
+                "abreviacao": "3N2"
+            },
+            "31628": {
+                "abreviacao": "3N3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 192,
+        "codigo_disciplina": "TSUB.0297",
+        "qtd_alunos": 11,
+        "id": 12490
+    },
+    "12857": {
+        "horarios_aulas_abreviacao": "3V45",
+        "disciplina": "Informática Básica",
+        "horarios_aulas": {
+            "30688": {
+                "abreviacao": "3V5"
+            },
+            "30687": {
+                "abreviacao": "3V4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 76,
+        "codigo_disciplina": "TIN.0018",
+        "qtd_alunos": 18,
+        "id": 12857
+    },
+    "12603": {
+        "horarios_aulas_abreviacao": "3M45 / 5M45",
+        "disciplina": "Programação de Script",
+        "horarios_aulas": {
+            "29809": {
+                "abreviacao": "3M4"
+            },
+            "29810": {
+                "abreviacao": "3M5"
+            },
+            "29811": {
+                "abreviacao": "5M4"
+            },
+            "29812": {
+                "abreviacao": "5M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0165",
+        "qtd_alunos": 14,
+        "id": 12603
+    },
+    "12604": {
+        "horarios_aulas_abreviacao": "3M23 / 5M23",
+        "disciplina": "Programação Orientada a Objetos - RC",
+        "horarios_aulas": {
+            "29816": {
+                "abreviacao": "5M3"
+            },
+            "29813": {
+                "abreviacao": "3M2"
+            },
+            "29814": {
+                "abreviacao": "3M3"
+            },
+            "29815": {
+                "abreviacao": "5M2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0164",
+        "qtd_alunos": 17,
+        "id": 12604
+    },
+    "12606": {
+        "horarios_aulas_abreviacao": "2M34 / 4M345",
+        "disciplina": "Sistemas Operacionais - RC",
+        "horarios_aulas": {
+            "29824": {
+                "abreviacao": "4M3"
+            },
+            "29825": {
+                "abreviacao": "4M4"
+            },
+            "29826": {
+                "abreviacao": "4M5"
+            },
+            "29822": {
+                "abreviacao": "2M3"
+            },
+            "29823": {
+                "abreviacao": "2M4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0163",
+        "qtd_alunos": 17,
+        "id": 12606
+    },
+    "12469": {
+        "horarios_aulas_abreviacao": "2N23",
+        "disciplina": "Eletrônica Digital",
+        "horarios_aulas": {
+            "31484": {
+                "abreviacao": "2N2"
+            },
+            "31485": {
+                "abreviacao": "2N3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 192,
+        "codigo_disciplina": "TSUB.0138",
+        "qtd_alunos": 15,
+        "id": 12469
+    },
+    "11584": {
+        "horarios_aulas_abreviacao": "4M3456",
+        "disciplina": "Administração de Sistemas de Informação",
+        "horarios_aulas": {
+            "30560": {
+                "abreviacao": "4M4"
+            },
+            "30561": {
+                "abreviacao": "4M6"
+            },
+            "30562": {
+                "abreviacao": "4M5"
+            },
+            "30559": {
+                "abreviacao": "4M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 39,
+        "codigo_disciplina": "TEC.0316",
+        "qtd_alunos": 25,
+        "id": 11584
+    },
+    "11510": {
+        "horarios_aulas_abreviacao": "4N45 / 6N345",
+        "disciplina": "Análise de Circuitos Eletrônicos",
+        "horarios_aulas": {
+            "28896": {
+                "abreviacao": "4N4"
+            },
+            "28897": {
+                "abreviacao": "4N5"
+            },
+            "28898": {
+                "abreviacao": "6N3"
+            },
+            "28899": {
+                "abreviacao": "6N4"
+            },
+            "28900": {
+                "abreviacao": "6N5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 66,
+        "codigo_disciplina": "TEC.0268",
+        "qtd_alunos": 7,
+        "id": 11510
+    },
+    "11586": {
+        "horarios_aulas_abreviacao": "4M12 / 5M56",
+        "disciplina": "Contabilidade Gerencial",
+        "horarios_aulas": {
+            "30600": {
+                "abreviacao": "4M1"
+            },
+            "30601": {
+                "abreviacao": "4M2"
+            },
+            "30602": {
+                "abreviacao": "5M5"
+            },
+            "30603": {
+                "abreviacao": "5M6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 39,
+        "codigo_disciplina": "TEC.0323",
+        "qtd_alunos": 20,
+        "id": 11586
+    },
+    "11588": {
+        "horarios_aulas_abreviacao": "2M3456",
+        "disciplina": "Práticas de Pesquisa em Administração da Produção",
+        "horarios_aulas": {
+            "30616": {
+                "abreviacao": "2M4"
+            },
+            "31360": {
+                "abreviacao": "2M5"
+            },
+            "31361": {
+                "abreviacao": "2M6"
+            },
+            "30615": {
+                "abreviacao": "2M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 39,
+        "codigo_disciplina": "TEC.0308",
+        "qtd_alunos": 17,
+        "id": 11588
+    },
+    "11589": {
+        "horarios_aulas_abreviacao": "3M12 / 6M3456",
+        "disciplina": "Práticas de Pesquisa em Administração de Marketing",
+        "horarios_aulas": {
+            "32800": {
+                "abreviacao": "6M4"
+            },
+            "32801": {
+                "abreviacao": "6M3"
+            },
+            "30626": {
+                "abreviacao": "3M2"
+            },
+            "30625": {
+                "abreviacao": "3M1"
+            },
+            "32798": {
+                "abreviacao": "6M6"
+            },
+            "32799": {
+                "abreviacao": "6M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 39,
+        "codigo_disciplina": "TEC.0320",
+        "qtd_alunos": 16,
+        "id": 11589
+    },
+    "12614": {
+        "horarios_aulas_abreviacao": "3M12 / 5M12",
+        "disciplina": "Redes sem Fio",
+        "horarios_aulas": {
+            "29848": {
+                "abreviacao": "3M1"
+            },
+            "29849": {
+                "abreviacao": "3M2"
+            },
+            "29850": {
+                "abreviacao": "5M1"
+            },
+            "29851": {
+                "abreviacao": "5M2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0173",
+        "qtd_alunos": 12,
+        "id": 12614
+    },
+    "12103": {
+        "horarios_aulas_abreviacao": "4M456",
+        "disciplina": "Programação Aplicada ao SIG",
+        "horarios_aulas": {
+            "29440": {
+                "abreviacao": "4M4"
+            },
+            "29441": {
+                "abreviacao": "4M5"
+            },
+            "29442": {
+                "abreviacao": "4M6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.1085",
+        "qtd_alunos": 1,
+        "id": 12103
+    },
+    "12616": {
+        "horarios_aulas_abreviacao": "2M45 / 3M345",
+        "disciplina": "Administração de Sistemas Proprietários",
+        "horarios_aulas": {
+            "29856": {
+                "abreviacao": "2M5"
+            },
+            "29857": {
+                "abreviacao": "3M4"
+            },
+            "29858": {
+                "abreviacao": "3M5"
+            },
+            "29859": {
+                "abreviacao": "3M3"
+            },
+            "29855": {
+                "abreviacao": "2M4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0176",
+        "qtd_alunos": 5,
+        "id": 12616
+    },
+    "12617": {
+        "horarios_aulas_abreviacao": "4M456",
+        "disciplina": "Administração de Ativos de Redes",
+        "horarios_aulas": {
+            "29860": {
+                "abreviacao": "4M6"
+            },
+            "29861": {
+                "abreviacao": "4M5"
+            },
+            "29862": {
+                "abreviacao": "4M4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0175",
+        "qtd_alunos": 10,
+        "id": 12617
+    },
+    "12618": {
+        "horarios_aulas_abreviacao": "3M45 / 5M45",
+        "disciplina": "Prática em Segurança de Redes",
+        "horarios_aulas": {
+            "29864": {
+                "abreviacao": "3M5"
+            },
+            "29865": {
+                "abreviacao": "5M4"
+            },
+            "29866": {
+                "abreviacao": "5M5"
+            },
+            "29863": {
+                "abreviacao": "3M4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0178",
+        "qtd_alunos": 16,
+        "id": 12618
+    },
+    "11595": {
+        "horarios_aulas_abreviacao": "6M3456",
+        "disciplina": "Práticas de Pesquisa em Recursos Materiais e Patrimoniais",
+        "horarios_aulas": {
+            "30666": {
+                "abreviacao": "6M6"
+            },
+            "30667": {
+                "abreviacao": "6M5"
+            },
+            "30668": {
+                "abreviacao": "6M4"
+            },
+            "30669": {
+                "abreviacao": "6M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 39,
+        "codigo_disciplina": "TEC.0330",
+        "qtd_alunos": 21,
+        "id": 11595
+    },
+    "12876": {
+        "horarios_aulas_abreviacao": "2V345 / 3V456",
+        "disciplina": "Desenho Arquitetônico I",
+        "horarios_aulas": {
+            "30817": {
+                "abreviacao": "3V6"
+            },
+            "30818": {
+                "abreviacao": "3V5"
+            },
+            "51610": {
+                "abreviacao": "2V5"
+            },
+            "51611": {
+                "abreviacao": "2V4"
+            },
+            "51612": {
+                "abreviacao": "2V3"
+            },
+            "30814": {
+                "abreviacao": "3V4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 76,
+        "codigo_disciplina": "TIN.0240",
+        "qtd_alunos": 20,
+        "id": 12876
+    },
+    "12621": {
+        "horarios_aulas_abreviacao": "4M23 / 6M23",
+        "disciplina": "Redes Convergentes",
+        "horarios_aulas": {
+            "29875": {
+                "abreviacao": "4M2"
+            },
+            "29876": {
+                "abreviacao": "4M3"
+            },
+            "29877": {
+                "abreviacao": "6M2"
+            },
+            "29878": {
+                "abreviacao": "6M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0181",
+        "qtd_alunos": 17,
+        "id": 12621
+    },
+    "12755": {
+        "horarios_aulas_abreviacao": "5M456",
+        "disciplina": "Informática Básica Aplicada",
+        "horarios_aulas": {
+            "31667": {
+                "abreviacao": "5M4"
+            },
+            "31668": {
+                "abreviacao": "5M5"
+            },
+            "31669": {
+                "abreviacao": "5M6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 81,
+        "codigo_disciplina": "TIN.0516",
+        "qtd_alunos": 14,
+        "id": 12755
+    },
+    "11600": {
+        "horarios_aulas_abreviacao": "2M34 / 5M12",
+        "disciplina": "Formação de Empreendedores",
+        "horarios_aulas": {
+            "32786": {
+                "abreviacao": "2M3"
+            },
+            "32787": {
+                "abreviacao": "2M4"
+            },
+            "32238": {
+                "abreviacao": "5M1"
+            },
+            "32239": {
+                "abreviacao": "5M2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 39,
+        "codigo_disciplina": "TEC.0340",
+        "qtd_alunos": 13,
+        "id": 11600
+    },
+    "12472": {
+        "horarios_aulas_abreviacao": "3N2345 / 6N2345",
+        "disciplina": "Eletricidade I",
+        "horarios_aulas": {
+            "31476": {
+                "abreviacao": "3N2"
+            },
+            "31477": {
+                "abreviacao": "3N3"
+            },
+            "31478": {
+                "abreviacao": "3N4"
+            },
+            "31479": {
+                "abreviacao": "3N5"
+            },
+            "31480": {
+                "abreviacao": "6N2"
+            },
+            "31481": {
+                "abreviacao": "6N3"
+            },
+            "31482": {
+                "abreviacao": "6N4"
+            },
+            "31483": {
+                "abreviacao": "6N5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 192,
+        "codigo_disciplina": "TSUB.0271",
+        "qtd_alunos": 34,
+        "id": 12472
+    },
+    "12374": {
+        "horarios_aulas_abreviacao": "3N123",
+        "disciplina": "Eletrônica Básica",
+        "horarios_aulas": {
+            "28856": {
+                "abreviacao": "3N1"
+            },
+            "28857": {
+                "abreviacao": "3N2"
+            },
+            "28858": {
+                "abreviacao": "3N3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 66,
+        "codigo_disciplina": "TEC.0143",
+        "qtd_alunos": 24,
+        "id": 12374
+    },
+    "11775": {
+        "horarios_aulas_abreviacao": "5V345",
+        "disciplina": "Desenvolvimento Ágil com Ferramenta RAD",
+        "horarios_aulas": {
+            "29226": {
+                "abreviacao": "5V3"
+            },
+            "29227": {
+                "abreviacao": "5V4"
+            },
+            "29228": {
+                "abreviacao": "5V5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0446",
+        "qtd_alunos": 15,
+        "id": 11775
+    },
+    "12598": {
+        "horarios_aulas_abreviacao": "3M45",
+        "disciplina": "Laboratório de Redes de Computadores",
+        "horarios_aulas": {
+            "29792": {
+                "abreviacao": "3M4"
+            },
+            "29793": {
+                "abreviacao": "3M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0160",
+        "qtd_alunos": 31,
+        "id": 12598
+    },
+    "12619": {
+        "horarios_aulas_abreviacao": "3M23 / 5M23",
+        "disciplina": "Projetos de Redes de Computadores",
+        "horarios_aulas": {
+            "29867": {
+                "abreviacao": "3M2"
+            },
+            "29868": {
+                "abreviacao": "3M3"
+            },
+            "29869": {
+                "abreviacao": "5M2"
+            },
+            "29870": {
+                "abreviacao": "5M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0179",
+        "qtd_alunos": 18,
+        "id": 12619
+    },
+    "12963": {
+        "horarios_aulas_abreviacao": "3V56",
+        "disciplina": "Fundamentos da Metodologia",
+        "horarios_aulas": {
+            "30968": {
+                "abreviacao": "3V5"
+            },
+            "30969": {
+                "abreviacao": "3V6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0425",
+        "qtd_alunos": 12,
+        "id": 12963
+    },
+    "12799": {
+        "horarios_aulas_abreviacao": "4M45",
+        "disciplina": "Álgebra Booleana e Circuitos Lógicos",
+        "horarios_aulas": {
+            "30680": {
+                "abreviacao": "4M4"
+            },
+            "30682": {
+                "abreviacao": "4M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 81,
+        "codigo_disciplina": "TIN.0517",
+        "qtd_alunos": 16,
+        "id": 12799
+    },
+    "14690": {
+        "horarios_aulas_abreviacao": "2V6 / 3V56 / 4V6",
+        "disciplina": "Estágio Supervisionado",
+        "horarios_aulas": {
+            "34412": {
+                "abreviacao": "2V6"
+            },
+            "34413": {
+                "abreviacao": "3V5"
+            },
+            "34414": {
+                "abreviacao": "3V6"
+            },
+            "34415": {
+                "abreviacao": "4V6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0711",
+        "qtd_alunos": 2,
+        "id": 14690
+    },
+    "11707": {
+        "horarios_aulas_abreviacao": "4M45",
+        "disciplina": "Gerenciamento de Riscos Ambientais",
+        "horarios_aulas": {
+            "32186": {
+                "abreviacao": "4M4"
+            },
+            "32242": {
+                "abreviacao": "4M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 61,
+        "codigo_disciplina": "TEC.0477",
+        "qtd_alunos": 13,
+        "id": 11707
+    },
+    "12902": {
+        "horarios_aulas_abreviacao": "5V56",
+        "disciplina": "Planejamento e Orçamento de Obras",
+        "horarios_aulas": {
+            "33226": {
+                "abreviacao": "5V5"
+            },
+            "33227": {
+                "abreviacao": "5V6"
+            }
+        },
+        "id_turma": 5409,
+        "id_curso": 76,
+        "codigo_disciplina": "TIN.0140",
+        "qtd_alunos": 39,
+        "id": 12902
+    },
+    "16744": {
+        "horarios_aulas_abreviacao": "4V45 / 6V34",
+        "disciplina": "Linguagens de Marcação",
+        "horarios_aulas": {
+            "40912": {
+                "abreviacao": "4V5"
+            },
+            "40913": {
+                "abreviacao": "6V3"
+            },
+            "40914": {
+                "abreviacao": "6V4"
+            },
+            "40911": {
+                "abreviacao": "4V4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0588",
+        "qtd_alunos": 35,
+        "id": 16744
+    },
+    "13674": {
+        "horarios_aulas_abreviacao": "6M12",
+        "disciplina": "Prática Contábil I",
+        "horarios_aulas": {
+            "32299": {
+                "abreviacao": "6M1"
+            },
+            "32300": {
+                "abreviacao": "6M2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 70,
+        "codigo_disciplina": "EJA.0062",
+        "qtd_alunos": 20,
+        "id": 13674
+    },
+    "12907": {
+        "horarios_aulas_abreviacao": "3V12",
+        "disciplina": "Projeto de Estruturas",
+        "horarios_aulas": {
+            "31069": {
+                "abreviacao": "3V2"
+            },
+            "48406": {
+                "abreviacao": "3V1"
+            }
+        },
+        "id_turma": 5409,
+        "id_curso": 76,
+        "codigo_disciplina": "TIN.0432",
+        "qtd_alunos": 23,
+        "id": 12907
+    },
+    "12756": {
+        "horarios_aulas_abreviacao": "3M45",
+        "disciplina": "Álgebra Booleana e Circuitos Lógicos",
+        "horarios_aulas": {
+            "30265": {
+                "abreviacao": "3M4"
+            },
+            "30266": {
+                "abreviacao": "3M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 81,
+        "codigo_disciplina": "TIN.0517",
+        "qtd_alunos": 14,
+        "id": 12756
+    },
+    "12397": {
+        "horarios_aulas_abreviacao": "3N345 / 6N234",
+        "disciplina": "Eletrônica Analógica I",
+        "horarios_aulas": {
+            "30281": {
+                "abreviacao": "3N3"
+            },
+            "30282": {
+                "abreviacao": "3N4"
+            },
+            "30283": {
+                "abreviacao": "3N5"
+            },
+            "30284": {
+                "abreviacao": "6N2"
+            },
+            "30285": {
+                "abreviacao": "6N3"
+            },
+            "30286": {
+                "abreviacao": "6N4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 191,
+        "codigo_disciplina": "TSUB.0254",
+        "qtd_alunos": 12,
+        "id": 12397
+    },
+    "15815": {
+        "horarios_aulas_abreviacao": "5V12 / 6V12",
+        "disciplina": "Fundamentos de Redes de Computadores",
+        "horarios_aulas": {
+            "36608": {
+                "abreviacao": "6V2"
+            },
+            "36604": {
+                "abreviacao": "5V1"
+            },
+            "36605": {
+                "abreviacao": "5V2"
+            },
+            "36607": {
+                "abreviacao": "6V1"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.1094",
+        "qtd_alunos": 20,
+        "id": 15815
+    },
+    "12023": {
+        "horarios_aulas_abreviacao": "3M12345",
+        "disciplina": "Posicionamento por Satélites",
+        "horarios_aulas": {
+            "28555": {
+                "abreviacao": "3M1"
+            },
+            "28556": {
+                "abreviacao": "3M2"
+            },
+            "28557": {
+                "abreviacao": "3M3"
+            },
+            "28558": {
+                "abreviacao": "3M4"
+            },
+            "28559": {
+                "abreviacao": "3M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0209",
+        "qtd_alunos": 4,
+        "id": 12023
+    },
+    "11632": {
+        "horarios_aulas_abreviacao": "2N5 / 3N345",
+        "disciplina": "Práticas de Pesquisa em Administração da Produção",
+        "horarios_aulas": {
+            "31096": {
+                "abreviacao": "3N3"
+            },
+            "31097": {
+                "abreviacao": "3N4"
+            },
+            "31098": {
+                "abreviacao": "3N5"
+            },
+            "31095": {
+                "abreviacao": "2N5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 39,
+        "codigo_disciplina": "TEC.0308",
+        "qtd_alunos": 15,
+        "id": 11632
+    },
+    "12658": {
+        "horarios_aulas_abreviacao": "3M123 / 5M45",
+        "disciplina": "Algoritmo e Programação Estruturada - RC",
+        "horarios_aulas": {
+            "30232": {
+                "abreviacao": "3M1"
+            },
+            "30233": {
+                "abreviacao": "3M2"
+            },
+            "30234": {
+                "abreviacao": "3M3"
+            },
+            "30235": {
+                "abreviacao": "5M4"
+            },
+            "30236": {
+                "abreviacao": "5M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0075",
+        "qtd_alunos": 23,
+        "id": 12658
+    },
+    "15219": {
+        "horarios_aulas_abreviacao": "4V12 / 6V12",
+        "disciplina": "Linguagens de Script",
+        "horarios_aulas": {
+            "36209": {
+                "abreviacao": "4V1"
+            },
+            "36210": {
+                "abreviacao": "4V2"
+            },
+            "36211": {
+                "abreviacao": "6V1"
+            },
+            "36212": {
+                "abreviacao": "6V2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.1095",
+        "qtd_alunos": 19,
+        "id": 15219
+    },
+    "12734": {
+        "horarios_aulas_abreviacao": "4N5 / 5N12",
+        "disciplina": "Informática Básica",
+        "horarios_aulas": {
+            "30256": {
+                "abreviacao": "5N1"
+            },
+            "30257": {
+                "abreviacao": "5N2"
+            },
+            "31452": {
+                "abreviacao": "4N5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 215,
+        "codigo_disciplina": "TSUB.0100",
+        "qtd_alunos": 34,
+        "id": 12734
+    },
+    "11776": {
+        "horarios_aulas_abreviacao": "2V12 / 4V12",
+        "disciplina": "Inteligência Empresarial",
+        "horarios_aulas": {
+            "29520": {
+                "abreviacao": "2V1"
+            },
+            "29234": {
+                "abreviacao": "2V2"
+            },
+            "29236": {
+                "abreviacao": "4V1"
+            },
+            "29237": {
+                "abreviacao": "4V2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0447",
+        "qtd_alunos": 20,
+        "id": 11776
+    },
+    "11639": {
+        "horarios_aulas_abreviacao": "5N123 / 6N1",
+        "disciplina": "Práticas de Pesquisa em Recursos Materiais e Patrimoniais",
+        "horarios_aulas": {
+            "30905": {
+                "abreviacao": "5N2"
+            },
+            "30906": {
+                "abreviacao": "5N3"
+            },
+            "32793": {
+                "abreviacao": "5N1"
+            },
+            "30903": {
+                "abreviacao": "6N1"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 39,
+        "codigo_disciplina": "TEC.0330",
+        "qtd_alunos": 19,
+        "id": 11639
+    },
+    "12664": {
+        "horarios_aulas_abreviacao": "6M12",
+        "disciplina": "Informática Aplicada",
+        "horarios_aulas": {
+            "31800": {
+                "abreviacao": "6M1"
+            },
+            "31801": {
+                "abreviacao": "6M2"
+            }
+        },
+        "id_turma": 5332,
+        "id_curso": 88,
+        "codigo_disciplina": "TIN.0835",
+        "qtd_alunos": 19,
+        "id": 12664
+    },
+    "11711": {
+        "horarios_aulas_abreviacao": "4M12",
+        "disciplina": "Interpolação Espacial GA",
+        "horarios_aulas": {
+            "29305": {
+                "abreviacao": "4M1"
+            },
+            "29306": {
+                "abreviacao": "4M2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 61,
+        "codigo_disciplina": "TEC.0479",
+        "qtd_alunos": 7,
+        "id": 11711
+    },
+    "11388": {
+        "horarios_aulas_abreviacao": "2N12 / 4N345",
+        "disciplina": "Desenho Arquitetônico",
+        "horarios_aulas": {
+            "29362": {
+                "abreviacao": "2N1"
+            },
+            "29363": {
+                "abreviacao": "2N2"
+            },
+            "29364": {
+                "abreviacao": "4N5"
+            },
+            "29365": {
+                "abreviacao": "4N4"
+            },
+            "29366": {
+                "abreviacao": "4N3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 57,
+        "codigo_disciplina": "TEC.0235",
+        "qtd_alunos": 14,
+        "id": 11388
+    },
+    "13845": {
+        "horarios_aulas_abreviacao": "4V45",
+        "disciplina": "Desenho Aplicado Auxiliado por Computador Ampliado",
+        "horarios_aulas": {
+            "33005": {
+                "abreviacao": "4V4"
+            },
+            "33006": {
+                "abreviacao": "4V5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 76,
+        "codigo_disciplina": "TIN.0427",
+        "qtd_alunos": 18,
+        "id": 13845
+    },
+    "11648": {
+        "horarios_aulas_abreviacao": "2N45",
+        "disciplina": "Fundamentos da Metodologia da Pesquisa Científica",
+        "horarios_aulas": {
+            "30744": {
+                "abreviacao": "2N4"
+            },
+            "30745": {
+                "abreviacao": "2N5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 63,
+        "codigo_disciplina": "TEC.0129",
+        "qtd_alunos": 28,
+        "id": 11648
+    },
+    "12417": {
+        "horarios_aulas_abreviacao": "4N12",
+        "disciplina": "Informática Básica",
+        "horarios_aulas": {
+            "30146": {
+                "abreviacao": "4N1"
+            },
+            "30147": {
+                "abreviacao": "4N2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 195,
+        "codigo_disciplina": "TSUB.0074",
+        "qtd_alunos": 27,
+        "id": 12417
+    },
+    "11650": {
+        "horarios_aulas_abreviacao": "6N123",
+        "disciplina": "Informática Básica - ADM",
+        "horarios_aulas": {
+            "30763": {
+                "abreviacao": "6N1"
+            },
+            "30764": {
+                "abreviacao": "6N2"
+            },
+            "30765": {
+                "abreviacao": "6N3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 63,
+        "codigo_disciplina": "TEC.0114",
+        "qtd_alunos": 29,
+        "id": 11650
+    },
+    "11397": {
+        "horarios_aulas_abreviacao": "4M456",
+        "disciplina": "História do Design",
+        "horarios_aulas": {
+            "27773": {
+                "abreviacao": "4M4"
+            },
+            "28598": {
+                "abreviacao": "4M5"
+            },
+            "28599": {
+                "abreviacao": "4M6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 59,
+        "codigo_disciplina": "TEC.0035",
+        "qtd_alunos": 32,
+        "id": 11397
+    },
+    "12609": {
+        "horarios_aulas_abreviacao": "6M12345",
+        "disciplina": "Desenvolvimento Web",
+        "horarios_aulas": {
+            "30209": {
+                "abreviacao": "6M1"
+            },
+            "30210": {
+                "abreviacao": "6M2"
+            },
+            "30211": {
+                "abreviacao": "6M3"
+            },
+            "30212": {
+                "abreviacao": "6M4"
+            },
+            "30213": {
+                "abreviacao": "6M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0169",
+        "qtd_alunos": 22,
+        "id": 12609
+    },
+    "12680": {
+        "horarios_aulas_abreviacao": "6M56",
+        "disciplina": "Informática Aplicada",
+        "horarios_aulas": {
+            "30428": {
+                "abreviacao": "6M5"
+            },
+            "30429": {
+                "abreviacao": "6M6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 70,
+        "codigo_disciplina": "TIN.0835",
+        "qtd_alunos": 23,
+        "id": 12680
+    },
+    "13098": {
+        "horarios_aulas_abreviacao": "3M456",
+        "disciplina": "Eletricidade Básica",
+        "horarios_aulas": {
+            "31650": {
+                "abreviacao": "3M4"
+            },
+            "31651": {
+                "abreviacao": "3M5"
+            },
+            "31652": {
+                "abreviacao": "3M6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 81,
+        "codigo_disciplina": "TIN.0647",
+        "qtd_alunos": 14,
+        "id": 13098
+    },
+    "16738": {
+        "horarios_aulas_abreviacao": "4V23",
+        "disciplina": "Projeto de Estruturas",
+        "horarios_aulas": {
+            "48404": {
+                "abreviacao": "4V2"
+            },
+            "48405": {
+                "abreviacao": "4V3"
+            }
+        },
+        "id_turma": 5409,
+        "id_curso": 76,
+        "codigo_disciplina": "TIN.0432",
+        "qtd_alunos": 16,
+        "id": 16738
+    },
+    "11409": {
+        "horarios_aulas_abreviacao": "4M12",
+        "disciplina": "Conforto Térmico DI",
+        "horarios_aulas": {
+            "27932": {
+                "abreviacao": "4M1"
+            },
+            "27933": {
+                "abreviacao": "4M2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 59,
+        "codigo_disciplina": "TEC.0403",
+        "qtd_alunos": 19,
+        "id": 11409
+    },
+    "11411": {
+        "horarios_aulas_abreviacao": "5M123456",
+        "disciplina": "Projetos de Interiores Residenciais DI",
+        "horarios_aulas": {
+            "28256": {
+                "abreviacao": "5M5"
+            },
+            "28257": {
+                "abreviacao": "5M6"
+            },
+            "28252": {
+                "abreviacao": "5M1"
+            },
+            "28253": {
+                "abreviacao": "5M2"
+            },
+            "28254": {
+                "abreviacao": "5M3"
+            },
+            "28255": {
+                "abreviacao": "5M4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 59,
+        "codigo_disciplina": "TEC.0400",
+        "qtd_alunos": 19,
+        "id": 11411
+    },
+    "12800": {
+        "horarios_aulas_abreviacao": "5M56",
+        "disciplina": "Álgebra Booleana e Circuitos Lógicos",
+        "horarios_aulas": {
+            "30675": {
+                "abreviacao": "5M5"
+            },
+            "30676": {
+                "abreviacao": "5M6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 81,
+        "codigo_disciplina": "TIN.0517",
+        "qtd_alunos": 14,
+        "id": 12800
+    },
+    "11671": {
+        "horarios_aulas_abreviacao": "6M12345",
+        "disciplina": "Eletricidade Aplicada",
+        "horarios_aulas": {
+            "29912": {
+                "abreviacao": "6M2"
+            },
+            "29913": {
+                "abreviacao": "6M3"
+            },
+            "29914": {
+                "abreviacao": "6M4"
+            },
+            "29915": {
+                "abreviacao": "6M5"
+            },
+            "29911": {
+                "abreviacao": "6M1"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 68,
+        "codigo_disciplina": "TEC.0054",
+        "qtd_alunos": 24,
+        "id": 11671
+    },
+    "16536": {
+        "horarios_aulas_abreviacao": "3V12 / 5V12",
+        "disciplina": "Banco de Dados I",
+        "horarios_aulas": {
+            "39720": {
+                "abreviacao": "3V1"
+            },
+            "39721": {
+                "abreviacao": "3V2"
+            },
+            "39722": {
+                "abreviacao": "5V1"
+            },
+            "39723": {
+                "abreviacao": "5V2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0423",
+        "qtd_alunos": 25,
+        "id": 16536
+    },
+    "12462": {
+        "horarios_aulas_abreviacao": "4N12",
+        "disciplina": "Desenho de Estruturas",
+        "horarios_aulas": {
+            "29648": {
+                "abreviacao": "4N1"
+            },
+            "29649": {
+                "abreviacao": "4N2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 186,
+        "codigo_disciplina": "TSUB.0111",
+        "qtd_alunos": 15,
+        "id": 12462
+    },
+    "11418": {
+        "horarios_aulas_abreviacao": "5M23",
+        "disciplina": "Metodologia Científica DI",
+        "horarios_aulas": {
+            "28601": {
+                "abreviacao": "5M2"
+            },
+            "28602": {
+                "abreviacao": "5M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 59,
+        "codigo_disciplina": "TEC.0411",
+        "qtd_alunos": 29,
+        "id": 11418
+    },
+    "13090": {
+        "horarios_aulas_abreviacao": "5M6 / 6M123",
+        "disciplina": "Práticas de Sistemas Abertos",
+        "horarios_aulas": {
+            "36225": {
+                "abreviacao": "5M6"
+            },
+            "31364": {
+                "abreviacao": "6M1"
+            },
+            "31365": {
+                "abreviacao": "6M2"
+            },
+            "31366": {
+                "abreviacao": "6M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0036",
+        "qtd_alunos": 9,
+        "id": 13090
+    },
+    "12444": {
+        "horarios_aulas_abreviacao": "3N345",
+        "disciplina": "Informática Aplicada",
+        "horarios_aulas": {
+            "29501": {
+                "abreviacao": "3N5"
+            },
+            "29502": {
+                "abreviacao": "3N3"
+            },
+            "29503": {
+                "abreviacao": "3N4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 186,
+        "codigo_disciplina": "TSUB.0189",
+        "qtd_alunos": 23,
+        "id": 12444
+    },
+    "11421": {
+        "horarios_aulas_abreviacao": "3M1234 / 6M3456",
+        "disciplina": "Projetos de Interiores Institucionais DI",
+        "horarios_aulas": {
+            "28464": {
+                "abreviacao": "6M6"
+            },
+            "28455": {
+                "abreviacao": "3M1"
+            },
+            "28456": {
+                "abreviacao": "3M2"
+            },
+            "28457": {
+                "abreviacao": "3M3"
+            },
+            "28458": {
+                "abreviacao": "3M4"
+            },
+            "28461": {
+                "abreviacao": "6M3"
+            },
+            "28462": {
+                "abreviacao": "6M4"
+            },
+            "28463": {
+                "abreviacao": "6M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 59,
+        "codigo_disciplina": "TEC.0412",
+        "qtd_alunos": 29,
+        "id": 11421
+    },
+    "13168": {
+        "horarios_aulas_abreviacao": "3M56",
+        "disciplina": "Informática Básica",
+        "horarios_aulas": {
+            "34379": {
+                "abreviacao": "3M5"
+            },
+            "34380": {
+                "abreviacao": "3M6"
+            }
+        },
+        "id_turma": 5505,
+        "id_curso": 82,
+        "codigo_disciplina": "TIN.0018",
+        "qtd_alunos": 21,
+        "id": 13168
+    },
+    "12962": {
+        "horarios_aulas_abreviacao": "5M456",
+        "disciplina": "Eletricidade Básica",
+        "horarios_aulas": {
+            "31648": {
+                "abreviacao": "5M5"
+            },
+            "31649": {
+                "abreviacao": "5M6"
+            },
+            "31647": {
+                "abreviacao": "5M4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 81,
+        "codigo_disciplina": "TIN.0647",
+        "qtd_alunos": 16,
+        "id": 12962
+    },
+    "12451": {
+        "horarios_aulas_abreviacao": "5N123",
+        "disciplina": "Desenho Auxiliado por Computador I - CAD I",
+        "horarios_aulas": {
+            "29555": {
+                "abreviacao": "5N1"
+            },
+            "29556": {
+                "abreviacao": "5N2"
+            },
+            "29557": {
+                "abreviacao": "5N3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 186,
+        "codigo_disciplina": "TSUB.0104",
+        "qtd_alunos": 15,
+        "id": 12451
+    },
+    "13220": {
+        "horarios_aulas_abreviacao": "2V45",
+        "disciplina": "Informática Básica",
+        "horarios_aulas": {
+            "33149": {
+                "abreviacao": "2V4"
+            },
+            "33150": {
+                "abreviacao": "2V5"
+            }
+        },
+        "id_turma": 5523,
+        "id_curso": 82,
+        "codigo_disciplina": "TIN.0018",
+        "qtd_alunos": 18,
+        "id": 13220
+    },
+    "13733": {
+        "horarios_aulas_abreviacao": "5V345",
+        "disciplina": "Desenho Arquitetônico II",
+        "horarios_aulas": {
+            "33008": {
+                "abreviacao": "5V4"
+            },
+            "33011": {
+                "abreviacao": "5V3"
+            },
+            "33007": {
+                "abreviacao": "5V5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 76,
+        "codigo_disciplina": "TIN.0244",
+        "qtd_alunos": 14,
+        "id": 13733
+    },
+    "11431": {
+        "horarios_aulas_abreviacao": "3M45 / 4M45",
+        "disciplina": "Lógica de Programação e Algorítimos",
+        "horarios_aulas": {
+            "28648": {
+                "abreviacao": "4M5"
+            },
+            "28645": {
+                "abreviacao": "3M4"
+            },
+            "28646": {
+                "abreviacao": "3M5"
+            },
+            "28647": {
+                "abreviacao": "4M4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0048",
+        "qtd_alunos": 23,
+        "id": 11431
+    },
+    "12456": {
+        "horarios_aulas_abreviacao": "6N123",
+        "disciplina": "Desenho Auxiliado por Computador II - CAD II",
+        "horarios_aulas": {
+            "29596": {
+                "abreviacao": "6N1"
+            },
+            "29597": {
+                "abreviacao": "6N2"
+            },
+            "29598": {
+                "abreviacao": "6N3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 186,
+        "codigo_disciplina": "TSUB.0107",
+        "qtd_alunos": 11,
+        "id": 12456
+    },
+    "11505": {
+        "horarios_aulas_abreviacao": "3N45 / 4N123",
+        "disciplina": "Campos e Ondas",
+        "horarios_aulas": {
+            "31325": {
+                "abreviacao": "3N5"
+            },
+            "31324": {
+                "abreviacao": "3N4"
+            },
+            "28869": {
+                "abreviacao": "4N1"
+            },
+            "28870": {
+                "abreviacao": "4N2"
+            },
+            "28871": {
+                "abreviacao": "4N3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 66,
+        "codigo_disciplina": "TEC.0146",
+        "qtd_alunos": 13,
+        "id": 11505
+    },
+    "11436": {
+        "horarios_aulas_abreviacao": "2M23",
+        "disciplina": "Introdução ao SIG",
+        "horarios_aulas": {
+            "28676": {
+                "abreviacao": "2M2"
+            },
+            "28677": {
+                "abreviacao": "2M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.1076",
+        "qtd_alunos": 11,
+        "id": 11436
+    },
+    "11437": {
+        "horarios_aulas_abreviacao": "4M12 / 6M45",
+        "disciplina": "Banco de Dados",
+        "horarios_aulas": {
+            "28672": {
+                "abreviacao": "4M1"
+            },
+            "28673": {
+                "abreviacao": "4M2"
+            },
+            "28674": {
+                "abreviacao": "6M4"
+            },
+            "28675": {
+                "abreviacao": "6M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0090",
+        "qtd_alunos": 12,
+        "id": 11437
+    },
+    "11694": {
+        "horarios_aulas_abreviacao": "3M23",
+        "disciplina": "Geoprocessamento",
+        "horarios_aulas": {
+            "29256": {
+                "abreviacao": "3M3"
+            },
+            "29255": {
+                "abreviacao": "3M2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 61,
+        "codigo_disciplina": "TEC.0463",
+        "qtd_alunos": 17,
+        "id": 11694
+    },
+    "12463": {
+        "horarios_aulas_abreviacao": "2N1234",
+        "disciplina": "Projeto Hidrossanitário",
+        "horarios_aulas": {
+            "29656": {
+                "abreviacao": "2N4"
+            },
+            "29653": {
+                "abreviacao": "2N1"
+            },
+            "29654": {
+                "abreviacao": "2N2"
+            },
+            "29655": {
+                "abreviacao": "2N3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 186,
+        "codigo_disciplina": "TSUB.0113",
+        "qtd_alunos": 13,
+        "id": 12463
+    },
+    "11443": {
+        "horarios_aulas_abreviacao": "3M45 / 5M34",
+        "disciplina": "Linguagem de Programação",
+        "horarios_aulas": {
+            "28577": {
+                "abreviacao": "3M4"
+            },
+            "28578": {
+                "abreviacao": "3M5"
+            },
+            "28579": {
+                "abreviacao": "5M3"
+            },
+            "28580": {
+                "abreviacao": "5M4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0080",
+        "qtd_alunos": 7,
+        "id": 11443
+    },
+    "11445": {
+        "horarios_aulas_abreviacao": "2M34 / 6M34",
+        "disciplina": "Banco de Dados Geográficos",
+        "horarios_aulas": {
+            "28576": {
+                "abreviacao": "6M4"
+            },
+            "28573": {
+                "abreviacao": "2M3"
+            },
+            "28574": {
+                "abreviacao": "2M4"
+            },
+            "28575": {
+                "abreviacao": "6M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0217",
+        "qtd_alunos": 7,
+        "id": 11445
+    },
+    "11446": {
+        "horarios_aulas_abreviacao": "2M56 / 5M12",
+        "disciplina": "Representações Cartográficas",
+        "horarios_aulas": {
+            "28584": {
+                "abreviacao": "5M2"
+            },
+            "28581": {
+                "abreviacao": "2M5"
+            },
+            "28582": {
+                "abreviacao": "2M6"
+            },
+            "28583": {
+                "abreviacao": "5M1"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0092",
+        "qtd_alunos": 8,
+        "id": 11446
+    },
+    "11447": {
+        "horarios_aulas_abreviacao": "4M23 / 5M56",
+        "disciplina": "SIG",
+        "horarios_aulas": {
+            "32305": {
+                "abreviacao": "5M5"
+            },
+            "32306": {
+                "abreviacao": "5M6"
+            },
+            "28587": {
+                "abreviacao": "4M2"
+            },
+            "28588": {
+                "abreviacao": "4M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.1078",
+        "qtd_alunos": 8,
+        "id": 11447
+    },
+    "11704": {
+        "horarios_aulas_abreviacao": "5M45",
+        "disciplina": "Sensoriamento Remoto",
+        "horarios_aulas": {
+            "29282": {
+                "abreviacao": "5M4"
+            },
+            "29283": {
+                "abreviacao": "5M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 61,
+        "codigo_disciplina": "TEC.0467",
+        "qtd_alunos": 15,
+        "id": 11704
+    },
+    "11705": {
+        "horarios_aulas_abreviacao": "3M45 / 5M23",
+        "disciplina": "Sistema de Informações Geográficas  -  SIG",
+        "horarios_aulas": {
+            "29284": {
+                "abreviacao": "3M4"
+            },
+            "29285": {
+                "abreviacao": "3M5"
+            },
+            "29286": {
+                "abreviacao": "5M2"
+            },
+            "29287": {
+                "abreviacao": "5M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 61,
+        "codigo_disciplina": "TEC.0468",
+        "qtd_alunos": 16,
+        "id": 11705
+    },
+    "11451": {
+        "horarios_aulas_abreviacao": "3V45 / 5V345",
+        "disciplina": "Algoritmo e Programação Estruturada",
+        "horarios_aulas": {
+            "29105": {
+                "abreviacao": "3V4"
+            },
+            "29106": {
+                "abreviacao": "3V5"
+            },
+            "29107": {
+                "abreviacao": "5V3"
+            },
+            "29108": {
+                "abreviacao": "5V4"
+            },
+            "29109": {
+                "abreviacao": "5V5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0034",
+        "qtd_alunos": 70,
+        "id": 11451
+    },
+    "11453": {
+        "horarios_aulas_abreviacao": "2V345",
+        "disciplina": "Fundamentos da Computação",
+        "horarios_aulas": {
+            "29112": {
+                "abreviacao": "2V5"
+            },
+            "29110": {
+                "abreviacao": "2V3"
+            },
+            "29111": {
+                "abreviacao": "2V4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.1093",
+        "qtd_alunos": 54,
+        "id": 11453
+    },
+    "11454": {
+        "horarios_aulas_abreviacao": "5V12 / 6V12",
+        "disciplina": "Fundamentos de Redes de Computadores",
+        "horarios_aulas": {
+            "29113": {
+                "abreviacao": "5V1"
+            },
+            "29114": {
+                "abreviacao": "5V2"
+            },
+            "29115": {
+                "abreviacao": "6V1"
+            },
+            "29116": {
+                "abreviacao": "6V2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.1094",
+        "qtd_alunos": 37,
+        "id": 11454
+    },
+    "11765": {
+        "horarios_aulas_abreviacao": "3V34 / 5V34",
+        "disciplina": "Programação para Web I",
+        "horarios_aulas": {
+            "29194": {
+                "abreviacao": "3V3"
+            },
+            "29195": {
+                "abreviacao": "3V4"
+            },
+            "29196": {
+                "abreviacao": "5V3"
+            },
+            "29197": {
+                "abreviacao": "5V4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0434",
+        "qtd_alunos": 5,
+        "id": 11765
+    },
+    "11456": {
+        "horarios_aulas_abreviacao": "4V45 / 6V34",
+        "disciplina": "Linguagens de Marcação",
+        "horarios_aulas": {
+            "29120": {
+                "abreviacao": "6V4"
+            },
+            "29117": {
+                "abreviacao": "4V4"
+            },
+            "29118": {
+                "abreviacao": "4V5"
+            },
+            "29119": {
+                "abreviacao": "6V3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0588",
+        "qtd_alunos": 32,
+        "id": 11456
+    },
+    "11457": {
+        "horarios_aulas_abreviacao": "3V12 / 5V12",
+        "disciplina": "Banco de Dados I",
+        "horarios_aulas": {
+            "29129": {
+                "abreviacao": "3V1"
+            },
+            "29130": {
+                "abreviacao": "3V2"
+            },
+            "29131": {
+                "abreviacao": "5V1"
+            },
+            "29132": {
+                "abreviacao": "5V2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0423",
+        "qtd_alunos": 25,
+        "id": 11457
+    },
+    "11458": {
+        "horarios_aulas_abreviacao": "3V56 / 5V56",
+        "disciplina": "Estruturas de Dados",
+        "horarios_aulas": {
+            "29136": {
+                "abreviacao": "3V6"
+            },
+            "29137": {
+                "abreviacao": "5V5"
+            },
+            "29138": {
+                "abreviacao": "5V6"
+            },
+            "29135": {
+                "abreviacao": "3V5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0422",
+        "qtd_alunos": 35,
+        "id": 11458
+    },
+    "11459": {
+        "horarios_aulas_abreviacao": "3V34",
+        "disciplina": "Fundamentos da Metodologia",
+        "horarios_aulas": {
+            "29139": {
+                "abreviacao": "3V3"
+            },
+            "29140": {
+                "abreviacao": "3V4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0425",
+        "qtd_alunos": 18,
+        "id": 11459
+    },
+    "11460": {
+        "horarios_aulas_abreviacao": "5V34 / 6V34",
+        "disciplina": "Protocolos de Interconexão de Redes de Computadores",
+        "horarios_aulas": {
+            "29145": {
+                "abreviacao": "5V3"
+            },
+            "29146": {
+                "abreviacao": "5V4"
+            },
+            "29147": {
+                "abreviacao": "6V3"
+            },
+            "29148": {
+                "abreviacao": "6V4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.1096",
+        "qtd_alunos": 11,
+        "id": 11460
+    },
+    "11461": {
+        "horarios_aulas_abreviacao": "2V123 / 4V34",
+        "disciplina": "Sistemas Operacionais",
+        "horarios_aulas": {
+            "29152": {
+                "abreviacao": "4V3"
+            },
+            "29153": {
+                "abreviacao": "4V4"
+            },
+            "29149": {
+                "abreviacao": "2V2"
+            },
+            "29150": {
+                "abreviacao": "2V1"
+            },
+            "29151": {
+                "abreviacao": "2V3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0424",
+        "qtd_alunos": 26,
+        "id": 11461
+    },
+    "11463": {
+        "horarios_aulas_abreviacao": "4V12 / 6V12",
+        "disciplina": "Linguagens de Script",
+        "horarios_aulas": {
+            "29144": {
+                "abreviacao": "6V2"
+            },
+            "29141": {
+                "abreviacao": "4V1"
+            },
+            "29142": {
+                "abreviacao": "4V2"
+            },
+            "29143": {
+                "abreviacao": "6V1"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.1095",
+        "qtd_alunos": 21,
+        "id": 11463
+    },
+    "12488": {
+        "horarios_aulas_abreviacao": "6N45",
+        "disciplina": "Informática Aplicada",
+        "horarios_aulas": {
+            "41009": {
+                "abreviacao": "6N4"
+            },
+            "41010": {
+                "abreviacao": "6N5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 192,
+        "codigo_disciplina": "TSUB.0062",
+        "qtd_alunos": 13,
+        "id": 12488
+    },
+    "11466": {
+        "horarios_aulas_abreviacao": "2V123 / 3V12",
+        "disciplina": "Banco de Dados II",
+        "horarios_aulas": {
+            "29154": {
+                "abreviacao": "2V1"
+            },
+            "29155": {
+                "abreviacao": "2V2"
+            },
+            "29156": {
+                "abreviacao": "2V3"
+            },
+            "29157": {
+                "abreviacao": "3V1"
+            },
+            "29158": {
+                "abreviacao": "3V2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0429",
+        "qtd_alunos": 28,
+        "id": 11466
+    },
+    "11467": {
+        "horarios_aulas_abreviacao": "3V34 / 5V12",
+        "disciplina": "Interação Humano-Computador",
+        "horarios_aulas": {
+            "29160": {
+                "abreviacao": "3V4"
+            },
+            "29161": {
+                "abreviacao": "5V1"
+            },
+            "29162": {
+                "abreviacao": "5V2"
+            },
+            "29159": {
+                "abreviacao": "3V3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0427",
+        "qtd_alunos": 16,
+        "id": 11467
+    },
+    "11469": {
+        "horarios_aulas_abreviacao": "4V345 / 6V123",
+        "disciplina": "Programação Orientada a Objetos",
+        "horarios_aulas": {
+            "29170": {
+                "abreviacao": "4V3"
+            },
+            "29171": {
+                "abreviacao": "4V4"
+            },
+            "29172": {
+                "abreviacao": "4V5"
+            },
+            "29173": {
+                "abreviacao": "6V1"
+            },
+            "29174": {
+                "abreviacao": "6V2"
+            },
+            "29175": {
+                "abreviacao": "6V3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0428",
+        "qtd_alunos": 26,
+        "id": 11469
+    },
+    "11958": {
+        "horarios_aulas_abreviacao": "3V12 / 5V45",
+        "disciplina": "Química Computacional",
+        "horarios_aulas": {
+            "28720": {
+                "abreviacao": "5V5"
+            },
+            "28717": {
+                "abreviacao": "3V1"
+            },
+            "28718": {
+                "abreviacao": "3V2"
+            },
+            "28719": {
+                "abreviacao": "5V4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 48,
+        "codigo_disciplina": "LIC.0092",
+        "qtd_alunos": 3,
+        "id": 11958
+    },
+    "11768": {
+        "horarios_aulas_abreviacao": "5V12 / 6V23",
+        "disciplina": "Programação para Dispositivos Móveis",
+        "horarios_aulas": {
+            "29216": {
+                "abreviacao": "5V1"
+            },
+            "29217": {
+                "abreviacao": "5V2"
+            },
+            "29218": {
+                "abreviacao": "6V2"
+            },
+            "29219": {
+                "abreviacao": "6V3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0438",
+        "qtd_alunos": 15,
+        "id": 11768
+    },
+    "15223": {
+        "horarios_aulas_abreviacao": "6M56",
+        "disciplina": "Informática Básica",
+        "horarios_aulas": {
+            "41024": {
+                "abreviacao": "6M6"
+            },
+            "41023": {
+                "abreviacao": "6M5"
+            }
+        },
+        "id_turma": 5505,
+        "id_curso": 82,
+        "codigo_disciplina": "TIN.0018",
+        "qtd_alunos": 22,
+        "id": 15223
+    },
+    "12500": {
+        "horarios_aulas_abreviacao": "2N2345",
+        "disciplina": "Desenho Auxiliado por Computador - CAD",
+        "horarios_aulas": {
+            "31506": {
+                "abreviacao": "2N2"
+            },
+            "31507": {
+                "abreviacao": "2N3"
+            },
+            "31508": {
+                "abreviacao": "2N4"
+            },
+            "31509": {
+                "abreviacao": "2N5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 206,
+        "codigo_disciplina": "TSUB.0235",
+        "qtd_alunos": 12,
+        "id": 12500
+    },
+    "12757": {
+        "horarios_aulas_abreviacao": "4M456",
+        "disciplina": "Eletricidade Básica",
+        "horarios_aulas": {
+            "31644": {
+                "abreviacao": "4M4"
+            },
+            "31645": {
+                "abreviacao": "4M5"
+            },
+            "31646": {
+                "abreviacao": "4M6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 81,
+        "codigo_disciplina": "TIN.0647",
+        "qtd_alunos": 14,
+        "id": 12757
+    },
+    "11769": {
+        "horarios_aulas_abreviacao": "3V12 / 5V56",
+        "disciplina": "Padrões de Projeto de Software",
+        "horarios_aulas": {
+            "29212": {
+                "abreviacao": "3V1"
+            },
+            "29213": {
+                "abreviacao": "3V2"
+            },
+            "29214": {
+                "abreviacao": "5V5"
+            },
+            "29215": {
+                "abreviacao": "5V6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0439",
+        "qtd_alunos": 11,
+        "id": 11769
+    },
+    "12793": {
+        "horarios_aulas_abreviacao": "4M123",
+        "disciplina": "Projetos Eletrônicos",
+        "horarios_aulas": {
+            "41235": {
+                "abreviacao": "4M1"
+            },
+            "32099": {
+                "abreviacao": "4M2"
+            },
+            "32100": {
+                "abreviacao": "4M3"
+            }
+        },
+        "id_turma": 5362,
+        "id_curso": 81,
+        "codigo_disciplina": "TIN.0526",
+        "qtd_alunos": 26,
+        "id": 12793
+    },
+    "12509": {
+        "horarios_aulas_abreviacao": "4N12",
+        "disciplina": "Eletrônica Básica",
+        "horarios_aulas": {
+            "31530": {
+                "abreviacao": "4N1"
+            },
+            "31531": {
+                "abreviacao": "4N2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 206,
+        "codigo_disciplina": "TSUB.0237",
+        "qtd_alunos": 9,
+        "id": 12509
+    },
+    "12487": {
+        "horarios_aulas_abreviacao": "2N45",
+        "disciplina": "Proteção de Sistemas Elétricos",
+        "horarios_aulas": {
+            "32216": {
+                "abreviacao": "2N5"
+            },
+            "32215": {
+                "abreviacao": "2N4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 192,
+        "codigo_disciplina": "TSUB.0296",
+        "qtd_alunos": 14,
+        "id": 12487
+    },
+    "12615": {
+        "horarios_aulas_abreviacao": "5M345",
+        "disciplina": "Métodos e Técnicas de Pesquisa - RC",
+        "horarios_aulas": {
+            "29852": {
+                "abreviacao": "5M3"
+            },
+            "29853": {
+                "abreviacao": "5M4"
+            },
+            "29854": {
+                "abreviacao": "5M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 64,
+        "codigo_disciplina": "TEC.0174",
+        "qtd_alunos": 8,
+        "id": 12615
+    },
+    "11771": {
+        "horarios_aulas_abreviacao": "2V123",
+        "disciplina": "Comércio Eletrônico - SI",
+        "horarios_aulas": {
+            "29201": {
+                "abreviacao": "2V1"
+            },
+            "29202": {
+                "abreviacao": "2V2"
+            },
+            "29203": {
+                "abreviacao": "2V3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0442",
+        "qtd_alunos": 8,
+        "id": 11771
+    },
+    "13796": {
+        "horarios_aulas_abreviacao": "6M34",
+        "disciplina": "Informática Aplicada",
+        "horarios_aulas": {
+            "32782": {
+                "abreviacao": "6M3"
+            },
+            "32783": {
+                "abreviacao": "6M4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 70,
+        "codigo_disciplina": "TIN.0835",
+        "qtd_alunos": 20,
+        "id": 13796
+    },
+    "12007": {
+        "horarios_aulas_abreviacao": "3V123 / 5V12",
+        "disciplina": "Fundamentos de Redes de Computadores",
+        "horarios_aulas": {
+            "32104": {
+                "abreviacao": "5V1"
+            },
+            "32105": {
+                "abreviacao": "5V2"
+            },
+            "32101": {
+                "abreviacao": "3V1"
+            },
+            "32102": {
+                "abreviacao": "3V2"
+            },
+            "32103": {
+                "abreviacao": "3V3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 68,
+        "codigo_disciplina": "TEC.0047",
+        "qtd_alunos": 4,
+        "id": 12007
+    },
+    "11502": {
+        "horarios_aulas_abreviacao": "3N123",
+        "disciplina": "Eletrônica Básica",
+        "horarios_aulas": {
+            "28859": {
+                "abreviacao": "3N1"
+            },
+            "28860": {
+                "abreviacao": "3N2"
+            },
+            "28861": {
+                "abreviacao": "3N3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 66,
+        "codigo_disciplina": "TEC.0143",
+        "qtd_alunos": 14,
+        "id": 11502
+    },
+    "11773": {
+        "horarios_aulas_abreviacao": "3V12 / 5V12",
+        "disciplina": "Programação Distribuída",
+        "horarios_aulas": {
+            "29240": {
+                "abreviacao": "5V1"
+            },
+            "29241": {
+                "abreviacao": "5V2"
+            },
+            "29238": {
+                "abreviacao": "3V1"
+            },
+            "29239": {
+                "abreviacao": "3V2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0444",
+        "qtd_alunos": 17,
+        "id": 11773
+    },
+    "12784": {
+        "horarios_aulas_abreviacao": "2M123",
+        "disciplina": "Sistemas Microcontrolados",
+        "horarios_aulas": {
+            "32033": {
+                "abreviacao": "2M1"
+            },
+            "32034": {
+                "abreviacao": "2M2"
+            },
+            "32035": {
+                "abreviacao": "2M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 81,
+        "codigo_disciplina": "TIN.0525",
+        "qtd_alunos": 17,
+        "id": 12784
+    },
+    "11761": {
+        "horarios_aulas_abreviacao": "2V12 / 3V12",
+        "disciplina": "Análise e Projeto de Sistemas",
+        "horarios_aulas": {
+            "29179": {
+                "abreviacao": "2V1"
+            },
+            "29180": {
+                "abreviacao": "2V2"
+            },
+            "29181": {
+                "abreviacao": "3V1"
+            },
+            "29182": {
+                "abreviacao": "3V2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0433",
+        "qtd_alunos": 3,
+        "id": 11761
+    },
+    "11763": {
+        "horarios_aulas_abreviacao": "4V345",
+        "disciplina": "Métodos e Técnicas de Pesquisa SI",
+        "horarios_aulas": {
+            "29187": {
+                "abreviacao": "4V3"
+            },
+            "29188": {
+                "abreviacao": "4V4"
+            },
+            "29189": {
+                "abreviacao": "4V5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0436",
+        "qtd_alunos": 9,
+        "id": 11763
+    },
+    "11508": {
+        "horarios_aulas_abreviacao": "2N345 / 4N45",
+        "disciplina": "Eletrônica Analógica",
+        "horarios_aulas": {
+            "28880": {
+                "abreviacao": "2N5"
+            },
+            "28881": {
+                "abreviacao": "4N4"
+            },
+            "28882": {
+                "abreviacao": "4N5"
+            },
+            "28878": {
+                "abreviacao": "2N3"
+            },
+            "28879": {
+                "abreviacao": "2N4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 66,
+        "codigo_disciplina": "TEC.0263",
+        "qtd_alunos": 11,
+        "id": 11508
+    },
+    "12021": {
+        "horarios_aulas_abreviacao": "6M56",
+        "disciplina": "Cartografia Temática",
+        "horarios_aulas": {
+            "28564": {
+                "abreviacao": "6M5"
+            },
+            "28565": {
+                "abreviacao": "6M6"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0226",
+        "qtd_alunos": 2,
+        "id": 12021
+    },
+    "11766": {
+        "horarios_aulas_abreviacao": "2V345",
+        "disciplina": "Segurança de Dados",
+        "horarios_aulas": {
+            "29200": {
+                "abreviacao": "2V5"
+            },
+            "29198": {
+                "abreviacao": "2V3"
+            },
+            "29199": {
+                "abreviacao": "2V4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0432",
+        "qtd_alunos": 8,
+        "id": 11766
+    },
+    "11767": {
+        "horarios_aulas_abreviacao": "2V45 / 4V12",
+        "disciplina": "Gerência de Projetos de Software",
+        "horarios_aulas": {
+            "29208": {
+                "abreviacao": "2V4"
+            },
+            "29209": {
+                "abreviacao": "2V5"
+            },
+            "29210": {
+                "abreviacao": "4V1"
+            },
+            "29211": {
+                "abreviacao": "4V2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0599",
+        "qtd_alunos": 7,
+        "id": 11767
+    },
+    "12024": {
+        "horarios_aulas_abreviacao": "5M456",
+        "disciplina": "Automação Topográfica",
+        "horarios_aulas": {
+            "28568": {
+                "abreviacao": "5M6"
+            },
+            "28566": {
+                "abreviacao": "5M4"
+            },
+            "28567": {
+                "abreviacao": "5M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0204",
+        "qtd_alunos": 3,
+        "id": 12024
+    },
+    "12025": {
+        "horarios_aulas_abreviacao": "2M12 / 6M12",
+        "disciplina": "Empreendedorismo",
+        "horarios_aulas": {
+            "28524": {
+                "abreviacao": "2M1"
+            },
+            "28525": {
+                "abreviacao": "2M2"
+            },
+            "28526": {
+                "abreviacao": "6M1"
+            },
+            "28527": {
+                "abreviacao": "6M2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0029",
+        "qtd_alunos": 5,
+        "id": 12025
+    },
+    "11770": {
+        "horarios_aulas_abreviacao": "3V345 / 4V345",
+        "disciplina": "Programação para Web II",
+        "horarios_aulas": {
+            "29220": {
+                "abreviacao": "3V3"
+            },
+            "29221": {
+                "abreviacao": "3V4"
+            },
+            "29222": {
+                "abreviacao": "3V5"
+            },
+            "29223": {
+                "abreviacao": "4V3"
+            },
+            "29224": {
+                "abreviacao": "4V4"
+            },
+            "29225": {
+                "abreviacao": "4V5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0440",
+        "qtd_alunos": 10,
+        "id": 11770
+    },
+    "12027": {
+        "horarios_aulas_abreviacao": "4M123",
+        "disciplina": "SIG Livre",
+        "horarios_aulas": {
+            "29437": {
+                "abreviacao": "4M3"
+            },
+            "29438": {
+                "abreviacao": "4M2"
+            },
+            "29439": {
+                "abreviacao": "4M1"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0236",
+        "qtd_alunos": 6,
+        "id": 12027
+    },
+    "12029": {
+        "horarios_aulas_abreviacao": "4M45 / 6M34",
+        "disciplina": "Ajustamento de Observações",
+        "horarios_aulas": {
+            "28530": {
+                "abreviacao": "6M3"
+            },
+            "28531": {
+                "abreviacao": "6M4"
+            },
+            "29436": {
+                "abreviacao": "4M5"
+            },
+            "29435": {
+                "abreviacao": "4M4"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0240",
+        "qtd_alunos": 5,
+        "id": 12029
+    },
+    "11774": {
+        "horarios_aulas_abreviacao": "2V34 / 3V34",
+        "disciplina": "Desenvolvimento e Execução de Projeto de Software",
+        "horarios_aulas": {
+            "29232": {
+                "abreviacao": "3V3"
+            },
+            "29233": {
+                "abreviacao": "3V4"
+            },
+            "29230": {
+                "abreviacao": "2V4"
+            },
+            "29521": {
+                "abreviacao": "2V3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 67,
+        "codigo_disciplina": "TEC.0445",
+        "qtd_alunos": 11,
+        "id": 11774
+    },
+    "12031": {
+        "horarios_aulas_abreviacao": "2M345",
+        "disciplina": "Planejamento Físico-Territorial",
+        "horarios_aulas": {
+            "29432": {
+                "abreviacao": "2M3"
+            },
+            "29433": {
+                "abreviacao": "2M4"
+            },
+            "29434": {
+                "abreviacao": "2M5"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 60,
+        "codigo_disciplina": "TEC.0248",
+        "qtd_alunos": 3,
+        "id": 12031
+    }
+}
