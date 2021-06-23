@@ -24,7 +24,7 @@ int main(int argc, char **argv)
     const bool setup_before_class = atoi(argv[4]) == 0 ? false : true;
     const bool heuristic = false;
 
-    const int time_limit = 30; // In minutes. Non-positive values for no limit.
+    const int time_limit = -1; // In minutes. Non-positive values for no limit.
 
     // PRE PROCESSING //
     auto timer_start_preprocessing = chrono::system_clock::now();
