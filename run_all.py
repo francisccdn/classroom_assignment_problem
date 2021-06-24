@@ -50,8 +50,10 @@ for file in os.listdir(dirpath):
 
 print("Rodando todas as instâncias...")
 
+instances = [20181, 20182, 20191]
+
 for scenario in range(1, 11):
-    for instance in [20181, 20182, 20191]:
+    for instance in instances:
 
         if [instance, scenario, 0, 0] not in found:
             print(f"{bcolors.OKBLUE}" + "Rodando -- Instancia: " + str(instance) +

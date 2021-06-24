@@ -54,6 +54,8 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
     int num_itc_groups = data.get_num_itc_groups();
     // D_l  -- l in E
     std::vector<std::vector<int>> classes_classroom_of_itc_group = data.get_classes_classroom_of_itc_group();
+    // G_i  -- i in A
+    std::vector<std::vector<int>> twin_lectures_of_class = data.get_twin_lectures_of_class();
 
     /*
     * INPUT DATA
@@ -394,6 +396,44 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
             {
                 IloRange constraint = (sum_bc2_x + sum_bc2_t - 1 <= 0);
                 sprintf(name, "BC2(%s,%d)", data.get_location_name(j).c_str(), k);
+                constraint.setName(name);
+
+                model.add(constraint);
+            }
+        }
+    }
+    
+    // Basic constraints 3 (BC3): twin lectures must take place in the same location
+
+    for (int i = 0; i < num_classes_classroom; i++)
+    {
+        for (int k : twin_lectures_of_class[i_in_A(i, false)])
+        {
+            for (int j : location_contains_class_classroom[i])
+            {
+                if (x[i][k].count(j) == 0 || x[i][k + 1].count(j) == 0)
+                        continue;
+
+                IloRange constraint = (x[i][k][j] - x[i][k+1][j] == 0);
+                sprintf(name, "BC3(%s,%d,%s)", data.get_class_name(i_in_A(i, false)).c_str(), k, data.get_location_name(j).c_str());
+                constraint.setName(name);
+
+                model.add(constraint);
+            }
+        }
+    }
+
+    for (int i = 0; i < num_classes_computer; i++)
+    {
+        for (int k : twin_lectures_of_class[i_in_A(i, true)])
+        {
+            for (int j : location_contains_class_computer[i])
+            {
+                if (t[i][k].count(j) == 0 || t[i][k + 1].count(j) == 0)
+                        continue;
+
+                IloRange constraint = (t[i][k][j] - t[i][k+1][j] == 0);
+                sprintf(name, "BC3(%s,%d,%s)", data.get_class_name(i_in_A(i, true)).c_str(), k, data.get_location_name(j).c_str());
                 constraint.setName(name);
 
                 model.add(constraint);

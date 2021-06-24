@@ -128,6 +128,7 @@ CapData::CapData(int scenario, string instance_name, bool setup, bool setup_befo
     num_locations_classroom = 0;
     num_locations_computer = 0;
     lectures_of_class = vector<vector<int>>(0, vector<int>());
+    twin_lectures_of_class = vector<vector<int>>(0, vector<int>());
 
     location_cost = vector<float>();
     num_students_in_class = vector<int>();
@@ -154,7 +155,7 @@ CapData::CapData(int scenario, string instance_name, bool setup, bool setup_befo
     this->setup_before_class = setup_before_class;
 
     instance_full_name = instance_name + "_" + to_string(scenario);
-    
+
     if (setup)
     {
         instance_full_name += "_setup";
@@ -204,12 +205,13 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
     for (auto class_i : classes_json->items())
     {
         int i_in_a = is_computer ? i + num_classes_classroom : i;
-        
+
         nlohmann::json class_data = class_i.value();
         classes_json_key.push_back(class_i.key());
 
         num_students_in_class.push_back(class_data["qtd_alunos"]);
         lectures_of_class.push_back(vector<int>());
+        twin_lectures_of_class.push_back(vector<int>());
 
         for (auto timeslot_data : class_data["horarios_aulas"].items())
         {
@@ -221,6 +223,16 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
             lectures_of_class[i_in_a].push_back(k);
         }
 
+        // Populate twin lectures
+        for (int k : lectures_of_class[i_in_a])
+        {
+            // If k+1 is in lectures_of_class[i_in_a]
+            if (std::find(lectures_of_class[i_in_a].begin(), lectures_of_class[i_in_a].end(), k + 1) != lectures_of_class[i_in_a].end())
+            {
+                twin_lectures_of_class[i_in_a].push_back(k);
+            }
+        }
+
         // Create new ITC group if class belongs to one
         int group_id = class_data["id_turma"];
         if (!is_computer && group_id != 0)
@@ -228,7 +240,7 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
             // l in E
             int group_index = -1;
             vector<int>::iterator group_iterator = find(itc_group_key.begin(), itc_group_key.end(), group_id);
-            
+
             // If its the first class from this group
             if (group_iterator == itc_group_key.end())
             {
@@ -244,7 +256,6 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
 
             classes_classroom_of_itc_group[group_index].push_back(i_in_a);
         }
-
 
         i++;
     }
@@ -264,11 +275,11 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
         nlohmann::json location_data = location_j.value();
 
         int j_in_l = j;
-        
+
         vector<string>::iterator location_iterator = find(locations_json_key.begin(), locations_json_key.end(), location_j.key());
-        
+
         // If location wasn't processed yet
-        if(location_iterator == locations_json_key.end())
+        if (location_iterator == locations_json_key.end())
         {
             locations_json_key.push_back(location_j.key());
 
@@ -286,7 +297,6 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
         {
             j_in_l = location_iterator - locations_json_key.begin();
         }
-
 
         for (int i = 0; i < *classes; i++)
         {

@@ -61,6 +61,8 @@ private:
     int num_itc_groups;
     // D_l  -- l in E
     std::vector<std::vector<int>> classes_classroom_of_itc_group;
+    // G_i  -- i in A
+    std::vector<std::vector<int>> twin_lectures_of_class;
 
     /* INPUT DATA */
 
@@ -134,6 +136,8 @@ public:
     int get_num_itc_groups() { return num_itc_groups; }
     // D_l  -- l in E
     std::vector<std::vector<int>> get_classes_classroom_of_itc_group() { return classes_classroom_of_itc_group; }
+    // G_i  -- i in A
+    std::vector<std::vector<int>> get_twin_lectures_of_class() { return twin_lectures_of_class; };
 
     /* A
     When accessing a class i in A:
