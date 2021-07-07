@@ -20,6 +20,20 @@ int Cap::i_in_A(int i, int is_computer)
 
 CapResults Cap::Solve(int time_limit_min, double upper_bound)
 {
+    // Cancel solve on time limit 0
+    if (time_limit_min == 0)
+    {
+        CapResults results = {
+            0,      // objValue
+            100,    // gap
+            1,      // status
+            "",     // variables
+            0,      // solverTime
+            0,      // modelTime
+        };
+        return results;
+    }
+
     IloEnv env;
     IloModel model(env);
     char name[128];

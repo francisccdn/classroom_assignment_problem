@@ -6,6 +6,7 @@
 
 #include "../include/cap_data.h"
 #include "../include/cap.h"
+#include "../include/localsearch.h"
 
 using namespace std;
 
@@ -24,7 +25,7 @@ int main(int argc, char **argv)
     const bool setup_before_class = atoi(argv[4]) == 0 ? false : true;
     const bool heuristic = false;
 
-    const int time_limit = 5; // In minutes. Non-positive values for no limit.
+    const int time_limit = 0; // In minutes. 0 skips solver, < 0 is no time limit.
 
     // PRE PROCESSING //
     auto timer_start_preprocessing = chrono::system_clock::now();
@@ -42,7 +43,8 @@ int main(int argc, char **argv)
         auto timer_start_heuristic = chrono::system_clock::now();
 
         // TODO
-        //heuristic_obj_value =
+        LocalSearch localsearch = LocalSearch(data);
+        heuristic_obj_value = localsearch.Solve();
 
         auto timer_end_heuristic = chrono::system_clock::now();
         chrono::duration<double> timer_heuristic = timer_end_heuristic - timer_start_heuristic;
