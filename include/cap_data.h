@@ -53,9 +53,9 @@ private:
     int num_locations_computer;
     // H_i  -- i in A
     std::vector<std::vector<int>> lectures_of_class;
-    // S_i  -- i in A
+    // S_i  -- i in B
     std::vector<std::vector<int>> location_contains_class_classroom;
-    // I_i  -- i in A
+    // I_i  -- i in C
     std::vector<std::vector<int>> location_contains_class_computer;
     // E
     int num_itc_groups;
@@ -118,9 +118,9 @@ public:
     int get_locations_computer() { return num_locations_computer; }
     // H_i  -- i in A
     std::vector<std::vector<int>> get_lectures_of_class() { return lectures_of_class; }
-    // S_i  -- i in A
+    // S_i  -- i in B
     std::vector<std::vector<int>> get_location_contains_class_classroom() { return location_contains_class_classroom; }
-    // I_i  -- i in A
+    // I_i  -- i in C
     std::vector<std::vector<int>> get_location_contains_class_computer() { return location_contains_class_computer; }
     // c_j  -- j in L
     std::vector<float> get_location_cost() { return location_cost; }
