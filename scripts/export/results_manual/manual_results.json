@@ -1,0 +1,56 @@
+{
+    "20191": {
+        "setup_during": 11893.6095054453,
+        "setup_before": 12181.56590722485,
+        "no_setup": 11800.003555669273,
+        "n_assignments": 3044,
+        "highest": {
+            "room": {
+                "setup_during": 6.5028437925329055,
+                "setup_before": 6.664077203720509,
+                "no_setup": 6.457777778
+            },
+            "pc": {
+                "setup_during": 11.320295192486377,
+                "setup_before": 11.391006665017127,
+                "no_setup": 11.298055556
+            }
+        }
+    },
+    "20182": {
+        "setup_during": 11424.476765617712,
+        "setup_before": 11725.093119483061,
+        "no_setup": 11329.406666853183,
+        "n_assignments": 3016,
+        "highest": {
+            "room": {
+                "setup_during": 6.5028437925329055,
+                "setup_before": 6.664077203720509,
+                "no_setup": 6.457777778
+            },
+            "pc": {
+                "setup_during": 11.518589672155393,
+                "setup_before": 11.582522618567495,
+                "no_setup": 11.497222223800001
+            }
+        }
+    },
+    "20181": {
+        "setup_during": 11087.8902046726,
+        "setup_before": 11374.869820637208,
+        "no_setup": 10997.074555766863,
+        "n_assignments": 2853,
+        "highest": {
+            "room": {
+                "setup_during": 6.5028437925329055,
+                "setup_before": 6.664077203720509,
+                "no_setup": 6.457777778
+            },
+            "pc": {
+                "setup_during": 11.333428185240896,
+                "setup_before": 11.439565291371826,
+                "no_setup": 11.296944445800001
+            }
+        }
+    }
+}

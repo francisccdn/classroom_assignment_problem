@@ -1,0 +1,10078 @@
+{
+    "22144": {
+        "id_curso": 64,
+        "qtd_alunos": 31,
+        "horarios": [
+            5,
+            6,
+            65,
+            64
+        ]
+    },
+    "23811": {
+        "id_curso": 68,
+        "qtd_alunos": 6,
+        "horarios": [
+            64,
+            81,
+            82,
+            83,
+            65
+        ]
+    },
+    "21780": {
+        "id_curso": 61,
+        "qtd_alunos": 9,
+        "horarios": [
+            45,
+            44
+        ]
+    },
+    "21767": {
+        "id_curso": 61,
+        "qtd_alunos": 15,
+        "horarios": [
+            22,
+            23
+        ]
+    },
+    "24588": {
+        "id_curso": 81,
+        "qtd_alunos": 16,
+        "horarios": [
+            26,
+            24,
+            25
+        ]
+    },
+    "24589": {
+        "id_curso": 81,
+        "qtd_alunos": 16,
+        "horarios": [
+            44,
+            45,
+            46
+        ]
+    },
+    "23312": {
+        "id_curso": 71,
+        "qtd_alunos": 26,
+        "horarios": [
+            12,
+            13,
+            52,
+            53
+        ]
+    },
+    "21777": {
+        "id_curso": 61,
+        "qtd_alunos": 14,
+        "horarios": [
+            64,
+            65
+        ]
+    },
+    "21778": {
+        "id_curso": 61,
+        "qtd_alunos": 10,
+        "horarios": [
+            25,
+            62,
+            63,
+            24
+        ]
+    },
+    "24323": {
+        "id_curso": 191,
+        "qtd_alunos": 18,
+        "horarios": [
+            37,
+            38,
+            39,
+            96,
+            97,
+            98
+        ]
+    },
+    "23572": {
+        "id_curso": 82,
+        "qtd_alunos": 16,
+        "horarios": [
+            5,
+            6
+        ]
+    },
+    "30652": {
+        "id_curso": 67,
+        "qtd_alunos": 9,
+        "horarios": [
+            71,
+            72,
+            28,
+            29,
+            70
+        ]
+    },
+    "24956": {
+        "id_curso": 64,
+        "qtd_alunos": 2,
+        "horarios": [
+            24,
+            25,
+            64,
+            65
+        ]
+    },
+    "24343": {
+        "id_curso": 195,
+        "qtd_alunos": 28,
+        "horarios": [
+            56,
+            55
+        ]
+    },
+    "21784": {
+        "id_curso": 61,
+        "qtd_alunos": 17,
+        "horarios": [
+            41,
+            42
+        ]
+    },
+    "22148": {
+        "id_curso": 64,
+        "qtd_alunos": 27,
+        "horarios": [
+            24,
+            25,
+            83,
+            84,
+            85
+        ]
+    },
+    "27418": {
+        "id_curso": 76,
+        "qtd_alunos": 21,
+        "horarios": [
+            70,
+            71,
+            72
+        ]
+    },
+    "24859": {
+        "id_curso": 39,
+        "qtd_alunos": 21,
+        "horarios": [
+            15,
+            16,
+            75,
+            76
+        ]
+    },
+    "24965": {
+        "id_curso": 64,
+        "qtd_alunos": 7,
+        "horarios": [
+            1,
+            2,
+            84,
+            85
+        ]
+    },
+    "23771": {
+        "id_curso": 63,
+        "qtd_alunos": 1,
+        "horarios": [
+            15,
+            16,
+            55,
+            56
+        ]
+    },
+    "26660": {
+        "id_curso": 64,
+        "qtd_alunos": 21,
+        "horarios": [
+            2,
+            24,
+            25,
+            1
+        ]
+    },
+    "24326": {
+        "id_curso": 191,
+        "qtd_alunos": 17,
+        "horarios": [
+            17,
+            18,
+            19
+        ]
+    },
+    "24875": {
+        "id_curso": 39,
+        "qtd_alunos": 22,
+        "horarios": [
+            15,
+            16,
+            17,
+            18
+        ]
+    },
+    "23596": {
+        "id_curso": 82,
+        "qtd_alunos": 17,
+        "horarios": [
+            42,
+            43
+        ]
+    },
+    "24370": {
+        "id_curso": 186,
+        "qtd_alunos": 35,
+        "horarios": [
+            37,
+            36,
+            35
+        ]
+    },
+    "22167": {
+        "id_curso": 64,
+        "qtd_alunos": 10,
+        "horarios": [
+            22,
+            23,
+            24,
+            25
+        ]
+    },
+    "23134": {
+        "id_curso": 76,
+        "qtd_alunos": 21,
+        "horarios": [
+            30,
+            31,
+            32
+        ]
+    },
+    "22153": {
+        "id_curso": 64,
+        "qtd_alunos": 17,
+        "horarios": [
+            2,
+            21,
+            22,
+            23,
+            1
+        ]
+    },
+    "24377": {
+        "id_curso": 186,
+        "qtd_alunos": 16,
+        "horarios": [
+            76,
+            77,
+            75
+        ]
+    },
+    "22154": {
+        "id_curso": 64,
+        "qtd_alunos": 16,
+        "horarios": [
+            41,
+            42,
+            84,
+            85
+        ]
+    },
+    "24382": {
+        "id_curso": 186,
+        "qtd_alunos": 15,
+        "horarios": [
+            95,
+            96,
+            97
+        ]
+    },
+    "23359": {
+        "id_curso": 81,
+        "qtd_alunos": 15,
+        "horarios": [
+            64,
+            65,
+            66
+        ]
+    },
+    "23360": {
+        "id_curso": 81,
+        "qtd_alunos": 15,
+        "horarios": [
+            45,
+            46,
+            44
+        ]
+    },
+    "23361": {
+        "id_curso": 81,
+        "qtd_alunos": 15,
+        "horarios": [
+            24,
+            25
+        ]
+    },
+    "24388": {
+        "id_curso": 186,
+        "qtd_alunos": 6,
+        "horarios": [
+            55,
+            56
+        ]
+    },
+    "24389": {
+        "id_curso": 186,
+        "qtd_alunos": 3,
+        "horarios": [
+            15,
+            16,
+            17,
+            18
+        ]
+    },
+    "26698": {
+        "id_curso": 93,
+        "qtd_alunos": 21,
+        "horarios": [
+            88,
+            89
+        ]
+    },
+    "24395": {
+        "id_curso": 192,
+        "qtd_alunos": 14,
+        "horarios": [
+            17,
+            16
+        ]
+    },
+    "25676": {
+        "id_curso": 82,
+        "qtd_alunos": 14,
+        "horarios": [
+            3,
+            4
+        ]
+    },
+    "21773": {
+        "id_curso": 61,
+        "qtd_alunos": 9,
+        "horarios": [
+            41,
+            42,
+            4,
+            5
+        ]
+    },
+    "22158": {
+        "id_curso": 64,
+        "qtd_alunos": 20,
+        "horarios": [
+            82,
+            83,
+            84,
+            85,
+            81
+        ]
+    },
+    "25686": {
+        "id_curso": 82,
+        "qtd_alunos": 22,
+        "horarios": [
+            11,
+            12
+        ]
+    },
+    "25687": {
+        "id_curso": 70,
+        "qtd_alunos": 22,
+        "horarios": [
+            83,
+            84
+        ]
+    },
+    "21849": {
+        "id_curso": 59,
+        "qtd_alunos": 13,
+        "horarios": [
+            5,
+            6,
+            61,
+            62,
+            63,
+            4
+        ]
+    },
+    "22159": {
+        "id_curso": 64,
+        "qtd_alunos": 19,
+        "horarios": [
+            4,
+            5,
+            44,
+            45
+        ]
+    },
+    "21854": {
+        "id_curso": 59,
+        "qtd_alunos": 25,
+        "horarios": [
+            61,
+            63,
+            62,
+            64,
+            65,
+            66
+        ]
+    },
+    "23135": {
+        "id_curso": 76,
+        "qtd_alunos": 21,
+        "horarios": [
+            51,
+            52
+        ]
+    },
+    "24416": {
+        "id_curso": 192,
+        "qtd_alunos": 19,
+        "horarios": [
+            95,
+            96,
+            97
+        ]
+    },
+    "23650": {
+        "id_curso": 82,
+        "qtd_alunos": 11,
+        "horarios": [
+            72,
+            71
+        ]
+    },
+    "21859": {
+        "id_curso": 59,
+        "qtd_alunos": 11,
+        "horarios": [
+            82,
+            83
+        ]
+    },
+    "23652": {
+        "id_curso": 82,
+        "qtd_alunos": 12,
+        "horarios": [
+            31,
+            32,
+            33
+        ]
+    },
+    "23398": {
+        "id_curso": 81,
+        "qtd_alunos": 15,
+        "horarios": [
+            1,
+            2,
+            3
+        ]
+    },
+    "21864": {
+        "id_curso": 59,
+        "qtd_alunos": 17,
+        "horarios": [
+            83,
+            21,
+            22,
+            23,
+            24,
+            86,
+            85,
+            84
+        ]
+    },
+    "23420": {
+        "id_curso": 88,
+        "qtd_alunos": 48,
+        "horarios": [
+            82,
+            81
+        ]
+    },
+    "24980": {
+        "id_curso": 67,
+        "qtd_alunos": 23,
+        "horarios": [
+            8,
+            9,
+            90,
+            91
+        ]
+    },
+    "21878": {
+        "id_curso": 60,
+        "qtd_alunos": 16,
+        "horarios": [
+            42,
+            84,
+            85,
+            41
+        ]
+    },
+    "22162": {
+        "id_curso": 64,
+        "qtd_alunos": 15,
+        "horarios": [
+            4,
+            5,
+            21,
+            22,
+            23
+        ]
+    },
+    "25712": {
+        "id_curso": 82,
+        "qtd_alunos": 11,
+        "horarios": [
+            28,
+            29,
+            30
+        ]
+    },
+    "25771": {
+        "id_curso": 68,
+        "qtd_alunos": 16,
+        "horarios": [
+            15,
+            16,
+            17,
+            18
+        ]
+    },
+    "25714": {
+        "id_curso": 82,
+        "qtd_alunos": 11,
+        "horarios": [
+            69,
+            70
+        ]
+    },
+    "24435": {
+        "id_curso": 206,
+        "qtd_alunos": 9,
+        "horarios": [
+            56,
+            55
+        ]
+    },
+    "21877": {
+        "id_curso": 60,
+        "qtd_alunos": 17,
+        "horarios": [
+            1,
+            2
+        ]
+    },
+    "22134": {
+        "id_curso": 48,
+        "qtd_alunos": 7,
+        "horarios": [
+            32,
+            71,
+            72,
+            31
+        ]
+    },
+    "23439": {
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            29,
+            30
+        ]
+    },
+    "22137": {
+        "id_curso": 64,
+        "qtd_alunos": 22,
+        "horarios": [
+            83,
+            81,
+            82
+        ]
+    },
+    "24452": {
+        "id_curso": 215,
+        "qtd_alunos": 33,
+        "horarios": [
+            75,
+            76,
+            98
+        ]
+    },
+    "22139": {
+        "id_curso": 64,
+        "qtd_alunos": 20,
+        "horarios": [
+            24,
+            25,
+            1,
+            2
+        ]
+    },
+    "22140": {
+        "id_curso": 64,
+        "qtd_alunos": 22,
+        "horarios": [
+            46,
+            84,
+            85,
+            44,
+            45
+        ]
+    },
+    "22141": {
+        "id_curso": 64,
+        "qtd_alunos": 32,
+        "horarios": [
+            23,
+            41,
+            42,
+            43,
+            22
+        ]
+    },
+    "21887": {
+        "id_curso": 60,
+        "qtd_alunos": 11,
+        "horarios": [
+            3,
+            4,
+            61,
+            62
+        ]
+    },
+    "21888": {
+        "id_curso": 60,
+        "qtd_alunos": 11,
+        "horarios": [
+            6,
+            65,
+            66,
+            5
+        ]
+    },
+    "21892": {
+        "id_curso": 60,
+        "qtd_alunos": 5,
+        "horarios": [
+            4,
+            5,
+            6
+        ]
+    },
+    "21893": {
+        "id_curso": 60,
+        "qtd_alunos": 4,
+        "horarios": [
+            25,
+            26
+        ]
+    },
+    "24966": {
+        "id_curso": 64,
+        "qtd_alunos": 6,
+        "horarios": [
+            82,
+            83,
+            64,
+            65,
+            81
+        ]
+    },
+    "25737": {
+        "id_curso": 59,
+        "qtd_alunos": 13,
+        "horarios": [
+            1,
+            2,
+            3,
+            64,
+            65,
+            66
+        ]
+    },
+    "21898": {
+        "id_curso": 60,
+        "qtd_alunos": 3,
+        "horarios": [
+            21,
+            22,
+            23,
+            82,
+            83
+        ]
+    },
+    "22155": {
+        "id_curso": 64,
+        "qtd_alunos": 17,
+        "horarios": [
+            61,
+            62,
+            63,
+            1,
+            2,
+            3
+        ]
+    },
+    "21900": {
+        "id_curso": 60,
+        "qtd_alunos": 14,
+        "horarios": [
+            26,
+            25,
+            24
+        ]
+    },
+    "21901": {
+        "id_curso": 60,
+        "qtd_alunos": 1,
+        "horarios": [
+            1,
+            2,
+            3
+        ]
+    },
+    "21902": {
+        "id_curso": 60,
+        "qtd_alunos": 2,
+        "horarios": [
+            43,
+            44,
+            45,
+            46
+        ]
+    },
+    "21903": {
+        "id_curso": 60,
+        "qtd_alunos": 6,
+        "horarios": [
+            85,
+            84,
+            5,
+            6
+        ]
+    },
+    "24977": {
+        "id_curso": 67,
+        "qtd_alunos": 33,
+        "horarios": [
+            28,
+            29,
+            70,
+            71,
+            72
+        ]
+    },
+    "21906": {
+        "id_curso": 60,
+        "qtd_alunos": 6,
+        "horarios": [
+            1,
+            2,
+            3
+        ]
+    },
+    "22163": {
+        "id_curso": 64,
+        "qtd_alunos": 10,
+        "horarios": [
+            1,
+            2,
+            3
+        ]
+    },
+    "22164": {
+        "id_curso": 64,
+        "qtd_alunos": 6,
+        "horarios": [
+            64,
+            65,
+            82,
+            83
+        ]
+    },
+    "22165": {
+        "id_curso": 64,
+        "qtd_alunos": 4,
+        "horarios": [
+            85,
+            61,
+            62,
+            63,
+            84
+        ]
+    },
+    "22166": {
+        "id_curso": 64,
+        "qtd_alunos": 10,
+        "horarios": [
+            42,
+            43,
+            62,
+            63
+        ]
+    },
+    "21911": {
+        "id_curso": 67,
+        "qtd_alunos": 39,
+        "horarios": [
+            88,
+            89,
+            68,
+            69
+        ]
+    },
+    "24984": {
+        "id_curso": 219,
+        "qtd_alunos": 45,
+        "horarios": [
+            97,
+            98
+        ]
+    },
+    "21913": {
+        "id_curso": 67,
+        "qtd_alunos": 42,
+        "horarios": [
+            8,
+            9,
+            90,
+            91
+        ]
+    },
+    "21915": {
+        "id_curso": 67,
+        "qtd_alunos": 34,
+        "horarios": [
+            10,
+            11,
+            28,
+            29
+        ]
+    },
+    "21916": {
+        "id_curso": 67,
+        "qtd_alunos": 21,
+        "horarios": [
+            32,
+            33
+        ]
+    },
+    "21918": {
+        "id_curso": 67,
+        "qtd_alunos": 31,
+        "horarios": [
+            49,
+            50,
+            51,
+            8,
+            9
+        ]
+    },
+    "21920": {
+        "id_curso": 67,
+        "qtd_alunos": 26,
+        "horarios": [
+            91,
+            90,
+            52,
+            53
+        ]
+    },
+    "21872": {
+        "id_curso": 60,
+        "qtd_alunos": 24,
+        "horarios": [
+            84,
+            85,
+            44,
+            45
+        ]
+    },
+    "21923": {
+        "id_curso": 67,
+        "qtd_alunos": 17,
+        "horarios": [
+            31,
+            33,
+            32,
+            68,
+            69
+        ]
+    },
+    "21924": {
+        "id_curso": 67,
+        "qtd_alunos": 19,
+        "horarios": [
+            49,
+            50,
+            51,
+            52
+        ]
+    },
+    "21926": {
+        "id_curso": 67,
+        "qtd_alunos": 18,
+        "horarios": [
+            28,
+            29,
+            30,
+            70,
+            71,
+            72
+        ]
+    },
+    "22169": {
+        "id_curso": 64,
+        "qtd_alunos": 11,
+        "horarios": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    "21929": {
+        "id_curso": 67,
+        "qtd_alunos": 22,
+        "horarios": [
+            31,
+            32,
+            68,
+            69
+        ]
+    },
+    "21931": {
+        "id_curso": 67,
+        "qtd_alunos": 17,
+        "horarios": [
+            29,
+            30,
+            28
+        ]
+    },
+    "21933": {
+        "id_curso": 67,
+        "qtd_alunos": 19,
+        "horarios": [
+            90,
+            91,
+            92
+        ]
+    },
+    "23470": {
+        "id_curso": 70,
+        "qtd_alunos": 19,
+        "horarios": [
+            85,
+            86
+        ]
+    },
+    "21935": {
+        "id_curso": 67,
+        "qtd_alunos": 11,
+        "horarios": [
+            29,
+            30,
+            28
+        ]
+    },
+    "21936": {
+        "id_curso": 67,
+        "qtd_alunos": 14,
+        "horarios": [
+            8,
+            9,
+            48,
+            49
+        ]
+    },
+    "21937": {
+        "id_curso": 67,
+        "qtd_alunos": 15,
+        "horarios": [
+            88,
+            89,
+            72,
+            73
+        ]
+    },
+    "21938": {
+        "id_curso": 67,
+        "qtd_alunos": 14,
+        "horarios": [
+            10,
+            11,
+            12,
+            50,
+            51,
+            52
+        ]
+    },
+    "21939": {
+        "id_curso": 67,
+        "qtd_alunos": 11,
+        "horarios": [
+            70,
+            71,
+            31,
+            32
+        ]
+    },
+    "21940": {
+        "id_curso": 67,
+        "qtd_alunos": 5,
+        "horarios": [
+            9,
+            10,
+            11,
+            12
+        ]
+    },
+    "21941": {
+        "id_curso": 67,
+        "qtd_alunos": 3,
+        "horarios": [
+            49,
+            50,
+            51,
+            52
+        ]
+    },
+    "21942": {
+        "id_curso": 67,
+        "qtd_alunos": 9,
+        "horarios": [
+            69,
+            70,
+            71
+        ]
+    },
+    "21943": {
+        "id_curso": 67,
+        "qtd_alunos": 7,
+        "horarios": [
+            90,
+            91,
+            92,
+            89
+        ]
+    },
+    "21944": {
+        "id_curso": 67,
+        "qtd_alunos": 8,
+        "horarios": [
+            30,
+            31,
+            32
+        ]
+    },
+    "25020": {
+        "id_curso": 219,
+        "qtd_alunos": 24,
+        "horarios": [
+            95,
+            96
+        ]
+    },
+    "21949": {
+        "id_curso": 66,
+        "qtd_alunos": 12,
+        "horarios": [
+            35,
+            36,
+            37
+        ]
+    },
+    "21955": {
+        "id_curso": 66,
+        "qtd_alunos": 13,
+        "horarios": [
+            17,
+            18,
+            19,
+            58,
+            59
+        ]
+    },
+    "21957": {
+        "id_curso": 66,
+        "qtd_alunos": 3,
+        "horarios": [
+            98,
+            99,
+            58,
+            59,
+            97
+        ]
+    },
+    "21959": {
+        "id_curso": 66,
+        "qtd_alunos": 18,
+        "horarios": [
+            39,
+            17,
+            18,
+            19
+        ]
+    },
+    "24522": {
+        "id_curso": 81,
+        "qtd_alunos": 16,
+        "horarios": [
+            64,
+            65,
+            66
+        ]
+    },
+    "24523": {
+        "id_curso": 81,
+        "qtd_alunos": 16,
+        "horarios": [
+            23,
+            24,
+            25
+        ]
+    },
+    "24524": {
+        "id_curso": 81,
+        "qtd_alunos": 16,
+        "horarios": [
+            44,
+            45
+        ]
+    },
+    "24525": {
+        "id_curso": 81,
+        "qtd_alunos": 16,
+        "horarios": [
+            66,
+            65
+        ]
+    },
+    "26318": {
+        "id_curso": 192,
+        "qtd_alunos": 16,
+        "horarios": [
+            18,
+            19
+        ]
+    },
+    "23247": {
+        "id_curso": 93,
+        "qtd_alunos": 21,
+        "horarios": [
+            88,
+            89
+        ]
+    },
+    "21970": {
+        "id_curso": 66,
+        "qtd_alunos": 20,
+        "horarios": [
+            96,
+            57,
+            58,
+            59,
+            95
+        ]
+    },
+    "26067": {
+        "id_curso": 64,
+        "qtd_alunos": 22,
+        "horarios": [
+            44,
+            45,
+            46,
+            84,
+            85
+        ]
+    },
+    "25557": {
+        "id_curso": 71,
+        "qtd_alunos": 23,
+        "horarios": [
+            13,
+            12
+        ]
+    },
+    "25047": {
+        "id_curso": 191,
+        "qtd_alunos": 18,
+        "horarios": [
+            59,
+            77,
+            78,
+            79,
+            57,
+            58
+        ]
+    },
+    "25817": {
+        "id_curso": 81,
+        "qtd_alunos": 18,
+        "horarios": [
+            4,
+            5,
+            6
+        ]
+    },
+    "25819": {
+        "id_curso": 81,
+        "qtd_alunos": 17,
+        "horarios": [
+            63,
+            64
+        ]
+    },
+    "24515": {
+        "id_curso": 70,
+        "qtd_alunos": 16,
+        "horarios": [
+            43,
+            44,
+            45,
+            46
+        ]
+    },
+    "24357": {
+        "id_curso": 195,
+        "qtd_alunos": 10,
+        "horarios": [
+            77,
+            78,
+            79
+        ]
+    },
+    "21884": {
+        "id_curso": 60,
+        "qtd_alunos": 3,
+        "horarios": [
+            83,
+            84,
+            25,
+            26
+        ]
+    },
+    "24979": {
+        "id_curso": 67,
+        "qtd_alunos": 20,
+        "horarios": [
+            68,
+            69,
+            88,
+            89
+        ]
+    },
+    "27602": {
+        "id_curso": 82,
+        "qtd_alunos": 23,
+        "horarios": [
+            85,
+            86
+        ]
+    },
+    "25368": {
+        "id_curso": 63,
+        "qtd_alunos": 39,
+        "horarios": [
+            95,
+            96,
+            97
+        ]
+    },
+    "23677": {
+        "id_curso": 57,
+        "qtd_alunos": 17,
+        "horarios": [
+            15,
+            16,
+            59,
+            58,
+            57
+        ]
+    },
+    "24993": {
+        "id_curso": 219,
+        "qtd_alunos": 38,
+        "horarios": [
+            75,
+            76
+        ]
+    },
+    "25675": {
+        "id_curso": 82,
+        "qtd_alunos": 14,
+        "horarios": [
+            1,
+            2
+        ]
+    },
+    "24959": {
+        "id_curso": 64,
+        "qtd_alunos": 9,
+        "horarios": [
+            61,
+            62,
+            44,
+            45
+        ]
+    },
+    "27417": {
+        "id_curso": 76,
+        "qtd_alunos": 21,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "21967": {
+        "id_curso": 66,
+        "qtd_alunos": 16,
+        "horarios": [
+            15,
+            16,
+            38,
+            39
+        ]
+    },
+    "22143": {
+        "id_curso": 64,
+        "qtd_alunos": 33,
+        "horarios": [
+            4,
+            81,
+            82,
+            3
+        ]
+    },
+    "30674": {
+        "id_curso": 67,
+        "qtd_alunos": 10,
+        "horarios": [
+            30,
+            31,
+            68,
+            69
+        ]
+    },
+    "23807": {
+        "id_curso": 68,
+        "qtd_alunos": 35,
+        "horarios": [
+            12,
+            91,
+            92,
+            13
+        ]
+    },
+    "24596": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            43,
+            42
+        ]
+    },
+    "24597": {
+        "id_turma": 10531,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            21,
+            22
+        ]
+    },
+    "24598": {
+        "id_turma": 10531,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            44,
+            45
+        ]
+    },
+    "24599": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            42,
+            43
+        ]
+    },
+    "24600": {
+        "id_turma": 10531,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            3,
+            2
+        ]
+    },
+    "24601": {
+        "id_turma": 10531,
+        "id_curso": 88,
+        "qtd_alunos": 32,
+        "horarios": [
+            5,
+            4
+        ]
+    },
+    "24602": {
+        "id_turma": 10531,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            62,
+            61
+        ]
+    },
+    "24603": {
+        "id_turma": 10531,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            85,
+            86
+        ]
+    },
+    "26652": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 15,
+        "horarios": [
+            36,
+            37,
+            38,
+            39,
+            95,
+            96
+        ]
+    },
+    "24605": {
+        "id_turma": 10531,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            81,
+            82
+        ]
+    },
+    "24606": {
+        "id_turma": 10531,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            83,
+            84
+        ]
+    },
+    "24607": {
+        "id_turma": 10531,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            23,
+            24
+        ]
+    },
+    "23560": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 44,
+        "horarios": [
+            45,
+            44
+        ]
+    },
+    "23562": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 44,
+        "horarios": [
+            21,
+            22,
+            64
+        ]
+    },
+    "23564": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 44,
+        "horarios": [
+            41,
+            83,
+            84
+        ]
+    },
+    "26707": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 10,
+        "horarios": [
+            32,
+            33
+        ]
+    },
+    "26714": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 4,
+        "horarios": [
+            65,
+            66
+        ]
+    },
+    "26720": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 9,
+        "horarios": [
+            55,
+            56,
+            75,
+            76
+        ]
+    },
+    "26736": {
+        "id_turma": 0,
+        "id_curso": 93,
+        "qtd_alunos": 20,
+        "horarios": [
+            33,
+            30,
+            31,
+            32
+        ]
+    },
+    "30856": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 20,
+        "horarios": [
+            12,
+            11,
+            10,
+            31,
+            32,
+            33
+        ]
+    },
+    "26768": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 7,
+        "horarios": [
+            69,
+            68
+        ]
+    },
+    "26769": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 1,
+        "horarios": [
+            69,
+            70
+        ]
+    },
+    "26774": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 1,
+        "horarios": [
+            51,
+            52
+        ]
+    },
+    "25327": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 27,
+        "horarios": [
+            68,
+            69,
+            12,
+            13
+        ]
+    },
+    "26781": {
+        "id_turma": 10531,
+        "id_curso": 88,
+        "qtd_alunos": 2,
+        "horarios": [
+            51,
+            50
+        ]
+    },
+    "26784": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 4,
+        "horarios": [
+            83,
+            84
+        ]
+    },
+    "24604": {
+        "id_turma": 10531,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            65,
+            66
+        ]
+    },
+    "26808": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 3,
+        "horarios": [
+            25,
+            26
+        ]
+    },
+    "26814": {
+        "id_turma": 0,
+        "id_curso": 93,
+        "qtd_alunos": 5,
+        "horarios": [
+            91,
+            88,
+            89,
+            90
+        ]
+    },
+    "26815": {
+        "id_turma": 0,
+        "id_curso": 93,
+        "qtd_alunos": 5,
+        "horarios": [
+            88,
+            89,
+            90,
+            91
+        ]
+    },
+    "26816": {
+        "id_turma": 0,
+        "id_curso": 93,
+        "qtd_alunos": 4,
+        "horarios": [
+            88,
+            89,
+            90,
+            91
+        ]
+    },
+    "26823": {
+        "id_turma": 0,
+        "id_curso": 93,
+        "qtd_alunos": 5,
+        "horarios": [
+            28,
+            29,
+            30,
+            31
+        ]
+    },
+    "26824": {
+        "id_turma": 0,
+        "id_curso": 93,
+        "qtd_alunos": 5,
+        "horarios": [
+            31,
+            28,
+            29,
+            30
+        ]
+    },
+    "26825": {
+        "id_turma": 0,
+        "id_curso": 93,
+        "qtd_alunos": 4,
+        "horarios": [
+            31,
+            28,
+            29,
+            30
+        ]
+    },
+    "24791": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 46,
+        "horarios": [
+            66,
+            65,
+            64
+        ]
+    },
+    "24792": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 54,
+        "horarios": [
+            42,
+            86,
+            85,
+            43
+        ]
+    },
+    "24793": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 46,
+        "horarios": [
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "24794": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 45,
+        "horarios": [
+            44,
+            45,
+            46
+        ]
+    },
+    "26319": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 12,
+        "horarios": [
+            95,
+            96
+        ]
+    },
+    "24796": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 48,
+        "horarios": [
+            82,
+            83,
+            84
+        ]
+    },
+    "24797": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 46,
+        "horarios": [
+            24,
+            25,
+            26
+        ]
+    },
+    "24806": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 25,
+        "horarios": [
+            1,
+            2,
+            63,
+            64
+        ]
+    },
+    "24807": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 25,
+        "horarios": [
+            25,
+            23,
+            24
+        ]
+    },
+    "24808": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 23,
+        "horarios": [
+            21,
+            22,
+            61,
+            62
+        ]
+    },
+    "24809": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 23,
+        "horarios": [
+            43,
+            45,
+            44
+        ]
+    },
+    "24810": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 16,
+        "horarios": [
+            5,
+            4,
+            3
+        ]
+    },
+    "24811": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 23,
+        "horarios": [
+            82,
+            66,
+            65,
+            81
+        ]
+    },
+    "24812": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 24,
+        "horarios": [
+            1,
+            2,
+            26,
+            25
+        ]
+    },
+    "24813": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 25,
+        "horarios": [
+            6,
+            5,
+            81,
+            82
+        ]
+    },
+    "24814": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 23,
+        "horarios": [
+            21,
+            22,
+            61,
+            62
+        ]
+    },
+    "24815": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 22,
+        "horarios": [
+            23,
+            24,
+            41,
+            42
+        ]
+    },
+    "24816": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 24,
+        "horarios": [
+            4,
+            3,
+            43,
+            44
+        ]
+    },
+    "24817": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 25,
+        "horarios": [
+            63,
+            65,
+            66,
+            64
+        ]
+    },
+    "24819": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 30,
+        "horarios": [
+            2,
+            45,
+            46,
+            1
+        ]
+    },
+    "24820": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 28,
+        "horarios": [
+            64,
+            22,
+            21,
+            63
+        ]
+    },
+    "24825": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 14,
+        "horarios": [
+            44,
+            43,
+            45,
+            46
+        ]
+    },
+    "24827": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 13,
+        "horarios": [
+            4,
+            3,
+            6,
+            5
+        ]
+    },
+    "24830": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 21,
+        "horarios": [
+            5,
+            6,
+            25,
+            26
+        ]
+    },
+    "24834": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 10,
+        "horarios": [
+            63,
+            64,
+            23,
+            24
+        ]
+    },
+    "24836": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 37,
+        "horarios": [
+            37,
+            99,
+            98,
+            38
+        ]
+    },
+    "24842": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 50,
+        "horarios": [
+            37,
+            15,
+            16,
+            17
+        ]
+    },
+    "24843": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 35,
+        "horarios": [
+            55,
+            56,
+            57
+        ]
+    },
+    "24844": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 49,
+        "horarios": [
+            75,
+            76,
+            77,
+            99
+        ]
+    },
+    "24845": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 32,
+        "horarios": [
+            35,
+            36,
+            78,
+            79
+        ]
+    },
+    "24847": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 38,
+        "horarios": [
+            58,
+            59,
+            95,
+            96
+        ]
+    },
+    "24848": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 34,
+        "horarios": [
+            38,
+            18,
+            19,
+            39
+        ]
+    },
+    "24849": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 45,
+        "horarios": [
+            19,
+            77,
+            78,
+            79
+        ]
+    },
+    "24850": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 40,
+        "horarios": [
+            76,
+            35,
+            36,
+            75
+        ]
+    },
+    "24851": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 40,
+        "horarios": [
+            95,
+            96,
+            97
+        ]
+    },
+    "24852": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 41,
+        "horarios": [
+            17,
+            18,
+            15,
+            16
+        ]
+    },
+    "24853": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 41,
+        "horarios": [
+            37,
+            38,
+            39
+        ]
+    },
+    "24854": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 41,
+        "horarios": [
+            55,
+            56,
+            57
+        ]
+    },
+    "24855": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 40,
+        "horarios": [
+            98,
+            59,
+            58,
+            99
+        ]
+    },
+    "24856": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 16,
+        "horarios": [
+            39,
+            99,
+            98,
+            38
+        ]
+    },
+    "24857": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 32,
+        "horarios": [
+            95,
+            96,
+            35,
+            36
+        ]
+    },
+    "24858": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 25,
+        "horarios": [
+            55,
+            56,
+            57,
+            58
+        ]
+    },
+    "24860": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 20,
+        "horarios": [
+            97,
+            19,
+            18,
+            17
+        ]
+    },
+    "24861": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 29,
+        "horarios": [
+            37,
+            79,
+            77,
+            78
+        ]
+    },
+    "24863": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 36,
+        "horarios": [
+            15,
+            16,
+            36,
+            35
+        ]
+    },
+    "24864": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 34,
+        "horarios": [
+            76,
+            56,
+            55,
+            75
+        ]
+    },
+    "24865": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 46,
+        "horarios": [
+            18,
+            95,
+            96,
+            17
+        ]
+    },
+    "24866": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 25,
+        "horarios": [
+            19,
+            39,
+            38,
+            37
+        ]
+    },
+    "24869": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 21,
+        "horarios": [
+            97,
+            37,
+            36,
+            35
+        ]
+    },
+    "24870": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 19,
+        "horarios": [
+            78,
+            39,
+            38,
+            77
+        ]
+    },
+    "27698": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 1,
+        "horarios": [
+            8,
+            9,
+            68,
+            69
+        ]
+    },
+    "23261": {
+        "id_turma": 10123,
+        "id_curso": 93,
+        "qtd_alunos": 34,
+        "horarios": [
+            50,
+            51
+        ]
+    },
+    "23607": {
+        "id_turma": 10188,
+        "id_curso": 82,
+        "qtd_alunos": 33,
+        "horarios": [
+            83,
+            84,
+            85
+        ]
+    },
+    "25380": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 18,
+        "horarios": [
+            35,
+            36,
+            98,
+            99
+        ]
+    },
+    "24955": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 7,
+        "horarios": [
+            43,
+            61,
+            62,
+            44,
+            45
+        ]
+    },
+    "24960": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 4,
+        "horarios": [
+            41,
+            42,
+            81,
+            82
+        ]
+    },
+    "24962": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 2,
+        "horarios": [
+            3,
+            4,
+            42,
+            43
+        ]
+    },
+    "24963": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 5,
+        "horarios": [
+            45,
+            44
+        ]
+    },
+    "24978": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 25,
+        "horarios": [
+            30,
+            31,
+            32
+        ]
+    },
+    "24982": {
+        "id_turma": 10721,
+        "id_curso": 219,
+        "qtd_alunos": 45,
+        "horarios": [
+            57,
+            56
+        ]
+    },
+    "24983": {
+        "id_turma": 10721,
+        "id_curso": 219,
+        "qtd_alunos": 46,
+        "horarios": [
+            19,
+            39
+        ]
+    },
+    "24985": {
+        "id_turma": 10721,
+        "id_curso": 219,
+        "qtd_alunos": 46,
+        "horarios": [
+            37,
+            38,
+            75
+        ]
+    },
+    "24986": {
+        "id_turma": 10721,
+        "id_curso": 219,
+        "qtd_alunos": 46,
+        "horarios": [
+            36,
+            35
+        ]
+    },
+    "24987": {
+        "id_turma": 10721,
+        "id_curso": 219,
+        "qtd_alunos": 45,
+        "horarios": [
+            17,
+            18,
+            55
+        ]
+    },
+    "24988": {
+        "id_turma": 10721,
+        "id_curso": 219,
+        "qtd_alunos": 45,
+        "horarios": [
+            76,
+            77
+        ]
+    },
+    "24989": {
+        "id_turma": 10721,
+        "id_curso": 219,
+        "qtd_alunos": 47,
+        "horarios": [
+            95,
+            96
+        ]
+    },
+    "24990": {
+        "id_turma": 10721,
+        "id_curso": 219,
+        "qtd_alunos": 47,
+        "horarios": [
+            15,
+            16,
+            58
+        ]
+    },
+    "24991": {
+        "id_turma": 10722,
+        "id_curso": 219,
+        "qtd_alunos": 36,
+        "horarios": [
+            99,
+            79
+        ]
+    },
+    "24992": {
+        "id_turma": 0,
+        "id_curso": 219,
+        "qtd_alunos": 36,
+        "horarios": [
+            75,
+            76
+        ]
+    },
+    "24994": {
+        "id_turma": 10722,
+        "id_curso": 219,
+        "qtd_alunos": 36,
+        "horarios": [
+            97,
+            98,
+            59
+        ]
+    },
+    "24995": {
+        "id_turma": 10722,
+        "id_curso": 219,
+        "qtd_alunos": 37,
+        "horarios": [
+            38,
+            37
+        ]
+    },
+    "24996": {
+        "id_turma": 10722,
+        "id_curso": 219,
+        "qtd_alunos": 36,
+        "horarios": [
+            15,
+            16
+        ]
+    },
+    "24997": {
+        "id_turma": 10722,
+        "id_curso": 219,
+        "qtd_alunos": 37,
+        "horarios": [
+            55,
+            56
+        ]
+    },
+    "24998": {
+        "id_turma": 10722,
+        "id_curso": 219,
+        "qtd_alunos": 36,
+        "horarios": [
+            17,
+            18,
+            57
+        ]
+    },
+    "24999": {
+        "id_turma": 10722,
+        "id_curso": 219,
+        "qtd_alunos": 36,
+        "horarios": [
+            77,
+            78
+        ]
+    },
+    "25000": {
+        "id_turma": 10722,
+        "id_curso": 219,
+        "qtd_alunos": 37,
+        "horarios": [
+            35,
+            36
+        ]
+    },
+    "25001": {
+        "id_turma": 10723,
+        "id_curso": 219,
+        "qtd_alunos": 20,
+        "horarios": [
+            77,
+            78
+        ]
+    },
+    "25002": {
+        "id_turma": 10723,
+        "id_curso": 219,
+        "qtd_alunos": 19,
+        "horarios": [
+            59,
+            79
+        ]
+    },
+    "25003": {
+        "id_turma": 10723,
+        "id_curso": 219,
+        "qtd_alunos": 19,
+        "horarios": [
+            76,
+            75
+        ]
+    },
+    "25004": {
+        "id_turma": 10723,
+        "id_curso": 219,
+        "qtd_alunos": 20,
+        "horarios": [
+            56,
+            97,
+            98,
+            55
+        ]
+    },
+    "25005": {
+        "id_turma": 10723,
+        "id_curso": 219,
+        "qtd_alunos": 19,
+        "horarios": [
+            37,
+            38
+        ]
+    },
+    "25006": {
+        "id_turma": 10723,
+        "id_curso": 219,
+        "qtd_alunos": 18,
+        "horarios": [
+            18,
+            17
+        ]
+    },
+    "25007": {
+        "id_turma": 10723,
+        "id_curso": 219,
+        "qtd_alunos": 19,
+        "horarios": [
+            57,
+            58
+        ]
+    },
+    "25008": {
+        "id_turma": 10723,
+        "id_curso": 219,
+        "qtd_alunos": 19,
+        "horarios": [
+            15,
+            16
+        ]
+    },
+    "25009": {
+        "id_turma": 10723,
+        "id_curso": 219,
+        "qtd_alunos": 19,
+        "horarios": [
+            35,
+            36
+        ]
+    },
+    "25010": {
+        "id_turma": 10723,
+        "id_curso": 219,
+        "qtd_alunos": 19,
+        "horarios": [
+            95,
+            96
+        ]
+    },
+    "25011": {
+        "id_turma": 10724,
+        "id_curso": 219,
+        "qtd_alunos": 23,
+        "horarios": [
+            37,
+            38
+        ]
+    },
+    "25012": {
+        "id_turma": 10724,
+        "id_curso": 219,
+        "qtd_alunos": 23,
+        "horarios": [
+            19,
+            39
+        ]
+    },
+    "25013": {
+        "id_turma": 10724,
+        "id_curso": 219,
+        "qtd_alunos": 24,
+        "horarios": [
+            77,
+            78
+        ]
+    },
+    "25014": {
+        "id_turma": 10724,
+        "id_curso": 219,
+        "qtd_alunos": 22,
+        "horarios": [
+            57,
+            58
+        ]
+    },
+    "25015": {
+        "id_turma": 10724,
+        "id_curso": 219,
+        "qtd_alunos": 24,
+        "horarios": [
+            15,
+            16
+        ]
+    },
+    "25016": {
+        "id_turma": 10724,
+        "id_curso": 219,
+        "qtd_alunos": 25,
+        "horarios": [
+            76,
+            75
+        ]
+    },
+    "25017": {
+        "id_turma": 10724,
+        "id_curso": 219,
+        "qtd_alunos": 23,
+        "horarios": [
+            55,
+            56
+        ]
+    },
+    "25018": {
+        "id_turma": 10724,
+        "id_curso": 219,
+        "qtd_alunos": 22,
+        "horarios": [
+            35,
+            36
+        ]
+    },
+    "25019": {
+        "id_turma": 10724,
+        "id_curso": 219,
+        "qtd_alunos": 38,
+        "horarios": [
+            97,
+            98
+        ]
+    },
+    "25021": {
+        "id_turma": 10724,
+        "id_curso": 219,
+        "qtd_alunos": 23,
+        "horarios": [
+            17,
+            18
+        ]
+    },
+    "25022": {
+        "id_turma": 10725,
+        "id_curso": 219,
+        "qtd_alunos": 18,
+        "horarios": [
+            35,
+            36
+        ]
+    },
+    "25023": {
+        "id_turma": 10725,
+        "id_curso": 219,
+        "qtd_alunos": 18,
+        "horarios": [
+            39,
+            99
+        ]
+    },
+    "25024": {
+        "id_turma": 10725,
+        "id_curso": 219,
+        "qtd_alunos": 18,
+        "horarios": [
+            77,
+            78
+        ]
+    },
+    "25025": {
+        "id_turma": 10725,
+        "id_curso": 219,
+        "qtd_alunos": 18,
+        "horarios": [
+            75,
+            76
+        ]
+    },
+    "25026": {
+        "id_turma": 10725,
+        "id_curso": 219,
+        "qtd_alunos": 19,
+        "horarios": [
+            58,
+            57
+        ]
+    },
+    "25027": {
+        "id_turma": 10725,
+        "id_curso": 219,
+        "qtd_alunos": 18,
+        "horarios": [
+            37,
+            38
+        ]
+    },
+    "25028": {
+        "id_turma": 10725,
+        "id_curso": 219,
+        "qtd_alunos": 19,
+        "horarios": [
+            95,
+            96
+        ]
+    },
+    "25029": {
+        "id_turma": 10725,
+        "id_curso": 219,
+        "qtd_alunos": 18,
+        "horarios": [
+            56,
+            55
+        ]
+    },
+    "25030": {
+        "id_turma": 10725,
+        "id_curso": 219,
+        "qtd_alunos": 18,
+        "horarios": [
+            97,
+            98
+        ]
+    },
+    "24429": {
+        "id_turma": 0,
+        "id_curso": 206,
+        "qtd_alunos": 13,
+        "horarios": [
+            58,
+            59
+        ]
+    },
+    "25335": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 3,
+        "horarios": [
+            42,
+            43,
+            44
+        ]
+    },
+    "25066": {
+        "id_turma": 0,
+        "id_curso": 359,
+        "qtd_alunos": 36,
+        "horarios": [
+            12,
+            29,
+            30,
+            11
+        ]
+    },
+    "25067": {
+        "id_turma": 0,
+        "id_curso": 359,
+        "qtd_alunos": 36,
+        "horarios": [
+            71,
+            72,
+            89,
+            90
+        ]
+    },
+    "25068": {
+        "id_turma": 0,
+        "id_curso": 359,
+        "qtd_alunos": 36,
+        "horarios": [
+            49,
+            50,
+            91,
+            92
+        ]
+    },
+    "23634": {
+        "id_turma": 10210,
+        "id_curso": 82,
+        "qtd_alunos": 34,
+        "horarios": [
+            73,
+            72
+        ]
+    },
+    "25070": {
+        "id_turma": 0,
+        "id_curso": 359,
+        "qtd_alunos": 36,
+        "horarios": [
+            10,
+            51,
+            52,
+            9
+        ]
+    },
+    "25071": {
+        "id_turma": 0,
+        "id_curso": 359,
+        "qtd_alunos": 35,
+        "horarios": [
+            69,
+            70,
+            68
+        ]
+    },
+    "25120": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 16,
+        "horarios": [
+            45,
+            46
+        ]
+    },
+    "23084": {
+        "id_turma": 10104,
+        "id_curso": 76,
+        "qtd_alunos": 41,
+        "horarios": [
+            49,
+            10,
+            11
+        ]
+    },
+    "23085": {
+        "id_turma": 10104,
+        "id_curso": 76,
+        "qtd_alunos": 41,
+        "horarios": [
+            93,
+            92,
+            91
+        ]
+    },
+    "23086": {
+        "id_turma": 10104,
+        "id_curso": 76,
+        "qtd_alunos": 42,
+        "horarios": [
+            88,
+            13,
+            89
+        ]
+    },
+    "23087": {
+        "id_turma": 10104,
+        "id_curso": 76,
+        "qtd_alunos": 40,
+        "horarios": [
+            48,
+            33,
+            32
+        ]
+    },
+    "23088": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 21,
+        "horarios": [
+            51,
+            50
+        ]
+    },
+    "23089": {
+        "id_turma": 10104,
+        "id_curso": 76,
+        "qtd_alunos": 40,
+        "horarios": [
+            29,
+            70,
+            30
+        ]
+    },
+    "23090": {
+        "id_turma": 10104,
+        "id_curso": 76,
+        "qtd_alunos": 40,
+        "horarios": [
+            28,
+            71,
+            72
+        ]
+    },
+    "23091": {
+        "id_turma": 10104,
+        "id_curso": 76,
+        "qtd_alunos": 41,
+        "horarios": [
+            8,
+            9,
+            31
+        ]
+    },
+    "23095": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 40,
+        "horarios": [
+            68,
+            69
+        ]
+    },
+    "23097": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 41,
+        "horarios": [
+            68,
+            69
+        ]
+    },
+    "23099": {
+        "id_turma": 10105,
+        "id_curso": 76,
+        "qtd_alunos": 37,
+        "horarios": [
+            88,
+            89
+        ]
+    },
+    "23100": {
+        "id_turma": 10105,
+        "id_curso": 76,
+        "qtd_alunos": 38,
+        "horarios": [
+            69,
+            90,
+            68
+        ]
+    },
+    "23101": {
+        "id_turma": 10105,
+        "id_curso": 76,
+        "qtd_alunos": 38,
+        "horarios": [
+            53,
+            52
+        ]
+    },
+    "23102": {
+        "id_turma": 10105,
+        "id_curso": 76,
+        "qtd_alunos": 38,
+        "horarios": [
+            93,
+            92
+        ]
+    },
+    "23103": {
+        "id_turma": 10105,
+        "id_curso": 76,
+        "qtd_alunos": 38,
+        "horarios": [
+            91,
+            49,
+            50
+        ]
+    },
+    "23104": {
+        "id_turma": 10105,
+        "id_curso": 76,
+        "qtd_alunos": 38,
+        "horarios": [
+            73,
+            72
+        ]
+    },
+    "23105": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 38,
+        "horarios": [
+            70,
+            71
+        ]
+    },
+    "23106": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 38,
+        "horarios": [
+            70,
+            71
+        ]
+    },
+    "25355": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 18,
+        "horarios": [
+            95,
+            96,
+            97,
+            98
+        ]
+    },
+    "23108": {
+        "id_turma": 10105,
+        "id_curso": 76,
+        "qtd_alunos": 39,
+        "horarios": [
+            9,
+            48,
+            8
+        ]
+    },
+    "23109": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 19,
+        "horarios": [
+            12,
+            10,
+            11,
+            28,
+            29,
+            30
+        ]
+    },
+    "23110": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 16,
+        "horarios": [
+            28,
+            29,
+            30
+        ]
+    },
+    "23111": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 19,
+        "horarios": [
+            11,
+            12,
+            13,
+            10
+        ]
+    },
+    "25356": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 16,
+        "horarios": [
+            19,
+            75,
+            76
+        ]
+    },
+    "25357": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 14,
+        "horarios": [
+            57,
+            99,
+            55,
+            56
+        ]
+    },
+    "25358": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 0,
+        "horarios": [
+            77,
+            78,
+            79
+        ]
+    },
+    "23126": {
+        "id_turma": 10107,
+        "id_curso": 76,
+        "qtd_alunos": 42,
+        "horarios": [
+            88,
+            89
+        ]
+    },
+    "23127": {
+        "id_turma": 10107,
+        "id_curso": 76,
+        "qtd_alunos": 31,
+        "horarios": [
+            68,
+            69
+        ]
+    },
+    "23128": {
+        "id_turma": 10107,
+        "id_curso": 76,
+        "qtd_alunos": 41,
+        "horarios": [
+            8,
+            9,
+            90
+        ]
+    },
+    "23129": {
+        "id_turma": 10107,
+        "id_curso": 76,
+        "qtd_alunos": 41,
+        "horarios": [
+            92,
+            93,
+            91
+        ]
+    },
+    "23130": {
+        "id_turma": 10107,
+        "id_curso": 76,
+        "qtd_alunos": 42,
+        "horarios": [
+            29,
+            28
+        ]
+    },
+    "23131": {
+        "id_turma": 10107,
+        "id_curso": 76,
+        "qtd_alunos": 41,
+        "horarios": [
+            10,
+            11
+        ]
+    },
+    "25361": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 16,
+        "horarios": [
+            95,
+            96,
+            97
+        ]
+    },
+    "23655": {
+        "id_turma": 10212,
+        "id_curso": 82,
+        "qtd_alunos": 21,
+        "horarios": [
+            49,
+            48
+        ]
+    },
+    "25362": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 7,
+        "horarios": [
+            59,
+            78,
+            79,
+            58
+        ]
+    },
+    "23656": {
+        "id_turma": 10212,
+        "id_curso": 82,
+        "qtd_alunos": 21,
+        "horarios": [
+            72,
+            73
+        ]
+    },
+    "25363": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 13,
+        "horarios": [
+            35,
+            36,
+            37
+        ]
+    },
+    "25364": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 8,
+        "horarios": [
+            16,
+            55,
+            56,
+            15
+        ]
+    },
+    "25365": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 15,
+        "horarios": [
+            17,
+            18,
+            19
+        ]
+    },
+    "23168": {
+        "id_turma": 10110,
+        "id_curso": 76,
+        "qtd_alunos": 33,
+        "horarios": [
+            68,
+            69
+        ]
+    },
+    "23169": {
+        "id_turma": 10110,
+        "id_curso": 76,
+        "qtd_alunos": 34,
+        "horarios": [
+            8,
+            9
+        ]
+    },
+    "23170": {
+        "id_turma": 10110,
+        "id_curso": 76,
+        "qtd_alunos": 20,
+        "horarios": [
+            12,
+            13
+        ]
+    },
+    "23173": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 34,
+        "horarios": [
+            70,
+            71
+        ]
+    },
+    "23174": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 20,
+        "horarios": [
+            52,
+            31,
+            32,
+            53
+        ]
+    },
+    "23176": {
+        "id_turma": 10110,
+        "id_curso": 76,
+        "qtd_alunos": 34,
+        "horarios": [
+            73,
+            72
+        ]
+    },
+    "23177": {
+        "id_turma": 10110,
+        "id_curso": 76,
+        "qtd_alunos": 34,
+        "horarios": [
+            10,
+            11
+        ]
+    },
+    "23178": {
+        "id_turma": 10110,
+        "id_curso": 76,
+        "qtd_alunos": 33,
+        "horarios": [
+            88,
+            89
+        ]
+    },
+    "23179": {
+        "id_turma": 10110,
+        "id_curso": 76,
+        "qtd_alunos": 34,
+        "horarios": [
+            90,
+            91
+        ]
+    },
+    "23180": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 34,
+        "horarios": [
+            70,
+            71
+        ]
+    },
+    "23181": {
+        "id_turma": 10110,
+        "id_curso": 76,
+        "qtd_alunos": 34,
+        "horarios": [
+            50,
+            51
+        ]
+    },
+    "23182": {
+        "id_turma": 10110,
+        "id_curso": 76,
+        "qtd_alunos": 34,
+        "horarios": [
+            93,
+            92
+        ]
+    },
+    "23661": {
+        "id_turma": 10212,
+        "id_curso": 82,
+        "qtd_alunos": 21,
+        "horarios": [
+            88,
+            89,
+            90
+        ]
+    },
+    "23184": {
+        "id_turma": 10110,
+        "id_curso": 76,
+        "qtd_alunos": 34,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "23321": {
+        "id_turma": 10135,
+        "id_curso": 71,
+        "qtd_alunos": 36,
+        "horarios": [
+            89,
+            90,
+            88
+        ]
+    },
+    "25370": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 37,
+        "horarios": [
+            56,
+            57,
+            55
+        ]
+    },
+    "25371": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 36,
+        "horarios": [
+            75,
+            76,
+            77
+        ]
+    },
+    "25372": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 42,
+        "horarios": [
+            18,
+            19,
+            58,
+            59
+        ]
+    },
+    "25031": {
+        "id_turma": 10725,
+        "id_curso": 219,
+        "qtd_alunos": 19,
+        "horarios": [
+            15,
+            16
+        ]
+    },
+    "25373": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 39,
+        "horarios": [
+            35,
+            36,
+            37
+        ]
+    },
+    "25374": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 19,
+        "horarios": [
+            57,
+            58,
+            59
+        ]
+    },
+    "25375": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 24,
+        "horarios": [
+            38,
+            39,
+            37
+        ]
+    },
+    "25376": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 15,
+        "horarios": [
+            19,
+            75,
+            76
+        ]
+    },
+    "21963": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 38,
+        "horarios": [
+            98,
+            17,
+            18,
+            19,
+            97
+        ]
+    },
+    "25377": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 17,
+        "horarios": [
+            15,
+            16,
+            55,
+            56
+        ]
+    },
+    "23241": {
+        "id_turma": 10122,
+        "id_curso": 93,
+        "qtd_alunos": 42,
+        "horarios": [
+            33,
+            48,
+            49
+        ]
+    },
+    "23242": {
+        "id_turma": 10122,
+        "id_curso": 93,
+        "qtd_alunos": 42,
+        "horarios": [
+            10,
+            29,
+            30
+        ]
+    },
+    "23243": {
+        "id_turma": 10122,
+        "id_curso": 93,
+        "qtd_alunos": 42,
+        "horarios": [
+            90,
+            11,
+            12
+        ]
+    },
+    "23244": {
+        "id_turma": 10122,
+        "id_curso": 93,
+        "qtd_alunos": 42,
+        "horarios": [
+            31,
+            32,
+            50
+        ]
+    },
+    "23245": {
+        "id_turma": 10122,
+        "id_curso": 93,
+        "qtd_alunos": 42,
+        "horarios": [
+            53,
+            51,
+            52
+        ]
+    },
+    "23246": {
+        "id_turma": 10122,
+        "id_curso": 93,
+        "qtd_alunos": 42,
+        "horarios": [
+            28,
+            68,
+            69
+        ]
+    },
+    "23249": {
+        "id_turma": 10122,
+        "id_curso": 93,
+        "qtd_alunos": 42,
+        "horarios": [
+            8,
+            9
+        ]
+    },
+    "23252": {
+        "id_turma": 10123,
+        "id_curso": 93,
+        "qtd_alunos": 36,
+        "horarios": [
+            30,
+            31
+        ]
+    },
+    "23254": {
+        "id_turma": 10123,
+        "id_curso": 93,
+        "qtd_alunos": 35,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "23255": {
+        "id_turma": 10123,
+        "id_curso": 93,
+        "qtd_alunos": 36,
+        "horarios": [
+            29,
+            28
+        ]
+    },
+    "23256": {
+        "id_turma": 10123,
+        "id_curso": 93,
+        "qtd_alunos": 37,
+        "horarios": [
+            53,
+            52
+        ]
+    },
+    "23257": {
+        "id_turma": 10123,
+        "id_curso": 93,
+        "qtd_alunos": 36,
+        "horarios": [
+            91,
+            92,
+            93
+        ]
+    },
+    "23258": {
+        "id_turma": 10123,
+        "id_curso": 93,
+        "qtd_alunos": 35,
+        "horarios": [
+            68,
+            69,
+            88
+        ]
+    },
+    "23259": {
+        "id_turma": 10123,
+        "id_curso": 93,
+        "qtd_alunos": 36,
+        "horarios": [
+            12,
+            11
+        ]
+    },
+    "23260": {
+        "id_turma": 10123,
+        "id_curso": 93,
+        "qtd_alunos": 36,
+        "horarios": [
+            72,
+            70,
+            71
+        ]
+    },
+    "23674": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 24,
+        "horarios": [
+            96,
+            35,
+            36,
+            95
+        ]
+    },
+    "23266": {
+        "id_turma": 10124,
+        "id_curso": 93,
+        "qtd_alunos": 40,
+        "horarios": [
+            28,
+            29
+        ]
+    },
+    "23268": {
+        "id_turma": 10124,
+        "id_curso": 93,
+        "qtd_alunos": 40,
+        "horarios": [
+            69,
+            70
+        ]
+    },
+    "23269": {
+        "id_turma": 10124,
+        "id_curso": 93,
+        "qtd_alunos": 40,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "23270": {
+        "id_turma": 10124,
+        "id_curso": 93,
+        "qtd_alunos": 40,
+        "horarios": [
+            52,
+            53,
+            68
+        ]
+    },
+    "23271": {
+        "id_turma": 10124,
+        "id_curso": 93,
+        "qtd_alunos": 39,
+        "horarios": [
+            50,
+            51
+        ]
+    },
+    "23272": {
+        "id_turma": 10124,
+        "id_curso": 93,
+        "qtd_alunos": 40,
+        "horarios": [
+            88,
+            89
+        ]
+    },
+    "23273": {
+        "id_turma": 10124,
+        "id_curso": 93,
+        "qtd_alunos": 40,
+        "horarios": [
+            90,
+            91
+        ]
+    },
+    "23274": {
+        "id_turma": 0,
+        "id_curso": 93,
+        "qtd_alunos": 24,
+        "horarios": [
+            30,
+            31,
+            33,
+            32
+        ]
+    },
+    "23276": {
+        "id_turma": 10124,
+        "id_curso": 93,
+        "qtd_alunos": 40,
+        "horarios": [
+            72,
+            71
+        ]
+    },
+    "23279": {
+        "id_turma": 10124,
+        "id_curso": 93,
+        "qtd_alunos": 40,
+        "horarios": [
+            92,
+            93
+        ]
+    },
+    "25328": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 4,
+        "horarios": [
+            72,
+            73,
+            9,
+            10
+        ]
+    },
+    "25329": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 2,
+        "horarios": [
+            12,
+            11,
+            70,
+            71
+        ]
+    },
+    "25330": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 13,
+        "horarios": [
+            8,
+            9,
+            10,
+            11
+        ]
+    },
+    "23285": {
+        "id_turma": 10125,
+        "id_curso": 93,
+        "qtd_alunos": 19,
+        "horarios": [
+            72,
+            73
+        ]
+    },
+    "23286": {
+        "id_turma": 0,
+        "id_curso": 93,
+        "qtd_alunos": 19,
+        "horarios": [
+            92,
+            93
+        ]
+    },
+    "23287": {
+        "id_turma": 10125,
+        "id_curso": 93,
+        "qtd_alunos": 19,
+        "horarios": [
+            50,
+            51
+        ]
+    },
+    "23288": {
+        "id_turma": 10125,
+        "id_curso": 93,
+        "qtd_alunos": 19,
+        "horarios": [
+            10,
+            11
+        ]
+    },
+    "23289": {
+        "id_turma": 0,
+        "id_curso": 93,
+        "qtd_alunos": 19,
+        "horarios": [
+            53,
+            52
+        ]
+    },
+    "23290": {
+        "id_turma": 0,
+        "id_curso": 93,
+        "qtd_alunos": 19,
+        "horarios": [
+            52,
+            53
+        ]
+    },
+    "23293": {
+        "id_turma": 0,
+        "id_curso": 93,
+        "qtd_alunos": 5,
+        "horarios": [
+            28,
+            29,
+            30,
+            31
+        ]
+    },
+    "23294": {
+        "id_turma": 10125,
+        "id_curso": 93,
+        "qtd_alunos": 19,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "23299": {
+        "id_turma": 0,
+        "id_curso": 93,
+        "qtd_alunos": 5,
+        "horarios": [
+            91,
+            88,
+            89,
+            90
+        ]
+    },
+    "25349": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 5,
+        "horarios": [
+            73,
+            49,
+            48,
+            72
+        ]
+    },
+    "25351": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 21,
+        "horarios": [
+            52,
+            53
+        ]
+    },
+    "23304": {
+        "id_turma": 10125,
+        "id_curso": 93,
+        "qtd_alunos": 19,
+        "horarios": [
+            32
+        ]
+    },
+    "25353": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 15,
+        "horarios": [
+            35,
+            36,
+            37
+        ]
+    },
+    "25354": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 21,
+        "horarios": [
+            38,
+            39,
+            58,
+            59
+        ]
+    },
+    "23307": {
+        "id_turma": 10125,
+        "id_curso": 93,
+        "qtd_alunos": 19,
+        "horarios": [
+            8,
+            9
+        ]
+    },
+    "23308": {
+        "id_turma": 10134,
+        "id_curso": 71,
+        "qtd_alunos": 48,
+        "horarios": [
+            89,
+            90
+        ]
+    },
+    "23309": {
+        "id_turma": 10134,
+        "id_curso": 71,
+        "qtd_alunos": 49,
+        "horarios": [
+            8,
+            72,
+            73
+        ]
+    },
+    "23310": {
+        "id_turma": 10134,
+        "id_curso": 71,
+        "qtd_alunos": 48,
+        "horarios": [
+            92,
+            91
+        ]
+    },
+    "23311": {
+        "id_turma": 10134,
+        "id_curso": 71,
+        "qtd_alunos": 39,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "25360": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 29,
+        "horarios": [
+            38,
+            39,
+            98,
+            99
+        ]
+    },
+    "23313": {
+        "id_turma": 10134,
+        "id_curso": 71,
+        "qtd_alunos": 48,
+        "horarios": [
+            9,
+            10
+        ]
+    },
+    "23314": {
+        "id_turma": 10134,
+        "id_curso": 71,
+        "qtd_alunos": 49,
+        "horarios": [
+            29,
+            11,
+            28
+        ]
+    },
+    "23315": {
+        "id_turma": 10134,
+        "id_curso": 71,
+        "qtd_alunos": 49,
+        "horarios": [
+            32,
+            33,
+            88
+        ]
+    },
+    "23316": {
+        "id_turma": 10134,
+        "id_curso": 71,
+        "qtd_alunos": 48,
+        "horarios": [
+            71,
+            70,
+            69
+        ]
+    },
+    "23317": {
+        "id_turma": 0,
+        "id_curso": 71,
+        "qtd_alunos": 48,
+        "horarios": [
+            30,
+            31
+        ]
+    },
+    "23318": {
+        "id_turma": 0,
+        "id_curso": 71,
+        "qtd_alunos": 48,
+        "horarios": [
+            30,
+            31
+        ]
+    },
+    "25369": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 43,
+        "horarios": [
+            15,
+            16,
+            17
+        ]
+    },
+    "23322": {
+        "id_turma": 10135,
+        "id_curso": 71,
+        "qtd_alunos": 36,
+        "horarios": [
+            52,
+            53
+        ]
+    },
+    "23323": {
+        "id_turma": 10135,
+        "id_curso": 71,
+        "qtd_alunos": 36,
+        "horarios": [
+            49,
+            48
+        ]
+    },
+    "23324": {
+        "id_turma": 10135,
+        "id_curso": 71,
+        "qtd_alunos": 35,
+        "horarios": [
+            72,
+            91,
+            73
+        ]
+    },
+    "23325": {
+        "id_turma": 10135,
+        "id_curso": 71,
+        "qtd_alunos": 36,
+        "horarios": [
+            31,
+            30
+        ]
+    },
+    "23326": {
+        "id_turma": 10135,
+        "id_curso": 71,
+        "qtd_alunos": 36,
+        "horarios": [
+            11,
+            10
+        ]
+    },
+    "23327": {
+        "id_turma": 10135,
+        "id_curso": 71,
+        "qtd_alunos": 37,
+        "horarios": [
+            50,
+            51
+        ]
+    },
+    "23328": {
+        "id_turma": 10135,
+        "id_curso": 71,
+        "qtd_alunos": 35,
+        "horarios": [
+            32,
+            33
+        ]
+    },
+    "23329": {
+        "id_turma": 10135,
+        "id_curso": 71,
+        "qtd_alunos": 36,
+        "horarios": [
+            68,
+            69
+        ]
+    },
+    "23330": {
+        "id_turma": 10135,
+        "id_curso": 71,
+        "qtd_alunos": 36,
+        "horarios": [
+            12,
+            13
+        ]
+    },
+    "25379": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 20,
+        "horarios": [
+            77,
+            78,
+            79
+        ]
+    },
+    "23332": {
+        "id_turma": 0,
+        "id_curso": 71,
+        "qtd_alunos": 14,
+        "horarios": [
+            28,
+            29
+        ]
+    },
+    "23333": {
+        "id_turma": 10135,
+        "id_curso": 71,
+        "qtd_alunos": 35,
+        "horarios": [
+            8,
+            9
+        ]
+    },
+    "23334": {
+        "id_turma": 10135,
+        "id_curso": 71,
+        "qtd_alunos": 36,
+        "horarios": [
+            70,
+            71
+        ]
+    },
+    "23335": {
+        "id_turma": 10136,
+        "id_curso": 71,
+        "qtd_alunos": 30,
+        "horarios": [
+            88,
+            89,
+            90
+        ]
+    },
+    "23336": {
+        "id_turma": 10136,
+        "id_curso": 71,
+        "qtd_alunos": 30,
+        "horarios": [
+            70,
+            71
+        ]
+    },
+    "23337": {
+        "id_turma": 10136,
+        "id_curso": 71,
+        "qtd_alunos": 30,
+        "horarios": [
+            12,
+            13
+        ]
+    },
+    "23338": {
+        "id_turma": 10136,
+        "id_curso": 71,
+        "qtd_alunos": 30,
+        "horarios": [
+            53,
+            52
+        ]
+    },
+    "23339": {
+        "id_turma": 10136,
+        "id_curso": 71,
+        "qtd_alunos": 30,
+        "horarios": [
+            68,
+            69
+        ]
+    },
+    "23341": {
+        "id_turma": 10136,
+        "id_curso": 71,
+        "qtd_alunos": 30,
+        "horarios": [
+            91,
+            72,
+            73
+        ]
+    },
+    "23342": {
+        "id_turma": 10136,
+        "id_curso": 71,
+        "qtd_alunos": 30,
+        "horarios": [
+            29,
+            28
+        ]
+    },
+    "23344": {
+        "id_turma": 10136,
+        "id_curso": 71,
+        "qtd_alunos": 30,
+        "horarios": [
+            92,
+            93
+        ]
+    },
+    "23345": {
+        "id_turma": 10136,
+        "id_curso": 71,
+        "qtd_alunos": 30,
+        "horarios": [
+            50,
+            51
+        ]
+    },
+    "23346": {
+        "id_turma": 0,
+        "id_curso": 71,
+        "qtd_alunos": 16,
+        "horarios": [
+            31,
+            32
+        ]
+    },
+    "23347": {
+        "id_turma": 0,
+        "id_curso": 71,
+        "qtd_alunos": 15,
+        "horarios": [
+            9,
+            48,
+            49,
+            8
+        ]
+    },
+    "23348": {
+        "id_turma": 10137,
+        "id_curso": 71,
+        "qtd_alunos": 39,
+        "horarios": [
+            11,
+            12
+        ]
+    },
+    "23350": {
+        "id_turma": 10137,
+        "id_curso": 71,
+        "qtd_alunos": 39,
+        "horarios": [
+            88,
+            89
+        ]
+    },
+    "23351": {
+        "id_turma": 10137,
+        "id_curso": 71,
+        "qtd_alunos": 38,
+        "horarios": [
+            29,
+            30
+        ]
+    },
+    "23352": {
+        "id_turma": 10137,
+        "id_curso": 71,
+        "qtd_alunos": 39,
+        "horarios": [
+            50,
+            49
+        ]
+    },
+    "23354": {
+        "id_turma": 10137,
+        "id_curso": 71,
+        "qtd_alunos": 38,
+        "horarios": [
+            31,
+            32
+        ]
+    },
+    "23355": {
+        "id_turma": 10137,
+        "id_curso": 71,
+        "qtd_alunos": 39,
+        "horarios": [
+            68,
+            69,
+            70
+        ]
+    },
+    "23356": {
+        "id_turma": 10137,
+        "id_curso": 71,
+        "qtd_alunos": 39,
+        "horarios": [
+            72,
+            71
+        ]
+    },
+    "23357": {
+        "id_turma": 10137,
+        "id_curso": 71,
+        "qtd_alunos": 38,
+        "horarios": [
+            51,
+            52
+        ]
+    },
+    "23358": {
+        "id_turma": 10137,
+        "id_curso": 71,
+        "qtd_alunos": 38,
+        "horarios": [
+            9,
+            10
+        ]
+    },
+    "23362": {
+        "id_turma": 10146,
+        "id_curso": 81,
+        "qtd_alunos": 47,
+        "horarios": [
+            1,
+            2,
+            83
+        ]
+    },
+    "23363": {
+        "id_turma": 10146,
+        "id_curso": 81,
+        "qtd_alunos": 47,
+        "horarios": [
+            61,
+            62
+        ]
+    },
+    "23364": {
+        "id_turma": 10146,
+        "id_curso": 81,
+        "qtd_alunos": 47,
+        "horarios": [
+            86,
+            41,
+            42
+        ]
+    },
+    "23365": {
+        "id_turma": 10146,
+        "id_curso": 81,
+        "qtd_alunos": 47,
+        "horarios": [
+            43,
+            81,
+            82
+        ]
+    },
+    "23366": {
+        "id_turma": 10146,
+        "id_curso": 81,
+        "qtd_alunos": 47,
+        "horarios": [
+            5,
+            6
+        ]
+    },
+    "23367": {
+        "id_turma": 0,
+        "id_curso": 81,
+        "qtd_alunos": 23,
+        "horarios": [
+            21,
+            22
+        ]
+    },
+    "23368": {
+        "id_turma": 10146,
+        "id_curso": 81,
+        "qtd_alunos": 47,
+        "horarios": [
+            84,
+            85,
+            63
+        ]
+    },
+    "23370": {
+        "id_turma": 10146,
+        "id_curso": 81,
+        "qtd_alunos": 47,
+        "horarios": [
+            3,
+            4
+        ]
+    },
+    "23371": {
+        "id_turma": 10147,
+        "id_curso": 81,
+        "qtd_alunos": 30,
+        "horarios": [
+            65,
+            66
+        ]
+    },
+    "23372": {
+        "id_turma": 0,
+        "id_curso": 81,
+        "qtd_alunos": 10,
+        "horarios": [
+            83,
+            84
+        ]
+    },
+    "23373": {
+        "id_turma": 10147,
+        "id_curso": 81,
+        "qtd_alunos": 30,
+        "horarios": [
+            25,
+            26
+        ]
+    },
+    "23374": {
+        "id_turma": 0,
+        "id_curso": 81,
+        "qtd_alunos": 10,
+        "horarios": [
+            85,
+            86
+        ]
+    },
+    "23377": {
+        "id_turma": 10147,
+        "id_curso": 81,
+        "qtd_alunos": 30,
+        "horarios": [
+            23,
+            24,
+            44
+        ]
+    },
+    "23378": {
+        "id_turma": 10147,
+        "id_curso": 81,
+        "qtd_alunos": 30,
+        "horarios": [
+            21,
+            22
+        ]
+    },
+    "23379": {
+        "id_turma": 10147,
+        "id_curso": 81,
+        "qtd_alunos": 30,
+        "horarios": [
+            41,
+            42
+        ]
+    },
+    "23380": {
+        "id_turma": 10147,
+        "id_curso": 81,
+        "qtd_alunos": 30,
+        "horarios": [
+            3,
+            2,
+            1
+        ]
+    },
+    "23381": {
+        "id_turma": 10147,
+        "id_curso": 81,
+        "qtd_alunos": 30,
+        "horarios": [
+            63,
+            64
+        ]
+    },
+    "23382": {
+        "id_turma": 10147,
+        "id_curso": 81,
+        "qtd_alunos": 30,
+        "horarios": [
+            45,
+            46
+        ]
+    },
+    "23383": {
+        "id_turma": 10147,
+        "id_curso": 81,
+        "qtd_alunos": 30,
+        "horarios": [
+            81,
+            82,
+            43
+        ]
+    },
+    "23385": {
+        "id_turma": 10147,
+        "id_curso": 81,
+        "qtd_alunos": 21,
+        "horarios": [
+            4,
+            5
+        ]
+    },
+    "23386": {
+        "id_turma": 10148,
+        "id_curso": 81,
+        "qtd_alunos": 33,
+        "horarios": [
+            25,
+            26
+        ]
+    },
+    "23387": {
+        "id_turma": 10148,
+        "id_curso": 81,
+        "qtd_alunos": 32,
+        "horarios": [
+            83,
+            84
+        ]
+    },
+    "23388": {
+        "id_turma": 10148,
+        "id_curso": 81,
+        "qtd_alunos": 33,
+        "horarios": [
+            43,
+            44
+        ]
+    },
+    "23389": {
+        "id_turma": 0,
+        "id_curso": 81,
+        "qtd_alunos": 16,
+        "horarios": [
+            63,
+            64
+        ]
+    },
+    "23390": {
+        "id_turma": 10148,
+        "id_curso": 81,
+        "qtd_alunos": 33,
+        "horarios": [
+            65,
+            66
+        ]
+    },
+    "23391": {
+        "id_turma": 10148,
+        "id_curso": 81,
+        "qtd_alunos": 33,
+        "horarios": [
+            62,
+            61
+        ]
+    },
+    "23392": {
+        "id_turma": 10148,
+        "id_curso": 81,
+        "qtd_alunos": 33,
+        "horarios": [
+            21,
+            22
+        ]
+    },
+    "23393": {
+        "id_turma": 10148,
+        "id_curso": 81,
+        "qtd_alunos": 33,
+        "horarios": [
+            85,
+            86
+        ]
+    },
+    "23394": {
+        "id_turma": 10148,
+        "id_curso": 81,
+        "qtd_alunos": 32,
+        "horarios": [
+            45,
+            46
+        ]
+    },
+    "23395": {
+        "id_turma": 10148,
+        "id_curso": 81,
+        "qtd_alunos": 33,
+        "horarios": [
+            42,
+            41
+        ]
+    },
+    "23396": {
+        "id_turma": 10148,
+        "id_curso": 81,
+        "qtd_alunos": 33,
+        "horarios": [
+            81,
+            82
+        ]
+    },
+    "23400": {
+        "id_turma": 10148,
+        "id_curso": 81,
+        "qtd_alunos": 28,
+        "horarios": [
+            23,
+            24
+        ]
+    },
+    "23401": {
+        "id_turma": 10149,
+        "id_curso": 81,
+        "qtd_alunos": 29,
+        "horarios": [
+            61,
+            62
+        ]
+    },
+    "23402": {
+        "id_turma": 10149,
+        "id_curso": 81,
+        "qtd_alunos": 29,
+        "horarios": [
+            50,
+            48,
+            49
+        ]
+    },
+    "23405": {
+        "id_turma": 10149,
+        "id_curso": 81,
+        "qtd_alunos": 29,
+        "horarios": [
+            85,
+            86
+        ]
+    },
+    "23407": {
+        "id_turma": 10149,
+        "id_curso": 81,
+        "qtd_alunos": 15,
+        "horarios": [
+            21,
+            22,
+            2,
+            3
+        ]
+    },
+    "23408": {
+        "id_turma": 10149,
+        "id_curso": 81,
+        "qtd_alunos": 29,
+        "horarios": [
+            65,
+            66
+        ]
+    },
+    "23410": {
+        "id_turma": 10149,
+        "id_curso": 81,
+        "qtd_alunos": 29,
+        "horarios": [
+            82,
+            81
+        ]
+    },
+    "23411": {
+        "id_turma": 10149,
+        "id_curso": 81,
+        "qtd_alunos": 29,
+        "horarios": [
+            63,
+            64
+        ]
+    },
+    "23412": {
+        "id_turma": 10156,
+        "id_curso": 88,
+        "qtd_alunos": 47,
+        "horarios": [
+            21,
+            22,
+            43
+        ]
+    },
+    "23413": {
+        "id_turma": 10156,
+        "id_curso": 88,
+        "qtd_alunos": 47,
+        "horarios": [
+            46,
+            45,
+            44
+        ]
+    },
+    "23414": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 18,
+        "horarios": [
+            41,
+            42
+        ]
+    },
+    "23415": {
+        "id_turma": 10156,
+        "id_curso": 88,
+        "qtd_alunos": 48,
+        "horarios": [
+            1,
+            2
+        ]
+    },
+    "23416": {
+        "id_turma": 10156,
+        "id_curso": 88,
+        "qtd_alunos": 47,
+        "horarios": [
+            63,
+            64
+        ]
+    },
+    "23417": {
+        "id_turma": 10156,
+        "id_curso": 88,
+        "qtd_alunos": 48,
+        "horarios": [
+            62,
+            61
+        ]
+    },
+    "23418": {
+        "id_turma": 10156,
+        "id_curso": 88,
+        "qtd_alunos": 48,
+        "horarios": [
+            3,
+            4
+        ]
+    },
+    "23421": {
+        "id_turma": 10156,
+        "id_curso": 88,
+        "qtd_alunos": 48,
+        "horarios": [
+            25,
+            26
+        ]
+    },
+    "23422": {
+        "id_turma": 10156,
+        "id_curso": 88,
+        "qtd_alunos": 48,
+        "horarios": [
+            23,
+            24
+        ]
+    },
+    "23423": {
+        "id_turma": 10156,
+        "id_curso": 88,
+        "qtd_alunos": 47,
+        "horarios": [
+            5,
+            6
+        ]
+    },
+    "23424": {
+        "id_turma": 10156,
+        "id_curso": 88,
+        "qtd_alunos": 48,
+        "horarios": [
+            85,
+            86,
+            84
+        ]
+    },
+    "23425": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            64,
+            46,
+            45
+        ]
+    },
+    "23426": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            24,
+            25,
+            26
+        ]
+    },
+    "23427": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            84,
+            83,
+            1,
+            2
+        ]
+    },
+    "23428": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            3,
+            4
+        ]
+    },
+    "23429": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 34,
+        "horarios": [
+            5,
+            6,
+            63
+        ]
+    },
+    "23430": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            21,
+            22
+        ]
+    },
+    "23431": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            43,
+            44
+        ]
+    },
+    "23432": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            61,
+            62
+        ]
+    },
+    "23433": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            41,
+            42
+        ]
+    },
+    "25482": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 29,
+        "horarios": [
+            85,
+            23,
+            24,
+            84
+        ]
+    },
+    "23435": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 27,
+        "horarios": [
+            49,
+            50
+        ]
+    },
+    "23436": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            85,
+            86
+        ]
+    },
+    "23437": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            81,
+            82
+        ]
+    },
+    "23438": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 33,
+        "horarios": [
+            66,
+            65
+        ]
+    },
+    "25069": {
+        "id_turma": 0,
+        "id_curso": 359,
+        "qtd_alunos": 36,
+        "horarios": [
+            31,
+            32,
+            33
+        ]
+    },
+    "23459": {
+        "id_turma": 10165,
+        "id_curso": 70,
+        "qtd_alunos": 41,
+        "horarios": [
+            61,
+            24,
+            23
+        ]
+    },
+    "23460": {
+        "id_turma": 10165,
+        "id_curso": 70,
+        "qtd_alunos": 41,
+        "horarios": [
+            84,
+            62,
+            86,
+            85,
+            83
+        ]
+    },
+    "23463": {
+        "id_turma": 10165,
+        "id_curso": 70,
+        "qtd_alunos": 41,
+        "horarios": [
+            26,
+            25
+        ]
+    },
+    "23464": {
+        "id_turma": 10165,
+        "id_curso": 70,
+        "qtd_alunos": 41,
+        "horarios": [
+            43,
+            44
+        ]
+    },
+    "23465": {
+        "id_turma": 10165,
+        "id_curso": 70,
+        "qtd_alunos": 41,
+        "horarios": [
+            4,
+            5,
+            3
+        ]
+    },
+    "23466": {
+        "id_turma": 10165,
+        "id_curso": 70,
+        "qtd_alunos": 41,
+        "horarios": [
+            45,
+            46
+        ]
+    },
+    "23467": {
+        "id_turma": 10165,
+        "id_curso": 70,
+        "qtd_alunos": 41,
+        "horarios": [
+            1,
+            2
+        ]
+    },
+    "23468": {
+        "id_turma": 10165,
+        "id_curso": 70,
+        "qtd_alunos": 41,
+        "horarios": [
+            63,
+            64
+        ]
+    },
+    "23469": {
+        "id_turma": 10165,
+        "id_curso": 70,
+        "qtd_alunos": 37,
+        "horarios": [
+            71,
+            72
+        ]
+    },
+    "23471": {
+        "id_turma": 10165,
+        "id_curso": 70,
+        "qtd_alunos": 41,
+        "horarios": [
+            41,
+            42,
+            81,
+            82
+        ]
+    },
+    "23473": {
+        "id_turma": 0,
+        "id_curso": 70,
+        "qtd_alunos": 40,
+        "horarios": [
+            66,
+            65
+        ]
+    },
+    "23475": {
+        "id_turma": 10165,
+        "id_curso": 70,
+        "qtd_alunos": 40,
+        "horarios": [
+            11,
+            12
+        ]
+    },
+    "23476": {
+        "id_turma": 10165,
+        "id_curso": 70,
+        "qtd_alunos": 41,
+        "horarios": [
+            21,
+            22
+        ]
+    },
+    "23477": {
+        "id_turma": 0,
+        "id_curso": 70,
+        "qtd_alunos": 41,
+        "horarios": [
+            65,
+            66
+        ]
+    },
+    "23479": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 35,
+        "horarios": [
+            84,
+            5,
+            6
+        ]
+    },
+    "23480": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 35,
+        "horarios": [
+            63,
+            64,
+            65
+        ]
+    },
+    "23481": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 35,
+        "horarios": [
+            43,
+            44
+        ]
+    },
+    "23483": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 35,
+        "horarios": [
+            3,
+            4
+        ]
+    },
+    "23484": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 35,
+        "horarios": [
+            2,
+            1,
+            83
+        ]
+    },
+    "23485": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 35,
+        "horarios": [
+            45,
+            46
+        ]
+    },
+    "23486": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 35,
+        "horarios": [
+            41,
+            42,
+            66
+        ]
+    },
+    "23487": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 35,
+        "horarios": [
+            82,
+            81
+        ]
+    },
+    "23488": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 35,
+        "horarios": [
+            21,
+            22
+        ]
+    },
+    "23489": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 30,
+        "horarios": [
+            29,
+            11,
+            12,
+            30
+        ]
+    },
+    "23490": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 35,
+        "horarios": [
+            85,
+            86
+        ]
+    },
+    "23492": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 35,
+        "horarios": [
+            23,
+            24
+        ]
+    },
+    "23493": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 35,
+        "horarios": [
+            62,
+            61
+        ]
+    },
+    "25546": {
+        "id_turma": 0,
+        "id_curso": 81,
+        "qtd_alunos": 10,
+        "horarios": [
+            61,
+            62
+        ]
+    },
+    "25547": {
+        "id_turma": 0,
+        "id_curso": 81,
+        "qtd_alunos": 10,
+        "horarios": [
+            84,
+            83
+        ]
+    },
+    "25548": {
+        "id_turma": 0,
+        "id_curso": 81,
+        "qtd_alunos": 10,
+        "horarios": [
+            85,
+            86
+        ]
+    },
+    "25549": {
+        "id_turma": 0,
+        "id_curso": 81,
+        "qtd_alunos": 10,
+        "horarios": [
+            61,
+            62
+        ]
+    },
+    "25553": {
+        "id_turma": 0,
+        "id_curso": 71,
+        "qtd_alunos": 14,
+        "horarios": [
+            31,
+            32
+        ]
+    },
+    "25554": {
+        "id_turma": 0,
+        "id_curso": 71,
+        "qtd_alunos": 15,
+        "horarios": [
+            8,
+            9,
+            48,
+            49
+        ]
+    },
+    "25333": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 9,
+        "horarios": [
+            25,
+            26,
+            45,
+            46
+        ]
+    },
+    "23510": {
+        "id_turma": 10174,
+        "id_curso": 341,
+        "qtd_alunos": 41,
+        "horarios": [
+            42,
+            43,
+            41
+        ]
+    },
+    "23511": {
+        "id_turma": 10174,
+        "id_curso": 341,
+        "qtd_alunos": 41,
+        "horarios": [
+            6,
+            46,
+            45
+        ]
+    },
+    "23512": {
+        "id_turma": 10174,
+        "id_curso": 341,
+        "qtd_alunos": 41,
+        "horarios": [
+            70,
+            69
+        ]
+    },
+    "23514": {
+        "id_turma": 10174,
+        "id_curso": 341,
+        "qtd_alunos": 41,
+        "horarios": [
+            4,
+            5,
+            44
+        ]
+    },
+    "23515": {
+        "id_turma": 10174,
+        "id_curso": 341,
+        "qtd_alunos": 41,
+        "horarios": [
+            23,
+            24
+        ]
+    },
+    "23516": {
+        "id_turma": 0,
+        "id_curso": 341,
+        "qtd_alunos": 41,
+        "horarios": [
+            2,
+            3
+        ]
+    },
+    "23517": {
+        "id_turma": 10174,
+        "id_curso": 341,
+        "qtd_alunos": 41,
+        "horarios": [
+            65,
+            66
+        ]
+    },
+    "23518": {
+        "id_turma": 10174,
+        "id_curso": 341,
+        "qtd_alunos": 41,
+        "horarios": [
+            25,
+            26
+        ]
+    },
+    "23519": {
+        "id_turma": 10174,
+        "id_curso": 341,
+        "qtd_alunos": 41,
+        "horarios": [
+            22,
+            21
+        ]
+    },
+    "23527": {
+        "id_turma": 10175,
+        "id_curso": 341,
+        "qtd_alunos": 35,
+        "horarios": [
+            24,
+            25,
+            26
+        ]
+    },
+    "23528": {
+        "id_turma": 10175,
+        "id_curso": 341,
+        "qtd_alunos": 35,
+        "horarios": [
+            21,
+            22,
+            84
+        ]
+    },
+    "25577": {
+        "id_turma": 10156,
+        "id_curso": 88,
+        "qtd_alunos": 9,
+        "horarios": [
+            71,
+            72
+        ]
+    },
+    "23530": {
+        "id_turma": 10175,
+        "id_curso": 341,
+        "qtd_alunos": 35,
+        "horarios": [
+            63,
+            64
+        ]
+    },
+    "23531": {
+        "id_turma": 10175,
+        "id_curso": 341,
+        "qtd_alunos": 35,
+        "horarios": [
+            83,
+            61,
+            62
+        ]
+    },
+    "23532": {
+        "id_turma": 10175,
+        "id_curso": 341,
+        "qtd_alunos": 35,
+        "horarios": [
+            41,
+            42
+        ]
+    },
+    "23533": {
+        "id_turma": 10175,
+        "id_curso": 341,
+        "qtd_alunos": 35,
+        "horarios": [
+            65,
+            66
+        ]
+    },
+    "23534": {
+        "id_turma": 10175,
+        "id_curso": 341,
+        "qtd_alunos": 35,
+        "horarios": [
+            86,
+            85
+        ]
+    },
+    "23535": {
+        "id_turma": 10175,
+        "id_curso": 341,
+        "qtd_alunos": 35,
+        "horarios": [
+            1,
+            2
+        ]
+    },
+    "23537": {
+        "id_turma": 10175,
+        "id_curso": 341,
+        "qtd_alunos": 34,
+        "horarios": [
+            69,
+            70
+        ]
+    },
+    "23538": {
+        "id_turma": 10175,
+        "id_curso": 341,
+        "qtd_alunos": 35,
+        "horarios": [
+            81,
+            82
+        ]
+    },
+    "25587": {
+        "id_turma": 10165,
+        "id_curso": 70,
+        "qtd_alunos": 8,
+        "horarios": [
+            50,
+            49
+        ]
+    },
+    "25591": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 23,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "25592": {
+        "id_turma": 10166,
+        "id_curso": 70,
+        "qtd_alunos": 12,
+        "horarios": [
+            92,
+            91
+        ]
+    },
+    "25596": {
+        "id_turma": 0,
+        "id_curso": 341,
+        "qtd_alunos": 23,
+        "horarios": [
+            45,
+            44
+        ]
+    },
+    "25598": {
+        "id_turma": 10174,
+        "id_curso": 341,
+        "qtd_alunos": 16,
+        "horarios": [
+            89,
+            90
+        ]
+    },
+    "25600": {
+        "id_turma": 0,
+        "id_curso": 341,
+        "qtd_alunos": 19,
+        "horarios": [
+            44,
+            45
+        ]
+    },
+    "25601": {
+        "id_turma": 0,
+        "id_curso": 341,
+        "qtd_alunos": 9,
+        "horarios": [
+            2,
+            3
+        ]
+    },
+    "25603": {
+        "id_turma": 10175,
+        "id_curso": 341,
+        "qtd_alunos": 7,
+        "horarios": [
+            44,
+            45
+        ]
+    },
+    "25604": {
+        "id_turma": 0,
+        "id_curso": 341,
+        "qtd_alunos": 13,
+        "horarios": [
+            23,
+            22
+        ]
+    },
+    "25607": {
+        "id_turma": 10175,
+        "id_curso": 341,
+        "qtd_alunos": 8,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "25608": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 11,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "25403": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 45,
+        "horarios": [
+            9,
+            10,
+            50,
+            51
+        ]
+    },
+    "25610": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 12,
+        "horarios": [
+            62,
+            63
+        ]
+    },
+    "23563": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 21,
+        "horarios": [
+            25,
+            26
+        ]
+    },
+    "25612": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 21,
+        "horarios": [
+            61,
+            62,
+            63
+        ]
+    },
+    "23565": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 44,
+        "horarios": [
+            63,
+            81,
+            82
+        ]
+    },
+    "23566": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 44,
+        "horarios": [
+            65,
+            66,
+            25
+        ]
+    },
+    "23569": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 41,
+        "horarios": [
+            43,
+            22,
+            23,
+            42
+        ]
+    },
+    "23571": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 44,
+        "horarios": [
+            61,
+            62
+        ]
+    },
+    "23575": {
+        "id_turma": 10186,
+        "id_curso": 82,
+        "qtd_alunos": 39,
+        "horarios": [
+            6,
+            43,
+            44
+        ]
+    },
+    "23576": {
+        "id_turma": 10186,
+        "id_curso": 82,
+        "qtd_alunos": 39,
+        "horarios": [
+            81,
+            82
+        ]
+    },
+    "23577": {
+        "id_turma": 10186,
+        "id_curso": 82,
+        "qtd_alunos": 39,
+        "horarios": [
+            2,
+            1
+        ]
+    },
+    "23578": {
+        "id_turma": 10186,
+        "id_curso": 82,
+        "qtd_alunos": 39,
+        "horarios": [
+            3,
+            4,
+            5
+        ]
+    },
+    "23579": {
+        "id_turma": 10186,
+        "id_curso": 82,
+        "qtd_alunos": 39,
+        "horarios": [
+            26,
+            42,
+            41
+        ]
+    },
+    "23580": {
+        "id_turma": 10186,
+        "id_curso": 82,
+        "qtd_alunos": 39,
+        "horarios": [
+            83,
+            84
+        ]
+    },
+    "23582": {
+        "id_turma": 10186,
+        "id_curso": 82,
+        "qtd_alunos": 39,
+        "horarios": [
+            45,
+            46
+        ]
+    },
+    "23583": {
+        "id_turma": 10186,
+        "id_curso": 82,
+        "qtd_alunos": 39,
+        "horarios": [
+            85,
+            86
+        ]
+    },
+    "23584": {
+        "id_turma": 10186,
+        "id_curso": 82,
+        "qtd_alunos": 28,
+        "horarios": [
+            25,
+            24
+        ]
+    },
+    "23586": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 19,
+        "horarios": [
+            64,
+            65
+        ]
+    },
+    "23587": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 19,
+        "horarios": [
+            21,
+            22,
+            23
+        ]
+    },
+    "23589": {
+        "id_turma": 10187,
+        "id_curso": 82,
+        "qtd_alunos": 38,
+        "horarios": [
+            81,
+            82
+        ]
+    },
+    "23590": {
+        "id_turma": 10187,
+        "id_curso": 82,
+        "qtd_alunos": 38,
+        "horarios": [
+            83,
+            84
+        ]
+    },
+    "23591": {
+        "id_turma": 10187,
+        "id_curso": 82,
+        "qtd_alunos": 38,
+        "horarios": [
+            4,
+            5
+        ]
+    },
+    "23592": {
+        "id_turma": 10187,
+        "id_curso": 82,
+        "qtd_alunos": 38,
+        "horarios": [
+            1,
+            2,
+            3
+        ]
+    },
+    "23593": {
+        "id_turma": 10187,
+        "id_curso": 82,
+        "qtd_alunos": 38,
+        "horarios": [
+            21,
+            22
+        ]
+    },
+    "23595": {
+        "id_turma": 10187,
+        "id_curso": 82,
+        "qtd_alunos": 38,
+        "horarios": [
+            23,
+            24
+        ]
+    },
+    "23598": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 17,
+        "horarios": [
+            64,
+            65,
+            66
+        ]
+    },
+    "23599": {
+        "id_turma": 10187,
+        "id_curso": 82,
+        "qtd_alunos": 38,
+        "horarios": [
+            25,
+            26,
+            46
+        ]
+    },
+    "23601": {
+        "id_turma": 10188,
+        "id_curso": 82,
+        "qtd_alunos": 33,
+        "horarios": [
+            3,
+            4
+        ]
+    },
+    "23602": {
+        "id_turma": 10188,
+        "id_curso": 82,
+        "qtd_alunos": 33,
+        "horarios": [
+            65,
+            66
+        ]
+    },
+    "23603": {
+        "id_turma": 10188,
+        "id_curso": 82,
+        "qtd_alunos": 33,
+        "horarios": [
+            5,
+            6
+        ]
+    },
+    "23606": {
+        "id_turma": 10188,
+        "id_curso": 82,
+        "qtd_alunos": 33,
+        "horarios": [
+            24,
+            25,
+            26,
+            23
+        ]
+    },
+    "25655": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 30,
+        "horarios": [
+            41,
+            42
+        ]
+    },
+    "25657": {
+        "id_turma": 0,
+        "id_curso": 71,
+        "qtd_alunos": 19,
+        "horarios": [
+            28,
+            29
+        ]
+    },
+    "23610": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 33,
+        "horarios": [
+            22,
+            21
+        ]
+    },
+    "23611": {
+        "id_turma": 10188,
+        "id_curso": 82,
+        "qtd_alunos": 33,
+        "horarios": [
+            82,
+            81
+        ]
+    },
+    "23612": {
+        "id_turma": 10188,
+        "id_curso": 82,
+        "qtd_alunos": 33,
+        "horarios": [
+            1,
+            2
+        ]
+    },
+    "23613": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 33,
+        "horarios": [
+            22,
+            21
+        ]
+    },
+    "23614": {
+        "id_turma": 10209,
+        "id_curso": 82,
+        "qtd_alunos": 44,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "23616": {
+        "id_turma": 10209,
+        "id_curso": 82,
+        "qtd_alunos": 44,
+        "horarios": [
+            68,
+            69,
+            51
+        ]
+    },
+    "23617": {
+        "id_turma": 10209,
+        "id_curso": 82,
+        "qtd_alunos": 22,
+        "horarios": [
+            93,
+            92
+        ]
+    },
+    "23618": {
+        "id_turma": 10209,
+        "id_curso": 82,
+        "qtd_alunos": 44,
+        "horarios": [
+            9,
+            70,
+            71
+        ]
+    },
+    "23619": {
+        "id_turma": 10209,
+        "id_curso": 82,
+        "qtd_alunos": 44,
+        "horarios": [
+            88,
+            89,
+            50
+        ]
+    },
+    "23620": {
+        "id_turma": 10209,
+        "id_curso": 82,
+        "qtd_alunos": 44,
+        "horarios": [
+            8,
+            52,
+            53
+        ]
+    },
+    "25405": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 25,
+        "horarios": [
+            82,
+            83,
+            84,
+            85,
+            86
+        ]
+    },
+    "23623": {
+        "id_turma": 10209,
+        "id_curso": 82,
+        "qtd_alunos": 39,
+        "horarios": [
+            72,
+            73
+        ]
+    },
+    "23625": {
+        "id_turma": 10209,
+        "id_curso": 82,
+        "qtd_alunos": 44,
+        "horarios": [
+            90,
+            91
+        ]
+    },
+    "23626": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 14,
+        "horarios": [
+            10,
+            32,
+            33
+        ]
+    },
+    "23629": {
+        "id_turma": 10210,
+        "id_curso": 82,
+        "qtd_alunos": 35,
+        "horarios": [
+            28,
+            29,
+            30
+        ]
+    },
+    "23630": {
+        "id_turma": 10210,
+        "id_curso": 82,
+        "qtd_alunos": 34,
+        "horarios": [
+            11,
+            10
+        ]
+    },
+    "23631": {
+        "id_turma": 10210,
+        "id_curso": 82,
+        "qtd_alunos": 34,
+        "horarios": [
+            88,
+            89
+        ]
+    },
+    "23632": {
+        "id_turma": 10210,
+        "id_curso": 82,
+        "qtd_alunos": 33,
+        "horarios": [
+            69,
+            70,
+            68
+        ]
+    },
+    "23633": {
+        "id_turma": 10210,
+        "id_curso": 82,
+        "qtd_alunos": 34,
+        "horarios": [
+            71,
+            92,
+            93
+        ]
+    },
+    "25682": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 13,
+        "horarios": [
+            10,
+            28,
+            29
+        ]
+    },
+    "25683": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 17,
+        "horarios": [
+            10,
+            30,
+            31
+        ]
+    },
+    "23636": {
+        "id_turma": 10210,
+        "id_curso": 82,
+        "qtd_alunos": 35,
+        "horarios": [
+            12,
+            13
+        ]
+    },
+    "23637": {
+        "id_turma": 10210,
+        "id_curso": 82,
+        "qtd_alunos": 35,
+        "horarios": [
+            90,
+            91
+        ]
+    },
+    "23638": {
+        "id_turma": 10210,
+        "id_curso": 82,
+        "qtd_alunos": 34,
+        "horarios": [
+            8,
+            9
+        ]
+    },
+    "23640": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 16,
+        "horarios": [
+            51,
+            52
+        ]
+    },
+    "23641": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 17,
+        "horarios": [
+            48,
+            49,
+            50
+        ]
+    },
+    "23643": {
+        "id_turma": 10211,
+        "id_curso": 82,
+        "qtd_alunos": 22,
+        "horarios": [
+            92,
+            93
+        ]
+    },
+    "23644": {
+        "id_turma": 10211,
+        "id_curso": 82,
+        "qtd_alunos": 22,
+        "horarios": [
+            52,
+            53
+        ]
+    },
+    "23645": {
+        "id_turma": 10211,
+        "id_curso": 82,
+        "qtd_alunos": 23,
+        "horarios": [
+            8,
+            9
+        ]
+    },
+    "23646": {
+        "id_turma": 10211,
+        "id_curso": 82,
+        "qtd_alunos": 22,
+        "horarios": [
+            88,
+            89,
+            90
+        ]
+    },
+    "23647": {
+        "id_turma": 10211,
+        "id_curso": 82,
+        "qtd_alunos": 22,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "23648": {
+        "id_turma": 10211,
+        "id_curso": 82,
+        "qtd_alunos": 22,
+        "horarios": [
+            50,
+            51
+        ]
+    },
+    "23649": {
+        "id_turma": 10211,
+        "id_curso": 82,
+        "qtd_alunos": 22,
+        "horarios": [
+            10,
+            11
+        ]
+    },
+    "23653": {
+        "id_turma": 10211,
+        "id_curso": 82,
+        "qtd_alunos": 22,
+        "horarios": [
+            91,
+            12,
+            13
+        ]
+    },
+    "25703": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 17,
+        "horarios": [
+            23,
+            22
+        ]
+    },
+    "25704": {
+        "id_turma": 10186,
+        "id_curso": 82,
+        "qtd_alunos": 20,
+        "horarios": [
+            64,
+            65,
+            66
+        ]
+    },
+    "23657": {
+        "id_turma": 10212,
+        "id_curso": 82,
+        "qtd_alunos": 21,
+        "horarios": [
+            50,
+            51
+        ]
+    },
+    "25706": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 20,
+        "horarios": [
+            62,
+            63
+        ]
+    },
+    "25708": {
+        "id_turma": 10210,
+        "id_curso": 82,
+        "qtd_alunos": 18,
+        "horarios": [
+            51,
+            52,
+            53
+        ]
+    },
+    "25709": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 18,
+        "horarios": [
+            31,
+            32
+        ]
+    },
+    "23663": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 10,
+        "horarios": [
+            70,
+            71
+        ]
+    },
+    "23666": {
+        "id_turma": 10212,
+        "id_curso": 82,
+        "qtd_alunos": 21,
+        "horarios": [
+            12,
+            13
+        ]
+    },
+    "23667": {
+        "id_turma": 10212,
+        "id_curso": 82,
+        "qtd_alunos": 21,
+        "horarios": [
+            52,
+            53
+        ]
+    },
+    "23671": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 22,
+        "horarios": [
+            17,
+            18
+        ]
+    },
+    "23672": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 20,
+        "horarios": [
+            37,
+            38,
+            39
+        ]
+    },
+    "23673": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 14,
+        "horarios": [
+            75,
+            76,
+            55,
+            56
+        ]
+    },
+    "25722": {
+        "id_turma": 0,
+        "id_curso": 82,
+        "qtd_alunos": 11,
+        "horarios": [
+            68,
+            69
+        ]
+    },
+    "23675": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 20,
+        "horarios": [
+            78,
+            79,
+            77
+        ]
+    },
+    "23676": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 19,
+        "horarios": [
+            98,
+            99
+        ]
+    },
+    "23678": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 8,
+        "horarios": [
+            35,
+            36,
+            37
+        ]
+    },
+    "23680": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 5,
+        "horarios": [
+            76,
+            77,
+            78,
+            79
+        ]
+    },
+    "23681": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 9,
+        "horarios": [
+            38,
+            39,
+            95,
+            96
+        ]
+    },
+    "23682": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 13,
+        "horarios": [
+            18,
+            19,
+            58,
+            59
+        ]
+    },
+    "25731": {
+        "id_turma": 0,
+        "id_curso": 81,
+        "qtd_alunos": 14,
+        "horarios": [
+            25,
+            26,
+            23,
+            24
+        ]
+    },
+    "25732": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 18,
+        "horarios": [
+            82,
+            81,
+            83
+        ]
+    },
+    "23685": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 8,
+        "horarios": [
+            38,
+            39,
+            95,
+            96
+        ]
+    },
+    "23686": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 4,
+        "horarios": [
+            56,
+            55,
+            57,
+            98,
+            97,
+            99
+        ]
+    },
+    "23689": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 9,
+        "horarios": [
+            15,
+            16,
+            17
+        ]
+    },
+    "23690": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 20,
+        "horarios": [
+            99,
+            98,
+            97,
+            39
+        ]
+    },
+    "23692": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 12,
+        "horarios": [
+            76,
+            77,
+            75
+        ]
+    },
+    "23693": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 15,
+        "horarios": [
+            95,
+            96,
+            38
+        ]
+    },
+    "23694": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 15,
+        "horarios": [
+            19,
+            18,
+            17
+        ]
+    },
+    "23695": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 13,
+        "horarios": [
+            15,
+            16,
+            35,
+            36,
+            37
+        ]
+    },
+    "23696": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 14,
+        "horarios": [
+            55,
+            56,
+            79,
+            78
+        ]
+    },
+    "23697": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 16,
+        "horarios": [
+            98,
+            99
+        ]
+    },
+    "23698": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 10,
+        "horarios": [
+            18,
+            19,
+            35,
+            36
+        ]
+    },
+    "23699": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 17,
+        "horarios": [
+            55,
+            56,
+            57
+        ]
+    },
+    "23700": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 9,
+        "horarios": [
+            39,
+            38,
+            37
+        ]
+    },
+    "23701": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 10,
+        "horarios": [
+            77,
+            78,
+            79
+        ]
+    },
+    "23703": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 11,
+        "horarios": [
+            17,
+            16,
+            15
+        ]
+    },
+    "23704": {
+        "id_turma": 0,
+        "id_curso": 57,
+        "qtd_alunos": 9,
+        "horarios": [
+            58,
+            59,
+            75,
+            76
+        ]
+    },
+    "25476": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 32,
+        "horarios": [
+            28,
+            29
+        ]
+    },
+    "23712": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 10,
+        "horarios": [
+            86,
+            63,
+            64,
+            65,
+            85
+        ]
+    },
+    "23713": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 14,
+        "horarios": [
+            24,
+            25,
+            83,
+            84
+        ]
+    },
+    "23715": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 7,
+        "horarios": [
+            44,
+            45,
+            1,
+            2,
+            3
+        ]
+    },
+    "23717": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 11,
+        "horarios": [
+            42,
+            43,
+            61,
+            62
+        ]
+    },
+    "23718": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 9,
+        "horarios": [
+            81,
+            82
+        ]
+    },
+    "23719": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 8,
+        "horarios": [
+            1,
+            2,
+            64,
+            65
+        ]
+    },
+    "23720": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 8,
+        "horarios": [
+            83,
+            84,
+            85
+        ]
+    },
+    "23721": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 20,
+        "horarios": [
+            44,
+            45,
+            46,
+            62,
+            61
+        ]
+    },
+    "23722": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 9,
+        "horarios": [
+            42,
+            43,
+            41
+        ]
+    },
+    "23725": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 21,
+        "horarios": [
+            44,
+            45
+        ]
+    },
+    "23726": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 5,
+        "horarios": [
+            42,
+            24,
+            43,
+            41
+        ]
+    },
+    "25775": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 27,
+        "horarios": [
+            8,
+            9
+        ]
+    },
+    "23729": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 3,
+        "horarios": [
+            2,
+            3,
+            4,
+            1
+        ]
+    },
+    "25778": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 22,
+        "horarios": [
+            33,
+            32,
+            31
+        ]
+    },
+    "23733": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 7,
+        "horarios": [
+            84,
+            85,
+            64,
+            65,
+            86
+        ]
+    },
+    "23734": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 7,
+        "horarios": [
+            41,
+            42,
+            43,
+            44,
+            45
+        ]
+    },
+    "23736": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 6,
+        "horarios": [
+            1,
+            2,
+            3
+        ]
+    },
+    "23737": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 1,
+        "horarios": [
+            82,
+            25,
+            26,
+            81
+        ]
+    },
+    "23738": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 2,
+        "horarios": [
+            21,
+            22,
+            23,
+            24,
+            25
+        ]
+    },
+    "23740": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 3,
+        "horarios": [
+            61,
+            62,
+            63
+        ]
+    },
+    "23741": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 7,
+        "horarios": [
+            41,
+            42,
+            43,
+            44,
+            45
+        ]
+    },
+    "25803": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 1,
+        "horarios": [
+            72,
+            88,
+            89,
+            70,
+            71
+        ]
+    },
+    "23770": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 12,
+        "horarios": [
+            75,
+            76,
+            77
+        ]
+    },
+    "23774": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 56,
+        "horarios": [
+            42,
+            64,
+            65,
+            41
+        ]
+    },
+    "23775": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 16,
+        "horarios": [
+            45,
+            44,
+            1,
+            2
+        ]
+    },
+    "23776": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 57,
+        "horarios": [
+            23,
+            24,
+            61,
+            62,
+            63
+        ]
+    },
+    "23778": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 25,
+        "horarios": [
+            81,
+            82,
+            84,
+            85,
+            83
+        ]
+    },
+    "23779": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 50,
+        "horarios": [
+            52,
+            53
+        ]
+    },
+    "23780": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 23,
+        "horarios": [
+            30,
+            31,
+            32,
+            33
+        ]
+    },
+    "23781": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 32,
+        "horarios": [
+            68,
+            69,
+            48,
+            49
+        ]
+    },
+    "23782": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 20,
+        "horarios": [
+            21,
+            22,
+            92,
+            93
+        ]
+    },
+    "23783": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 34,
+        "horarios": [
+            62,
+            63,
+            23,
+            24,
+            25
+        ]
+    },
+    "23785": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 21,
+        "horarios": [
+            3,
+            4,
+            64,
+            65
+        ]
+    },
+    "23786": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 37,
+        "horarios": [
+            85,
+            83,
+            84
+        ]
+    },
+    "23787": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 26,
+        "horarios": [
+            70,
+            71,
+            72,
+            31,
+            32
+        ]
+    },
+    "23788": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 14,
+        "horarios": [
+            29,
+            30,
+            51,
+            52
+        ]
+    },
+    "23789": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 18,
+        "horarios": [
+            12,
+            91,
+            92,
+            90,
+            11
+        ]
+    },
+    "23790": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 26,
+        "horarios": [
+            48,
+            49,
+            68,
+            69
+        ]
+    },
+    "23791": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 25,
+        "horarios": [
+            23,
+            24,
+            42,
+            43
+        ]
+    },
+    "23792": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 27,
+        "horarios": [
+            24,
+            25,
+            4,
+            5
+        ]
+    },
+    "23793": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 27,
+        "horarios": [
+            41,
+            42,
+            43,
+            82,
+            83
+        ]
+    },
+    "23794": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 32,
+        "horarios": [
+            31,
+            32,
+            69,
+            70
+        ]
+    },
+    "23795": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 26,
+        "horarios": [
+            44,
+            45,
+            84,
+            85,
+            86
+        ]
+    },
+    "23796": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 20,
+        "horarios": [
+            48,
+            49,
+            50,
+            9,
+            10
+        ]
+    },
+    "23797": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 25,
+        "horarios": [
+            29,
+            30,
+            71,
+            72
+        ]
+    },
+    "23798": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 28,
+        "horarios": [
+            64,
+            65,
+            51,
+            52,
+            53
+        ]
+    },
+    "21751": {
+        "id_turma": 0,
+        "id_curso": 358,
+        "qtd_alunos": 36,
+        "horarios": [
+            52,
+            51
+        ]
+    },
+    "21753": {
+        "id_turma": 0,
+        "id_curso": 358,
+        "qtd_alunos": 34,
+        "horarios": [
+            48,
+            49,
+            50
+        ]
+    },
+    "21754": {
+        "id_turma": 0,
+        "id_curso": 358,
+        "qtd_alunos": 30,
+        "horarios": [
+            32,
+            33
+        ]
+    },
+    "23803": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 22,
+        "horarios": [
+            69,
+            70,
+            92,
+            93,
+            68
+        ]
+    },
+    "21756": {
+        "id_turma": 0,
+        "id_curso": 358,
+        "qtd_alunos": 33,
+        "horarios": [
+            73,
+            88,
+            89,
+            90,
+            72
+        ]
+    },
+    "23805": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 15,
+        "horarios": [
+            8,
+            9,
+            51,
+            52
+        ]
+    },
+    "21758": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 28,
+        "horarios": [
+            23,
+            21,
+            22
+        ]
+    },
+    "21759": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 30,
+        "horarios": [
+            64,
+            65
+        ]
+    },
+    "21760": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 30,
+        "horarios": [
+            4,
+            5,
+            6
+        ]
+    },
+    "21761": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 29,
+        "horarios": [
+            26,
+            2,
+            3,
+            24,
+            25
+        ]
+    },
+    "21762": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 34,
+        "horarios": [
+            42,
+            43,
+            84,
+            85
+        ]
+    },
+    "21763": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 29,
+        "horarios": [
+            44,
+            45,
+            62,
+            63
+        ]
+    },
+    "21764": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 30,
+        "horarios": [
+            81,
+            82,
+            83
+        ]
+    },
+    "21765": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 15,
+        "horarios": [
+            4,
+            5,
+            44,
+            45
+        ]
+    },
+    "21766": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 16,
+        "horarios": [
+            61,
+            63,
+            62
+        ]
+    },
+    "21769": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 23,
+        "horarios": [
+            82,
+            81,
+            83
+        ]
+    },
+    "21770": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 14,
+        "horarios": [
+            25,
+            84,
+            85,
+            24
+        ]
+    },
+    "21771": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 15,
+        "horarios": [
+            3,
+            2
+        ]
+    },
+    "21772": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 12,
+        "horarios": [
+            21,
+            22,
+            23
+        ]
+    },
+    "25474": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 31,
+        "horarios": [
+            73,
+            72,
+            71
+        ]
+    },
+    "21774": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 10,
+        "horarios": [
+            1,
+            2,
+            3
+        ]
+    },
+    "21775": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 9,
+        "horarios": [
+            81,
+            82
+        ]
+    },
+    "21779": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 10,
+        "horarios": [
+            43,
+            44,
+            45,
+            46
+        ]
+    },
+    "21781": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 11,
+        "horarios": [
+            63,
+            64,
+            65
+        ]
+    },
+    "21782": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 9,
+        "horarios": [
+            23,
+            24,
+            22
+        ]
+    },
+    "21783": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 11,
+        "horarios": [
+            4,
+            5,
+            61,
+            62
+        ]
+    },
+    "21785": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 13,
+        "horarios": [
+            84,
+            85,
+            86
+        ]
+    },
+    "21786": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 10,
+        "horarios": [
+            1,
+            2,
+            3
+        ]
+    },
+    "21787": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 15,
+        "horarios": [
+            21,
+            22,
+            23
+        ]
+    },
+    "21788": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 8,
+        "horarios": [
+            44,
+            45
+        ]
+    },
+    "21789": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 13,
+        "horarios": [
+            41,
+            42,
+            43
+        ]
+    },
+    "21790": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 12,
+        "horarios": [
+            62,
+            81,
+            82,
+            61
+        ]
+    },
+    "25477": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 31,
+        "horarios": [
+            68,
+            69,
+            70
+        ]
+    },
+    "21792": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 7,
+        "horarios": [
+            83,
+            84
+        ]
+    },
+    "21793": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 8,
+        "horarios": [
+            4,
+            5
+        ]
+    },
+    "21794": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 6,
+        "horarios": [
+            1,
+            2,
+            81,
+            82
+        ]
+    },
+    "21795": {
+        "id_turma": 0,
+        "id_curso": 61,
+        "qtd_alunos": 7,
+        "horarios": [
+            44,
+            45,
+            46
+        ]
+    },
+    "25481": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 26,
+        "horarios": [
+            81,
+            82,
+            83,
+            61,
+            62
+        ]
+    },
+    "25483": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 41,
+        "horarios": [
+            21,
+            22,
+            41,
+            42
+        ]
+    },
+    "25484": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 28,
+        "horarios": [
+            63,
+            64,
+            65,
+            66
+        ]
+    },
+    "25485": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 34,
+        "horarios": [
+            4,
+            5,
+            6
+        ]
+    },
+    "21840": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 36,
+        "horarios": [
+            43,
+            44,
+            42
+        ]
+    },
+    "21843": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 19,
+        "horarios": [
+            84,
+            85,
+            86
+        ]
+    },
+    "21844": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 30,
+        "horarios": [
+            82,
+            83,
+            81
+        ]
+    },
+    "25486": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 30,
+        "horarios": [
+            44,
+            43
+        ]
+    },
+    "21850": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 22,
+        "horarios": [
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "25487": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 27,
+        "horarios": [
+            1,
+            2,
+            25,
+            26
+        ]
+    },
+    "21852": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 21,
+        "horarios": [
+            44,
+            45
+        ]
+    },
+    "21856": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 14,
+        "horarios": [
+            84,
+            85,
+            86
+        ]
+    },
+    "21857": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 16,
+        "horarios": [
+            42,
+            43,
+            44
+        ]
+    },
+    "21858": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 6,
+        "horarios": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    "21860": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 11,
+        "horarios": [
+            65,
+            64,
+            23,
+            24,
+            25,
+            26,
+            66
+        ]
+    },
+    "21861": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 19,
+        "horarios": [
+            62,
+            63
+        ]
+    },
+    "21862": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 11,
+        "horarios": [
+            43,
+            42
+        ]
+    },
+    "21863": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 12,
+        "horarios": [
+            25,
+            26,
+            66,
+            65,
+            64
+        ]
+    },
+    "21865": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 12,
+        "horarios": [
+            4,
+            1,
+            2,
+            3
+        ]
+    },
+    "21866": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 11,
+        "horarios": [
+            2,
+            3
+        ]
+    },
+    "21867": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 14,
+        "horarios": [
+            4,
+            5
+        ]
+    },
+    "21868": {
+        "id_turma": 0,
+        "id_curso": 59,
+        "qtd_alunos": 21,
+        "horarios": [
+            64,
+            65,
+            62,
+            63
+        ]
+    },
+    "21869": {
+        "id_turma": 0,
+        "id_curso": 60,
+        "qtd_alunos": 26,
+        "horarios": [
+            1,
+            2,
+            3
+        ]
+    },
+    "21871": {
+        "id_turma": 0,
+        "id_curso": 60,
+        "qtd_alunos": 22,
+        "horarios": [
+            21,
+            22,
+            23
+        ]
+    },
+    "21875": {
+        "id_turma": 0,
+        "id_curso": 60,
+        "qtd_alunos": 28,
+        "horarios": [
+            66,
+            64,
+            65
+        ]
+    },
+    "21876": {
+        "id_turma": 0,
+        "id_curso": 60,
+        "qtd_alunos": 17,
+        "horarios": [
+            25,
+            26,
+            66,
+            65,
+            64
+        ]
+    },
+    "21881": {
+        "id_turma": 0,
+        "id_curso": 60,
+        "qtd_alunos": 14,
+        "horarios": [
+            46,
+            45,
+            44,
+            43
+        ]
+    },
+    "21882": {
+        "id_turma": 0,
+        "id_curso": 60,
+        "qtd_alunos": 13,
+        "horarios": [
+            81,
+            82,
+            83
+        ]
+    },
+    "21883": {
+        "id_turma": 0,
+        "id_curso": 60,
+        "qtd_alunos": 12,
+        "horarios": [
+            2,
+            81,
+            82,
+            1
+        ]
+    },
+    "21889": {
+        "id_turma": 0,
+        "id_curso": 60,
+        "qtd_alunos": 3,
+        "horarios": [
+            22,
+            23,
+            24
+        ]
+    },
+    "21890": {
+        "id_turma": 0,
+        "id_curso": 60,
+        "qtd_alunos": 7,
+        "horarios": [
+            64,
+            66,
+            65
+        ]
+    },
+    "21899": {
+        "id_turma": 0,
+        "id_curso": 60,
+        "qtd_alunos": 2,
+        "horarios": [
+            62,
+            63,
+            61
+        ]
+    },
+    "21904": {
+        "id_turma": 0,
+        "id_curso": 60,
+        "qtd_alunos": 7,
+        "horarios": [
+            5,
+            6,
+            25,
+            26
+        ]
+    },
+    "21908": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 30,
+        "horarios": [
+            28,
+            29,
+            70,
+            71,
+            72
+        ]
+    },
+    "21909": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 51,
+        "horarios": [
+            10,
+            11,
+            12,
+            51,
+            52
+        ]
+    },
+    "21910": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 35,
+        "horarios": [
+            30,
+            31,
+            32
+        ]
+    },
+    "21912": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 44,
+        "horarios": [
+            50,
+            48,
+            49
+        ]
+    },
+    "21914": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 29,
+        "horarios": [
+            30,
+            31,
+            68,
+            69
+        ]
+    },
+    "21917": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 25,
+        "horarios": [
+            70,
+            71,
+            88,
+            89
+        ]
+    },
+    "21919": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 37,
+        "horarios": [
+            12,
+            13
+        ]
+    },
+    "21921": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 17,
+        "horarios": [
+            11,
+            13,
+            12
+        ]
+    },
+    "21925": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 18,
+        "horarios": [
+            8,
+            9,
+            88,
+            89
+        ]
+    },
+    "21927": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 27,
+        "horarios": [
+            70,
+            71,
+            88,
+            89
+        ]
+    },
+    "21928": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 23,
+        "horarios": [
+            51,
+            10,
+            11,
+            50
+        ]
+    },
+    "24476": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 11,
+        "horarios": [
+            69,
+            68
+        ]
+    },
+    "21930": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 22,
+        "horarios": [
+            48,
+            49,
+            72,
+            73
+        ]
+    },
+    "21932": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 38,
+        "horarios": [
+            12,
+            13
+        ]
+    },
+    "21934": {
+        "id_turma": 0,
+        "id_curso": 67,
+        "qtd_alunos": 16,
+        "horarios": [
+            68,
+            69,
+            90,
+            91
+        ]
+    },
+    "21945": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 35,
+        "horarios": [
+            38,
+            39,
+            78,
+            79
+        ]
+    },
+    "21952": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 6,
+        "horarios": [
+            18,
+            19,
+            97,
+            98,
+            17
+        ]
+    },
+    "21953": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 13,
+        "horarios": [
+            98,
+            75,
+            76,
+            97
+        ]
+    },
+    "21954": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 24,
+        "horarios": [
+            78,
+            95,
+            96,
+            77
+        ]
+    },
+    "21956": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 1,
+        "horarios": [
+            37,
+            38
+        ]
+    },
+    "21958": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 6,
+        "horarios": [
+            15,
+            16,
+            95,
+            96
+        ]
+    },
+    "21960": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 36,
+        "horarios": [
+            75,
+            76,
+            57,
+            55,
+            56
+        ]
+    },
+    "21961": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 2,
+        "horarios": [
+            35,
+            36,
+            77,
+            78,
+            79
+        ]
+    },
+    "23799": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 22,
+        "horarios": [
+            9,
+            10,
+            11,
+            49,
+            50
+        ]
+    },
+    "21964": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 12,
+        "horarios": [
+            35,
+            36,
+            37
+        ]
+    },
+    "21965": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 11,
+        "horarios": [
+            96,
+            75,
+            76,
+            95
+        ]
+    },
+    "21966": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 6,
+        "horarios": [
+            55,
+            56,
+            77,
+            78,
+            79
+        ]
+    },
+    "21968": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 12,
+        "horarios": [
+            75,
+            76,
+            17,
+            18,
+            19
+        ]
+    },
+    "21969": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 19,
+        "horarios": [
+            15,
+            16,
+            35,
+            36,
+            37
+        ]
+    },
+    "21972": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 17,
+        "horarios": [
+            77,
+            78,
+            79,
+            97,
+            98
+        ]
+    },
+    "21975": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 5,
+        "horarios": [
+            77,
+            78,
+            79
+        ]
+    },
+    "21976": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 22,
+        "horarios": [
+            99,
+            57,
+            58,
+            59
+        ]
+    },
+    "21977": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 5,
+        "horarios": [
+            97,
+            98
+        ]
+    },
+    "21978": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 13,
+        "horarios": [
+            76,
+            35,
+            36,
+            75
+        ]
+    },
+    "21979": {
+        "id_turma": 0,
+        "id_curso": 66,
+        "qtd_alunos": 8,
+        "horarios": [
+            39,
+            37,
+            38
+        ]
+    },
+    "23802": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 27,
+        "horarios": [
+            3,
+            4,
+            1,
+            2
+        ]
+    },
+    "23804": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 32,
+        "horarios": [
+            10,
+            11,
+            29,
+            30
+        ]
+    },
+    "23660": {
+        "id_turma": 10212,
+        "id_curso": 82,
+        "qtd_alunos": 21,
+        "horarios": [
+            10,
+            11
+        ]
+    },
+    "23808": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 9,
+        "horarios": [
+            84,
+            85,
+            63,
+            62,
+            61
+        ]
+    },
+    "23812": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 25,
+        "horarios": [
+            10,
+            11,
+            50,
+            51
+        ]
+    },
+    "23813": {
+        "id_turma": 0,
+        "id_curso": 68,
+        "qtd_alunos": 17,
+        "horarios": [
+            88,
+            89,
+            90,
+            48,
+            49
+        ]
+    },
+    "24795": {
+        "id_turma": 0,
+        "id_curso": 39,
+        "qtd_alunos": 46,
+        "horarios": [
+            22,
+            23,
+            62,
+            63
+        ]
+    },
+    "22091": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 25,
+        "horarios": [
+            31,
+            32,
+            33
+        ]
+    },
+    "22094": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 22,
+        "horarios": [
+            11,
+            12,
+            50,
+            51,
+            52
+        ]
+    },
+    "22096": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 20,
+        "horarios": [
+            8,
+            9,
+            10
+        ]
+    },
+    "22097": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 20,
+        "horarios": [
+            70,
+            71,
+            72
+        ]
+    },
+    "22098": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 21,
+        "horarios": [
+            29,
+            30
+        ]
+    },
+    "22099": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 18,
+        "horarios": [
+            32,
+            88,
+            89,
+            90,
+            31
+        ]
+    },
+    "22100": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 21,
+        "horarios": [
+            50,
+            51,
+            52,
+            91,
+            92
+        ]
+    },
+    "22101": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 13,
+        "horarios": [
+            11,
+            12,
+            71,
+            72
+        ]
+    },
+    "22102": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 15,
+        "horarios": [
+            68,
+            69
+        ]
+    },
+    "22103": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 17,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "22105": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 19,
+        "horarios": [
+            70
+        ]
+    },
+    "22107": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 8,
+        "horarios": [
+            89,
+            88
+        ]
+    },
+    "22108": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 8,
+        "horarios": [
+            51,
+            52
+        ]
+    },
+    "22109": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 11,
+        "horarios": [
+            71,
+            72,
+            73
+        ]
+    },
+    "22110": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 8,
+        "horarios": [
+            48,
+            49,
+            50
+        ]
+    },
+    "22111": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 9,
+        "horarios": [
+            30
+        ]
+    },
+    "22112": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 12,
+        "horarios": [
+            29,
+            68,
+            69,
+            70,
+            28
+        ]
+    },
+    "22113": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 11,
+        "horarios": [
+            9,
+            10,
+            91,
+            92,
+            8
+        ]
+    },
+    "22114": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 7,
+        "horarios": [
+            70
+        ]
+    },
+    "22116": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 8,
+        "horarios": [
+            68,
+            69,
+            31,
+            32
+        ]
+    },
+    "22121": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 5,
+        "horarios": [
+            28,
+            29
+        ]
+    },
+    "22123": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 13,
+        "horarios": [
+            28,
+            29,
+            30
+        ]
+    },
+    "22125": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 8,
+        "horarios": [
+            11,
+            12,
+            31,
+            32,
+            72
+        ]
+    },
+    "22127": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 11,
+        "horarios": [
+            71
+        ]
+    },
+    "22128": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 12,
+        "horarios": [
+            73
+        ]
+    },
+    "22129": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 9,
+        "horarios": [
+            69,
+            91,
+            92,
+            68,
+            70
+        ]
+    },
+    "22130": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 3,
+        "horarios": [
+            68,
+            69,
+            70
+        ]
+    },
+    "22131": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 7,
+        "horarios": [
+            88,
+            89,
+            90
+        ]
+    },
+    "22132": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 9,
+        "horarios": [
+            28,
+            29,
+            30
+        ]
+    },
+    "22135": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 5,
+        "horarios": [
+            91
+        ]
+    },
+    "22136": {
+        "id_turma": 0,
+        "id_curso": 48,
+        "qtd_alunos": 8,
+        "horarios": [
+            51,
+            50
+        ]
+    },
+    "22142": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 37,
+        "horarios": [
+            64,
+            65,
+            66
+        ]
+    },
+    "22145": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 37,
+        "horarios": [
+            62,
+            63
+        ]
+    },
+    "22146": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 14,
+        "horarios": [
+            43,
+            21,
+            22,
+            23,
+            42
+        ]
+    },
+    "22147": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 32,
+        "horarios": [
+            1,
+            2,
+            44,
+            45
+        ]
+    },
+    "22149": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 14,
+        "horarios": [
+            45,
+            61,
+            62,
+            43,
+            44
+        ]
+    },
+    "22150": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 14,
+        "horarios": [
+            82,
+            83
+        ]
+    },
+    "22152": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 17,
+        "horarios": [
+            25,
+            24,
+            65,
+            64
+        ]
+    },
+    "22156": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 15,
+        "horarios": [
+            21,
+            22,
+            23,
+            41,
+            42
+        ]
+    },
+    "22157": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 20,
+        "horarios": [
+            24,
+            25,
+            64,
+            65
+        ]
+    },
+    "22160": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 8,
+        "horarios": [
+            41,
+            42,
+            43
+        ]
+    },
+    "25366": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 47,
+        "horarios": [
+            38,
+            39,
+            98,
+            99
+        ]
+    },
+    "22168": {
+        "id_turma": 0,
+        "id_curso": 64,
+        "qtd_alunos": 7,
+        "horarios": [
+            45,
+            1,
+            2,
+            44
+        ]
+    },
+    "24270": {
+        "id_turma": 10423,
+        "id_curso": 88,
+        "qtd_alunos": 18,
+        "horarios": [
+            6,
+            5
+        ]
+    },
+    "24271": {
+        "id_turma": 10423,
+        "id_curso": 88,
+        "qtd_alunos": 17,
+        "horarios": [
+            25,
+            26
+        ]
+    },
+    "24273": {
+        "id_turma": 10423,
+        "id_curso": 88,
+        "qtd_alunos": 18,
+        "horarios": [
+            65,
+            66
+        ]
+    },
+    "24274": {
+        "id_turma": 10423,
+        "id_curso": 88,
+        "qtd_alunos": 18,
+        "horarios": [
+            45,
+            46
+        ]
+    },
+    "24275": {
+        "id_turma": 10423,
+        "id_curso": 88,
+        "qtd_alunos": 18,
+        "horarios": [
+            61,
+            62
+        ]
+    },
+    "24277": {
+        "id_turma": 0,
+        "id_curso": 88,
+        "qtd_alunos": 18,
+        "horarios": [
+            84,
+            83
+        ]
+    },
+    "24278": {
+        "id_turma": 10423,
+        "id_curso": 88,
+        "qtd_alunos": 18,
+        "horarios": [
+            41,
+            42
+        ]
+    },
+    "24279": {
+        "id_turma": 10423,
+        "id_curso": 88,
+        "qtd_alunos": 18,
+        "horarios": [
+            63,
+            64
+        ]
+    },
+    "24280": {
+        "id_turma": 10423,
+        "id_curso": 88,
+        "qtd_alunos": 18,
+        "horarios": [
+            3,
+            4
+        ]
+    },
+    "24281": {
+        "id_turma": 10423,
+        "id_curso": 88,
+        "qtd_alunos": 18,
+        "horarios": [
+            43,
+            44
+        ]
+    },
+    "24282": {
+        "id_turma": 10423,
+        "id_curso": 88,
+        "qtd_alunos": 18,
+        "horarios": [
+            23,
+            24
+        ]
+    },
+    "25359": {
+        "id_turma": 0,
+        "id_curso": 63,
+        "qtd_alunos": 16,
+        "horarios": [
+            17,
+            18,
+            15,
+            16
+        ]
+    },
+    "24318": {
+        "id_turma": 0,
+        "id_curso": 191,
+        "qtd_alunos": 31,
+        "horarios": [
+            75,
+            76
+        ]
+    },
+    "24319": {
+        "id_turma": 0,
+        "id_curso": 191,
+        "qtd_alunos": 30,
+        "horarios": [
+            56,
+            55
+        ]
+    },
+    "24321": {
+        "id_turma": 0,
+        "id_curso": 191,
+        "qtd_alunos": 17,
+        "horarios": [
+            15,
+            16,
+            35,
+            36
+        ]
+    },
+    "24322": {
+        "id_turma": 0,
+        "id_curso": 191,
+        "qtd_alunos": 31,
+        "horarios": [
+            17,
+            18,
+            19,
+            37,
+            38,
+            39
+        ]
+    },
+    "24324": {
+        "id_turma": 0,
+        "id_curso": 191,
+        "qtd_alunos": 16,
+        "horarios": [
+            55,
+            75,
+            56,
+            57,
+            76,
+            77
+        ]
+    },
+    "24325": {
+        "id_turma": 0,
+        "id_curso": 191,
+        "qtd_alunos": 7,
+        "horarios": [
+            79,
+            78
+        ]
+    },
+    "24329": {
+        "id_turma": 0,
+        "id_curso": 191,
+        "qtd_alunos": 10,
+        "horarios": [
+            96,
+            97,
+            98,
+            99
+        ]
+    },
+    "24331": {
+        "id_turma": 0,
+        "id_curso": 191,
+        "qtd_alunos": 12,
+        "horarios": [
+            36,
+            35
+        ]
+    },
+    "24332": {
+        "id_turma": 0,
+        "id_curso": 191,
+        "qtd_alunos": 17,
+        "horarios": [
+            16,
+            17,
+            18,
+            19
+        ]
+    },
+    "24333": {
+        "id_turma": 0,
+        "id_curso": 191,
+        "qtd_alunos": 11,
+        "horarios": [
+            59,
+            56,
+            57,
+            58
+        ]
+    },
+    "24334": {
+        "id_turma": 0,
+        "id_curso": 191,
+        "qtd_alunos": 6,
+        "horarios": [
+            97,
+            98
+        ]
+    },
+    "25475": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 32,
+        "horarios": [
+            30,
+            31
+        ]
+    },
+    "24340": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 33,
+        "horarios": [
+            39,
+            36,
+            37,
+            38
+        ]
+    },
+    "24341": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 34,
+        "horarios": [
+            15,
+            16
+        ]
+    },
+    "24342": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 32,
+        "horarios": [
+            76,
+            75
+        ]
+    },
+    "24344": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 33,
+        "horarios": [
+            77,
+            17,
+            18,
+            19,
+            78,
+            79
+        ]
+    },
+    "24345": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 31,
+        "horarios": [
+            57,
+            58,
+            59
+        ]
+    },
+    "24346": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 31,
+        "horarios": [
+            35
+        ]
+    },
+    "24348": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 9,
+        "horarios": [
+            59,
+            75,
+            76,
+            77,
+            57,
+            58
+        ]
+    },
+    "24349": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 12,
+        "horarios": [
+            17,
+            18,
+            19
+        ]
+    },
+    "24350": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 10,
+        "horarios": [
+            15,
+            16,
+            55,
+            56
+        ]
+    },
+    "24351": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 10,
+        "horarios": [
+            78,
+            79
+        ]
+    },
+    "24353": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 11,
+        "horarios": [
+            15,
+            16,
+            17
+        ]
+    },
+    "24355": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 10,
+        "horarios": [
+            59,
+            57,
+            58
+        ]
+    },
+    "24356": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 9,
+        "horarios": [
+            37,
+            38,
+            39
+        ]
+    },
+    "24359": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 9,
+        "horarios": [
+            35,
+            36
+        ]
+    },
+    "24360": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 7,
+        "horarios": [
+            79,
+            17,
+            18,
+            78
+        ]
+    },
+    "24364": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 19,
+        "horarios": [
+            97,
+            98
+        ]
+    },
+    "24365": {
+        "id_turma": 0,
+        "id_curso": 195,
+        "qtd_alunos": 8,
+        "horarios": [
+            38,
+            37
+        ]
+    },
+    "24369": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 41,
+        "horarios": [
+            17,
+            18
+        ]
+    },
+    "24371": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 40,
+        "horarios": [
+            15,
+            16
+        ]
+    },
+    "24372": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 38,
+        "horarios": [
+            97,
+            98
+        ]
+    },
+    "24373": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 42,
+        "horarios": [
+            59,
+            57,
+            58
+        ]
+    },
+    "24374": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 40,
+        "horarios": [
+            55,
+            56
+        ]
+    },
+    "24375": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 0,
+        "horarios": [
+            95,
+            96
+        ]
+    },
+    "24378": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 20,
+        "horarios": [
+            55,
+            56,
+            57
+        ]
+    },
+    "24380": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 22,
+        "horarios": [
+            15,
+            16
+        ]
+    },
+    "24381": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 22,
+        "horarios": [
+            18,
+            19
+        ]
+    },
+    "24383": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 13,
+        "horarios": [
+            58,
+            57,
+            59
+        ]
+    },
+    "24385": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 14,
+        "horarios": [
+            78,
+            79,
+            77,
+            39,
+            38,
+            37,
+            36,
+            35
+        ]
+    },
+    "24386": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 17,
+        "horarios": [
+            75,
+            76,
+            56,
+            55
+        ]
+    },
+    "24387": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 16,
+        "horarios": [
+            58,
+            59
+        ]
+    },
+    "24390": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 5,
+        "horarios": [
+            36,
+            37,
+            38,
+            35
+        ]
+    },
+    "24391": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 10,
+        "horarios": [
+            76,
+            77,
+            78,
+            79
+        ]
+    },
+    "24392": {
+        "id_turma": 0,
+        "id_curso": 186,
+        "qtd_alunos": 20,
+        "horarios": [
+            96,
+            95
+        ]
+    },
+    "24393": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 28,
+        "horarios": [
+            77,
+            76
+        ]
+    },
+    "24394": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 11,
+        "horarios": [
+            79,
+            78
+        ]
+    },
+    "24397": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 23,
+        "horarios": [
+            55,
+            56
+        ]
+    },
+    "24398": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 16,
+        "horarios": [
+            36,
+            37,
+            38,
+            39,
+            97,
+            98
+        ]
+    },
+    "24400": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 9,
+        "horarios": [
+            76,
+            77
+        ]
+    },
+    "24401": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 8,
+        "horarios": [
+            78,
+            79
+        ]
+    },
+    "24402": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 9,
+        "horarios": [
+            17,
+            18,
+            19,
+            56,
+            57,
+            58,
+            59,
+            16
+        ]
+    },
+    "24404": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 7,
+        "horarios": [
+            96,
+            97,
+            98,
+            99
+        ]
+    },
+    "24405": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 7,
+        "horarios": [
+            36,
+            37,
+            38,
+            39
+        ]
+    },
+    "24406": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 10,
+        "horarios": [
+            55,
+            56
+        ]
+    },
+    "24407": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 14,
+        "horarios": [
+            36,
+            37,
+            38,
+            39
+        ]
+    },
+    "24410": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 12,
+        "horarios": [
+            15,
+            16,
+            17
+        ]
+    },
+    "24411": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 18,
+        "horarios": [
+            58,
+            59,
+            57
+        ]
+    },
+    "24413": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 19,
+        "horarios": [
+            18,
+            19
+        ]
+    },
+    "24414": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 22,
+        "horarios": [
+            99,
+            98
+        ]
+    },
+    "24417": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 19,
+        "horarios": [
+            38,
+            39
+        ]
+    },
+    "24418": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 17,
+        "horarios": [
+            55,
+            56
+        ]
+    },
+    "24419": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 20,
+        "horarios": [
+            77,
+            75,
+            76
+        ]
+    },
+    "24420": {
+        "id_turma": 0,
+        "id_curso": 192,
+        "qtd_alunos": 25,
+        "horarios": [
+            16,
+            17,
+            15
+        ]
+    },
+    "24421": {
+        "id_turma": 0,
+        "id_curso": 206,
+        "qtd_alunos": 31,
+        "horarios": [
+            75,
+            76
+        ]
+    },
+    "24422": {
+        "id_turma": 0,
+        "id_curso": 206,
+        "qtd_alunos": 29,
+        "horarios": [
+            17,
+            16
+        ]
+    },
+    "24423": {
+        "id_turma": 0,
+        "id_curso": 206,
+        "qtd_alunos": 30,
+        "horarios": [
+            18,
+            78,
+            79,
+            19
+        ]
+    },
+    "24425": {
+        "id_turma": 0,
+        "id_curso": 206,
+        "qtd_alunos": 29,
+        "horarios": [
+            95,
+            96
+        ]
+    },
+    "24426": {
+        "id_turma": 0,
+        "id_curso": 206,
+        "qtd_alunos": 12,
+        "horarios": [
+            19,
+            16,
+            17,
+            18
+        ]
+    },
+    "25575": {
+        "id_turma": 10156,
+        "id_curso": 88,
+        "qtd_alunos": 24,
+        "horarios": [
+            50,
+            51
+        ]
+    },
+    "24428": {
+        "id_turma": 0,
+        "id_curso": 206,
+        "qtd_alunos": 12,
+        "horarios": [
+            97,
+            98,
+            99,
+            96
+        ]
+    },
+    "23727": {
+        "id_turma": 0,
+        "id_curso": 56,
+        "qtd_alunos": 4,
+        "horarios": [
+            21,
+            22,
+            23
+        ]
+    },
+    "24432": {
+        "id_turma": 0,
+        "id_curso": 206,
+        "qtd_alunos": 11,
+        "horarios": [
+            79,
+            38,
+            39,
+            78
+        ]
+    },
+    "25576": {
+        "id_turma": 10156,
+        "id_curso": 88,
+        "qtd_alunos": 16,
+        "horarios": [
+            32,
+            31
+        ]
+    },
+    "24445": {
+        "id_turma": 0,
+        "id_curso": 206,
+        "qtd_alunos": 5,
+        "horarios": [
+            78,
+            79
+        ]
+    },
+    "24446": {
+        "id_turma": 0,
+        "id_curso": 206,
+        "qtd_alunos": 7,
+        "horarios": [
+            16,
+            17
+        ]
+    },
+    "24449": {
+        "id_turma": 0,
+        "id_curso": 206,
+        "qtd_alunos": 6,
+        "horarios": [
+            58,
+            59,
+            18,
+            19
+        ]
+    },
+    "24450": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 38,
+        "horarios": [
+            37,
+            35,
+            36
+        ]
+    },
+    "24451": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 39,
+        "horarios": [
+            57,
+            58,
+            59,
+            77
+        ]
+    },
+    "24453": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 0,
+        "horarios": [
+            18,
+            19,
+            17
+        ]
+    },
+    "24454": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 36,
+        "horarios": [
+            56,
+            55,
+            38,
+            39
+        ]
+    },
+    "24455": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 40,
+        "horarios": [
+            78,
+            79
+        ]
+    },
+    "24456": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 31,
+        "horarios": [
+            95,
+            96,
+            97
+        ]
+    },
+    "24457": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 33,
+        "horarios": [
+            16,
+            15
+        ]
+    },
+    "24458": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 24,
+        "horarios": [
+            35,
+            36,
+            76,
+            75
+        ]
+    },
+    "24459": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 23,
+        "horarios": [
+            19,
+            17,
+            18
+        ]
+    },
+    "24460": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 24,
+        "horarios": [
+            38,
+            37
+        ]
+    },
+    "24461": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 25,
+        "horarios": [
+            58,
+            57,
+            59
+        ]
+    },
+    "24462": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 24,
+        "horarios": [
+            56,
+            55,
+            16,
+            15
+        ]
+    },
+    "24463": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 22,
+        "horarios": [
+            35,
+            36,
+            37
+        ]
+    },
+    "24464": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 25,
+        "horarios": [
+            96,
+            95
+        ]
+    },
+    "24465": {
+        "id_turma": 0,
+        "id_curso": 215,
+        "qtd_alunos": 23,
+        "horarios": [
+            97,
+            98,
+            99
+        ]
+    },
+    "24474": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 13,
+        "horarios": [
+            72,
+            73
+        ]
+    },
+    "24475": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 10,
+        "horarios": [
+            28,
+            29
+        ]
+    },
+    "23183": {
+        "id_turma": 10110,
+        "id_curso": 76,
+        "qtd_alunos": 34,
+        "horarios": [
+            30,
+            28,
+            29
+        ]
+    },
+    "24477": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 11,
+        "horarios": [
+            31,
+            30
+        ]
+    },
+    "24478": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 13,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "24479": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 11,
+        "horarios": [
+            70,
+            71
+        ]
+    },
+    "24480": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 10,
+        "horarios": [
+            50,
+            51
+        ]
+    },
+    "24481": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 7,
+        "horarios": [
+            13,
+            12
+        ]
+    },
+    "24482": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 6,
+        "horarios": [
+            50,
+            51
+        ]
+    },
+    "24483": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 9,
+        "horarios": [
+            32,
+            33
+        ]
+    },
+    "24485": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 9,
+        "horarios": [
+            30,
+            31
+        ]
+    },
+    "24486": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 8,
+        "horarios": [
+            28,
+            29
+        ]
+    },
+    "24487": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 8,
+        "horarios": [
+            49,
+            48
+        ]
+    },
+    "24488": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 8,
+        "horarios": [
+            9,
+            8
+        ]
+    },
+    "24489": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 3,
+        "horarios": [
+            52,
+            53
+        ]
+    },
+    "24490": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 3,
+        "horarios": [
+            90,
+            91
+        ]
+    },
+    "24491": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 2,
+        "horarios": [
+            88,
+            89
+        ]
+    },
+    "24492": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 3,
+        "horarios": [
+            51,
+            50
+        ]
+    },
+    "24493": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 2,
+        "horarios": [
+            48,
+            49
+        ]
+    },
+    "24494": {
+        "id_turma": 0,
+        "id_curso": 87,
+        "qtd_alunos": 3,
+        "horarios": [
+            93,
+            92
+        ]
+    },
+    "24497": {
+        "id_turma": 10515,
+        "id_curso": 70,
+        "qtd_alunos": 38,
+        "horarios": [
+            83,
+            44,
+            43
+        ]
+    },
+    "24498": {
+        "id_turma": 10515,
+        "id_curso": 70,
+        "qtd_alunos": 38,
+        "horarios": [
+            65,
+            66
+        ]
+    },
+    "24499": {
+        "id_turma": 10515,
+        "id_curso": 70,
+        "qtd_alunos": 38,
+        "horarios": [
+            84,
+            85,
+            86
+        ]
+    },
+    "24500": {
+        "id_turma": 10515,
+        "id_curso": 70,
+        "qtd_alunos": 38,
+        "horarios": [
+            21,
+            22
+        ]
+    },
+    "24501": {
+        "id_turma": 10515,
+        "id_curso": 70,
+        "qtd_alunos": 39,
+        "horarios": [
+            3,
+            1,
+            2
+        ]
+    },
+    "24502": {
+        "id_turma": 10515,
+        "id_curso": 70,
+        "qtd_alunos": 38,
+        "horarios": [
+            41,
+            42
+        ]
+    },
+    "24503": {
+        "id_turma": 10515,
+        "id_curso": 70,
+        "qtd_alunos": 38,
+        "horarios": [
+            45,
+            46
+        ]
+    },
+    "24504": {
+        "id_turma": 10515,
+        "id_curso": 70,
+        "qtd_alunos": 36,
+        "horarios": [
+            62,
+            61
+        ]
+    },
+    "24506": {
+        "id_turma": 10515,
+        "id_curso": 70,
+        "qtd_alunos": 38,
+        "horarios": [
+            23,
+            24
+        ]
+    },
+    "24507": {
+        "id_turma": 10515,
+        "id_curso": 70,
+        "qtd_alunos": 19,
+        "horarios": [
+            81,
+            82,
+            63,
+            64
+        ]
+    },
+    "24508": {
+        "id_turma": 0,
+        "id_curso": 70,
+        "qtd_alunos": 38,
+        "horarios": [
+            25,
+            26
+        ]
+    },
+    "24509": {
+        "id_turma": 10515,
+        "id_curso": 70,
+        "qtd_alunos": 36,
+        "horarios": [
+            4,
+            5
+        ]
+    },
+    "24511": {
+        "id_turma": 10516,
+        "id_curso": 70,
+        "qtd_alunos": 33,
+        "horarios": [
+            86,
+            85
+        ]
+    },
+    "24512": {
+        "id_turma": 10516,
+        "id_curso": 70,
+        "qtd_alunos": 33,
+        "horarios": [
+            81,
+            82
+        ]
+    },
+    "24513": {
+        "id_turma": 10516,
+        "id_curso": 70,
+        "qtd_alunos": 33,
+        "horarios": [
+            62,
+            63,
+            64
+        ]
+    },
+    "24514": {
+        "id_turma": 10516,
+        "id_curso": 70,
+        "qtd_alunos": 33,
+        "horarios": [
+            25,
+            26
+        ]
+    },
+    "24518": {
+        "id_turma": 0,
+        "id_curso": 70,
+        "qtd_alunos": 33,
+        "horarios": [
+            23,
+            24
+        ]
+    },
+    "24520": {
+        "id_turma": 10516,
+        "id_curso": 70,
+        "qtd_alunos": 33,
+        "horarios": [
+            65,
+            66
+        ]
+    },
+    "25777": {
+        "id_turma": 0,
+        "id_curso": 76,
+        "qtd_alunos": 20,
+        "horarios": [
+            10,
+            11,
+            12,
+            13
+        ]
+    }
+}
