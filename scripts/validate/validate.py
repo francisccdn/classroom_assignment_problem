@@ -7,7 +7,8 @@ all_instances = len(sys.argv) > 1 and sys.argv[1] == 'a'
 
 dir_path = os.path.dirname(os.path.realpath(__file__)) + '/results_filtered'
 if all_instances:
-    dir_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__)))) + '/results'
+    dir_path = os.path.dirname(os.path.dirname(
+        os.path.dirname(os.path.realpath(__file__)))) + '/results'
 
 
 class bcolors:
@@ -38,6 +39,8 @@ for file in os.listdir(dir_path):
     instance_name = filename.split('_')[0]
     input_dir_path = os.path.dirname(os.path.realpath(
         __file__)) + '/validation_data/' + instance_name
+    data_dir_path = os.path.dirname(os.path.dirname(
+        os.path.dirname(os.path.realpath(__file__)))) + '/data/' + instance_name
 
     with open(filepath, 'r') as fr:
         data = json.load(fr)
@@ -66,7 +69,50 @@ for file in os.listdir(dir_path):
             else:
                 other_variables.append(variable)
 
-        # Check if all lectures have rooms
+        # Check if heuristic cost is accurate
+        if data["heuristic"] == True:
+            fcl = open(data_dir_path + '/diarios_info.json', 'r')
+            flc = open(data_dir_path + '/locais_sala.json', 'r')
+            fll = open(data_dir_path + '/locais_info.json', 'r')
+
+            cl_data = json.load(fcl)
+            lc_data = json.load(flc)
+            ll_data = json.load(fll)
+
+            fcl.close()
+            flc.close()
+            fll.close()
+
+            accurate_cost = 0
+
+            for var in other_variables:
+                if var["type"] == 'X':
+                    accurate_cost += lc_data[var["room"]]["gasto_por_aula"]
+                if var["type"] == 'T':
+                    accurate_cost += ll_data[var["room"]]["gasto_por_aula"]
+                    accurate_cost += ll_data[var["room"]]["gasto_pc_por_aula"] * \
+                        cl_data[var["class"]]["qtd_alunos"]
+
+            for var in z_variables:
+                location = {}
+                if var["room"] in lc_data:
+                    location = lc_data[var["room"]]
+                if var["room"] in ll_data:
+                    location = ll_data[var["room"]]
+
+                accurate_cost += location["gasto_setup"]
+                if data["setup before class"] == False:
+                    accurate_cost -= location["gasto_por_aula"] * \
+                        location["duracao_setup"]
+
+            solution_cost = data["heuristic - local search - value"]
+            if not (accurate_cost - 1 < solution_cost and solution_cost < accurate_cost + 1):
+                feasible = False
+                if verbose:
+                    print(f"{bcolors.FAIL}Heuristic cost " + str(solution_cost) 
+                    + " is inaccurate. Accurate cost is " + str(accurate_cost) + f"{bcolors.ENDC}")
+
+        # Check if all lectures have rooms assigned to them
         with open(input_dir_path + '/diarios.json', 'r') as fclasses:
             classes_data = json.load(fclasses)
             for class_name in classes_data:
