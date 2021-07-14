@@ -13,9 +13,9 @@ using namespace std;
 int main(int argc, char **argv)
 {
     // PROBLEM PARAMETERS //
-    if (argc < 5)
+    if (argc < 6)
     {
-        cerr << "Invalid number of arguments. Try: ./$EXECUTABLE $INSTANCE $SCENARIO $SETUP $SETUP_BEFORE" << endl;
+        cerr << "Invalid number of arguments. Try: ./$EXECUTABLE $INSTANCE $SCENARIO $SETUP $SETUP_BEFORE $TIME_LIMIT" << endl;
         return 1;
     }
 
@@ -23,54 +23,59 @@ int main(int argc, char **argv)
     const int scenario = atoi(argv[2]);
     const bool setup = atoi(argv[3]) == 0 ? false : true;
     const bool setup_before_class = atoi(argv[4]) == 0 ? false : true;
-    const bool heuristic = false;
 
-    const int time_limit = 0; // In minutes. 0 skips solver, < 0 is no time limit.
+    const int time_limit = atoi(argv[5]); // In minutes. 0 skips solver, < 0 is no time limit.
+
+    const bool heuristic = argc > 6;
+    const bool first_improvement = (heuristic && atoi(argv[6]) == 0) ? false : true;
 
     // PRE PROCESSING //
     auto timer_start_preprocessing = chrono::system_clock::now();
 
-    CapData data = CapData(scenario, instance, setup, setup_before_class, heuristic);
+    CapData data = CapData(scenario, instance, setup, setup_before_class, heuristic, first_improvement);
 
     auto timer_end_preprocessing = chrono::system_clock::now();
     chrono::duration<double> timer_preprocessing = timer_end_preprocessing - timer_start_preprocessing;
 
     // HEURISTIC //
-    double timer_heuristic_count = 0;
-    double heuristic_obj_value = -1;
+    HeuristicResults heuristic_results = {
+        0, // greedy value
+        0, // num of unfeasible assignments in greedy
+        0, // greedy time
+        0, // local search value
+        0, // local search time
+        "" // chosen variables
+    };
     if (heuristic)
     {
-        auto timer_start_heuristic = chrono::system_clock::now();
-
-        // TODO
         LocalSearch localsearch = LocalSearch(data);
-        heuristic_obj_value = localsearch.Solve();
-
-        auto timer_end_heuristic = chrono::system_clock::now();
-        chrono::duration<double> timer_heuristic = timer_end_heuristic - timer_start_heuristic;
-        timer_heuristic_count = timer_heuristic.count();
+        heuristic_results = localsearch.Solve(first_improvement);
     }
 
     // SOLVER //
     Cap cap = Cap(data);
-    CapResults results = cap.Solve(time_limit, heuristic_obj_value);
+    CapResults results = cap.Solve(time_limit, heuristic_results.localsearchValue);
 
     // EXPORT DATA //
+    string variables = heuristic ? heuristic_results.variables : results.variables;
     nlohmann::json outjson = {
         {"instance", instance},
         {"scenario", scenario},
         {"setup", setup},
         {"setup before class", setup_before_class},
-        {"heuristic", heuristic},
         {"time pre processing", timer_preprocessing.count()},
-        {"time heuristic", timer_heuristic_count},
         {"time model", results.modelTime},
         {"time solver", results.solverTime},
-        {"value heuristic", heuristic_obj_value},
+        {"heuristic", heuristic},
+        {"heuristic - local search - time", heuristic_results.localsearchTime},
+        {"heuristic - local search - value", heuristic_results.localsearchValue},
+        {"heuristic - greedy - time", heuristic_results.greedyTime},
+        {"heuristic - greedy - value", heuristic_results.greedyValue},
+        {"heuristic - greedy - num unfeasibilities", heuristic_results.numUnfeasible},
         {"status", results.status},
         {"value", results.objValue},
         {"gap", results.gap},
-        {"results", results.variables}};
+        {"results", variables}};
 
     ofstream outstream("results/" + data.get_instance_name() + ".json");
     outstream << std::setw(4) << outjson << std::endl;

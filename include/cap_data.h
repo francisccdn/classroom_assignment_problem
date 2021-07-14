@@ -94,10 +94,10 @@ private:
                        int *locations, std::vector<std::vector<int>> *location_contains_class);
 
 public:
-    CapData(int scenario, std::string instance_name, bool setup, bool setup_before_class, bool heuristic);
+    CapData(int scenario, std::string instance_name, bool setup, bool setup_before_class, bool heuristic, bool first_improvement);
 
     // i in A, j in L, k in H
-    bool ValidVar(bool is_computer, int i, int j, int k);
+    bool ValidVar(bool is_computer, int i, int k, int j);
 
     // Lectures from a class must be assigned to the same location
     bool IC1() { return ic1; }
