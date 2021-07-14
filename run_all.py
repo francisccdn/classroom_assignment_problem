@@ -55,28 +55,39 @@ instances = [20181, 20182, 20191]
 for scenario in range(1, 11):
     for instance in instances:
 
+        # No setup
+
         if [instance, scenario, 0, 0] not in found:
             print(f"{bcolors.OKBLUE}" + "Rodando -- Instancia: " + str(instance) +
                   " Cenario: " + str(scenario) + " Sem setup" + f"{bcolors.ENDC}")
+            # Run cap
             result = subprocess.run(
                 ['./cap', str(instance), str(scenario), "0", "0"], capture_output=True)
-            #print(result.stderr)
-        else:
+            # Save log to file
+            with open("results_log/" + str(instance) + "_" + str(scenario) + ".log", 'w') as f:
+                f.write(result.stdout.decode("utf8"))
+        else: # If results were already found
             print(f"{bcolors.OKGREEN}" + "Instancia: " + str(instance) + " Cenario: " + str(
                 scenario) + " Sem setup \t\t Resultados gerados encontrados" + f"{bcolors.ENDC}")
+
+        # With setup
 
         for setup_before in range(0, 2):
 
             if [instance, scenario, 1, setup_before] not in found:
                 print(f"{bcolors.OKBLUE}" + "Rodando -- Instancia: " + str(instance) + " Cenario: " +
                       str(scenario) + " Setup antes: " + str(setup_before) + f"{bcolors.ENDC}")
+                # Run cap
                 result = subprocess.run(
                     ['./cap', str(instance), str(scenario), "1", str(setup_before)], capture_output=True)
-                #print(result.stderr)
-            else:
+                # Save log to file
+                duringstr = "_duringclass" if setup_before == 0 else ""
+                with open("results_log/" + str(instance) + "_" + str(scenario) + "_" + "setup" + duringstr + ".log", 'w') as f:
+                    f.write(result.stdout.decode("utf-8"))
+            else: # If results were already found
                 print(f"{bcolors.OKGREEN}" + "Instancia: " + str(instance) + " Cenario: " + str(scenario) +
                       " Setup antes: " + str(setup_before) + " \t Resultados gerados encontrados" + f"{bcolors.ENDC}")
 
-
+# Done!
 print(f"{bcolors.OKBLUE}" +
       "Todas as rodadas foram concluidas" + f"{bcolors.ENDC}")
