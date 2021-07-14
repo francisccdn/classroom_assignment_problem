@@ -2,13 +2,21 @@ import json
 import random
 import os 
 
+# Parameters
 lecture_duration_seconds = 60.0 * 50
 temp_initial = 30
 temp_final = 23
-delta_temp = temp_final - temp_initial
 
+# Constants
+delta_temp = temp_final - temp_initial
+temp_initial_kelvin = temp_initial + 273.15
 air_pressure = 100
 specific_heat = 1.006
+specific_constant_air = 0.287
+
+# Conversions
+btu_to_kW = 0.293
+kJ_to_kWh = 3600
 
 dir_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 semesters = ["20181", "20182", "20191"]
@@ -25,7 +33,7 @@ for semester in semesters:
             for key in data:
                 location = data[key]
 
-                airmass = (air_pressure * location['volume']) / (0.287 * (temp_initial + 273.15))
+                airmass = (air_pressure * location['volume']) / (specific_constant_air * temp_initial_kelvin)
                 thermal_energy = airmass * specific_heat * delta_temp * (-1)
                 
                 ac_btu = 0
@@ -37,14 +45,12 @@ for semester in semesters:
                     ac_btu += ac['btus']
                     ac_power += ac['potencia']
 
-                heat_removal_capacity = (ac_btu * 0.293)
+                heat_removal_capacity = ac_btu * btu_to_kW
 
-                ac_setup_cost = (thermal_energy / (heat_removal_capacity / ac_power)) / 3600
+                ac_setup_cost = ( thermal_energy / (heat_removal_capacity / ac_power) ) / kJ_to_kWh
                 setup_duration_lectures = ( thermal_energy / (heat_removal_capacity / 1000) ) / lecture_duration_seconds
 
-                lecture_cost_no_ac = location['gasto_por_aula'] - (((((ac_power/1000)*21)*50)/60)/30)
-
-                location['gasto_setup'] = (lecture_cost_no_ac * setup_duration_lectures) + ac_setup_cost
+                location['gasto_setup'] = ac_setup_cost
                 location['duracao_setup'] = setup_duration_lectures
 
             with open(filepath, 'w+') as fw:
