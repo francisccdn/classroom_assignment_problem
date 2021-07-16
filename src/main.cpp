@@ -39,11 +39,11 @@ int main(int argc, char **argv)
 
     // HEURISTIC //
     HeuristicResults heuristic_results = {
-        0, // greedy value
-        0, // num of unfeasible assignments in greedy
-        0, // greedy time
-        0, // local search value
-        0, // local search time
+        -1, // greedy value
+        -1, // num of unfeasible assignments in greedy
+        -1, // greedy time
+        -1, // local search value
+        -1, // local search time
         "" // chosen variables
     };
     if (heuristic)
