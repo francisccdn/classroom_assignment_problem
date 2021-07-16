@@ -67,6 +67,7 @@ int main(int argc, char **argv)
         {"time model", results.modelTime},
         {"time solver", results.solverTime},
         {"heuristic", heuristic},
+        {"heuristic - first improvement", first_improvement},
         {"heuristic - local search - time", heuristic_results.localsearchTime},
         {"heuristic - local search - value", heuristic_results.localsearchValue},
         {"heuristic - greedy - time", heuristic_results.greedyTime},

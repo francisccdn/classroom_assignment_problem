@@ -31,12 +31,13 @@ def new_sheet(name: str):
     heur_sheet["A1"].value = "Scenario"
     heur_sheet["B1"].value = "Setup cost"
     heur_sheet["C1"].value = "Setup before class"
+    heur_sheet["D1"].value = "Improvement"
 
-    heur_sheet["D1"].value = "Greedy Heuristic: Time"
-    heur_sheet["E1"].value = "Greedy Heuristic: Num Unfeasibilities"
-    heur_sheet["F1"].value = "Greedy Heuristic: Solution Value"
-    heur_sheet["G1"].value = "Local Search: Time"
-    heur_sheet["H1"].value = "Local Search: Solution Value"
+    heur_sheet["E1"].value = "Greedy Heuristic: Time"
+    heur_sheet["F1"].value = "Greedy Heuristic: Num Unfeasibilities"
+    heur_sheet["G1"].value = "Greedy Heuristic: Solution Value"
+    heur_sheet["H1"].value = "Local Search: Time"
+    heur_sheet["I1"].value = "Local Search: Solution Value"
 
 # Looping through results 
 indexes = [0] 
@@ -91,12 +92,16 @@ for file in os.listdir(dir_path):
             heur_sheet["A" + str(indexes[j_heur])].value = data["scenario"]
             heur_sheet["B" + str(indexes[j_heur])].value = data["setup"]
             heur_sheet["C" + str(indexes[j_heur])].value = data["setup before class"]
-            
-            heur_sheet["D" + str(indexes[j_heur])].value = data["heuristic - greedy - time"]
-            heur_sheet["E" + str(indexes[j_heur])].value = data["heuristic - greedy - num unfeasibilities"]
-            heur_sheet["F" + str(indexes[j_heur])].value = data["heuristic - greedy - value"]
-            heur_sheet["G" + str(indexes[j_heur])].value = data["heuristic - local search - time"]
-            heur_sheet["H" + str(indexes[j_heur])].value = data["heuristic - local search - value"]
+            if data["heuristic - first improvement"] == True:
+                heur_sheet["D" + str(indexes[j_heur])].value = "First"
+            else:
+                heur_sheet["D" + str(indexes[j_heur])].value = "Best"
+
+            heur_sheet["E" + str(indexes[j_heur])].value = data["heuristic - greedy - time"]
+            heur_sheet["F" + str(indexes[j_heur])].value = data["heuristic - greedy - num unfeasibilities"]
+            heur_sheet["G" + str(indexes[j_heur])].value = data["heuristic - greedy - value"]
+            heur_sheet["H" + str(indexes[j_heur])].value = data["heuristic - local search - time"]
+            heur_sheet["I" + str(indexes[j_heur])].value = data["heuristic - local search - value"]
 
             indexes[j_heur] += 1
         
