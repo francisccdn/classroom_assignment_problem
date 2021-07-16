@@ -2,8 +2,8 @@ import os
 import json
 import sys
 
-verbose = len(sys.argv) > 1 and sys.argv[1] == 'v'
-all_instances = len(sys.argv) > 1 and sys.argv[1] == 'a'
+verbose = 'v' in sys.argv
+all_instances = 'a' in sys.argv
 
 dir_path = os.path.dirname(os.path.realpath(__file__)) + '/results_filtered'
 if all_instances:
@@ -107,7 +107,7 @@ for file in os.listdir(dir_path):
 
             solution_cost = data["heuristic - local search - value"]
             if not (accurate_cost - 1 < solution_cost and solution_cost < accurate_cost + 1):
-                feasible = False
+                ideal = False
                 if verbose:
                     print(f"{bcolors.FAIL}Heuristic cost " + str(solution_cost) 
                     + " is inaccurate. Accurate cost is " + str(accurate_cost) + f"{bcolors.ENDC}")
@@ -284,7 +284,7 @@ for file in os.listdir(dir_path):
                                   ". Lecture: " + var['type'] + '_' + var["class"] + "_" + var["timeslot"] + "_" + var["room"] + f"{bcolors.ENDC}")
 
         # Setup
-        if data['setup'] == True and data['heuristic'] == False:
+        if data['setup'] == True:
             # Go through Zs and check if they're active at the right time
             for z_var in z_variables:
                 found_var = False
