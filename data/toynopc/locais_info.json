@@ -1,0 +1,25 @@
+{
+    "62": {
+        "tipo": 3,
+        "nome": "ELETR\u00d4NICA I - A-134",
+        "gasto_por_aula": 3.005555556,
+        "id_bloco": 56,
+        "gasto_pc_por_aula": 0.2166666667,
+        "qtd_pc": 32,
+        "id": 62,
+        "qtd_carteiras": null,
+        "volume": 170.1,
+        "ares": {
+            "ar_1": {
+                "potencia": 1919,
+                "btus": 22000
+            },
+            "ar_2": {
+                "potencia": 1919,
+                "btus": 22000
+            }
+        },
+        "gasto_setup": 0.14114600496061647,
+        "duracao_setup": 0.03559748481885242
+    }
+}

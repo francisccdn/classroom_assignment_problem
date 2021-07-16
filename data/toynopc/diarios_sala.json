@@ -1,0 +1,54 @@
+{
+    "25601": {
+        "horarios_aulas_abreviacao": "2M23",
+        "disciplina": "Língua Brasileira de Sinais - LIBRAS II",
+        "horarios_aulas": {
+            "66507": {
+                "abreviacao": "2M2"
+            },
+            "66508": {
+                "abreviacao": "2M3"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 341,
+        "codigo_disciplina": "TIN.0857",
+        "qtd_alunos": 30,
+        "id": 25601
+    },
+    "25603": {
+        "horarios_aulas_abreviacao": "4M45",
+        "disciplina": "Língua Espanhola II",
+        "horarios_aulas": {
+            "65593": {
+                "abreviacao": "2M4"
+            },
+            "65594": {
+                "abreviacao": "2M5"
+            }
+        },
+        "id_turma": 10175,
+        "id_curso": 341,
+        "codigo_disciplina": "TIN.0853",
+        "qtd_alunos": 7,
+        "id": 25603
+    },
+    "25604": {
+        "horarios_aulas_abreviacao": "3M23",
+        "disciplina": "Língua Francesa I",
+        "horarios_aulas": {
+            "65536": {
+                "abreviacao": "2M3"
+            },
+            "65535": {
+                "abreviacao": "2M2"
+            }
+        },
+        "id_turma": 0,
+        "id_curso": 341,
+        "codigo_disciplina": "TIN.0854",
+        "qtd_alunos": 13,
+        "id": 25604
+    }
+
+}
