@@ -7,3 +7,4 @@ results_complete
 results_log
 archive
 scripts/validate/results_filtered/*
+scripts/validate/validation_data/*
