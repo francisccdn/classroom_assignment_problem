@@ -106,7 +106,7 @@ for file in os.listdir(dir_path):
                         location["duracao_setup"]
 
             solution_cost = data["heuristic - local search - value"]
-            if not (accurate_cost - 1 < solution_cost and solution_cost < accurate_cost + 1):
+            if not (accurate_cost - 0.1 < solution_cost and solution_cost < accurate_cost + 0.1):
                 ideal = False
                 if verbose:
                     print(f"{bcolors.FAIL}Heuristic cost " + str(solution_cost) 
@@ -244,7 +244,7 @@ for file in os.listdir(dir_path):
                             feasible = False
                             if verbose:
                                 print(f"{bcolors.FAIL}Lecture " + var["class"] + "_" + var["timeslot"] + "_" + var["room"] +
-                                      " is not in course's block. Course: " + course_id + " Block: " + block_id + f"{bcolors.ENDC}")
+                                      " is not in course's block. Course: " + str(course_id) + " Block: " + str(block_id) + f"{bcolors.ENDC}")
 
         # Check if rooms are being used during timeslots that theyre blocked
         with open(input_dir_path + '/salas_bloqueadas.json', 'r') as fblock:
