@@ -15,7 +15,7 @@ int main(int argc, char **argv)
     // PROBLEM PARAMETERS //
     if (argc < 6)
     {
-        cerr << "Invalid number of arguments. Try: ./$EXECUTABLE $INSTANCE $SCENARIO $SETUP $SETUP_BEFORE $TIME_LIMIT" << endl;
+        cerr << "Invalid number of arguments. Try: ./$EXECUTABLE $INSTANCE $SCENARIO $SETUP $SETUP_BEFORE $TIME_LIMIT $HEURISTIC" << endl;
         return 1;
     }
 
@@ -26,13 +26,12 @@ int main(int argc, char **argv)
 
     const int time_limit = atoi(argv[5]); // In minutes. 0 skips solver, < 0 is no time limit.
 
-    const bool heuristic = argc > 6;
-    const bool first_improvement = (heuristic && atoi(argv[6]) == 0) ? false : true;
+    const bool heuristic = atoi(argv[6]) == 0 ? false : true;
 
     // PRE PROCESSING //
     auto timer_start_preprocessing = chrono::system_clock::now();
 
-    CapData data = CapData(scenario, instance, setup, setup_before_class, heuristic, first_improvement);
+    CapData data = CapData(scenario, instance, setup, setup_before_class, heuristic);
 
     auto timer_end_preprocessing = chrono::system_clock::now();
     chrono::duration<double> timer_preprocessing = timer_end_preprocessing - timer_start_preprocessing;
@@ -42,19 +41,17 @@ int main(int argc, char **argv)
         -1, // greedy value
         -1, // num of unfeasible assignments in greedy
         -1, // greedy time
-        -1, // local search value
-        -1, // local search time
         "" // chosen variables
     };
     if (heuristic)
     {
         LocalSearch localsearch = LocalSearch(data);
-        heuristic_results = localsearch.Solve(first_improvement);
+        heuristic_results = localsearch.Solve();
     }
 
     // SOLVER //
     Cap cap = Cap(data);
-    CapResults results = cap.Solve(time_limit, heuristic_results.localsearchValue);
+    CapResults results = cap.Solve(time_limit, heuristic_results.greedyValue);
 
     // EXPORT DATA //
     string variables = heuristic ? heuristic_results.variables : results.variables;
@@ -67,12 +64,9 @@ int main(int argc, char **argv)
         {"time model", results.modelTime},
         {"time solver", results.solverTime},
         {"heuristic", heuristic},
-        {"heuristic - first improvement", first_improvement},
-        {"heuristic - local search - time", heuristic_results.localsearchTime},
-        {"heuristic - local search - value", heuristic_results.localsearchValue},
-        {"heuristic - greedy - time", heuristic_results.greedyTime},
-        {"heuristic - greedy - value", heuristic_results.greedyValue},
-        {"heuristic - greedy - num unfeasibilities", heuristic_results.numUnfeasible},
+        {"heuristic - time", heuristic_results.greedyTime},
+        {"heuristic - value", heuristic_results.greedyValue},
+        {"heuristic - num unfeasibilities", heuristic_results.numUnfeasible},
         {"status", results.status},
         {"value", results.objValue},
         {"gap", results.gap},

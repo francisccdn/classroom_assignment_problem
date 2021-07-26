@@ -9,7 +9,7 @@
 
 using namespace std;
 
-CapData::CapData(int scenario, string instance_name, bool setup, bool setup_before_class, bool heuristic, bool first_improvement)
+CapData::CapData(int scenario, string instance_name, bool setup, bool setup_before_class, bool heuristic)
 {
     num_timeslots = TimeslotToInt("6N5") + 1;
 
@@ -167,11 +167,6 @@ CapData::CapData(int scenario, string instance_name, bool setup, bool setup_befo
     if (heuristic)
     {
         instance_full_name += "_heuristic";
-
-        if (first_improvement)
-            instance_full_name += "_first";
-        else
-            instance_full_name += "_best";
     }
 }
 

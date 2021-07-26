@@ -12,9 +12,6 @@ typedef struct heuristicResults
     int numUnfeasible;
     double greedyTime;
 
-    float localsearchValue;
-    double localsearchTime;
-
     std::string variables;
 } HeuristicResults;
 
@@ -25,42 +22,6 @@ typedef struct assignmentData
     int j;
     float cost;
 } AssignmentData;
-
-typedef struct swapData
-{
-    int i_1;
-    int j_1;
-    
-    int i_2;
-    int j_2;
-    
-    int k;
-} SwapData;
-
-typedef struct walkData
-{
-    int i;
-    int k;
-    int j_from;
-    int j_to;
-} WalkData;
-
-typedef struct movementData
-{
-    enum move_type
-    {
-        Walk_t,
-        Swap_t
-    } type;
-    union
-    {
-        WalkData walk;
-        SwapData swap;
-    };
-
-    float cost;
-    float penalty;
-} MovementData;
 
 class LocalSearch
 {
@@ -83,17 +44,6 @@ private:
     std::map<int, std::map<int, bool>> has_assigned_class;
 
     int Greedy(float *greedy_cost);
-    float FirstImprovement(float initial_cost, int num_unfeasibilities);
-    float BestImprovement(float initial_cost, int num_unfeasibilities);
-    
-    std::vector<MovementData> Search();
-    void UpdateSearch(std::vector<MovementData> *neighbourhood, MovementData move);
-
-    std::pair<float, float> WalkCost(WalkData move);
-    std::pair<float, float> SwapCost(SwapData move);
-
-    void Walk(WalkData move);
-    void Swap(SwapData move);
 
     float AssignCost(int i, std::vector<int> k_and_twins, int j);
     float UnassignCost(int i, std::vector<int> k_and_twins, int j);
@@ -108,7 +58,7 @@ private:
 public:
     LocalSearch(const CapData &capdata);
 
-    HeuristicResults Solve(bool first_improvement);
+    HeuristicResults Solve();
 };
 
 #endif
