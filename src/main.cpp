@@ -13,7 +13,7 @@ using namespace std;
 int main(int argc, char **argv)
 {
     // PROBLEM PARAMETERS //
-    if (argc < 6)
+    if (argc < 7)
     {
         cerr << "Invalid number of arguments. Try: ./$EXECUTABLE $INSTANCE $SCENARIO $SETUP $SETUP_BEFORE $TIME_LIMIT $HEURISTIC" << endl;
         return 1;
