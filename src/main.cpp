@@ -6,7 +6,7 @@
 
 #include "../include/cap_data.h"
 #include "../include/cap.h"
-#include "../include/localsearch.h"
+#include "../include/heuristic.h"
 
 using namespace std;
 
@@ -45,7 +45,7 @@ int main(int argc, char **argv)
     };
     if (heuristic)
     {
-        LocalSearch localsearch = LocalSearch(data);
+        Heuristic localsearch = Heuristic(data);
         heuristic_results = localsearch.Solve();
     }
 

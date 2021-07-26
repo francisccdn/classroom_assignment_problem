@@ -3,17 +3,15 @@
 #include <chrono>
 #include <nlohmann/json.hpp>
 
-#include "../include/localsearch.h"
+#include "../include/heuristic.h"
 #include "../include/cap_data.h"
 
-#ifndef LOCALSEARCH_CPP
-#define LOCALSEARCH_CPP
-
-#define PENALTY_PER_UNF 50
+#ifndef HEURISTIC_CPP
+#define HEURISTIC_CPP
 
 using namespace std;
 
-LocalSearch::LocalSearch(const CapData &capdata) : data(capdata)
+Heuristic::Heuristic(const CapData &capdata) : data(capdata)
 {
     // Get H_i
     lectures_of_class = data.get_lectures_of_class();
@@ -89,7 +87,7 @@ LocalSearch::LocalSearch(const CapData &capdata) : data(capdata)
 }
 
 // Cost of assigning lecture i k and its twins to location j
-float LocalSearch::AssignCost(int i, vector<int> k_and_twins, int j)
+float Heuristic::AssignCost(int i, vector<int> k_and_twins, int j)
 {
     float cost = 0;
 
@@ -163,13 +161,13 @@ float LocalSearch::AssignCost(int i, vector<int> k_and_twins, int j)
     return cost;
 }
 
-float LocalSearch::UnassignCost(int i, vector<int> k_and_twins, int j)
+float Heuristic::UnassignCost(int i, vector<int> k_and_twins, int j)
 {
     return (-1) * AssignCost(i, k_and_twins, j);
 }
 
 // Checks for ICs, PCs and Blocked Timeslots
-int LocalSearch::ValidAssignment(int i, vector<int> k_and_twins, int j)
+int Heuristic::ValidAssignment(int i, vector<int> k_and_twins, int j)
 {
     int ic1 = 0, ic2 = 0, pcs_and_blocked = 0;
 
@@ -252,7 +250,7 @@ int LocalSearch::ValidAssignment(int i, vector<int> k_and_twins, int j)
     return ic1 + ic2 + pcs_and_blocked;
 }
 
-bool LocalSearch::AllAssigned()
+bool Heuristic::AllAssigned()
 {
     for (int i = 0; i < data.get_classes(); i++)
     {
@@ -268,7 +266,7 @@ bool LocalSearch::AllAssigned()
 }
 
 // Assign k and all its twins
-void LocalSearch::Assign(int i, vector<int> k_and_twins, int j)
+void Heuristic::Assign(int i, vector<int> k_and_twins, int j)
 {
     for (int t : k_and_twins)
     {
@@ -280,7 +278,7 @@ void LocalSearch::Assign(int i, vector<int> k_and_twins, int j)
 
 bool CompareAssignments(AssignmentData a, AssignmentData b) { return (a.cost < b.cost); }
 
-int LocalSearch::Greedy(float *greedy_cost)
+int Heuristic::Greedy(float *greedy_cost)
 {
     float total_cost = 0;
     int num_unfeasibilities = 0;
@@ -409,7 +407,7 @@ int LocalSearch::Greedy(float *greedy_cost)
     return num_unfeasibilities;
 }
 
-string LocalSearch::SolutionToString()
+string Heuristic::SolutionToString()
 {
     string solution = "";
 
@@ -452,7 +450,7 @@ string LocalSearch::SolutionToString()
     return solution;
 }
 
-HeuristicResults LocalSearch::Solve()
+HeuristicResults Heuristic::Solve()
 {
     float cost;
 

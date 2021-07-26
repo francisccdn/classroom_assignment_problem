@@ -3,8 +3,8 @@
 
 #include "./cap_data.h"
 
-#ifndef LOCALSEARCH_H
-#define LOCALSEARCH_H
+#ifndef HEURISTIC_H
+#define HEURISTIC_H
 
 typedef struct heuristicResults
 {
@@ -23,7 +23,7 @@ typedef struct assignmentData
     float cost;
 } AssignmentData;
 
-class LocalSearch
+class Heuristic
 {
 private:
     CapData data;
@@ -56,7 +56,7 @@ private:
     std::string SolutionToString();
 
 public:
-    LocalSearch(const CapData &capdata);
+    Heuristic(const CapData &capdata);
 
     HeuristicResults Solve();
 };
