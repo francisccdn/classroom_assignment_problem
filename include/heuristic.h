@@ -8,7 +8,7 @@
 
 typedef struct heuristicResults
 {
-    float greedyValue;
+    double greedyValue;
     int numUnfeasible;
     double greedyTime;
 
@@ -20,7 +20,8 @@ typedef struct assignmentData
     int i;
     std::vector<int> twinlectures;
     int j;
-    float cost;
+    double cost;
+    double priority;
 } AssignmentData;
 
 class Heuristic
@@ -43,10 +44,11 @@ private:
     // Returns i in A of class assigned to location [j] at time [k], or -1 if no assignment was made
     std::map<int, std::map<int, bool>> has_assigned_class;
 
-    int Greedy(float *greedy_cost);
+    int Greedy(double *greedy_cost);
 
-    float AssignCost(int i, std::vector<int> k_and_twins, int j);
-    float UnassignCost(int i, std::vector<int> k_and_twins, int j);
+    double AssignCost(int i, std::vector<int> k_and_twins, int j);
+    double UnassignCost(int i, std::vector<int> k_and_twins, int j);
+    double AssignPriority(int i, std::vector<int> k_and_twins, int j);
     
     int ValidAssignment(int i, std::vector<int> k_and_twins, int j);
     

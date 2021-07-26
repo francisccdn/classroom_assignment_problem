@@ -87,9 +87,9 @@ Heuristic::Heuristic(const CapData &capdata) : data(capdata)
 }
 
 // Cost of assigning lecture i k and its twins to location j
-float Heuristic::AssignCost(int i, vector<int> k_and_twins, int j)
+double Heuristic::AssignCost(int i, vector<int> k_and_twins, int j)
 {
-    float cost = 0;
+    double cost = 0;
 
     cost += data.get_location_cost()[j] * k_and_twins.size();
 
@@ -101,7 +101,7 @@ float Heuristic::AssignCost(int i, vector<int> k_and_twins, int j)
 
     if (data.is_setup())
     {
-        float setup_cost = data.get_location_setup_cost()[j];
+        double setup_cost = data.get_location_setup_cost()[j];
         if (!data.is_setup_before_class())
         {
             setup_cost -= data.get_location_cost()[j] * data.get_location_setup_duration()[j];
@@ -161,9 +161,54 @@ float Heuristic::AssignCost(int i, vector<int> k_and_twins, int j)
     return cost;
 }
 
-float Heuristic::UnassignCost(int i, vector<int> k_and_twins, int j)
+double Heuristic::UnassignCost(int i, vector<int> k_and_twins, int j)
 {
     return (-1) * AssignCost(i, k_and_twins, j);
+}
+
+double Heuristic::AssignPriority(int i, std::vector<int> k_and_twins, int j)
+{
+    const double multiplier = 100;
+    double priority = 0;
+
+    // Higher priority to morning classes
+    for (int t : k_and_twins)
+    {
+        if (t % 20 < 10)
+        {
+            priority -= multiplier;
+        }
+    }
+    
+    // Higher priority to longer twins
+    priority -= multiplier * k_and_twins.size(); 
+
+    // Higher priority to many lectures in class
+    if (data.IC1())
+    {
+        priority -= multiplier * lectures_of_class[i].size();
+    }
+
+    // Higher priority to ITC
+    if (data.IC2())
+    {
+        // Find i's itc group
+        for (int l = 0; l < data.get_num_itc_groups(); l++)
+        {
+            vector<int> classes_in_itc = data.get_classes_classroom_of_itc_group()[l];
+            bool i_is_in_classes_in_itc = find(classes_in_itc.begin(), classes_in_itc.end(), i) != classes_in_itc.end();
+            // If l is i's itc group
+            if (i_is_in_classes_in_itc)
+            {
+                for (int ii : classes_in_itc)
+                {
+                    priority -= multiplier * lectures_of_class[ii].size();
+                }
+            }
+        }
+    }
+
+    return priority;
 }
 
 // Checks for ICs, PCs and Blocked Timeslots
@@ -276,11 +321,14 @@ void Heuristic::Assign(int i, vector<int> k_and_twins, int j)
     }
 }
 
-bool CompareAssignments(AssignmentData a, AssignmentData b) { return (a.cost < b.cost); }
-
-int Heuristic::Greedy(float *greedy_cost)
+bool CompareAssignments(AssignmentData a, AssignmentData b) 
 {
-    float total_cost = 0;
+    return ((a.cost  + a.priority) < (b.cost + b.priority)); 
+}
+
+int Heuristic::Greedy(double *greedy_cost)
+{
+    double total_cost = 0;
     int num_unfeasibilities = 0;
 
     // Save every possible assignment to vector
@@ -289,15 +337,11 @@ int Heuristic::Greedy(float *greedy_cost)
     {
         for (int k : twin_sets_of_class[i])
         {
-            // Only assign computer classes to computer rooms and classroom classes to classrooms
-            bool i_is_computer = (i >= data.get_classes_classroom());
-            int start_j = i_is_computer ? data.get_locations_classroom() : 0;
-            int end_j = i_is_computer ? data.get_locations() : data.get_locations_classroom();
-
-            for (int j = start_j; j < end_j; j++)
+            for (int j : location_contains_class[i])
             {
-                float cost = AssignCost(i, twins_of_lecture[i][k], j);
-                sorted_assignments.push_back({i, twins_of_lecture[i][k], j, cost});
+                double cost = AssignCost(i, twins_of_lecture[i][k], j);
+                double penalty = AssignPriority(i, twins_of_lecture[i][k], j);
+                sorted_assignments.push_back({i, twins_of_lecture[i][k], j, cost, penalty});
             }
         }
     }
@@ -452,7 +496,7 @@ string Heuristic::SolutionToString()
 
 HeuristicResults Heuristic::Solve()
 {
-    float cost;
+    double cost;
 
     // Greedy
     auto timer_start_greedy = chrono::system_clock::now();
@@ -467,10 +511,10 @@ HeuristicResults Heuristic::Solve()
     chrono::duration<double> timer_greedy = timer_end_greedy - timer_start_greedy;
 
     HeuristicResults results = {
-        cost,              // greedy value
-        num_unfeasibilities,       // num of unfeasible assignments in greedy
-        timer_greedy.count(),      // greedy time
-        solution                   // chosen variables
+        cost,                   // greedy value
+        num_unfeasibilities,    // num of unfeasible assignments in greedy
+        timer_greedy.count(),   // greedy time
+        solution                // chosen variables
     };
     return results;
 }
