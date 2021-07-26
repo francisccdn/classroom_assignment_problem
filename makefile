@@ -7,18 +7,20 @@ LIBFORMAT = static_pic
 CPPC = g++
 
 #### libs do cplex
-CPLEXDIR  = /opt/ibm/ILOG/CPLEX_Studio1210/cplex
-CONCERTDIR = /opt/ibm/ILOG/CPLEX_Studio1210/concert
+CPLEXDIR  = /opt/ibm/ILOG/CPLEX_Studio201/cplex
+CONCERTDIR = /opt/ibm/ILOG/CPLEX_Studio201/concert
 CPLEXLIBDIR   = $(CPLEXDIR)/lib/$(SYSTEM)/$(LIBFORMAT)
 CONCERTLIBDIR = $(CONCERTDIR)/lib/$(SYSTEM)/$(LIBFORMAT)
 #############################
+
+NLOHMANNDIR = /home/linuxbrew/.linuxbrew/opt/nlohmann_json/include
 
 #### opcoes de compilacao e includes
 CCOPT = $(BITS_OPTION) -fPIC -fexceptions -DNDEBUG -DIL_STD -std=c++11 -fpermissive -Wno-ignored-attributes
 DBFLAG = -O3 
 CONCERTINCDIR = $(CONCERTDIR)/include
 CPLEXINCDIR   = $(CPLEXDIR)/include
-CCFLAGS = $(CCOPT) -I$(CPLEXINCDIR) -I$(CONCERTINCDIR)
+CCFLAGS = $(CCOPT) -I$(CPLEXINCDIR) -I$(CONCERTINCDIR) -I$(NLOHMANNDIR)
 #############################
 
 #### flags do linker
