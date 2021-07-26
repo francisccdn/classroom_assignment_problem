@@ -105,7 +105,7 @@ for file in os.listdir(dir_path):
                     accurate_cost -= location["gasto_por_aula"] * \
                         location["duracao_setup"]
 
-            solution_cost = data["heuristic - local search - value"]
+            solution_cost = data["heuristic - value"]
             if not (accurate_cost - 0.1 < solution_cost and solution_cost < accurate_cost + 0.1):
                 ideal = False
                 if verbose:
