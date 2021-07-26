@@ -56,12 +56,7 @@ for file in os.listdir(dirpath):
 
     # Heuristic
     else:
-        # First improvement
-        if "first" in filecomponents:
-            filearray.append(2)
-        # Best improvement
-        if "best" in filecomponents:
-            filearray.append(1)
+        filearray.append(1)
 
     found.append(filearray)
 
@@ -71,8 +66,9 @@ instances = [20181]  # [20181, 20182, 20191]
 
 for scenario in range(1, 11):
     for instance in instances:
-        for heuristic in range(0, 3):
+        for heuristic in range(0, 2):
             args = []
+            time_limit_str = str(time_limit) if heuristic == 0 else "0"
 
             # No setup
 
@@ -80,22 +76,10 @@ for scenario in range(1, 11):
                 print(f"{bcolors.OKBLUE}" + "Rodando -- Instancia: " + str(instance) + " Cenario: " +
                       str(scenario) + " Heuristica: " + str(heuristic) + " Sem setup" + f"{bcolors.ENDC}")
 
-                args = ['./cap', str(instance), str(scenario), "0", "0"]
+                args = ['./cap', str(instance), str(scenario), "0", "0", time_limit_str, str(heuristic)]
                 logname = str(instance) + "_" + str(scenario)
 
-                if heuristic == 0:  # No heuristic
-                    args.append(str(time_limit))
-                else:
-                    args.append("0")
-
-                    # First improvement
-                    if heuristic == 2:
-                        args.append("1")
-                        logname = logname + "_heuristic_first"
-                    # Best improvement
-                    if heuristic == 1:
-                        args.append("0")
-                        logname = logname + "_heuristic_best"
+                logname = logname + "_heuristic" if heuristic == 1 else logname
 
                 # Run cap
                 result = subprocess.run(args, capture_output=True)
@@ -115,25 +99,11 @@ for scenario in range(1, 11):
                     print(f"{bcolors.OKBLUE}" + "Rodando -- Instancia: " + str(instance) + " Cenario: " + str(
                         scenario) + " Heuristica: " + str(heuristic) + " Setup antes: " + str(setup_before) + f"{bcolors.ENDC}")
 
-                    args = ['./cap', str(instance),
-                            str(scenario), "1", str(setup_before)]
+                    args = ['./cap', str(instance), str(scenario), "1", str(setup_before), time_limit_str, str(heuristic)]
                     logname = str(instance) + "_" + str(scenario) + "_setup"
 
                     logname = logname + "_duringclass" if setup_before == 0 else logname
-
-                    if heuristic == 0:  # No heuristic
-                        args.append(str(time_limit))
-                    else:
-                        args.append("0")
-
-                        # First improvement
-                        if heuristic == 2:
-                            args.append("1")
-                            logname = logname + "_heuristic_first"
-                        # Best improvement
-                        if heuristic == 1:
-                            args.append("0")
-                            logname = logname + "_heuristic_best"
+                    logname = logname + "_heuristic" if heuristic == 1 else logname
 
                     # Run cap
                     result = subprocess.run(args, capture_output=True)
