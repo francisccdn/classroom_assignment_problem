@@ -131,8 +131,10 @@ for file in os.listdir(dir_path):
                                   str(timeslot) + " has no assigned room" + f"{bcolors.ENDC}")
 
         # BC1
-        for var in other_variables:
-            for var2 in other_variables:
+        for i in range(0, len(other_variables)):
+            for j in range(i, len(other_variables)):
+                var = other_variables[i]
+                var2 = other_variables[j]
                 if var == var2:
                     continue
 
@@ -143,8 +145,10 @@ for file in os.listdir(dir_path):
                               " is assigned to two different rooms" + f"{bcolors.ENDC}")
 
         # BC2
-        for var in other_variables:
-            for var2 in other_variables:
+        for i in range(0, len(other_variables)):
+            for j in range(i, len(other_variables)):
+                var = other_variables[i]
+                var2 = other_variables[j]
                 if var == var2:
                     continue
 
@@ -155,8 +159,10 @@ for file in os.listdir(dir_path):
                               var2["class"] + "_" + var2["timeslot"] + " are sharing the same room" + f"{bcolors.ENDC}")
 
         # BC3
-        for var in other_variables:
-            for var2 in other_variables:
+        for i in range(0, len(other_variables)):
+            for j in range(i, len(other_variables)):
+                var = other_variables[i]
+                var2 = other_variables[j]
                 if var == var2:
                     continue
 
@@ -169,8 +175,10 @@ for file in os.listdir(dir_path):
         # IC1
         if data['scenario'] == 1 or data['scenario'] == 2 or data['scenario'] == 3 or data['scenario'] == 5 or data['scenario'] == 9:
             # Check if there are two lectures from same class in different locations
-            for var in other_variables:
-                for var2 in other_variables:
+            for i in range(0, len(other_variables)):
+                for j in range(i, len(other_variables)):
+                    var = other_variables[i]
+                    var2 = other_variables[j]
                     if var == var2:
                         continue
 
@@ -187,11 +195,13 @@ for file in os.listdir(dir_path):
             with open(input_dir_path + '/diarios.json', 'r') as fclasses:
                 classes_data = json.load(fclasses)
 
-                for var in other_variables:
+                for i in range(0, len(other_variables)):
+                    var = other_variables[i]
                     if var['type'] == 'T':
                         continue
-
-                    for var2 in other_variables:
+                
+                    for j in range(i, len(other_variables)):
+                        var2 = other_variables[j]
                         if var2['type'] == 'T':
                             continue
 
@@ -351,4 +361,4 @@ for file in os.listdir(dir_path):
               " -- suboptimal but feasible" + " -- status is not optimal" + f"{bcolors.ENDC}")
     else:
         print(f"{bcolors.FAIL}" + filename +
-              " -- unfeasible" + f"{bcolors.ENDC}")
+              " -- infeasible" + f"{bcolors.ENDC}")
