@@ -2,7 +2,7 @@ import subprocess
 import os
 
 
-time_limit = -1  # In minutes. 0 skips solver, < 0 is no time limit.
+time_limit = 600  # In minutes. 0 skips solver, < 0 is no time limit.
 
 
 class bcolors:

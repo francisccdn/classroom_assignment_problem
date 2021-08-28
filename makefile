@@ -13,7 +13,7 @@ CPLEXLIBDIR   = $(CPLEXDIR)/lib/$(SYSTEM)/$(LIBFORMAT)
 CONCERTLIBDIR = $(CONCERTDIR)/lib/$(SYSTEM)/$(LIBFORMAT)
 #############################
 
-NLOHMANNDIR = /home/linuxbrew/.linuxbrew/opt/nlohmann_json/include
+NLOHMANNDIR = /home/linuxbrew/.linuxbrew/opt/nlohmann-json/include
 
 #### opcoes de compilacao e includes
 CCOPT = $(BITS_OPTION) -fPIC -fexceptions -DNDEBUG -DIL_STD -std=c++11 -fpermissive -Wno-ignored-attributes
