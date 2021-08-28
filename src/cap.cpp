@@ -20,20 +20,6 @@ int Cap::i_in_A(int i, int is_computer)
 
 CapResults Cap::Solve(int time_limit_min, double upper_bound)
 {
-    // Cancel solve on time limit 0
-    if (time_limit_min == 0)
-    {
-        CapResults results = {
-            0,      // objValue
-            100,    // gap
-            1,      // status
-            "",     // variables
-            0,      // solverTime
-            0,      // modelTime
-        };
-        return results;
-    }
-
     IloEnv env;
     IloModel model(env);
     char name[128];
@@ -416,7 +402,7 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
             }
         }
     }
-    
+
     // Basic constraints 3 (BC3): twin lectures must take place in the same location
 
     for (int i = 0; i < num_classes_classroom; i++)
@@ -426,9 +412,9 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
             for (int j : location_contains_class_classroom[i])
             {
                 if (x[i][k].count(j) == 0 || x[i][k + 1].count(j) == 0)
-                        continue;
+                    continue;
 
-                IloRange constraint = (x[i][k][j] - x[i][k+1][j] == 0);
+                IloRange constraint = (x[i][k][j] - x[i][k + 1][j] == 0);
                 sprintf(name, "BC3(%s,%d,%s)", data.get_class_name(i_in_A(i, false)).c_str(), k, data.get_location_name(j).c_str());
                 constraint.setName(name);
 
@@ -444,9 +430,9 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
             for (int j : location_contains_class_computer[i])
             {
                 if (t[i][k].count(j) == 0 || t[i][k + 1].count(j) == 0)
-                        continue;
+                    continue;
 
-                IloRange constraint = (t[i][k][j] - t[i][k+1][j] == 0);
+                IloRange constraint = (t[i][k][j] - t[i][k + 1][j] == 0);
                 sprintf(name, "BC3(%s,%d,%s)", data.get_class_name(i_in_A(i, true)).c_str(), k, data.get_location_name(j).c_str());
                 constraint.setName(name);
 
@@ -620,6 +606,21 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
     // Export LP
     string lp_name = "lp/" + data.get_instance_name() + ".lp";
     cplex.exportModel(lp_name.c_str());
+    
+    // Cancel solve on time limit 0
+    if (time_limit_min == 0)
+    {
+        CapResults results = {
+            0,   // objValue
+            100, // gap
+            1,   // status
+            "",  // variables
+            0,   // solverTime
+            0,   // modelTime
+        };
+        return results;
+    }
+    
     // Timer
     chrono::duration<double> timer_solver;
 
