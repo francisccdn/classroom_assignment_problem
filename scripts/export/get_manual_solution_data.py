@@ -22,9 +22,19 @@ for file in os.listdir(manual_path):
 
     # Create instance object inside output object
     solution_values[instance] = {}
+    
+    solution_values[instance]["classroom"] = {}
+    solution_values[instance]["classroom"]["setup_before"] = 0
+    solution_values[instance]["classroom"]["n_assignments"] = 0
+    
+    solution_values[instance]["pc"] = {}
+    solution_values[instance]["pc"]["setup_before"] = 0
+    solution_values[instance]["pc"]["n_assignments"] = 0
+    
     solution_values[instance]["setup_during"] = 0
     solution_values[instance]["setup_before"] = 0
     solution_values[instance]["no_setup"] = 0
+    
     solution_values[instance]["n_assignments"] = 0
     solution_values[instance]["highest"] = {
         "room": {"setup_during": 0, "setup_before": 0, "no_setup": 0},
@@ -62,6 +72,9 @@ for file in os.listdir(manual_path):
             setup_cost = rooms_data[a_room]["gasto_setup"]
             setup_during_cost = rooms_data[a_room]["gasto_setup"] - (
                 rooms_data[a_room]["gasto_por_aula"]*rooms_data[a_room]["duracao_setup"])
+
+            solution_values[instance]["classroom"]["setup_before"] += base_cost + setup_cost
+            solution_values[instance]["classroom"]["n_assignments"] += 1
         else:
             base_cost = pc_rooms_data[a_room]["gasto_por_aula"]
 
@@ -76,6 +89,9 @@ for file in os.listdir(manual_path):
             setup_cost = pc_rooms_data[a_room]["gasto_setup"]
             setup_during_cost = pc_rooms_data[a_room]["gasto_setup"] - (
                 pc_rooms_data[a_room]["gasto_por_aula"]*pc_rooms_data[a_room]["duracao_setup"])
+
+            solution_values[instance]["pc"]["setup_before"] += base_cost + setup_cost
+            solution_values[instance]["pc"]["n_assignments"] += 1
 
         # Add assignment cost to solution cost
         solution_values[instance]["no_setup"] += base_cost
