@@ -97,7 +97,7 @@ Each name/value pair represents a location, where the name is that location's ID
 }
 ```
 ## 2. Manual Solutions
-All manual solutions (i.e. solutions obtained through the algorithm used in practise) can be found in folder **/manual_solutions**. Each term has an associated solution, and each solution is shown in a file with an identifiable name. Solution files are formatted as [JSON](https://www.json.org/json-en.html) objects, and their structure is detailed in subsection [2.1.](#21-manual-solution-file-structure)
+All manual solutions (i.e. solutions obtained through the algorithm used in practice) can be found in folder **/manual_solutions**. Each term has an associated solution, and each solution is shown in a file with an identifiable name. Solution files are formatted as [JSON](https://www.json.org/json-en.html) objects, and their structure is detailed in subsection [2.1.](#21-manual-solution-file-structure)
 
 ### 2.1. Manual solution file structure
 Each name/value pair represents a lecture that took place in that academic term, where the name is that lecture's ID number, and the value is an object (hereafter called lecture data) containing relevant data for that lecture. The following describe what each element of lecture data represents.
@@ -132,7 +132,7 @@ In addition to these, the value associated with the name **solution** contains t
 - **timeslot** — In which time slot that lecture takes place, using the notation described in subsection [1.2.2.](#122-time-slot-notation)
 - **requires** — Whether lecture requires only a regular classroom (**classroom**) or a computer lab (**pc**). 
 - **location_id** — ID number of the location to which that lecture was assigned.
-- **class_id** — ID number of the class that lecture belong to.
+- **class_id** — ID number of the class that lecture belongs to.
 
 #### 3.1.1. Solution object example<!-- omit in toc -->
 ```
