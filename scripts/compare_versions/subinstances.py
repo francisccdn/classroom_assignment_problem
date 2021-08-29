@@ -7,10 +7,10 @@ dirpathout = os.path.dirname(os.path.realpath(__file__)) + '/data/test'
 dirpathresults = os.path.dirname(os.path.realpath(__file__)) + '/results'
 
 #Create instance based off of 20191
-f_class_room = open(dirpath20191 + "/diarios_sala.json", "r")
-f_class_comp = open(dirpath20191 + "/diarios_info.json", "r")
-f_loc_room = open(dirpath20191 + "/locais_sala.json", "r")
-f_loc_comp = open(dirpath20191 + "/locais_info.json", "r")
+f_class_room = open(dirpath20191 + "/classes_classroom.json", "r")
+f_class_comp = open(dirpath20191 + "/classes_pc.json", "r")
+f_loc_room = open(dirpath20191 + "/locations_classroom.json", "r")
+f_loc_comp = open(dirpath20191 + "/locations_pc.json", "r")
 
 class_room = json.load(f_class_room)
 class_comp = json.load(f_class_comp)
@@ -46,10 +46,10 @@ while (create_new):
     new_l_r_dict = dict(new_loc_room)
     new_l_c_dict = dict(new_loc_comp)
 
-    f_new_c_r = open(dirpathout + "/diarios_sala.json", "w")
-    f_new_c_c = open(dirpathout + "/diarios_info.json", "w")
-    f_new_l_r = open(dirpathout + "/locais_sala.json", "w")
-    f_new_l_c = open(dirpathout + "/locais_info.json", "w")
+    f_new_c_r = open(dirpathout + "/classes_classroom.json", "w")
+    f_new_c_c = open(dirpathout + "/classes_pc.json", "w")
+    f_new_l_r = open(dirpathout + "/locations_classroom.json", "w")
+    f_new_l_c = open(dirpathout + "/locations_pc.json", "w")
 
     json.dump(new_c_r_dict, f_new_c_r)
     json.dump(new_c_c_dict, f_new_c_c)

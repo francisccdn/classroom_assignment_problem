@@ -71,9 +71,9 @@ for file in os.listdir(dir_path):
 
         # Check if heuristic cost is accurate
         if data["heuristic"] == True:
-            fcl = open(data_dir_path + '/diarios_info.json', 'r')
-            flc = open(data_dir_path + '/locais_sala.json', 'r')
-            fll = open(data_dir_path + '/locais_info.json', 'r')
+            fcl = open(data_dir_path + '/classes_pc.json', 'r')
+            flc = open(data_dir_path + '/locations_classroom.json', 'r')
+            fll = open(data_dir_path + '/locations_pc.json', 'r')
 
             cl_data = json.load(fcl)
             lc_data = json.load(flc)
@@ -87,11 +87,11 @@ for file in os.listdir(dir_path):
 
             for var in other_variables:
                 if var["type"] == 'X':
-                    accurate_cost += lc_data[var["room"]]["gasto_por_aula"]
+                    accurate_cost += lc_data[var["room"]]["cost_per_lecture"]
                 if var["type"] == 'T':
-                    accurate_cost += ll_data[var["room"]]["gasto_por_aula"]
-                    accurate_cost += ll_data[var["room"]]["gasto_pc_por_aula"] * \
-                        cl_data[var["class"]]["qtd_alunos"]
+                    accurate_cost += ll_data[var["room"]]["cost_per_lecture"]
+                    accurate_cost += ll_data[var["room"]]["pc_cost_per_lecture"] * \
+                        cl_data[var["class"]]["qty_students"]
 
             for var in z_variables:
                 location = {}
@@ -100,10 +100,10 @@ for file in os.listdir(dir_path):
                 if var["room"] in ll_data:
                     location = ll_data[var["room"]]
 
-                accurate_cost += location["gasto_setup"]
+                accurate_cost += location["setup_cost"]
                 if data["setup before class"] == False:
-                    accurate_cost -= location["gasto_por_aula"] * \
-                        location["duracao_setup"]
+                    accurate_cost -= location["cost_per_lecture"] * \
+                        location["setup_duration"]
 
             solution_cost = data["heuristic - value"]
             if not (accurate_cost - 0.1 < solution_cost and solution_cost < accurate_cost + 0.1):
@@ -208,13 +208,13 @@ for file in os.listdir(dir_path):
                         if var == var2:
                             continue
 
-                        if classes_data[var['class']]['id_turma'] == 0 or classes_data[var2['class']]['id_turma'] == 0:
+                        if classes_data[var['class']]["group_id"] == 0 or classes_data[var2['class']]["group_id"] == 0:
                             continue
 
-                        if classes_data[var['class']]['id_turma'] == classes_data[var2['class']]['id_turma'] and var['room'] != var2['room']:
+                        if classes_data[var['class']]["group_id"] == classes_data[var2['class']]["group_id"] and var['room'] != var2['room']:
                             feasible = False
                             if verbose:
-                                print(f"{bcolors.FAIL}ITC group " + str(classes_data[var['class']]['id_turma']) + " has two lectures in different rooms: " +
+                                print(f"{bcolors.FAIL}ITC group " + str(classes_data[var['class']]["group_id"]) + " has two lectures in different rooms: " +
                                       var["class"] + "_" + var["timeslot"] + "_" + var["room"] + " and " +
                                       var2["class"] + "_" + var2["timeslot"] + "_" + var2["room"] + f"{bcolors.ENDC}")
 
@@ -231,10 +231,10 @@ for file in os.listdir(dir_path):
                         if var['type'] == 'T':
                             continue
 
-                        if classes_data[var['class']]['id_turma'] != 0 and rooms_data[var['room']]['id_bloco'] != 57:
+                        if classes_data[var['class']]["group_id"] != 0 and rooms_data[var['room']]["block_id"] != 57:
                             feasible = False
                             if verbose:
-                                print(f"{bcolors.FAIL}ITC group " + str(classes_data[var['class']]['id_turma']) + " has lecture in non-ITC-block room: " +
+                                print(f"{bcolors.FAIL}ITC group " + str(classes_data[var['class']]["group_id"]) + " has lecture in non-ITC-block room: " +
                                       var["class"] + "_" + var["timeslot"] + "_" + var["room"] + f"{bcolors.ENDC}")
 
         # PC2
@@ -247,8 +247,8 @@ for file in os.listdir(dir_path):
                     rooms_data = json.load(frooms)
 
                     for var in other_variables:
-                        course_id = classes_data[var['class']]['id_curso']
-                        block_id = rooms_data[var['room']]['id_bloco']
+                        course_id = classes_data[var['class']]["course_id"]
+                        block_id = rooms_data[var['room']]["block_id"]
 
                         if (course_id == 206 and block_id != 58) or (course_id == 56 and block_id != 58) or (course_id == 192 and block_id != 56) or (course_id == 59 and block_id != 59):
                             feasible = False
@@ -278,16 +278,16 @@ for file in os.listdir(dir_path):
                 rooms_data = json.load(frooms)
 
                 for var in other_variables:
-                    capacity_str = "qtd_lugares"
+                    capacity_str = "qty_lugares"
                     if var['type'] == 'T':
-                        capacity_str = "qtd_pc"
+                        capacity_str = "qty_pc"
 
                     if capacity_str not in rooms_data[var['room']]:
                         print(f"{bcolors.FAIL}Room " + var['room'] + " has no capacity of type " + capacity_str + ". Lecture: "
                               + var['type'] + '_' + var["class"] + "_" + var["timeslot"] + "_" + var["room"] + f"{bcolors.ENDC}")
                         continue
 
-                    if classes_data[var['class']]['qtd_alunos'] > rooms_data[var['room']][capacity_str]:
+                    if classes_data[var['class']]["qty_students"] > rooms_data[var['room']][capacity_str]:
                         feasible = False
                         if verbose:
                             print(f"{bcolors.FAIL}Class " + var['class'] + " has too many students for room " + var['room'] +

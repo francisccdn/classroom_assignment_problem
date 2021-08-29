@@ -45,10 +45,10 @@ for file in os.listdir(manual_path):
     data_dir = os.path.join(data_path, instance)
 
     # Get classes and locations data
-    pc_rooms_data_fr = open(os.path.join(data_dir, "locais_info.json"), 'r')
-    rooms_data_fr = open(os.path.join(data_dir, "locais_sala.json"), 'r')
-    pc_classes_data_fr = open(os.path.join(data_dir, "diarios_info.json"), 'r')
-    classes_data_fr = open(os.path.join(data_dir, "diarios_sala.json"), 'r')
+    pc_rooms_data_fr = open(os.path.join(data_dir, "locations_pc.json"), 'r')
+    rooms_data_fr = open(os.path.join(data_dir, "locations_classroom.json"), 'r')
+    pc_classes_data_fr = open(os.path.join(data_dir, "classes_pc.json"), 'r')
+    classes_data_fr = open(os.path.join(data_dir, "classes_classroom.json"), 'r')
 
     pc_rooms_data = json.load(pc_rooms_data_fr)
     rooms_data = json.load(rooms_data_fr)
@@ -67,28 +67,28 @@ for file in os.listdir(manual_path):
 
         # Calculate cost of assignment
         if assignment["requer"] == "sala":
-            base_cost = rooms_data[a_room]["gasto_por_aula"]
+            base_cost = rooms_data[a_room]["cost_per_lecture"]
 
-            setup_cost = rooms_data[a_room]["gasto_setup"]
-            setup_during_cost = rooms_data[a_room]["gasto_setup"] - (
-                rooms_data[a_room]["gasto_por_aula"]*rooms_data[a_room]["duracao_setup"])
+            setup_cost = rooms_data[a_room]["setup_cost"]
+            setup_during_cost = rooms_data[a_room]["setup_cost"] - (
+                rooms_data[a_room]["cost_per_lecture"]*rooms_data[a_room]["setup_duration"])
 
             solution_values[instance]["classroom"]["setup_before"] += base_cost + setup_cost
             solution_values[instance]["classroom"]["n_assignments"] += 1
         else:
-            base_cost = pc_rooms_data[a_room]["gasto_por_aula"]
+            base_cost = pc_rooms_data[a_room]["cost_per_lecture"]
 
             if a_class in pc_classes_data:
-                qtd = pc_classes_data[a_class]["qtd_alunos"]
+                qtd = pc_classes_data[a_class]["qty_students"]
             else:
-                qtd = classes_data[a_class]["qtd_alunos"]
+                qtd = classes_data[a_class]["qty_students"]
 
             base_cost = base_cost + \
-                (pc_rooms_data[a_room]["gasto_pc_por_aula"] * qtd)
+                (pc_rooms_data[a_room]["pc_cost_per_lecture"] * qtd)
 
-            setup_cost = pc_rooms_data[a_room]["gasto_setup"]
-            setup_during_cost = pc_rooms_data[a_room]["gasto_setup"] - (
-                pc_rooms_data[a_room]["gasto_por_aula"]*pc_rooms_data[a_room]["duracao_setup"])
+            setup_cost = pc_rooms_data[a_room]["setup_cost"]
+            setup_during_cost = pc_rooms_data[a_room]["setup_cost"] - (
+                pc_rooms_data[a_room]["cost_per_lecture"]*pc_rooms_data[a_room]["setup_duration"])
 
             solution_values[instance]["pc"]["setup_before"] += base_cost + setup_cost
             solution_values[instance]["pc"]["n_assignments"] += 1

@@ -13,28 +13,28 @@ CapData::CapData(int scenario, string instance_name, bool setup, bool setup_befo
 {
     num_timeslots = TimeslotToInt("6N5") + 1;
 
-    ifstream classes_classroom_if("data/" + instance_name + "/diarios_sala.json");
+    ifstream classes_classroom_if("data/" + instance_name + "/classes_classroom.json");
     classes_classroom_if >> classes_classroom_json;
     classes_classroom_if.close();
 
-    ifstream locations_classroom_if("data/" + instance_name + "/locais_sala.json");
+    ifstream locations_classroom_if("data/" + instance_name + "/locations_classroom.json");
     locations_classroom_if >> locations_classroom_json;
     locations_classroom_if.close();
 
-    ifstream classes_computer_if("data/" + instance_name + "/diarios_info.json");
+    ifstream classes_computer_if("data/" + instance_name + "/classes_pc.json");
     classes_computer_if >> classes_computer_json;
     classes_computer_if.close();
 
-    ifstream locations_computer_if("data/" + instance_name + "/locais_info.json");
+    ifstream locations_computer_if("data/" + instance_name + "/locations_pc.json");
     locations_computer_if >> locations_computer_json;
     locations_computer_if.close();
 
     nlohmann::json blocked_timeslot_location_json;
-    ifstream blocked_timeslot_location_if("data/" + instance_name + "/horarios_salas_especificos.json");
+    ifstream blocked_timeslot_location_if("data/" + instance_name + "/occupied_locations.json");
     blocked_timeslot_location_if >> blocked_timeslot_location_json;
     blocked_timeslot_location_if.close();
 
-    for (string timeslot_location : blocked_timeslot_location_json["horarios_salas_especificos"])
+    for (string timeslot_location : blocked_timeslot_location_json["occupied_locations"])
     {
         vector<string> spliced_timeslot_location = francisccdn::splice(timeslot_location, '_');
 
@@ -211,13 +211,13 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
         nlohmann::json class_data = class_i.value();
         classes_json_key.push_back(class_i.key());
 
-        num_students_in_class.push_back(class_data["qtd_alunos"]);
+        num_students_in_class.push_back(class_data["qty_students"]);
         lectures_of_class.push_back(vector<int>());
         twin_lectures_of_class.push_back(vector<int>());
 
-        for (auto timeslot_data : class_data["horarios_aulas"].items())
+        for (auto timeslot_data : class_data["lectures"].items())
         {
-            string timeslot = timeslot_data.value()["abreviacao"];
+            string timeslot = timeslot_data.value()["timeslot"];
             int k = TimeslotToInt(timeslot);
 
             (*classes_per_timeslot)[k].push_back(i);
@@ -236,7 +236,7 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
         }
 
         // Create new ITC group if class belongs to one
-        int group_id = class_data["id_turma"];
+        int group_id = class_data["group_id"];
         if (!is_computer && group_id != 0)
         {
             // l in E
@@ -285,12 +285,12 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
         {
             locations_json_key.push_back(location_j.key());
 
-            location_cost.push_back(location_data["gasto_por_aula"]);
-            location_setup_cost.push_back(location_data["gasto_setup"]);
-            location_setup_duration.push_back(location_data["duracao_setup"]);
-            if (!location_data["gasto_pc_por_aula"].is_null())
+            location_cost.push_back(location_data["cost_per_lecture"]);
+            location_setup_cost.push_back(location_data["setup_cost"]);
+            location_setup_duration.push_back(location_data["setup_duration"]);
+            if (!location_data["pc_cost_per_lecture"].is_null())
             {
-                location_computer_cost[j] = location_data["gasto_pc_por_aula"];
+                location_computer_cost[j] = location_data["pc_cost_per_lecture"];
             }
 
             j++;
@@ -303,7 +303,7 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
         for (int i = 0; i < *classes; i++)
         {
             int i_in_a = is_computer ? i + num_classes_classroom : i;
-            int capacity = is_computer ? location_data["qtd_pc"] : location_data["qtd_carteiras"];
+            int capacity = is_computer ? location_data["qty_pc"] : location_data["qty_chairs"];
 
             if (num_students_in_class[i_in_a] <= capacity)
             {
@@ -332,9 +332,9 @@ bool CapData::ValidVar(bool is_computer, int i, int k, int j)
     nlohmann::json class_data = is_computer ? classes_computer_json[class_json_key] : classes_classroom_json[class_json_key];
     nlohmann::json location_data = is_computer ? locations_computer_json[location_json_key] : locations_classroom_json[location_json_key];
 
-    int course_id = class_data["id_curso"];
-    int itc_id = class_data["id_turma"];
-    int block_id = location_data["id_bloco"];
+    int course_id = class_data["course_id"];
+    int itc_id = class_data["group_id"];
+    int block_id = location_data["block_id"];
 
     if (pc1)
     {

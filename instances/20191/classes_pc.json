@@ -1,0 +1,3136 @@
+{
+  "22144": {
+    "lecture_times_condensed": "2M56 / 5M45",
+    "subject": "Produção de Textos Técnico e Científico",
+    "lectures": {
+      "60491": {
+        "timeslot": "2M5"
+      },
+      "60492": {
+        "timeslot": "2M6"
+      },
+      "60493": {
+        "timeslot": "5M5"
+      },
+      "60494": {
+        "timeslot": "5M4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.1423",
+    "qty_students": 31,
+    "id": 22144
+  },
+  "23811": {
+    "lecture_times_condensed": "5M45 / 6M123",
+    "subject": "Protocolos de Interconexão de Redes de Computadores - RC",
+    "lectures": {
+      "63164": {
+        "timeslot": "5M4"
+      },
+      "61931": {
+        "timeslot": "6M1"
+      },
+      "61932": {
+        "timeslot": "6M2"
+      },
+      "61933": {
+        "timeslot": "6M3"
+      },
+      "63165": {
+        "timeslot": "5M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 68,
+    "subject_code": "TEC.0162",
+    "qty_students": 6,
+    "id": 23811
+  },
+  "21780": {
+    "lecture_times_condensed": "4M45",
+    "subject": "Gerenciamento de Riscos Ambientais",
+    "lectures": {
+      "59448": {
+        "timeslot": "4M5"
+      },
+      "59447": {
+        "timeslot": "4M4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 61,
+    "subject_code": "TEC.0477",
+    "qty_students": 9,
+    "id": 21780
+  },
+  "21767": {
+    "lecture_times_condensed": "3M23",
+    "subject": "Geoprocessamento",
+    "lectures": {
+      "59404": {
+        "timeslot": "3M2"
+      },
+      "59405": {
+        "timeslot": "3M3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 61,
+    "subject_code": "TEC.0463",
+    "qty_students": 15,
+    "id": 21767
+  },
+  "24588": {
+    "lecture_times_condensed": "3M456",
+    "subject": "Informática Básica Aplicada",
+    "lectures": {
+      "58824": {
+        "timeslot": "3M6"
+      },
+      "58822": {
+        "timeslot": "3M4"
+      },
+      "58823": {
+        "timeslot": "3M5"
+      }
+    },
+    "group_id": 10146,
+    "course_id": 81,
+    "subject_code": "TIN.0516",
+    "qty_students": 16,
+    "id": 24588
+  },
+  "24589": {
+    "lecture_times_condensed": "4M456",
+    "subject": "Informática Básica Aplicada",
+    "lectures": {
+      "58825": {
+        "timeslot": "4M4"
+      },
+      "58826": {
+        "timeslot": "4M5"
+      },
+      "58827": {
+        "timeslot": "4M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 81,
+    "subject_code": "TIN.0516",
+    "qty_students": 16,
+    "id": 24589
+  },
+  "23312": {
+    "lecture_times_condensed": "2V56 / 4V56",
+    "subject": "Informática",
+    "lectures": {
+      "58755": {
+        "timeslot": "2V5"
+      },
+      "58756": {
+        "timeslot": "2V6"
+      },
+      "58757": {
+        "timeslot": "4V5"
+      },
+      "58758": {
+        "timeslot": "4V6"
+      }
+    },
+    "group_id": 10134,
+    "course_id": 71,
+    "subject_code": "TIN.0322",
+    "qty_students": 26,
+    "id": 23312
+  },
+  "21777": {
+    "lecture_times_condensed": "5M45",
+    "subject": "Sensoriamento Remoto",
+    "lectures": {
+      "59430": {
+        "timeslot": "5M4"
+      },
+      "59431": {
+        "timeslot": "5M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 61,
+    "subject_code": "TEC.0467",
+    "qty_students": 14,
+    "id": 21777
+  },
+  "21778": {
+    "lecture_times_condensed": "3M45 / 5M23",
+    "subject": "Sistema de Informações Geográficas  -  SIG",
+    "lectures": {
+      "59424": {
+        "timeslot": "3M5"
+      },
+      "59421": {
+        "timeslot": "5M2"
+      },
+      "59422": {
+        "timeslot": "5M3"
+      },
+      "59423": {
+        "timeslot": "3M4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 61,
+    "subject_code": "TEC.0468",
+    "qty_students": 10,
+    "id": 21778
+  },
+  "24323": {
+    "lecture_times_condensed": "3N345 / 6N234",
+    "subject": "Eletrônica Analógica I",
+    "lectures": {
+      "60853": {
+        "timeslot": "3N3"
+      },
+      "60854": {
+        "timeslot": "3N4"
+      },
+      "60855": {
+        "timeslot": "3N5"
+      },
+      "60856": {
+        "timeslot": "6N2"
+      },
+      "60857": {
+        "timeslot": "6N3"
+      },
+      "60858": {
+        "timeslot": "6N4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 191,
+    "subject_code": "TSUB.0254",
+    "qty_students": 18,
+    "id": 24323
+  },
+  "23572": {
+    "lecture_times_condensed": "2M56",
+    "subject": "Eletricidade Básica I",
+    "lectures": {
+      "63196": {
+        "timeslot": "2M5"
+      },
+      "63197": {
+        "timeslot": "2M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 82,
+    "subject_code": "TIN.0648",
+    "qty_students": 16,
+    "id": 23572
+  },
+  "30652": {
+    "lecture_times_condensed": "3V12 / 5V345",
+    "subject": "Algoritmo e Programação Estruturada",
+    "lectures": {
+      "76736": {
+        "timeslot": "5V4"
+      },
+      "76737": {
+        "timeslot": "5V5"
+      },
+      "76733": {
+        "timeslot": "3V1"
+      },
+      "76734": {
+        "timeslot": "3V2"
+      },
+      "76735": {
+        "timeslot": "5V3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0034",
+    "qty_students": 9,
+    "id": 30652
+  },
+  "24956": {
+    "lecture_times_condensed": "3M45 / 5M45",
+    "subject": "Eletrônica Digital - RC",
+    "lectures": {
+      "60531": {
+        "timeslot": "3M4"
+      },
+      "60532": {
+        "timeslot": "3M5"
+      },
+      "60533": {
+        "timeslot": "5M4"
+      },
+      "60534": {
+        "timeslot": "5M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0051",
+    "qty_students": 2,
+    "id": 24956
+  },
+  "24343": {
+    "lecture_times_condensed": "4N12",
+    "subject": "Informática Básica",
+    "lectures": {
+      "58976": {
+        "timeslot": "4N2"
+      },
+      "58975": {
+        "timeslot": "4N1"
+      }
+    },
+    "group_id": 0,
+    "course_id": 195,
+    "subject_code": "TSUB.0074",
+    "qty_students": 28,
+    "id": 24343
+  },
+  "21784": {
+    "lecture_times_condensed": "4M12",
+    "subject": "Interpolação Espacial GA",
+    "lectures": {
+      "59396": {
+        "timeslot": "4M1"
+      },
+      "59397": {
+        "timeslot": "4M2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 61,
+    "subject_code": "TEC.0479",
+    "qty_students": 17,
+    "id": 21784
+  },
+  "22148": {
+    "lecture_times_condensed": "3M45 / 6M345",
+    "subject": "Arquitetura de Computadores - RC",
+    "lectures": {
+      "60475": {
+        "timeslot": "3M4"
+      },
+      "60476": {
+        "timeslot": "3M5"
+      },
+      "60477": {
+        "timeslot": "6M3"
+      },
+      "60478": {
+        "timeslot": "6M4"
+      },
+      "60479": {
+        "timeslot": "6M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0159",
+    "qty_students": 27,
+    "id": 22148
+  },
+  "27418": {
+    "lecture_times_condensed": "5V345",
+    "subject": "Desenho Arquitetônico II",
+    "lectures": {
+      "68730": {
+        "timeslot": "5V3"
+      },
+      "68731": {
+        "timeslot": "5V4"
+      },
+      "68732": {
+        "timeslot": "5V5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 76,
+    "subject_code": "TIN.0244",
+    "qty_students": 21,
+    "id": 27418
+  },
+  "24859": {
+    "lecture_times_condensed": "2N12 / 5N12",
+    "subject": "Administração de Recursos Materiais e Patrimoniais",
+    "lectures": {
+      "60104": {
+        "timeslot": "2N1"
+      },
+      "60105": {
+        "timeslot": "2N2"
+      },
+      "62763": {
+        "timeslot": "5N1"
+      },
+      "62764": {
+        "timeslot": "5N2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 39,
+    "subject_code": "TEC.0278",
+    "qty_students": 21,
+    "id": 24859
+  },
+  "24965": {
+    "lecture_times_condensed": "2M12 / 6M45",
+    "subject": "Programação Orientada a Objetos - RC",
+    "lectures": {
+      "60561": {
+        "timeslot": "2M1"
+      },
+      "60562": {
+        "timeslot": "2M2"
+      },
+      "60563": {
+        "timeslot": "6M4"
+      },
+      "60564": {
+        "timeslot": "6M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0164",
+    "qty_students": 7,
+    "id": 24965
+  },
+  "23771": {
+    "lecture_times_condensed": "2N12 / 4N12",
+    "subject": "Práticas de Pesquisa em Gestão de Negócios Imobiliários",
+    "lectures": {
+      "57585": {
+        "timeslot": "2N1"
+      },
+      "57586": {
+        "timeslot": "2N2"
+      },
+      "59094": {
+        "timeslot": "4N1"
+      },
+      "59095": {
+        "timeslot": "4N2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 63,
+    "subject_code": "TEC.0394",
+    "qty_students": 1,
+    "id": 23771
+  },
+  "26660": {
+    "lecture_times_condensed": "2M12 / 3M45",
+    "subject": "Fundamentos de Tecnologia da Informção",
+    "lectures": {
+      "64848": {
+        "timeslot": "2M2"
+      },
+      "64849": {
+        "timeslot": "3M4"
+      },
+      "64850": {
+        "timeslot": "3M5"
+      },
+      "64847": {
+        "timeslot": "2M1"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.1417",
+    "qty_students": 21,
+    "id": 26660
+  },
+  "24326": {
+    "lecture_times_condensed": "2N345",
+    "subject": "Automação Comercial e Residencial",
+    "lectures": {
+      "60850": {
+        "timeslot": "2N3"
+      },
+      "60851": {
+        "timeslot": "2N4"
+      },
+      "60852": {
+        "timeslot": "2N5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 191,
+    "subject_code": "TSUB.0676",
+    "qty_students": 17,
+    "id": 24326
+  },
+  "24875": {
+    "lecture_times_condensed": "2N1234",
+    "subject": "Jogos de Empresa",
+    "lectures": {
+      "60169": {
+        "timeslot": "2N1"
+      },
+      "60170": {
+        "timeslot": "2N2"
+      },
+      "60171": {
+        "timeslot": "2N3"
+      },
+      "60172": {
+        "timeslot": "2N4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 39,
+    "subject_code": "TEC.0337",
+    "qty_students": 22,
+    "id": 24875
+  },
+  "23596": {
+    "lecture_times_condensed": "4M23",
+    "subject": "Eletrônica Básica",
+    "lectures": {
+      "63085": {
+        "timeslot": "4M2"
+      },
+      "63086": {
+        "timeslot": "4M3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 82,
+    "subject_code": "TIN.0536",
+    "qty_students": 17,
+    "id": 23596
+  },
+  "24370": {
+    "lecture_times_condensed": "3N123",
+    "subject": "Informática Aplicada",
+    "lectures": {
+      "59008": {
+        "timeslot": "3N3"
+      },
+      "69008": {
+        "timeslot": "3N2"
+      },
+      "69007": {
+        "timeslot": "3N1"
+      }
+    },
+    "group_id": 0,
+    "course_id": 186,
+    "subject_code": "TSUB.0189",
+    "qty_students": 35,
+    "id": 24370
+  },
+  "22167": {
+    "lecture_times_condensed": "3M2345",
+    "subject": "Projetos de Redes de Computadores",
+    "lectures": {
+      "60393": {
+        "timeslot": "3M2"
+      },
+      "60394": {
+        "timeslot": "3M3"
+      },
+      "60395": {
+        "timeslot": "3M4"
+      },
+      "60396": {
+        "timeslot": "3M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0179",
+    "qty_students": 10,
+    "id": 22167
+  },
+  "23134": {
+    "lecture_times_condensed": "3V345",
+    "subject": "Desenho Arquitetônico II",
+    "lectures": {
+      "58333": {
+        "timeslot": "3V3"
+      },
+      "58334": {
+        "timeslot": "3V4"
+      },
+      "58335": {
+        "timeslot": "3V5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 76,
+    "subject_code": "TIN.0244",
+    "qty_students": 21,
+    "id": 23134
+  },
+  "22153": {
+    "lecture_times_condensed": "2M12 / 3M123",
+    "subject": "Sistemas Operacionais - RC",
+    "lectures": {
+      "60456": {
+        "timeslot": "2M2"
+      },
+      "60457": {
+        "timeslot": "3M1"
+      },
+      "60458": {
+        "timeslot": "3M2"
+      },
+      "60459": {
+        "timeslot": "3M3"
+      },
+      "60455": {
+        "timeslot": "2M1"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0163",
+    "qty_students": 17,
+    "id": 22153
+  },
+  "24377": {
+    "lecture_times_condensed": "5N123",
+    "subject": "Desenho Auxiliado por Computador I - CAD I",
+    "lectures": {
+      "59024": {
+        "timeslot": "5N2"
+      },
+      "59025": {
+        "timeslot": "5N3"
+      },
+      "59023": {
+        "timeslot": "5N1"
+      }
+    },
+    "group_id": 0,
+    "course_id": 186,
+    "subject_code": "TSUB.0104",
+    "qty_students": 16,
+    "id": 24377
+  },
+  "22154": {
+    "lecture_times_condensed": "4M12 / 6M45",
+    "subject": "Programação de Script",
+    "lectures": {
+      "60451": {
+        "timeslot": "4M1"
+      },
+      "60452": {
+        "timeslot": "4M2"
+      },
+      "60453": {
+        "timeslot": "6M4"
+      },
+      "60454": {
+        "timeslot": "6M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0165",
+    "qty_students": 16,
+    "id": 22154
+  },
+  "24382": {
+    "lecture_times_condensed": "6N123",
+    "subject": "Desenho Auxiliado por Computador II - CAD II",
+    "lectures": {
+      "59042": {
+        "timeslot": "6N1"
+      },
+      "59043": {
+        "timeslot": "6N2"
+      },
+      "59044": {
+        "timeslot": "6N3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 186,
+    "subject_code": "TSUB.0107",
+    "qty_students": 15,
+    "id": 24382
+  },
+  "23359": {
+    "lecture_times_condensed": "5M456",
+    "subject": "Informática Básica Aplicada",
+    "lectures": {
+      "58819": {
+        "timeslot": "5M4"
+      },
+      "58820": {
+        "timeslot": "5M5"
+      },
+      "58821": {
+        "timeslot": "5M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 81,
+    "subject_code": "TIN.0516",
+    "qty_students": 15,
+    "id": 23359
+  },
+  "23360": {
+    "lecture_times_condensed": "4M456",
+    "subject": "Eletricidade Básica",
+    "lectures": {
+      "58512": {
+        "timeslot": "4M5"
+      },
+      "58513": {
+        "timeslot": "4M6"
+      },
+      "58511": {
+        "timeslot": "4M4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 81,
+    "subject_code": "TIN.0647",
+    "qty_students": 15,
+    "id": 23360
+  },
+  "23361": {
+    "lecture_times_condensed": "3M45",
+    "subject": "Álgebra Booleana e Circuitos Lógicos",
+    "lectures": {
+      "58531": {
+        "timeslot": "3M4"
+      },
+      "58532": {
+        "timeslot": "3M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 81,
+    "subject_code": "TIN.0517",
+    "qty_students": 15,
+    "id": 23361
+  },
+  "24388": {
+    "lecture_times_condensed": "4N12",
+    "subject": "Desenho de Estruturas",
+    "lectures": {
+      "59061": {
+        "timeslot": "4N1"
+      },
+      "59062": {
+        "timeslot": "4N2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 186,
+    "subject_code": "TSUB.0111",
+    "qty_students": 6,
+    "id": 24388
+  },
+  "24389": {
+    "lecture_times_condensed": "2N1234",
+    "subject": "Projeto Hidrossanitário",
+    "lectures": {
+      "59051": {
+        "timeslot": "2N1"
+      },
+      "59052": {
+        "timeslot": "2N2"
+      },
+      "59053": {
+        "timeslot": "2N3"
+      },
+      "59054": {
+        "timeslot": "2N4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 186,
+    "subject_code": "TSUB.0113",
+    "qty_students": 3,
+    "id": 24389
+  },
+  "26698": {
+    "lecture_times_condensed": "6V12",
+    "subject": "Informática Básica",
+    "lectures": {
+      "68936": {
+        "timeslot": "6V1"
+      },
+      "68937": {
+        "timeslot": "6V2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 93,
+    "subject_code": "TIN.0018",
+    "qty_students": 21,
+    "id": 26698
+  },
+  "24395": {
+    "lecture_times_condensed": "2N23",
+    "subject": "Eletrônica Digital",
+    "lectures": {
+      "64705": {
+        "timeslot": "2N3"
+      },
+      "61684": {
+        "timeslot": "2N2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 192,
+    "subject_code": "TSUB.0138",
+    "qty_students": 14,
+    "id": 24395
+  },
+  "25676": {
+    "lecture_times_condensed": "2M34",
+    "subject": "Eletricidade Básica I",
+    "lectures": {
+      "63198": {
+        "timeslot": "2M3"
+      },
+      "63199": {
+        "timeslot": "2M4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 82,
+    "subject_code": "TIN.0648",
+    "qty_students": 14,
+    "id": 25676
+  },
+  "21773": {
+    "lecture_times_condensed": "2M45 / 4M12",
+    "subject": "Metodologia da Pesquisa Científica",
+    "lectures": {
+      "59416": {
+        "timeslot": "4M1"
+      },
+      "59417": {
+        "timeslot": "4M2"
+      },
+      "59414": {
+        "timeslot": "2M4"
+      },
+      "59415": {
+        "timeslot": "2M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 61,
+    "subject_code": "TEC.0470",
+    "qty_students": 9,
+    "id": 21773
+  },
+  "22158": {
+    "lecture_times_condensed": "6M12345",
+    "subject": "Desenvolvimento Web",
+    "lectures": {
+      "60432": {
+        "timeslot": "6M2"
+      },
+      "60433": {
+        "timeslot": "6M3"
+      },
+      "60434": {
+        "timeslot": "6M4"
+      },
+      "60435": {
+        "timeslot": "6M5"
+      },
+      "60431": {
+        "timeslot": "6M1"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0169",
+    "qty_students": 20,
+    "id": 22158
+  },
+  "25686": {
+    "lecture_times_condensed": "2V45",
+    "subject": "Informática Básica",
+    "lectures": {
+      "68501": {
+        "timeslot": "2V4"
+      },
+      "68502": {
+        "timeslot": "2V5"
+      }
+    },
+    "group_id": 10209,
+    "course_id": 82,
+    "subject_code": "TIN.0018",
+    "qty_students": 22,
+    "id": 25686
+  },
+  "25687": {
+    "lecture_times_condensed": "6M34",
+    "subject": "Informática Aplicada",
+    "lectures": {
+      "63243": {
+        "timeslot": "6M3"
+      },
+      "63244": {
+        "timeslot": "6M4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 70,
+    "subject_code": "TIN.0835",
+    "qty_students": 22,
+    "id": 25687
+  },
+  "21849": {
+    "lecture_times_condensed": "2M456 / 5M123",
+    "subject": "Desenho Arquitetônico DI",
+    "lectures": {
+      "61488": {
+        "timeslot": "2M5"
+      },
+      "61489": {
+        "timeslot": "2M6"
+      },
+      "61490": {
+        "timeslot": "5M1"
+      },
+      "61491": {
+        "timeslot": "5M2"
+      },
+      "61492": {
+        "timeslot": "5M3"
+      },
+      "61487": {
+        "timeslot": "2M4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 59,
+    "subject_code": "TEC.0058",
+    "qty_students": 13,
+    "id": 21849
+  },
+  "22159": {
+    "lecture_times_condensed": "2M45 / 4M45",
+    "subject": "Probabilidade e Estatística - RC",
+    "lectures": {
+      "60427": {
+        "timeslot": "2M4"
+      },
+      "60428": {
+        "timeslot": "2M5"
+      },
+      "60429": {
+        "timeslot": "4M4"
+      },
+      "60430": {
+        "timeslot": "4M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0167",
+    "qty_students": 19,
+    "id": 22159
+  },
+  "21854": {
+    "lecture_times_condensed": "5M123456",
+    "subject": "Projetos de Interiores Residenciais DI",
+    "lectures": {
+      "56343": {
+        "timeslot": "5M1"
+      },
+      "56344": {
+        "timeslot": "5M3"
+      },
+      "56345": {
+        "timeslot": "5M2"
+      },
+      "56346": {
+        "timeslot": "5M4"
+      },
+      "56347": {
+        "timeslot": "5M5"
+      },
+      "56348": {
+        "timeslot": "5M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 59,
+    "subject_code": "TEC.0400",
+    "qty_students": 25,
+    "id": 21854
+  },
+  "23135": {
+    "lecture_times_condensed": "4V45",
+    "subject": "Desenho Aplicado Auxiliado por Computador Ampliado",
+    "lectures": {
+      "58347": {
+        "timeslot": "4V4"
+      },
+      "58348": {
+        "timeslot": "4V5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 76,
+    "subject_code": "TIN.0427",
+    "qty_students": 21,
+    "id": 23135
+  },
+  "24416": {
+    "lecture_times_condensed": "6N123",
+    "subject": "Conservação de Energia Elétrica Predial e",
+    "lectures": {
+      "61666": {
+        "timeslot": "6N1"
+      },
+      "61667": {
+        "timeslot": "6N2"
+      },
+      "61668": {
+        "timeslot": "6N3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 192,
+    "subject_code": "TSUB.0297",
+    "qty_students": 19,
+    "id": 24416
+  },
+  "23650": {
+    "lecture_times_condensed": "5V45",
+    "subject": "Eletrônica Básica",
+    "lectures": {
+      "63376": {
+        "timeslot": "5V5"
+      },
+      "63375": {
+        "timeslot": "5V4"
+      }
+    },
+    "group_id": 10211,
+    "course_id": 82,
+    "subject_code": "TIN.0536",
+    "qty_students": 11,
+    "id": 23650
+  },
+  "21859": {
+    "lecture_times_condensed": "6M23",
+    "subject": "Iluminação DI",
+    "lectures": {
+      "66362": {
+        "timeslot": "6M2"
+      },
+      "66363": {
+        "timeslot": "6M3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 59,
+    "subject_code": "TEC.0409",
+    "qty_students": 11,
+    "id": 21859
+  },
+  "23652": {
+    "lecture_times_condensed": "3V456",
+    "subject": "Projetos de Instalações Elétricas",
+    "lectures": {
+      "63364": {
+        "timeslot": "3V4"
+      },
+      "63365": {
+        "timeslot": "3V5"
+      },
+      "63366": {
+        "timeslot": "3V6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 82,
+    "subject_code": "TIN.0532",
+    "qty_students": 12,
+    "id": 23652
+  },
+  "23398": {
+    "lecture_times_condensed": "2M123",
+    "subject": "Sistemas Microcontrolados",
+    "lectures": {
+      "61404": {
+        "timeslot": "2M1"
+      },
+      "61405": {
+        "timeslot": "2M2"
+      },
+      "61406": {
+        "timeslot": "2M3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 81,
+    "subject_code": "TIN.0525",
+    "qty_students": 15,
+    "id": 23398
+  },
+  "21864": {
+    "lecture_times_condensed": "3M1234 / 6M3456",
+    "subject": "Projetos de Interiores Institucionais DI",
+    "lectures": {
+      "56384": {
+        "timeslot": "6M3"
+      },
+      "56377": {
+        "timeslot": "3M1"
+      },
+      "56378": {
+        "timeslot": "3M2"
+      },
+      "56379": {
+        "timeslot": "3M3"
+      },
+      "56380": {
+        "timeslot": "3M4"
+      },
+      "56381": {
+        "timeslot": "6M6"
+      },
+      "56382": {
+        "timeslot": "6M5"
+      },
+      "56383": {
+        "timeslot": "6M4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 59,
+    "subject_code": "TEC.0412",
+    "qty_students": 17,
+    "id": 21864
+  },
+  "23420": {
+    "lecture_times_condensed": "6M12",
+    "subject": "Informática Aplicada",
+    "lectures": {
+      "57753": {
+        "timeslot": "6M2"
+      },
+      "68393": {
+        "timeslot": "6M1"
+      }
+    },
+    "group_id": 10156,
+    "course_id": 88,
+    "subject_code": "TIN.0835",
+    "qty_students": 48,
+    "id": 23420
+  },
+  "24980": {
+    "lecture_times_condensed": "2V12 / 6V34",
+    "subject": "Linguagens de Marcação",
+    "lectures": {
+      "60732": {
+        "timeslot": "2V1"
+      },
+      "60733": {
+        "timeslot": "2V2"
+      },
+      "60734": {
+        "timeslot": "6V3"
+      },
+      "60735": {
+        "timeslot": "6V4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0588",
+    "qty_students": 23,
+    "id": 24980
+  },
+  "21878": {
+    "lecture_times_condensed": "4M12 / 6M45",
+    "subject": "Banco de Dados",
+    "lectures": {
+      "56464": {
+        "timeslot": "4M2"
+      },
+      "56465": {
+        "timeslot": "6M4"
+      },
+      "56466": {
+        "timeslot": "6M5"
+      },
+      "56463": {
+        "timeslot": "4M1"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.0090",
+    "qty_students": 16,
+    "id": 21878
+  },
+  "22162": {
+    "lecture_times_condensed": "2M45 / 3M123",
+    "subject": "Administração de Sistemas Proprietários",
+    "lectures": {
+      "60416": {
+        "timeslot": "2M4"
+      },
+      "60417": {
+        "timeslot": "2M5"
+      },
+      "60418": {
+        "timeslot": "3M1"
+      },
+      "60419": {
+        "timeslot": "3M2"
+      },
+      "60420": {
+        "timeslot": "3M3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0176",
+    "qty_students": 15,
+    "id": 22162
+  },
+  "25712": {
+    "lecture_times_condensed": "3V123",
+    "subject": "Projetos de Instalações Elétricas",
+    "lectures": {
+      "63361": {
+        "timeslot": "3V1"
+      },
+      "63362": {
+        "timeslot": "3V2"
+      },
+      "63363": {
+        "timeslot": "3V3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 82,
+    "subject_code": "TIN.0532",
+    "qty_students": 11,
+    "id": 25712
+  },
+  "25771": {
+    "lecture_times_condensed": "2N1234",
+    "subject": "Gestão de Projetos",
+    "lectures": {
+      "63674": {
+        "timeslot": "2N1"
+      },
+      "63675": {
+        "timeslot": "2N2"
+      },
+      "63676": {
+        "timeslot": "2N3"
+      },
+      "63677": {
+        "timeslot": "2N4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 68,
+    "subject_code": "TEC.0265",
+    "qty_students": 16,
+    "id": 25771
+  },
+  "25714": {
+    "lecture_times_condensed": "5V23",
+    "subject": "Eletrônica Básica",
+    "lectures": {
+      "63373": {
+        "timeslot": "5V2"
+      },
+      "63374": {
+        "timeslot": "5V3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 82,
+    "subject_code": "TIN.0536",
+    "qty_students": 11,
+    "id": 25714
+  },
+  "24435": {
+    "lecture_times_condensed": "4N12",
+    "subject": "Eletrônica Básica",
+    "lectures": {
+      "59352": {
+        "timeslot": "4N2"
+      },
+      "59351": {
+        "timeslot": "4N1"
+      }
+    },
+    "group_id": 0,
+    "course_id": 206,
+    "subject_code": "TSUB.0237",
+    "qty_students": 9,
+    "id": 24435
+  },
+  "21877": {
+    "lecture_times_condensed": "2M12",
+    "subject": "Introdução ao SIG",
+    "lectures": {
+      "56444": {
+        "timeslot": "2M1"
+      },
+      "56445": {
+        "timeslot": "2M2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.1076",
+    "qty_students": 17,
+    "id": 21877
+  },
+  "22134": {
+    "lecture_times_condensed": "3V45 / 5V45",
+    "subject": "Química Computacional",
+    "lectures": {
+      "56272": {
+        "timeslot": "3V5"
+      },
+      "56273": {
+        "timeslot": "5V4"
+      },
+      "56274": {
+        "timeslot": "5V5"
+      },
+      "56271": {
+        "timeslot": "3V4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 48,
+    "subject_code": "LIC.0092",
+    "qty_students": 7,
+    "id": 22134
+  },
+  "23439": {
+    "lecture_times_condensed": "3V23",
+    "subject": "Editoração de Partituras",
+    "lectures": {
+      "56968": {
+        "timeslot": "3V2"
+      },
+      "56969": {
+        "timeslot": "3V3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 88,
+    "subject_code": "TIN.0851",
+    "qty_students": 33,
+    "id": 23439
+  },
+  "22137": {
+    "lecture_times_condensed": "6M123",
+    "subject": "Introdução à Sistemas Abertos",
+    "lectures": {
+      "62112": {
+        "timeslot": "6M3"
+      },
+      "62110": {
+        "timeslot": "6M1"
+      },
+      "62111": {
+        "timeslot": "6M2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.1419",
+    "qty_students": 22,
+    "id": 22137
+  },
+  "24452": {
+    "lecture_times_condensed": "5N12 / 6N4",
+    "subject": "Informática Básica",
+    "lectures": {
+      "58933": {
+        "timeslot": "5N1"
+      },
+      "58934": {
+        "timeslot": "5N2"
+      },
+      "58935": {
+        "timeslot": "6N4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 215,
+    "subject_code": "TSUB.0100",
+    "qty_students": 33,
+    "id": 24452
+  },
+  "22139": {
+    "lecture_times_condensed": "2M12 / 3M45",
+    "subject": "Fundamentos de Tecnologia da Informção",
+    "lectures": {
+      "62089": {
+        "timeslot": "3M4"
+      },
+      "62090": {
+        "timeslot": "3M5"
+      },
+      "62100": {
+        "timeslot": "2M1"
+      },
+      "62101": {
+        "timeslot": "2M2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.1417",
+    "qty_students": 20,
+    "id": 22139
+  },
+  "22140": {
+    "lecture_times_condensed": "4M456 / 6M45",
+    "subject": "Fundamentos de Redes de Computadores",
+    "lectures": {
+      "62104": {
+        "timeslot": "4M6"
+      },
+      "62105": {
+        "timeslot": "6M4"
+      },
+      "62106": {
+        "timeslot": "6M5"
+      },
+      "62102": {
+        "timeslot": "4M4"
+      },
+      "62103": {
+        "timeslot": "4M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0047",
+    "qty_students": 22,
+    "id": 22140
+  },
+  "22141": {
+    "lecture_times_condensed": "3M23 / 4M123",
+    "subject": "Introdução à Programação",
+    "lectures": {
+      "62096": {
+        "timeslot": "3M3"
+      },
+      "62097": {
+        "timeslot": "4M1"
+      },
+      "62098": {
+        "timeslot": "4M2"
+      },
+      "62099": {
+        "timeslot": "4M3"
+      },
+      "62095": {
+        "timeslot": "3M2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0624",
+    "qty_students": 32,
+    "id": 22141
+  },
+  "21887": {
+    "lecture_times_condensed": "2M34 / 5M12",
+    "subject": "Representações Cartográficas",
+    "lectures": {
+      "56475": {
+        "timeslot": "2M3"
+      },
+      "56476": {
+        "timeslot": "2M4"
+      },
+      "56477": {
+        "timeslot": "5M1"
+      },
+      "56478": {
+        "timeslot": "5M2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.0092",
+    "qty_students": 11,
+    "id": 21887
+  },
+  "21888": {
+    "lecture_times_condensed": "2M56 / 5M56",
+    "subject": "SIG",
+    "lectures": {
+      "56480": {
+        "timeslot": "2M6"
+      },
+      "56481": {
+        "timeslot": "5M5"
+      },
+      "56482": {
+        "timeslot": "5M6"
+      },
+      "56479": {
+        "timeslot": "2M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.1078",
+    "qty_students": 11,
+    "id": 21888
+  },
+  "21892": {
+    "lecture_times_condensed": "2M456",
+    "subject": "Automação Topográfica",
+    "lectures": {
+      "62065": {
+        "timeslot": "2M4"
+      },
+      "62066": {
+        "timeslot": "2M5"
+      },
+      "62067": {
+        "timeslot": "2M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.0204",
+    "qty_students": 5,
+    "id": 21892
+  },
+  "21893": {
+    "lecture_times_condensed": "3M56",
+    "subject": "Cartografia Temática",
+    "lectures": {
+      "62073": {
+        "timeslot": "3M5"
+      },
+      "62074": {
+        "timeslot": "3M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.0226",
+    "qty_students": 4,
+    "id": 21893
+  },
+  "24966": {
+    "lecture_times_condensed": "5M45 / 6M123",
+    "subject": "Protocolos de Interconexão de Redes de Computadores - RC",
+    "lectures": {
+      "60568": {
+        "timeslot": "6M2"
+      },
+      "60569": {
+        "timeslot": "6M3"
+      },
+      "60565": {
+        "timeslot": "5M4"
+      },
+      "60566": {
+        "timeslot": "5M5"
+      },
+      "60567": {
+        "timeslot": "6M1"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0162",
+    "qty_students": 6,
+    "id": 24966
+  },
+  "25737": {
+    "lecture_times_condensed": "2M123 / 5M456",
+    "subject": "Desenho Arquitetônico DI",
+    "lectures": {
+      "63488": {
+        "timeslot": "2M1"
+      },
+      "63489": {
+        "timeslot": "2M2"
+      },
+      "63490": {
+        "timeslot": "2M3"
+      },
+      "63494": {
+        "timeslot": "5M4"
+      },
+      "63495": {
+        "timeslot": "5M5"
+      },
+      "63496": {
+        "timeslot": "5M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 59,
+    "subject_code": "TEC.0058",
+    "qty_students": 13,
+    "id": 25737
+  },
+  "21898": {
+    "lecture_times_condensed": "3M123 / 6M23",
+    "subject": "Análise Espacial",
+    "lectures": {
+      "56528": {
+        "timeslot": "3M1"
+      },
+      "56529": {
+        "timeslot": "3M2"
+      },
+      "56531": {
+        "timeslot": "3M3"
+      },
+      "60806": {
+        "timeslot": "6M2"
+      },
+      "60807": {
+        "timeslot": "6M3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.1083",
+    "qty_students": 3,
+    "id": 21898
+  },
+  "22155": {
+    "lecture_times_condensed": "2M123 / 5M123",
+    "subject": "Administração de Sistemas Abertos",
+    "lectures": {
+      "60448": {
+        "timeslot": "5M1"
+      },
+      "60449": {
+        "timeslot": "5M2"
+      },
+      "60450": {
+        "timeslot": "5M3"
+      },
+      "60445": {
+        "timeslot": "2M1"
+      },
+      "60446": {
+        "timeslot": "2M2"
+      },
+      "60447": {
+        "timeslot": "2M3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0170",
+    "qty_students": 17,
+    "id": 22155
+  },
+  "21900": {
+    "lecture_times_condensed": "3M456",
+    "subject": "SIG Livre",
+    "lectures": {
+      "56532": {
+        "timeslot": "3M6"
+      },
+      "56533": {
+        "timeslot": "3M5"
+      },
+      "56534": {
+        "timeslot": "3M4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.0236",
+    "qty_students": 14,
+    "id": 21900
+  },
+  "21901": {
+    "lecture_times_condensed": "2M123",
+    "subject": "SIG-WEB",
+    "lectures": {
+      "62075": {
+        "timeslot": "2M1"
+      },
+      "62076": {
+        "timeslot": "2M2"
+      },
+      "62077": {
+        "timeslot": "2M3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.1084",
+    "qty_students": 1,
+    "id": 21901
+  },
+  "21902": {
+    "lecture_times_condensed": "4M3456",
+    "subject": "Cadastro Territorial II",
+    "lectures": {
+      "56537": {
+        "timeslot": "4M3"
+      },
+      "56538": {
+        "timeslot": "4M4"
+      },
+      "60670": {
+        "timeslot": "4M5"
+      },
+      "60671": {
+        "timeslot": "4M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.1081",
+    "qty_students": 2,
+    "id": 21902
+  },
+  "21903": {
+    "lecture_times_condensed": "2M56 / 6M45",
+    "subject": "Ajustamento de Observações",
+    "lectures": {
+      "62080": {
+        "timeslot": "6M5"
+      },
+      "56549": {
+        "timeslot": "6M4"
+      },
+      "62078": {
+        "timeslot": "2M5"
+      },
+      "62079": {
+        "timeslot": "2M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.0240",
+    "qty_students": 6,
+    "id": 21903
+  },
+  "24977": {
+    "lecture_times_condensed": "3V12 / 5V345",
+    "subject": "Algoritmo e Programação Estruturada",
+    "lectures": {
+      "60720": {
+        "timeslot": "3V1"
+      },
+      "60721": {
+        "timeslot": "3V2"
+      },
+      "60722": {
+        "timeslot": "5V3"
+      },
+      "60723": {
+        "timeslot": "5V4"
+      },
+      "60724": {
+        "timeslot": "5V5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0034",
+    "qty_students": 33,
+    "id": 24977
+  },
+  "21906": {
+    "lecture_times_condensed": "2M123",
+    "subject": "Disponibilização de Dados Geográficos na Internet",
+    "lectures": {
+      "56402": {
+        "timeslot": "2M1"
+      },
+      "56403": {
+        "timeslot": "2M2"
+      },
+      "56404": {
+        "timeslot": "2M3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.0261",
+    "qty_students": 6,
+    "id": 21906
+  },
+  "22163": {
+    "lecture_times_condensed": "2M123",
+    "subject": "Métodos e Técnicas de Pesquisa - RC",
+    "lectures": {
+      "60413": {
+        "timeslot": "2M1"
+      },
+      "60414": {
+        "timeslot": "2M2"
+      },
+      "60415": {
+        "timeslot": "2M3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0174",
+    "qty_students": 10,
+    "id": 22163
+  },
+  "22164": {
+    "lecture_times_condensed": "5M45 / 6M23",
+    "subject": "Redes sem Fio",
+    "lectures": {
+      "60409": {
+        "timeslot": "5M4"
+      },
+      "60410": {
+        "timeslot": "5M5"
+      },
+      "60411": {
+        "timeslot": "6M2"
+      },
+      "60412": {
+        "timeslot": "6M3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0173",
+    "qty_students": 6,
+    "id": 22164
+  },
+  "22165": {
+    "lecture_times_condensed": "5M123 / 6M45",
+    "subject": "Segurança de Redes de Computadores - RC",
+    "lectures": {
+      "60408": {
+        "timeslot": "6M5"
+      },
+      "60404": {
+        "timeslot": "5M1"
+      },
+      "60405": {
+        "timeslot": "5M2"
+      },
+      "60406": {
+        "timeslot": "5M3"
+      },
+      "60407": {
+        "timeslot": "6M4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0172",
+    "qty_students": 4,
+    "id": 22165
+  },
+  "22166": {
+    "lecture_times_condensed": "4M23 / 5M23",
+    "subject": "Prática em Segurança de Redes",
+    "lectures": {
+      "60400": {
+        "timeslot": "4M2"
+      },
+      "60401": {
+        "timeslot": "4M3"
+      },
+      "60402": {
+        "timeslot": "5M2"
+      },
+      "60403": {
+        "timeslot": "5M3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0178",
+    "qty_students": 10,
+    "id": 22166
+  },
+  "21911": {
+    "lecture_times_condensed": "5V12 / 6V12",
+    "subject": "Fundamentos de Redes de Computadores",
+    "lectures": {
+      "62288": {
+        "timeslot": "6V1"
+      },
+      "62289": {
+        "timeslot": "6V2"
+      },
+      "62286": {
+        "timeslot": "5V1"
+      },
+      "62287": {
+        "timeslot": "5V2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.1094",
+    "qty_students": 39,
+    "id": 21911
+  },
+  "24984": {
+    "lecture_times_condensed": "6N34",
+    "subject": "Informática Básica I",
+    "lectures": {
+      "69145": {
+        "timeslot": "6N3"
+      },
+      "69146": {
+        "timeslot": "6N4"
+      }
+    },
+    "group_id": 10721,
+    "course_id": 219,
+    "subject_code": "EJA.0004",
+    "qty_students": 45,
+    "id": 24984
+  },
+  "21913": {
+    "lecture_times_condensed": "2V12 / 6V34",
+    "subject": "Linguagens de Marcação",
+    "lectures": {
+      "62290": {
+        "timeslot": "2V1"
+      },
+      "62291": {
+        "timeslot": "2V2"
+      },
+      "62292": {
+        "timeslot": "6V3"
+      },
+      "62293": {
+        "timeslot": "6V4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0588",
+    "qty_students": 42,
+    "id": 21913
+  },
+  "21915": {
+    "lecture_times_condensed": "2V34 / 3V12",
+    "subject": "Estruturas de Dados",
+    "lectures": {
+      "61520": {
+        "timeslot": "2V3"
+      },
+      "61521": {
+        "timeslot": "2V4"
+      },
+      "61522": {
+        "timeslot": "3V1"
+      },
+      "61523": {
+        "timeslot": "3V2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0422",
+    "qty_students": 34,
+    "id": 21915
+  },
+  "21916": {
+    "lecture_times_condensed": "3V56",
+    "subject": "Fundamentos da Metodologia",
+    "lectures": {
+      "61524": {
+        "timeslot": "3V5"
+      },
+      "61525": {
+        "timeslot": "3V6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0425",
+    "qty_students": 21,
+    "id": 21916
+  },
+  "21918": {
+    "lecture_times_condensed": "2V12 / 4V234",
+    "subject": "Sistemas Operacionais",
+    "lectures": {
+      "61536": {
+        "timeslot": "4V2"
+      },
+      "61537": {
+        "timeslot": "4V3"
+      },
+      "61538": {
+        "timeslot": "4V4"
+      },
+      "61534": {
+        "timeslot": "2V1"
+      },
+      "61535": {
+        "timeslot": "2V2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0424",
+    "qty_students": 31,
+    "id": 21918
+  },
+  "21920": {
+    "lecture_times_condensed": "4V56 / 6V34",
+    "subject": "Linguagens de Script",
+    "lectures": {
+      "61529": {
+        "timeslot": "6V4"
+      },
+      "62519": {
+        "timeslot": "6V3"
+      },
+      "61526": {
+        "timeslot": "4V5"
+      },
+      "61527": {
+        "timeslot": "4V6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.1095",
+    "qty_students": 26,
+    "id": 21920
+  },
+  "21872": {
+    "lecture_times_condensed": "4M45 / 6M45",
+    "subject": "Lógica de Programação e Algorítimos",
+    "lectures": {
+      "62881": {
+        "timeslot": "6M4"
+      },
+      "62882": {
+        "timeslot": "6M5"
+      },
+      "62877": {
+        "timeslot": "4M4"
+      },
+      "62878": {
+        "timeslot": "4M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.0048",
+    "qty_students": 24,
+    "id": 21872
+  },
+  "21923": {
+    "lecture_times_condensed": "3V456 / 5V12",
+    "subject": "Banco de Dados II",
+    "lectures": {
+      "61827": {
+        "timeslot": "3V4"
+      },
+      "61828": {
+        "timeslot": "3V6"
+      },
+      "61829": {
+        "timeslot": "3V5"
+      },
+      "61830": {
+        "timeslot": "5V1"
+      },
+      "61831": {
+        "timeslot": "5V2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0429",
+    "qty_students": 17,
+    "id": 21923
+  },
+  "21924": {
+    "lecture_times_condensed": "4V2345",
+    "subject": "Interação Humano-Computador",
+    "lectures": {
+      "61832": {
+        "timeslot": "4V2"
+      },
+      "61833": {
+        "timeslot": "4V3"
+      },
+      "61834": {
+        "timeslot": "4V4"
+      },
+      "61835": {
+        "timeslot": "4V5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0427",
+    "qty_students": 19,
+    "id": 21924
+  },
+  "21926": {
+    "lecture_times_condensed": "3V123 / 5V345",
+    "subject": "Programação Orientada a Objetos",
+    "lectures": {
+      "61840": {
+        "timeslot": "3V1"
+      },
+      "61841": {
+        "timeslot": "3V2"
+      },
+      "61842": {
+        "timeslot": "3V3"
+      },
+      "61843": {
+        "timeslot": "5V3"
+      },
+      "61844": {
+        "timeslot": "5V4"
+      },
+      "61845": {
+        "timeslot": "5V5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0428",
+    "qty_students": 18,
+    "id": 21926
+  },
+  "22169": {
+    "lecture_times_condensed": "2M3456",
+    "subject": "Redes Convergentes",
+    "lectures": {
+      "60385": {
+        "timeslot": "2M3"
+      },
+      "60386": {
+        "timeslot": "2M4"
+      },
+      "60387": {
+        "timeslot": "2M5"
+      },
+      "60388": {
+        "timeslot": "2M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0181",
+    "qty_students": 11,
+    "id": 22169
+  },
+  "21929": {
+    "lecture_times_condensed": "3V45 / 5V12",
+    "subject": "Persistência de Objetos",
+    "lectures": {
+      "61556": {
+        "timeslot": "3V4"
+      },
+      "61557": {
+        "timeslot": "3V5"
+      },
+      "61558": {
+        "timeslot": "5V1"
+      },
+      "61559": {
+        "timeslot": "5V2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0435",
+    "qty_students": 22,
+    "id": 21929
+  },
+  "21931": {
+    "lecture_times_condensed": "3V123",
+    "subject": "Métodos e Técnicas de Pesquisa SI",
+    "lectures": {
+      "61552": {
+        "timeslot": "3V2"
+      },
+      "61553": {
+        "timeslot": "3V3"
+      },
+      "61551": {
+        "timeslot": "3V1"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0436",
+    "qty_students": 17,
+    "id": 21931
+  },
+  "21933": {
+    "lecture_times_condensed": "6V345",
+    "subject": "Segurança de Dados",
+    "lectures": {
+      "61564": {
+        "timeslot": "6V3"
+      },
+      "61565": {
+        "timeslot": "6V4"
+      },
+      "61566": {
+        "timeslot": "6V5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0432",
+    "qty_students": 19,
+    "id": 21933
+  },
+  "23470": {
+    "lecture_times_condensed": "6M56",
+    "subject": "Informática Aplicada",
+    "lectures": {
+      "63237": {
+        "timeslot": "6M5"
+      },
+      "63238": {
+        "timeslot": "6M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 70,
+    "subject_code": "TIN.0835",
+    "qty_students": 19,
+    "id": 23470
+  },
+  "21935": {
+    "lecture_times_condensed": "3V123",
+    "subject": "Comércio Eletrônico - SI",
+    "lectures": {
+      "61568": {
+        "timeslot": "3V2"
+      },
+      "61569": {
+        "timeslot": "3V3"
+      },
+      "61567": {
+        "timeslot": "3V1"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0442",
+    "qty_students": 11,
+    "id": 21935
+  },
+  "21936": {
+    "lecture_times_condensed": "2V12 / 4V12",
+    "subject": "Padrões de Projeto de Software",
+    "lectures": {
+      "61578": {
+        "timeslot": "2V1"
+      },
+      "61579": {
+        "timeslot": "2V2"
+      },
+      "61580": {
+        "timeslot": "4V1"
+      },
+      "61581": {
+        "timeslot": "4V2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0439",
+    "qty_students": 14,
+    "id": 21936
+  },
+  "21937": {
+    "lecture_times_condensed": "5V56 / 6V12",
+    "subject": "Programação para Dispositivos Móveis",
+    "lectures": {
+      "61584": {
+        "timeslot": "6V1"
+      },
+      "61585": {
+        "timeslot": "6V2"
+      },
+      "61582": {
+        "timeslot": "5V5"
+      },
+      "61583": {
+        "timeslot": "5V6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0438",
+    "qty_students": 15,
+    "id": 21937
+  },
+  "21938": {
+    "lecture_times_condensed": "2V345 / 4V345",
+    "subject": "Programação para Web II",
+    "lectures": {
+      "61586": {
+        "timeslot": "2V3"
+      },
+      "61587": {
+        "timeslot": "2V4"
+      },
+      "61588": {
+        "timeslot": "2V5"
+      },
+      "61589": {
+        "timeslot": "4V3"
+      },
+      "61590": {
+        "timeslot": "4V4"
+      },
+      "61591": {
+        "timeslot": "4V5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0440",
+    "qty_students": 14,
+    "id": 21938
+  },
+  "21939": {
+    "lecture_times_condensed": "3V45 / 5V34",
+    "subject": "Gerência de Projetos de Software",
+    "lectures": {
+      "61576": {
+        "timeslot": "5V3"
+      },
+      "61577": {
+        "timeslot": "5V4"
+      },
+      "61574": {
+        "timeslot": "3V4"
+      },
+      "61575": {
+        "timeslot": "3V5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0599",
+    "qty_students": 11,
+    "id": 21939
+  },
+  "21940": {
+    "lecture_times_condensed": "2V2345",
+    "subject": "Programação Distribuída",
+    "lectures": {
+      "61603": {
+        "timeslot": "2V2"
+      },
+      "61604": {
+        "timeslot": "2V3"
+      },
+      "61605": {
+        "timeslot": "2V4"
+      },
+      "61606": {
+        "timeslot": "2V5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0444",
+    "qty_students": 5,
+    "id": 21940
+  },
+  "21941": {
+    "lecture_times_condensed": "4V2345",
+    "subject": "Desenvolvimento e Execução de Projeto de Software",
+    "lectures": {
+      "61595": {
+        "timeslot": "4V2"
+      },
+      "61596": {
+        "timeslot": "4V3"
+      },
+      "61597": {
+        "timeslot": "4V4"
+      },
+      "61598": {
+        "timeslot": "4V5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0445",
+    "qty_students": 3,
+    "id": 21941
+  },
+  "21942": {
+    "lecture_times_condensed": "5V234",
+    "subject": "Desenvolvimento Ágil com Ferramenta RAD",
+    "lectures": {
+      "61592": {
+        "timeslot": "5V2"
+      },
+      "61593": {
+        "timeslot": "5V3"
+      },
+      "61594": {
+        "timeslot": "5V4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0446",
+    "qty_students": 9,
+    "id": 21942
+  },
+  "21943": {
+    "lecture_times_condensed": "6V2345",
+    "subject": "Inteligência Empresarial",
+    "lectures": {
+      "61600": {
+        "timeslot": "6V3"
+      },
+      "61601": {
+        "timeslot": "6V4"
+      },
+      "61602": {
+        "timeslot": "6V5"
+      },
+      "61599": {
+        "timeslot": "6V2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0447",
+    "qty_students": 7,
+    "id": 21943
+  },
+  "21944": {
+    "lecture_times_condensed": "3V345",
+    "subject": "Tópicos Especiais",
+    "lectures": {
+      "61608": {
+        "timeslot": "3V3"
+      },
+      "61609": {
+        "timeslot": "3V4"
+      },
+      "61610": {
+        "timeslot": "3V5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0448",
+    "qty_students": 8,
+    "id": 21944
+  },
+  "25020": {
+    "lecture_times_condensed": "6N12",
+    "subject": "Informática Aplicada I",
+    "lectures": {
+      "61170": {
+        "timeslot": "6N1"
+      },
+      "61171": {
+        "timeslot": "6N2"
+      }
+    },
+    "group_id": 10724,
+    "course_id": 219,
+    "subject_code": "EJA.0036",
+    "qty_students": 24,
+    "id": 25020
+  },
+  "21949": {
+    "lecture_times_condensed": "3N123",
+    "subject": "Eletrônica Básica",
+    "lectures": {
+      "69009": {
+        "timeslot": "3N1"
+      },
+      "69010": {
+        "timeslot": "3N2"
+      },
+      "69011": {
+        "timeslot": "3N3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 66,
+    "subject_code": "TEC.0143",
+    "qty_students": 12,
+    "id": 21949
+  },
+  "21955": {
+    "lecture_times_condensed": "2N345 / 4N45",
+    "subject": "Eletrônica Analógica",
+    "lectures": {
+      "61003": {
+        "timeslot": "2N3"
+      },
+      "61004": {
+        "timeslot": "2N4"
+      },
+      "61005": {
+        "timeslot": "2N5"
+      },
+      "61006": {
+        "timeslot": "4N4"
+      },
+      "61007": {
+        "timeslot": "4N5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 66,
+    "subject_code": "TEC.0263",
+    "qty_students": 13,
+    "id": 21955
+  },
+  "21957": {
+    "lecture_times_condensed": "4N45 / 6N345",
+    "subject": "Análise de Circuitos Eletrônicos",
+    "lectures": {
+      "61024": {
+        "timeslot": "6N4"
+      },
+      "61025": {
+        "timeslot": "6N5"
+      },
+      "61021": {
+        "timeslot": "4N4"
+      },
+      "61022": {
+        "timeslot": "4N5"
+      },
+      "61023": {
+        "timeslot": "6N3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 66,
+    "subject_code": "TEC.0268",
+    "qty_students": 3,
+    "id": 21957
+  },
+  "21959": {
+    "lecture_times_condensed": "2N345 / 3N5",
+    "subject": "Métodos Numéricos",
+    "lectures": {
+      "61032": {
+        "timeslot": "3N5"
+      },
+      "61029": {
+        "timeslot": "2N3"
+      },
+      "61030": {
+        "timeslot": "2N4"
+      },
+      "61031": {
+        "timeslot": "2N5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 66,
+    "subject_code": "TEC.0294",
+    "qty_students": 18,
+    "id": 21959
+  },
+  "24522": {
+    "lecture_times_condensed": "5M456",
+    "subject": "Eletricidade Básica",
+    "lectures": {
+      "58522": {
+        "timeslot": "5M4"
+      },
+      "58523": {
+        "timeslot": "5M5"
+      },
+      "58524": {
+        "timeslot": "5M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 81,
+    "subject_code": "TIN.0647",
+    "qty_students": 16,
+    "id": 24522
+  },
+  "24523": {
+    "lecture_times_condensed": "3M345",
+    "subject": "Eletricidade Básica",
+    "lectures": {
+      "66678": {
+        "timeslot": "3M3"
+      },
+      "58525": {
+        "timeslot": "3M4"
+      },
+      "58526": {
+        "timeslot": "3M5"
+      }
+    },
+    "group_id": 10146,
+    "course_id": 81,
+    "subject_code": "TIN.0647",
+    "qty_students": 16,
+    "id": 24523
+  },
+  "24524": {
+    "lecture_times_condensed": "4M45",
+    "subject": "Álgebra Booleana e Circuitos Lógicos",
+    "lectures": {
+      "58533": {
+        "timeslot": "4M4"
+      },
+      "58534": {
+        "timeslot": "4M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 81,
+    "subject_code": "TIN.0517",
+    "qty_students": 16,
+    "id": 24524
+  },
+  "24525": {
+    "lecture_times_condensed": "5M56",
+    "subject": "Álgebra Booleana e Circuitos Lógicos",
+    "lectures": {
+      "58536": {
+        "timeslot": "5M6"
+      },
+      "58535": {
+        "timeslot": "5M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 81,
+    "subject_code": "TIN.0517",
+    "qty_students": 16,
+    "id": 24525
+  },
+  "26318": {
+    "lecture_times_condensed": "2N45",
+    "subject": "Eletrônica Digital",
+    "lectures": {
+      "64708": {
+        "timeslot": "2N4"
+      },
+      "64709": {
+        "timeslot": "2N5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 192,
+    "subject_code": "TSUB.0138",
+    "qty_students": 16,
+    "id": 26318
+  },
+  "23247": {
+    "lecture_times_condensed": "6V12",
+    "subject": "Informática Básica",
+    "lectures": {
+      "58731": {
+        "timeslot": "6V1"
+      },
+      "58732": {
+        "timeslot": "6V2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 93,
+    "subject_code": "TIN.0018",
+    "qty_students": 21,
+    "id": 23247
+  },
+  "21970": {
+    "lecture_times_condensed": "4N345 / 6N12",
+    "subject": "Protocolos e Interconexão de Redes de Computadores",
+    "lectures": {
+      "61080": {
+        "timeslot": "6N2"
+      },
+      "61076": {
+        "timeslot": "4N3"
+      },
+      "61077": {
+        "timeslot": "4N4"
+      },
+      "61078": {
+        "timeslot": "4N5"
+      },
+      "61079": {
+        "timeslot": "6N1"
+      }
+    },
+    "group_id": 0,
+    "course_id": 66,
+    "subject_code": "TEC.0365",
+    "qty_students": 20,
+    "id": 21970
+  },
+  "26067": {
+    "lecture_times_condensed": "4M456 / 6M45",
+    "subject": "Fundamentos de Redes de Computadores",
+    "lectures": {
+      "64297": {
+        "timeslot": "4M4"
+      },
+      "64298": {
+        "timeslot": "4M5"
+      },
+      "64299": {
+        "timeslot": "4M6"
+      },
+      "64302": {
+        "timeslot": "6M4"
+      },
+      "64303": {
+        "timeslot": "6M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0047",
+    "qty_students": 22,
+    "id": 26067
+  },
+  "25557": {
+    "lecture_times_condensed": "2V56",
+    "subject": "Informática",
+    "lectures": {
+      "66656": {
+        "timeslot": "2V6"
+      },
+      "66655": {
+        "timeslot": "2V5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 71,
+    "subject_code": "TIN.0322",
+    "qty_students": 23,
+    "id": 25557
+  },
+  "25047": {
+    "lecture_times_condensed": "4N345 / 5N345",
+    "subject": "Eletricidade Básica",
+    "lectures": {
+      "60816": {
+        "timeslot": "4N5"
+      },
+      "60817": {
+        "timeslot": "5N3"
+      },
+      "60818": {
+        "timeslot": "5N4"
+      },
+      "60819": {
+        "timeslot": "5N5"
+      },
+      "60814": {
+        "timeslot": "4N3"
+      },
+      "60815": {
+        "timeslot": "4N4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 191,
+    "subject_code": "TSUB.0191",
+    "qty_students": 18,
+    "id": 25047
+  },
+  "25817": {
+    "lecture_times_condensed": "2M456",
+    "subject": "Sistemas Microcontrolados",
+    "lectures": {
+      "63720": {
+        "timeslot": "2M4"
+      },
+      "63721": {
+        "timeslot": "2M5"
+      },
+      "63722": {
+        "timeslot": "2M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 81,
+    "subject_code": "TIN.0525",
+    "qty_students": 18,
+    "id": 25817
+  },
+  "25819": {
+    "lecture_times_condensed": "5M34",
+    "subject": "Sistemas de Áudio e Video",
+    "lectures": {
+      "63726": {
+        "timeslot": "5M3"
+      },
+      "63727": {
+        "timeslot": "5M4"
+      }
+    },
+    "group_id": 0,
+    "course_id": 81,
+    "subject_code": "TIN.0524",
+    "qty_students": 17,
+    "id": 25819
+  },
+  "24515": {
+    "lecture_times_condensed": "4M3456",
+    "subject": "Prática Contábil II",
+    "lectures": {
+      "59307": {
+        "timeslot": "4M3"
+      },
+      "59308": {
+        "timeslot": "4M4"
+      },
+      "59309": {
+        "timeslot": "4M5"
+      },
+      "59310": {
+        "timeslot": "4M6"
+      }
+    },
+    "group_id": 10516,
+    "course_id": 70,
+    "subject_code": "TIN.0111",
+    "qty_students": 16,
+    "id": 24515
+  },
+  "24357": {
+    "lecture_times_condensed": "5N345",
+    "subject": "Gerenciamento da Manutenção",
+    "lectures": {
+      "60608": {
+        "timeslot": "5N3"
+      },
+      "60609": {
+        "timeslot": "5N4"
+      },
+      "60610": {
+        "timeslot": "5N5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 195,
+    "subject_code": "TSUB.0264",
+    "qty_students": 10,
+    "id": 24357
+  },
+  "21884": {
+    "lecture_times_condensed": "3M56 / 6M34",
+    "subject": "Linguagem de Programação",
+    "lectures": {
+      "56488": {
+        "timeslot": "6M3"
+      },
+      "56489": {
+        "timeslot": "6M4"
+      },
+      "56486": {
+        "timeslot": "3M5"
+      },
+      "56487": {
+        "timeslot": "3M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 60,
+    "subject_code": "TEC.0080",
+    "qty_students": 3,
+    "id": 21884
+  },
+  "24979": {
+    "lecture_times_condensed": "5V12 / 6V12",
+    "subject": "Fundamentos de Redes de Computadores",
+    "lectures": {
+      "60728": {
+        "timeslot": "5V1"
+      },
+      "60729": {
+        "timeslot": "5V2"
+      },
+      "60730": {
+        "timeslot": "6V1"
+      },
+      "60731": {
+        "timeslot": "6V2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.1094",
+    "qty_students": 20,
+    "id": 24979
+  },
+  "27602": {
+    "lecture_times_condensed": "6M56",
+    "subject": "Informática Básica",
+    "lectures": {
+      "69026": {
+        "timeslot": "6M5"
+      },
+      "69027": {
+        "timeslot": "6M6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 82,
+    "subject_code": "TIN.0018",
+    "qty_students": 23,
+    "id": 27602
+  },
+  "25368": {
+    "lecture_times_condensed": "6N123",
+    "subject": "Informática Básica",
+    "lectures": {
+      "61978": {
+        "timeslot": "6N1"
+      },
+      "61979": {
+        "timeslot": "6N2"
+      },
+      "61980": {
+        "timeslot": "6N3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 63,
+    "subject_code": "TEC.0006",
+    "qty_students": 39,
+    "id": 25368
+  },
+  "23677": {
+    "lecture_times_condensed": "2N12 / 4N345",
+    "subject": "Desenho Arquitetônico",
+    "lectures": {
+      "57370": {
+        "timeslot": "2N1"
+      },
+      "57371": {
+        "timeslot": "2N2"
+      },
+      "57372": {
+        "timeslot": "4N5"
+      },
+      "57373": {
+        "timeslot": "4N4"
+      },
+      "57374": {
+        "timeslot": "4N3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 57,
+    "subject_code": "TEC.0235",
+    "qty_students": 17,
+    "id": 23677
+  },
+  "24993": {
+    "lecture_times_condensed": "5N12",
+    "subject": "Informática Básica II",
+    "lectures": {
+      "69147": {
+        "timeslot": "5N1"
+      },
+      "69148": {
+        "timeslot": "5N2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 219,
+    "subject_code": "EJA.0013",
+    "qty_students": 38,
+    "id": 24993
+  },
+  "25675": {
+    "lecture_times_condensed": "2M12",
+    "subject": "Eletricidade Básica I",
+    "lectures": {
+      "63200": {
+        "timeslot": "2M1"
+      },
+      "63201": {
+        "timeslot": "2M2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 82,
+    "subject_code": "TIN.0648",
+    "qty_students": 14,
+    "id": 25675
+  },
+  "24959": {
+    "lecture_times_condensed": "4M45 / 5M12",
+    "subject": "Estruturas de Dados - RC",
+    "lectures": {
+      "60544": {
+        "timeslot": "5M1"
+      },
+      "60545": {
+        "timeslot": "5M2"
+      },
+      "60542": {
+        "timeslot": "4M4"
+      },
+      "60543": {
+        "timeslot": "4M5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.0157",
+    "qty_students": 9,
+    "id": 24959
+  },
+  "27417": {
+    "lecture_times_condensed": "4V12",
+    "subject": "Desenho Aplicado Auxiliado por Computador Ampliado",
+    "lectures": {
+      "68724": {
+        "timeslot": "4V1"
+      },
+      "68725": {
+        "timeslot": "4V2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 76,
+    "subject_code": "TIN.0427",
+    "qty_students": 21,
+    "id": 27417
+  },
+  "21967": {
+    "lecture_times_condensed": "2N12 / 3N45",
+    "subject": "Teoria da Informação",
+    "lectures": {
+      "61057": {
+        "timeslot": "2N1"
+      },
+      "61058": {
+        "timeslot": "2N2"
+      },
+      "61059": {
+        "timeslot": "3N4"
+      },
+      "61060": {
+        "timeslot": "3N5"
+      }
+    },
+    "group_id": 0,
+    "course_id": 66,
+    "subject_code": "TEC.0349",
+    "qty_students": 16,
+    "id": 21967
+  },
+  "22143": {
+    "lecture_times_condensed": "2M34 / 6M12",
+    "subject": "Tecnologias de Comutação",
+    "lectures": {
+      "60496": {
+        "timeslot": "2M4"
+      },
+      "60497": {
+        "timeslot": "6M1"
+      },
+      "60498": {
+        "timeslot": "6M2"
+      },
+      "60495": {
+        "timeslot": "2M3"
+      }
+    },
+    "group_id": 0,
+    "course_id": 64,
+    "subject_code": "TEC.1421",
+    "qty_students": 33,
+    "id": 22143
+  },
+  "30674": {
+    "lecture_times_condensed": "3V34 / 5V12",
+    "subject": "Banco de Dados I",
+    "lectures": {
+      "77128": {
+        "timeslot": "3V3"
+      },
+      "77129": {
+        "timeslot": "3V4"
+      },
+      "77130": {
+        "timeslot": "5V1"
+      },
+      "77131": {
+        "timeslot": "5V2"
+      }
+    },
+    "group_id": 0,
+    "course_id": 67,
+    "subject_code": "TEC.0423",
+    "qty_students": 10,
+    "id": 30674
+  },
+  "23807": {
+    "lecture_times_condensed": "2V56 / 6V45",
+    "subject": "Princípios de Comunicações",
+    "lectures": {
+      "61460": {
+        "timeslot": "2V5"
+      },
+      "61461": {
+        "timeslot": "6V4"
+      },
+      "61462": {
+        "timeslot": "6V5"
+      },
+      "61463": {
+        "timeslot": "2V6"
+      }
+    },
+    "group_id": 0,
+    "course_id": 68,
+    "subject_code": "TEC.0244",
+    "qty_students": 35,
+    "id": 23807
+  }
+}

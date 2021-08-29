@@ -8,10 +8,10 @@ dirpathout = dirpath + '/data/subinstance'
 dirpathresults = dirpath + '/results'
 
 #Create instance based off of 20191
-f_class_room = open(dirpath20191 + "/diarios_sala.json", "r")
-f_class_comp = open(dirpath20191 + "/diarios_info.json", "r")
-f_loc_room = open(dirpath20191 + "/locais_sala.json", "r")
-f_loc_comp = open(dirpath20191 + "/locais_info.json", "r")
+f_class_room = open(dirpath20191 + "/classes_classroom.json", "r")
+f_class_comp = open(dirpath20191 + "/classes_pc.json", "r")
+f_loc_room = open(dirpath20191 + "/locations_classroom.json", "r")
+f_loc_comp = open(dirpath20191 + "/locations_pc.json", "r")
 
 class_room = json.load(f_class_room)
 class_comp = json.load(f_class_comp)
@@ -47,17 +47,17 @@ while (create_new):
     new_l_r_dict = dict(new_loc_room)
     new_l_c_dict = dict(new_loc_comp)
 
-    f_new_c_r = open(dirpathout + "/diarios_sala.json", "w")
-    f_new_c_c = open(dirpathout + "/diarios_info.json", "w")
-    f_new_l_r = open(dirpathout + "/locais_sala.json", "w")
-    f_new_l_c = open(dirpathout + "/locais_info.json", "w")
-    f_new_blocked = open(dirpathout + "/horarios_salas_especificos.json", "w")
+    f_new_c_r = open(dirpathout + "/classes_classroom.json", "w")
+    f_new_c_c = open(dirpathout + "/classes_pc.json", "w")
+    f_new_l_r = open(dirpathout + "/locations_classroom.json", "w")
+    f_new_l_c = open(dirpathout + "/locations_pc.json", "w")
+    f_new_blocked = open(dirpathout + "/occupied_locations.json", "w")
 
     json.dump(new_c_r_dict, f_new_c_r)
     json.dump(new_c_c_dict, f_new_c_c)
     json.dump(new_l_r_dict, f_new_l_r)
     json.dump(new_l_c_dict, f_new_l_c)
-    json.dump({"horarios_salas_especificos": []}, f_new_blocked)
+    json.dump({"occupied_locations": []}, f_new_blocked)
 
     f_new_c_r.close()
     f_new_c_c.close()
@@ -103,9 +103,9 @@ while (create_new):
             other_variables.append(variable)
 
     #Get accurate cost
-    fcl = open(dirpath20191 + '/diarios_info.json', 'r')
-    flc = open(dirpath20191 + '/locais_sala.json', 'r')
-    fll = open(dirpath20191 + '/locais_info.json', 'r')
+    fcl = open(dirpath20191 + '/classes_pc.json', 'r')
+    flc = open(dirpath20191 + '/locations_classroom.json', 'r')
+    fll = open(dirpath20191 + '/locations_pc.json', 'r')
 
     cl_data = json.load(fcl)
     lc_data = json.load(flc)
@@ -119,11 +119,11 @@ while (create_new):
 
     for var in other_variables:
         if var["type"] == 'X':
-            accurate_cost += lc_data[var["room"]]["gasto_por_aula"]
+            accurate_cost += lc_data[var["room"]]["cost_per_lecture"]
         if var["type"] == 'T':
-            accurate_cost += ll_data[var["room"]]["gasto_por_aula"]
-            accurate_cost += ll_data[var["room"]]["gasto_pc_por_aula"] * \
-                cl_data[var["class"]]["qtd_alunos"]
+            accurate_cost += ll_data[var["room"]]["cost_per_lecture"]
+            accurate_cost += ll_data[var["room"]]["pc_cost_per_lecture"] * \
+                cl_data[var["class"]]["qty_students"]
 
     for var in z_variables:
         location = {}
@@ -132,10 +132,10 @@ while (create_new):
         if var["room"] in ll_data:
             location = ll_data[var["room"]]
 
-        accurate_cost += location["gasto_setup"]
+        accurate_cost += location["setup_cost"]
         if data["setup before class"] == False:
-            accurate_cost -= location["gasto_por_aula"] * \
-                location["duracao_setup"]
+            accurate_cost -= location["cost_per_lecture"] * \
+                location["setup_duration"]
 
     solution_cost = data["heuristic - greedy - value"]
     # solution_cost = data["heuristic - local search - value"]
