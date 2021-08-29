@@ -69,7 +69,7 @@ for subdir in os.listdir(dir_path):
                     if file_name == 'locations_pc.json':
                         output_final['locais'][key]["qty_pc"] = location_data["qty_pc"]
                     if file_name == 'locations_classroom.json':
-                        output_final['locais'][key]["qty_lugares'] = location_data["qty_chairs"]
+                        output_final['locais'][key]["qty_lugares'] = location_data["qty_seats"]
 
             if file_name == 'occupied_locations.json':
                 output = {}

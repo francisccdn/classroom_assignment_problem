@@ -303,7 +303,7 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
         for (int i = 0; i < *classes; i++)
         {
             int i_in_a = is_computer ? i + num_classes_classroom : i;
-            int capacity = is_computer ? location_data["qty_pc"] : location_data["qty_chairs"];
+            int capacity = is_computer ? location_data["qty_pc"] : location_data["qty_seats"];
 
             if (num_students_in_class[i_in_a] <= capacity)
             {
