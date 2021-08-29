@@ -1,7 +1,5 @@
 # Minimizing energy consumption in a real-life classroom assignment problem<!-- omit in toc -->
 
-Under construction!
-
 ### Table of Contents<!-- omit in toc -->
 - [1. Instances](#1-instances)
   - [1.1. Folder structure](#11-folder-structure)
