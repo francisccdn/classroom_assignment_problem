@@ -62,11 +62,11 @@ for file in os.listdir(manual_path):
 
     # Loop through each assignment in manual solution
     for assignment in manual_solution.values():
-        a_room = str(assignment["id_local"])
-        a_class = str(assignment["id_diario"])
+        a_room = str(assignment["location_id"])
+        a_class = str(assignment["class_id"])
 
         # Calculate cost of assignment
-        if assignment["requer"] == "sala":
+        if assignment["requires"] == "classroom":
             base_cost = rooms_data[a_room]["cost_per_lecture"]
 
             setup_cost = rooms_data[a_room]["setup_cost"]
@@ -102,7 +102,7 @@ for file in os.listdir(manual_path):
         solution_values[instance]["n_assignments"] += 1
 
         # Save highest cost
-        if assignment["requer"] == "sala":
+        if assignment["requires"] == "classroom":
             if solution_values[instance]["highest"]["room"]["no_setup"] < base_cost:
                 solution_values[instance]["highest"]["room"]["no_setup"] = base_cost
 
