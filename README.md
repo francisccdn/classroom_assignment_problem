@@ -2,7 +2,7 @@
 
 Under construction!
 
-### Table of Contents
+### Table of Contents<!-- omit in toc -->
 - [1. Instances](#1-instances)
   - [1.1. Folder structure](#11-folder-structure)
   - [1.2. Classes file structure](#12-classes-file-structure)
@@ -11,6 +11,8 @@ Under construction!
   - [1.3. Locations file structure](#13-locations-file-structure)
     - [1.3.1. Location data example](#131-location-data-example)
 - [2. Manual Solutions](#2-manual-solutions)
+  - [2.1. Manual solution file structure](#21-manual-solution-file-structure)
+    - [2.1.1. Lecture data example](#211-lecture-data-example)
 - [3. Solutions](#3-solutions)
 
 ## 1. Instances
@@ -28,9 +30,9 @@ All of these files are formatted as [JSON](https://www.json.org/json-en.html) ob
 Both **classes_classroom.json** and **classes_pc.json** follow the same structure.
 
 Each name/value pair represents a class, where the name is that class' ID number, and the value is an object (hereafter called class data) containing relevant data for that class. The following describe what each element of class data represents.
-- **lecture_times_condensed** — A single string which represents all lecture times of this class. The notation used for this is described in section [1.2.1.](#121-time-slot-notation)
+- **lecture_times_condensed** — A single string which represents all lecture times of this class. The notation used for this is described in subsection [1.2.1.](#121-time-slot-notation)
 - **subject** — Contents of a lecture (e.g., Electricity I, Calculus II, Sociology).
-- **lectures** — Each element is an object representing a lecture, where its name is that lecture's ID number, and its value is another object containing data relevant to that class. The only data included is in which time slot that lecture takes place, using the notation described in section [1.2.1.](#121-time-slot-notation)
+- **lectures** — Each element is an object representing a lecture, where its name is that lecture's ID number, and its value is another object containing data relevant to that class. The only data included is in which time slot that lecture takes place, using the notation described in subsection [1.2.1.](#121-time-slot-notation)
 - **group_id** — If this class belongs to a TC group, this value is that group's ID number. Otherwise, this value is 0.
 - **course_id** — ID number for the class' course, i.e. a set of subjects that are part of a curriculum.
 - **subject_code** — ID code for the subject in IFPB's information system.
@@ -99,5 +101,23 @@ Each name/value pair represents a location, where the name is that location's ID
   }
 ```
 ## 2. Manual Solutions
+All manual solutions (i.e. solutions obtained through the algorithm used in practise) can be found in folder **/manual_solutions**. Each instance has an associated solution, and each solution is shown in a file with an identifiable name. Solution files are formatted as [JSON](https://www.json.org/json-en.html) objects, and their structure is detailed in subsection [2.1.](#21-manual-solution-file-structure)
+
+### 2.1. Manual solution file structure
+Each name/value pair represents a lecture that took place in that academic term, where the name is that lecture's ID number, and the value is an object (hereafter called lecture data) containing relevant data for that lecture. The following describe what each element of lecture data represents.
+- **timeslot** — In which time slot that lecture takes place, using the notation described in subsection [1.2.1.](#121-time-slot-notation)
+- **requires** — Whether lecture requires only a regular classroom (**classroom**) or a computer lab (**pc**). 
+- **location_id** — ID number of the location to which that lecture was assigned.
+- **class_id** — ID number of the class that lecture belong to.
+
+#### 2.1.1. Lecture data example
+```
+"32239": {
+  "timeslot": "5M2",
+  "requires": "pc",
+  "location_id": 360,
+  "class_id": 11600
+}
+```
 
 ## 3. Solutions
