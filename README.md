@@ -4,12 +4,13 @@
 - [1. Instances](#1-instances)
   - [1.1. Folder structure](#11-folder-structure)
   - [1.2. Classes file structure](#12-classes-file-structure)
-    - [1.2.2. Time slot notation](#122-time-slot-notation)
+    - [1.2.1. Time slot notation](#121-time-slot-notation)
   - [1.3. Locations file structure](#13-locations-file-structure)
 - [2. Manual Solutions](#2-manual-solutions)
   - [2.1. Manual solution file structure](#21-manual-solution-file-structure)
 - [3. Optimal Solutions](#3-optimal-solutions)
   - [3.1. Optimal solution file structure](#31-optimal-solution-file-structure)
+- [4. Source Files](#4-source-files)
 
 ## 1. Instances
 ### 1.1. Folder structure
@@ -26,16 +27,16 @@ All of these files are formatted as [JSON](https://www.json.org/json-en.html) ob
 Both **classes_classroom.json** and **classes_pc.json** follow the same structure.
 
 Each name/value pair represents a class, where the name is that class' ID number, and the value is an object (hereafter called class data) containing relevant data for that class. The following describe what each element of class data represents.
-- **lecture_times_condensed** — A single string which represents all lecture times of this class. The notation used for this is described in subsection [1.2.2.](#122-time-slot-notation)
+- **lecture_times_condensed** — A single string which represents all lecture times of this class. The notation used for this is described in subsection [1.2.2.](#121-time-slot-notation)
 - **subject** — Contents of a lecture (e.g., Electricity I, Calculus II, Sociology).
-- **lectures** — Each element is an object representing a lecture, where its name is that lecture's ID number, and its value is another object containing data relevant to that class. The only data included is in which time slot that lecture takes place, using the notation described in subsection [1.2.2.](#122-time-slot-notation)
+- **lectures** — Each element is an object representing a lecture, where its name is that lecture's ID number, and its value is another object containing data relevant to that class. The only data included is in which time slot that lecture takes place, using the notation described in subsection [1.2.2.](#121-time-slot-notation)
 - **group_id** — If this class belongs to a TC group, this value is that group's ID number. Otherwise, this value is 0.
 - **course_id** — ID number for the class' course, i.e. a set of subjects that are part of a curriculum.
 - **subject_code** — ID code for the subject in IFPB's information system.
 - **qty_students** — How many students are enrolled in this class.
 - **id** — ID number for the class itself.
 
-#### 1.2.1. Class data example<!-- omit in toc -->
+#### Class data example<!-- omit in toc -->
 ```
 "11702": {
   "lecture_times_condensed": "6M23",
@@ -51,7 +52,7 @@ Each name/value pair represents a class, where the name is that class' ID number
   "id": 11702
 }
 ```
-#### 1.2.2. Time slot notation
+#### 1.2.1. Time slot notation
 A time slot string has three sections, divided by a letter:
 1. The number that comes before the letter represents which day of the week the lecture takes place in, where 1 is Sunday, 2 is Monday, and so on;
 2. The letter in the middle of the string represents in which shift the lecture takes place in, where M is morning, V is afternoon, and N is night; 
@@ -76,7 +77,7 @@ Each name/value pair represents a location, where the name is that location's ID
 - **setup_cost** — Energy cost of cooling down this location to a comfortable temperature (from 30⁰C to 23⁰C). 
 - **setup_duration** — Time, in fractions of lecture, required to cool down location to a comfortable temperature.
 
-#### 1.3.1. Location data example<!-- omit in toc -->
+#### Location data example<!-- omit in toc -->
 ```
 "282": {
   "type": 1,
@@ -101,12 +102,12 @@ All manual solutions (i.e. solutions obtained through the algorithm used in prac
 
 ### 2.1. Manual solution file structure
 Each name/value pair represents a lecture that took place in that academic term, where the name is that lecture's ID number, and the value is an object (hereafter called lecture data) containing relevant data for that lecture. The following describe what each element of lecture data represents.
-- **timeslot** — In which time slot that lecture takes place, using the notation described in subsection [1.2.2.](#122-time-slot-notation)
+- **timeslot** — In which time slot that lecture takes place, using the notation described in subsection [1.2.2.](#121-time-slot-notation)
 - **requires** — Whether lecture requires only a regular classroom (**classroom**) or a computer lab (**pc**). 
 - **location_id** — ID number of the location to which that lecture was assigned.
 - **class_id** — ID number of the class that lecture belong to.
 
-#### 2.1.1. Lecture data example<!-- omit in toc -->
+#### Lecture data example<!-- omit in toc -->
 ```
 "32239": {
   "timeslot": "5M2",
@@ -129,7 +130,7 @@ A solution object contains 6 elements of "metadata" about the solution, these ar
 - **solution value** — Objective value of the solution as reported by the solver. This is the weekly energy consumption of the solution, in kWh.
 
 In addition to these, the value associated with the name **solution** contains the assignments made in this solution. It is an array of objects, each of which represent a lecture (hereafter called lecture data), and contain relevant data for that lecture. The following describe what each element of lecture data represents.
-- **timeslot** — In which time slot that lecture takes place, using the notation described in subsection [1.2.2.](#122-time-slot-notation)
+- **timeslot** — In which time slot that lecture takes place, using the notation described in subsection [1.2.2.](#121-time-slot-notation)
 - **requires** — Whether lecture requires only a regular classroom (**classroom**) or a computer lab (**pc**). 
 - **location_id** — ID number of the location to which that lecture was assigned.
 - **class_id** — ID number of the class that lecture belongs to.
@@ -154,3 +155,11 @@ In addition to these, the value associated with the name **solution** contains t
   ]
 }
 ```
+
+## 4. Source Files
+All source files can be found in folder **/src**.
+- **heuristic.cpp** contains the implementation of a greedy heuristic for the CAP.
+- **cap.cpp** contains code for the mathematical formulations using CPLEX as ILP solver.
+- **cap_data.cpp** contains code for reading the instance files described in section [1.](#1-instances)
+- **main.cpp** contains code to call functions declared in other files.
+- **utility.cpp** contains algorithms to help with data handling.
