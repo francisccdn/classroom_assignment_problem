@@ -1,4 +1,5 @@
 import subprocess
+from subprocess import PIPE
 import os
 
 
@@ -84,7 +85,7 @@ for scenario in range(1, 11):
             logname = logname + "_heuristic" if heuristic == 1 else logname
 
             # Run cap
-            result = subprocess.run(args, capture_output=True)
+            result = subprocess.run(args, stdout=PIPE, stderr=PIPE)
             # Save log to file
             with open("results_log/" + logname + ".log", 'w') as f:
                 f.write(result.stdout.decode("utf8"))
@@ -108,7 +109,7 @@ for scenario in range(1, 11):
                 logname = logname + "_heuristic" if heuristic == 1 else logname
 
                 # Run cap
-                result = subprocess.run(args, capture_output=True)
+                result = subprocess.run(args, stdout=PIPE, stderr=PIPE)
                 # Save log to file
                 with open("results_log/" + logname + ".log", 'w') as f:
                     f.write(result.stdout.decode("utf8"))
