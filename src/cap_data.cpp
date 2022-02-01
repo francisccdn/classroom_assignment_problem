@@ -13,24 +13,24 @@ CapData::CapData(int scenario, string instance_name, bool setup, bool setup_befo
 {
     num_timeslots = TimeslotToInt("6N5") + 1;
 
-    ifstream classes_classroom_if("data/" + instance_name + "/classes_classroom.json");
+    ifstream classes_classroom_if("instances/" + instance_name + "/classes_classroom.json");
     classes_classroom_if >> classes_classroom_json;
     classes_classroom_if.close();
 
-    ifstream locations_classroom_if("data/" + instance_name + "/locations_classroom.json");
+    ifstream locations_classroom_if("instances/" + instance_name + "/locations_classroom.json");
     locations_classroom_if >> locations_classroom_json;
     locations_classroom_if.close();
 
-    ifstream classes_computer_if("data/" + instance_name + "/classes_pc.json");
+    ifstream classes_computer_if("instances/" + instance_name + "/classes_pc.json");
     classes_computer_if >> classes_computer_json;
     classes_computer_if.close();
 
-    ifstream locations_computer_if("data/" + instance_name + "/locations_pc.json");
+    ifstream locations_computer_if("instances/" + instance_name + "/locations_pc.json");
     locations_computer_if >> locations_computer_json;
     locations_computer_if.close();
 
     nlohmann::json blocked_timeslot_location_json;
-    ifstream blocked_timeslot_location_if("data/" + instance_name + "/occupied_locations.json");
+    ifstream blocked_timeslot_location_if("instances/" + instance_name + "/occupied_locations.json");
     blocked_timeslot_location_if >> blocked_timeslot_location_json;
     blocked_timeslot_location_if.close();
 
@@ -134,6 +134,7 @@ CapData::CapData(int scenario, string instance_name, bool setup, bool setup_befo
     num_students_in_class = vector<int>();
     location_setup_cost = vector<float>();
     location_setup_duration = vector<float>();
+    location_setup_cost_per_person = vector<float>();
 
     classes_json_key = vector<string>();
     locations_json_key = vector<string>();
@@ -287,6 +288,7 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
 
             location_cost.push_back(location_data["cost_per_lecture"]);
             location_setup_cost.push_back(location_data["setup_cost"]);
+            location_setup_cost_per_person.push_back(location_data["setup_cost_per_person"]);
             location_setup_duration.push_back(location_data["setup_duration"]);
             if (!location_data["pc_cost_per_lecture"].is_null())
             {

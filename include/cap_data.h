@@ -86,6 +86,8 @@ private:
     std::vector<float> location_setup_cost;
     // d_j  -- j in L
     std::vector<float> location_setup_duration;
+    // p_j  -- j in L
+    std::vector<float> location_setup_cost_per_person;
 
     /* METHODS */
 
@@ -132,6 +134,8 @@ public:
     std::vector<float> get_location_setup_cost() { return location_setup_cost; }
     // d_j  -- j in L
     std::vector<float> get_location_setup_duration() { return location_setup_duration; }
+    // p_j  -- j in L
+    std::vector<float> get_location_setup_cost_per_person() { return location_setup_cost_per_person; }
     // E
     int get_num_itc_groups() { return num_itc_groups; }
     // D_l  -- l in E

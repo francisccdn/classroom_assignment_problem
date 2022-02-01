@@ -71,6 +71,8 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
     vector<float> location_setup_cost = data.get_location_setup_cost();
     // d_j  -- j in L
     vector<float> location_setup_duration = data.get_location_setup_duration();
+    // p_j  -- j in L
+    vector<float> location_setup_cost_per_person = data.get_location_setup_cost_per_person();
 
     /*
     * VARIABLES
@@ -263,7 +265,7 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
         }
     }
 
-    // sum_i_in_A sum_k_in_H_i sum_j_in_L_i (s_j * z_ikj)
+    // sum_i_in_A sum_k_in_H_i sum_j_in_L_i ((s_j + q_i * p_j) * z_ikj)
     if (data.is_setup())
     {
         for (int i = 0; i < num_classes_classroom; i++)
@@ -275,10 +277,12 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                     if (z[i_in_A(i, false)][k].count(j) == 0)
                         continue;
 
+                    float total_setup_cost = location_setup_cost[j] + (num_students_in_class[i_in_A(i, false)] * location_setup_cost_per_person[j]);
+
                     if (data.is_setup_before_class())
-                        of_sum += location_setup_cost[j] * z[i_in_A(i, false)][k][j];
+                        of_sum += total_setup_cost * z[i_in_A(i, false)][k][j];
                     else
-                        of_sum += (location_setup_cost[j] - (location_cost[j] * location_setup_duration[j])) * z[i_in_A(i, false)][k][j];
+                        of_sum += (total_setup_cost - (location_cost[j] * location_setup_duration[j])) * z[i_in_A(i, false)][k][j];
                 }
             }
         }
@@ -291,10 +295,12 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                     if (z[i_in_A(i, true)][k].count(j) == 0)
                         continue;
 
+                    float total_setup_cost = location_setup_cost[j] + (num_students_in_class[i_in_A(i, true)] * location_setup_cost_per_person[j]);
+
                     if (data.is_setup_before_class())
-                        of_sum += location_setup_cost[j] * z[i_in_A(i, true)][k][j];
+                        of_sum += total_setup_cost * z[i_in_A(i, true)][k][j];
                     else
-                        of_sum += (location_setup_cost[j] - (location_cost[j] * location_setup_duration[j])) * z[i_in_A(i, true)][k][j];
+                        of_sum += (total_setup_cost - (location_cost[j] * location_setup_duration[j])) * z[i_in_A(i, true)][k][j];
                 }
             }
         }
@@ -604,8 +610,15 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
     if (upper_bound >= 0)
         cplex.setParam(IloCplex::Param::MIP::Tolerances::UpperCutoff, upper_bound);
     // Export LP
-    string lp_name = "lp/" + data.get_instance_name() + ".lp";
-    cplex.exportModel(lp_name.c_str());
+    try
+    {
+        string lp_name = "lp/" + data.get_instance_name() + ".lp";
+        cplex.exportModel(lp_name.c_str()); // error here
+    }
+    catch (IloException &e)
+    {
+        std::cerr << e << '\n';
+    }
     
     // Cancel solve on time limit 0
     if (time_limit_min == 0)
