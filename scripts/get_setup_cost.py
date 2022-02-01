@@ -13,6 +13,10 @@ temp_initial_kelvin = temp_initial + 273.15
 air_pressure = 100
 specific_heat = 1.006
 specific_constant_air = 0.287
+sensible_heat_occupancy = 243
+latent_heat_occupancy = 200
+cooling_load_factor = 1
+occupancy_constant = (sensible_heat_occupancy * cooling_load_factor) + latent_heat_occupancy
 
 # Conversions
 btu_to_kW = 0.293
@@ -20,12 +24,12 @@ kJ_to_kWh = 3600
 
 dir_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 semesters = ["20181", "20182", "20191"]
-filenames = ["/locations_pc.json", "/locations_classroom.json"]
+filenames = ["locations_pc.json", "locations_classroom.json"]
 
 for semester in semesters:
     for filename in filenames:
 
-        filepath = dir_path + "/data/" + semester + filename
+        filepath = dir_path + "/instances/" + semester + "/" + filename
 
         with open(filepath, 'r') as fr:
             data = json.load(fr)
@@ -48,9 +52,11 @@ for semester in semesters:
                 heat_removal_capacity = ac_btu * btu_to_kW
 
                 ac_setup_cost = ( thermal_energy / (heat_removal_capacity / ac_power) ) / kJ_to_kWh
+                ac_setup_cost_per_person = ( occupancy_constant / (heat_removal_capacity / ac_power) ) / kJ_to_kWh
                 setup_duration_lectures = ( thermal_energy / (heat_removal_capacity / 1000) ) / lecture_duration_seconds
 
                 location["setup_cost"] = ac_setup_cost
+                location["setup_cost_per_person"] = ac_setup_cost_per_person
                 location["setup_duration"] = setup_duration_lectures
 
             with open(filepath, 'w+') as fw:

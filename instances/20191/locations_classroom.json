@@ -1,1248 +1,1770 @@
 {
-  "128": {
-    "type": 3,
-    "name": "LABORAT\u00d3RIO DE GEST\u00c3O 01 - F\u00cdSICO QU\u00cdMICA (\u00c1GUA)",
-    "cost_per_lecture": 3.310555556,
-    "block_id": 51,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 128,
-    "qty_seats": 39,
-    "volume": 186.0,
-    "air_conditioning": {
-      "ac_1": { "power": 1990, "btu": 22000 },
-      "ac_2": { "power": 1990, "btu": 22000 }
+    "128": {
+        "type": 3,
+        "name": "LABORAT\u00d3RIO DE GEST\u00c3O 01 - F\u00cdSICO QU\u00cdMICA (\u00c1GUA)",
+        "cost_per_lecture": 3.310555556,
+        "block_id": 51,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 128,
+        "qty_seats": 39,
+        "volume": 186.0,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1990,
+                "btu": 22000
+            },
+            "ac_2": {
+                "power": 1990,
+                "btu": 22000
+            }
+        },
+        "setup_cost": 0.12910104870517378,
+        "setup_duration": 0.038924939308092606,
+        "setup_cost_per_person": 0.03798953700830834
     },
-    "setup_cost": 0.12910104870517378,
-    "setup_duration": 0.038924939308092606
-  },
-  "320": {
-    "type": 1,
-    "name": "SALA DE AULA 33 - N\u00daCLEO DE APRENDIZAGEM - N 1",
-    "cost_per_lecture": 1.631666667,
-    "block_id": 55,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 320,
-    "qty_seats": 29,
-    "volume": 87.48,
-    "air_conditioning": { "ac_1": { "power": 1630, "btu": 18000 } },
-    "setup_cost": 0.060786943124002284,
-    "setup_duration": 0.04475112377227162
-  },
-  "259": {
-    "type": 1,
-    "name": "SALA DE AULA 01",
-    "cost_per_lecture": 2.561111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 259,
-    "qty_seats": 46,
-    "volume": 182.27,
-    "air_conditioning": { "ac_1": { "power": 3193, "btu": 30000 } },
-    "setup_cost": 0.14886043635459778,
-    "setup_duration": 0.05594504341544545
-  },
-  "129": {
-    "type": 3,
-    "name": "LABORAT\u00d3RIO DE GEST\u00c3O 03 - MICROBIOLOGIA",
-    "cost_per_lecture": 3.196666667,
-    "block_id": 51,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 129,
-    "qty_seats": 21,
-    "volume": 253.89,
-    "air_conditioning": {
-      "ac_1": { "power": 1919, "btu": 22000 },
-      "ac_2": { "power": 1750, "btu": 18000 }
+    "320": {
+        "type": 1,
+        "name": "SALA DE AULA 33 - N\u00daCLEO DE APRENDIZAGEM - N 1",
+        "cost_per_lecture": 1.631666667,
+        "block_id": 55,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 320,
+        "qty_seats": 29,
+        "volume": 87.48,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1630,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.060786943124002284,
+        "setup_duration": 0.04475112377227162,
+        "setup_cost_per_person": 0.038031959718535374
     },
-    "setup_cost": 0.1786980224046414,
-    "setup_duration": 0.05844579637110102
-  },
-  "300": {
-    "type": 1,
-    "name": "SALA DE AULA 20",
-    "cost_per_lecture": 3.859444444,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 300,
-    "qty_seats": 46,
-    "volume": 163.8,
-    "air_conditioning": {
-      "ac_1": { "power": 2866, "btu": 36000 },
-      "ac_2": { "power": 2866, "btu": 36000 }
+    "259": {
+        "type": 1,
+        "name": "SALA DE AULA 01",
+        "cost_per_lecture": 2.561111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 259,
+        "qty_seats": 46,
+        "volume": 182.27,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3193,
+                "btu": 30000
+            }
+        },
+        "setup_cost": 0.14886043635459778,
+        "setup_duration": 0.05594504341544545,
+        "setup_cost_per_person": 0.04470038553912274
     },
-    "setup_cost": 0.10006311373929247,
-    "setup_duration": 0.020948314111505748
-  },
-  "266": {
-    "type": 1,
-    "name": "SALA DE AULA 03",
-    "cost_per_lecture": 2.561111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 266,
-    "qty_seats": 46,
-    "volume": 182.27,
-    "air_conditioning": { "ac_1": { "power": 3193, "btu": 30000 } },
-    "setup_cost": 0.14886043635459778,
-    "setup_duration": 0.05594504341544545
-  },
-  "268": {
-    "type": 1,
-    "name": "SALA DE AULA 04",
-    "cost_per_lecture": 3.722222222,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 268,
-    "qty_seats": 47,
-    "volume": 182.27,
-    "air_conditioning": {
-      "ac_1": { "power": 3193, "btu": 30000 },
-      "ac_2": { "power": 1990, "btu": 22000 }
+    "129": {
+        "type": 3,
+        "name": "LABORAT\u00d3RIO DE GEST\u00c3O 03 - MICROBIOLOGIA",
+        "cost_per_lecture": 3.196666667,
+        "block_id": 51,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 129,
+        "qty_seats": 21,
+        "volume": 253.89,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1919,
+                "btu": 22000
+            },
+            "ac_2": {
+                "power": 1750,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.1786980224046414,
+        "setup_duration": 0.05844579637110102,
+        "setup_cost_per_person": 0.03852310864618885
     },
-    "setup_cost": 0.1394053653953143,
-    "setup_duration": 0.03227598658583391
-  },
-  "142": {
-    "type": 2,
-    "name": "LABORAT\u00d3RIO DE INFORM\u00c1TICA 28  - Conforto do Ambiente - 08",
-    "cost_per_lecture": 3.3375,
-    "block_id": 59,
-    "pc_cost_per_lecture": 0.2183333333,
-    "qty_pc": 19,
-    "id": 142,
-    "qty_seats": 21,
-    "volume": 126.42,
-    "air_conditioning": {
-      "ac_1": { "power": 2130, "btu": 24000 },
-      "ac_2": { "power": 2130, "btu": 24000 }
+    "300": {
+        "type": 1,
+        "name": "SALA DE AULA 20",
+        "cost_per_lecture": 3.859444444,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 300,
+        "qty_seats": 46,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2866,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 2866,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.10006311373929247,
+        "setup_duration": 0.020948314111505748,
+        "setup_cost_per_person": 0.03343545906543632
     },
-    "setup_cost": 0.08609354247634411,
-    "setup_duration": 0.02425170210601242
-  },
-  "365": {
-    "type": 2,
-    "name": "SALA DE INFORM\u00c1TICA 31 - (DESENCAD)",
-    "cost_per_lecture": 3.976944444,
-    "block_id": 59,
-    "pc_cost_per_lecture": 0.2241666667,
-    "qty_pc": 36,
-    "id": 365,
-    "qty_seats": 36,
-    "volume": 126.42,
-    "air_conditioning": {
-      "ac_1": { "power": 2340, "btu": 24000 },
-      "ac_2": { "power": 2340, "btu": 24000 }
+    "266": {
+        "type": 1,
+        "name": "SALA DE AULA 03",
+        "cost_per_lecture": 2.561111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 266,
+        "qty_seats": 46,
+        "volume": 182.27,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3193,
+                "btu": 30000
+            }
+        },
+        "setup_cost": 0.14886043635459778,
+        "setup_duration": 0.05594504341544545,
+        "setup_cost_per_person": 0.04470038553912274
     },
-    "setup_cost": 0.09458163821344845,
-    "setup_duration": 0.02425170210601242
-  },
-  "222": {
-    "type": 1,
-    "name": "SALA 26",
-    "cost_per_lecture": 2.864444444,
-    "block_id": 49,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 222,
-    "qty_seats": 43,
-    "volume": 97.22,
-    "air_conditioning": { "ac_1": { "power": 3193, "btu": 30000 } },
-    "setup_cost": 0.07939985528278924,
-    "setup_duration": 0.029840221214953676
-  },
-  "145": {
-    "type": 2,
-    "name": "LABORAT\u00d3RIO DE INFORM\u00c1TICA 30 - (Luz e Cor) - 06",
-    "cost_per_lecture": 3.363166667,
-    "block_id": 59,
-    "pc_cost_per_lecture": 0.219,
-    "qty_pc": 9,
-    "id": 145,
-    "qty_seats": 22,
-    "volume": 126.42,
-    "air_conditioning": {
-      "ac_1": { "power": 2130, "btu": 24000 },
-      "ac_2": { "power": 2173, "btu": 24000 }
+    "268": {
+        "type": 1,
+        "name": "SALA DE AULA 04",
+        "cost_per_lecture": 3.722222222,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 268,
+        "qty_seats": 47,
+        "volume": 182.27,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3193,
+                "btu": 30000
+            },
+            "ac_2": {
+                "power": 1990,
+                "btu": 22000
+            }
+        },
+        "setup_cost": 0.1394053653953143,
+        "setup_duration": 0.03227598658583391,
+        "setup_cost_per_person": 0.04186118039147049
     },
-    "setup_cost": 0.08696256180180954,
-    "setup_duration": 0.02425170210601242
-  },
-  "275": {
-    "type": 1,
-    "name": "SALA DE AULA 06",
-    "cost_per_lecture": 3.836111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 275,
-    "qty_seats": 46,
-    "volume": 182.27,
-    "air_conditioning": {
-      "ac_1": { "power": 2130, "btu": 24000 },
-      "ac_2": { "power": 3193, "btu": 30000 }
+    "142": {
+        "type": 2,
+        "name": "LABORAT\u00d3RIO DE INFORM\u00c1TICA 28  - Conforto do Ambiente - 08",
+        "cost_per_lecture": 3.3375,
+        "block_id": 59,
+        "pc_cost_per_lecture": 0.2183333333,
+        "qty_pc": 19,
+        "id": 142,
+        "qty_seats": 21,
+        "volume": 126.42,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2130,
+                "btu": 24000
+            },
+            "ac_2": {
+                "power": 2130,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.08609354247634411,
+        "setup_duration": 0.02425170210601242,
+        "setup_cost_per_person": 0.037273653773227146
     },
-    "setup_cost": 0.13786827134278526,
-    "setup_duration": 0.031080579675247477
-  },
-  "149": {
-    "type": 3,
-    "name": "LABORAT\u00d3RIO DE INSTRUMENTA\u00c7\u00c3O BIOM\u00c9DICA",
-    "cost_per_lecture": 2.498888889,
-    "block_id": 80,
-    "pc_cost_per_lecture": 0.2183333333,
-    "qty_pc": 7,
-    "id": 149,
-    "qty_seats": 33,
-    "volume": 78.72,
-    "air_conditioning": { "ac_1": { "power": 2414, "btu": 24000 } },
-    "setup_cost": 0.060757170428488494,
-    "setup_duration": 0.030202404521203888
-  },
-  "278": {
-    "type": 1,
-    "name": "SALA DE AULA 07",
-    "cost_per_lecture": 3.586111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 278,
-    "qty_seats": 47,
-    "volume": 182.27,
-    "air_conditioning": {
-      "ac_1": { "power": 2440, "btu": 27000 },
-      "ac_2": { "power": 2440, "btu": 27000 }
+    "365": {
+        "type": 2,
+        "name": "SALA DE INFORM\u00c1TICA 31 - (DESENCAD)",
+        "cost_per_lecture": 3.976944444,
+        "block_id": 59,
+        "pc_cost_per_lecture": 0.2241666667,
+        "qty_pc": 36,
+        "id": 365,
+        "qty_seats": 36,
+        "volume": 126.42,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2340,
+                "btu": 24000
+            },
+            "ac_2": {
+                "power": 2340,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.09458163821344845,
+        "setup_duration": 0.02425170210601242,
+        "setup_cost_per_person": 0.04094852104664391
     },
-    "setup_cost": 0.1263943573460064,
-    "setup_duration": 0.031080579675247477
-  },
-  "151": {
-    "type": 3,
-    "name": "LABORAT\u00d3RIO DE MATERIAIS 01",
-    "cost_per_lecture": 3.941111111,
-    "block_id": 69,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 151,
-    "qty_seats": 27,
-    "volume": 186.0,
-    "air_conditioning": {
-      "ac_1": { "power": 2650, "btu": 24000 },
-      "ac_2": { "power": 2650, "btu": 24000 }
+    "222": {
+        "type": 1,
+        "name": "SALA 26",
+        "cost_per_lecture": 2.864444444,
+        "block_id": 49,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 222,
+        "qty_seats": 43,
+        "volume": 97.22,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3193,
+                "btu": 30000
+            }
+        },
+        "setup_cost": 0.07939985528278924,
+        "setup_duration": 0.029840221214953676,
+        "setup_cost_per_person": 0.04470038553912274
     },
-    "setup_cost": 0.15759194178206937,
-    "setup_duration": 0.03568119436575155
-  },
-  "152": {
-    "type": 3,
-    "name": "LABORAT\u00d3RIO DE MEC\u00c2NICA DOS SOLOS",
-    "cost_per_lecture": 3.306944444,
-    "block_id": 69,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 152,
-    "qty_seats": 41,
-    "volume": 186.0,
-    "air_conditioning": {
-      "ac_1": { "power": 2180, "btu": 21000 },
-      "ac_2": { "power": 2180, "btu": 21000 }
+    "145": {
+        "type": 2,
+        "name": "LABORAT\u00d3RIO DE INFORM\u00c1TICA 30 - (Luz e Cor) - 06",
+        "cost_per_lecture": 3.363166667,
+        "block_id": 59,
+        "pc_cost_per_lecture": 0.219,
+        "qty_pc": 9,
+        "id": 145,
+        "qty_seats": 22,
+        "volume": 126.42,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2130,
+                "btu": 24000
+            },
+            "ac_2": {
+                "power": 2173,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.08696256180180954,
+        "setup_duration": 0.02425170210601242,
+        "setup_cost_per_person": 0.037649890184553156
     },
-    "setup_cost": 0.1481619118425493,
-    "setup_duration": 0.040778507846573206
-  },
-  "153": {
-    "type": 3,
-    "name": "LABORAT\u00d3RIO DE MEDIDAS EM TELECOMUNICA\u00c7\u00d5ES",
-    "cost_per_lecture": 2.918888889,
-    "block_id": 54,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 153,
-    "qty_seats": 23,
-    "volume": 78.72,
-    "air_conditioning": { "ac_1": { "power": 3193, "btu": 30000 } },
-    "setup_cost": 0.06429085175746935,
-    "setup_duration": 0.024161923616963114
-  },
-  "282": {
-    "type": 1,
-    "name": "SALA DE AULA 09",
-    "cost_per_lecture": 3.516666667,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 282,
-    "qty_seats": 46,
-    "volume": 182.27,
-    "air_conditioning": {
-      "ac_1": { "power": 2440, "btu": 27000 },
-      "ac_2": { "power": 2320, "btu": 27000 }
+    "275": {
+        "type": 1,
+        "name": "SALA DE AULA 06",
+        "cost_per_lecture": 3.836111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 275,
+        "qty_seats": 46,
+        "volume": 182.27,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2130,
+                "btu": 24000
+            },
+            "ac_2": {
+                "power": 3193,
+                "btu": 30000
+            }
+        },
+        "setup_cost": 0.13786827134278526,
+        "setup_duration": 0.031080579675247477,
+        "setup_cost_per_person": 0.04139961586539137
     },
-    "setup_cost": 0.12328629937848165,
-    "setup_duration": 0.031080579675247477
-  },
-  "285": {
-    "type": 1,
-    "name": "SALA DE AULA 10",
-    "cost_per_lecture": 3.447222222,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 285,
-    "qty_seats": 49,
-    "volume": 182.27,
-    "air_conditioning": {
-      "ac_1": { "power": 2320, "btu": 27000 },
-      "ac_2": { "power": 2320, "btu": 27000 }
+    "149": {
+        "type": 3,
+        "name": "LABORAT\u00d3RIO DE INSTRUMENTA\u00c7\u00c3O BIOM\u00c9DICA",
+        "cost_per_lecture": 2.498888889,
+        "block_id": 80,
+        "pc_cost_per_lecture": 0.2183333333,
+        "qty_pc": 7,
+        "id": 149,
+        "qty_seats": 33,
+        "volume": 78.72,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2414,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.060757170428488494,
+        "setup_duration": 0.030202404521203888,
+        "setup_cost_per_person": 0.04224347427632411
     },
-    "setup_cost": 0.1201782414109569,
-    "setup_duration": 0.031080579675247477
-  },
-  "30": {
-    "type": 1,
-    "name": "AUDIT\u00d3RIO DE ENGENHARIA EL\u00c9TRICA",
-    "cost_per_lecture": 5.5875,
-    "block_id": 54,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 30,
-    "qty_seats": 57,
-    "volume": 145.63,
-    "air_conditioning": {
-      "ac_1": { "power": 3370, "btu": 30000 },
-      "ac_2": { "power": 3370, "btu": 30000 }
+    "278": {
+        "type": 1,
+        "name": "SALA DE AULA 07",
+        "cost_per_lecture": 3.586111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 278,
+        "qty_seats": 47,
+        "volume": 182.27,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2440,
+                "btu": 27000
+            },
+            "ac_2": {
+                "power": 2440,
+                "btu": 27000
+            }
+        },
+        "setup_cost": 0.1263943573460064,
+        "setup_duration": 0.031080579675247477,
+        "setup_cost_per_person": 0.03795418474978582
     },
-    "setup_cost": 0.12552953670668401,
-    "setup_duration": 0.022349472410685578
-  },
-  "289": {
-    "type": 1,
-    "name": "SALA DE AULA 11",
-    "cost_per_lecture": 3.516666667,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 289,
-    "qty_seats": 48,
-    "volume": 182.27,
-    "air_conditioning": {
-      "ac_1": { "power": 2440, "btu": 24000 },
-      "ac_2": { "power": 2320, "btu": 24000 }
+    "151": {
+        "type": 3,
+        "name": "LABORAT\u00d3RIO DE MATERIAIS 01",
+        "cost_per_lecture": 3.941111111,
+        "block_id": 69,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 151,
+        "qty_seats": 27,
+        "volume": 186.0,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2650,
+                "btu": 24000
+            },
+            "ac_2": {
+                "power": 2650,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.15759194178206937,
+        "setup_duration": 0.03568119436575155,
+        "setup_cost_per_person": 0.0463733251169258
     },
-    "setup_cost": 0.13869708680079185,
-    "setup_duration": 0.034965652134653406
-  },
-  "291": {
-    "type": 1,
-    "name": "SALA DE AULA 12",
-    "cost_per_lecture": 3.527777778,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 291,
-    "qty_seats": 48,
-    "volume": 182.27,
-    "air_conditioning": {
-      "ac_1": { "power": 2440, "btu": 24000 },
-      "ac_2": { "power": 2440, "btu": 24000 }
+    "152": {
+        "type": 3,
+        "name": "LABORAT\u00d3RIO DE MEC\u00c2NICA DOS SOLOS",
+        "cost_per_lecture": 3.306944444,
+        "block_id": 69,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 152,
+        "qty_seats": 41,
+        "volume": 186.0,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2180,
+                "btu": 21000
+            },
+            "ac_2": {
+                "power": 2180,
+                "btu": 21000
+            }
+        },
+        "setup_cost": 0.1481619118425493,
+        "setup_duration": 0.040778507846573206,
+        "setup_cost_per_person": 0.043598425339039674
     },
-    "setup_cost": 0.14219365201425715,
-    "setup_duration": 0.034965652134653406
-  },
-  "1": {
-    "type": 3,
-    "name": "\tLABORAT\u00d3RIO DE MATERIAIS 2",
-    "cost_per_lecture": 3.882777778,
-    "block_id": 69,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 1,
-    "qty_seats": 17,
-    "volume": 186.0,
-    "air_conditioning": {
-      "ac_1": { "power": 2650, "btu": 24000 },
-      "ac_2": { "power": 2650, "btu": 24000 }
+    "153": {
+        "type": 3,
+        "name": "LABORAT\u00d3RIO DE MEDIDAS EM TELECOMUNICA\u00c7\u00d5ES",
+        "cost_per_lecture": 2.918888889,
+        "block_id": 54,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 153,
+        "qty_seats": 23,
+        "volume": 78.72,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3193,
+                "btu": 30000
+            }
+        },
+        "setup_cost": 0.06429085175746935,
+        "setup_duration": 0.024161923616963114,
+        "setup_cost_per_person": 0.04470038553912274
     },
-    "setup_cost": 0.15759194178206937,
-    "setup_duration": 0.03568119436575155
-  },
-  "293": {
-    "type": 1,
-    "name": "SALA DE AULA 14",
-    "cost_per_lecture": 3.766111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 293,
-    "qty_seats": 48,
-    "volume": 163.8,
-    "air_conditioning": {
-      "ac_1": { "power": 2866, "btu": 36000 },
-      "ac_2": { "power": 2866, "btu": 36000 }
+    "282": {
+        "type": 1,
+        "name": "SALA DE AULA 09",
+        "cost_per_lecture": 3.516666667,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 282,
+        "qty_seats": 46,
+        "volume": 182.27,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2440,
+                "btu": 27000
+            },
+            "ac_2": {
+                "power": 2320,
+                "btu": 27000
+            }
+        },
+        "setup_cost": 0.12328629937848165,
+        "setup_duration": 0.031080579675247477,
+        "setup_cost_per_person": 0.03702088512479108
     },
-    "setup_cost": 0.10006311373929247,
-    "setup_duration": 0.020948314111505748
-  },
-  "294": {
-    "type": 1,
-    "name": "SALA DE AULA 15",
-    "cost_per_lecture": 3.766111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 294,
-    "qty_seats": 45,
-    "volume": 163.8,
-    "air_conditioning": {
-      "ac_1": { "power": 2866, "btu": 36000 },
-      "ac_2": { "power": 2866, "btu": 36000 }
+    "285": {
+        "type": 1,
+        "name": "SALA DE AULA 10",
+        "cost_per_lecture": 3.447222222,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 285,
+        "qty_seats": 49,
+        "volume": 182.27,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2320,
+                "btu": 27000
+            },
+            "ac_2": {
+                "power": 2320,
+                "btu": 27000
+            }
+        },
+        "setup_cost": 0.1201782414109569,
+        "setup_duration": 0.031080579675247477,
+        "setup_cost_per_person": 0.03608758549979635
     },
-    "setup_cost": 0.10006311373929247,
-    "setup_duration": 0.020948314111505748
-  },
-  "295": {
-    "type": 1,
-    "name": "SALA DE AULA 16",
-    "cost_per_lecture": 3.846111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 295,
-    "qty_seats": 50,
-    "volume": 163.8,
-    "air_conditioning": {
-      "ac_1": { "power": 2866, "btu": 36000 },
-      "ac_2": { "power": 2866, "btu": 36000 }
+    "30": {
+        "type": 1,
+        "name": "AUDIT\u00d3RIO DE ENGENHARIA EL\u00c9TRICA",
+        "cost_per_lecture": 5.5875,
+        "block_id": 54,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 30,
+        "qty_seats": 57,
+        "volume": 145.63,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3370,
+                "btu": 30000
+            },
+            "ac_2": {
+                "power": 3370,
+                "btu": 30000
+            }
+        },
+        "setup_cost": 0.12552953670668401,
+        "setup_duration": 0.022349472410685578,
+        "setup_cost_per_person": 0.04717829604348377
     },
-    "setup_cost": 0.10006311373929247,
-    "setup_duration": 0.020948314111505748
-  },
-  "296": {
-    "type": 1,
-    "name": "SALA DE AULA 17",
-    "cost_per_lecture": 3.859444444,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 296,
-    "qty_seats": 45,
-    "volume": 163.8,
-    "air_conditioning": {
-      "ac_1": { "power": 2866, "btu": 36000 },
-      "ac_2": { "power": 2866, "btu": 36000 }
+    "289": {
+        "type": 1,
+        "name": "SALA DE AULA 11",
+        "cost_per_lecture": 3.516666667,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 289,
+        "qty_seats": 48,
+        "volume": 182.27,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2440,
+                "btu": 24000
+            },
+            "ac_2": {
+                "power": 2320,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.13869708680079185,
+        "setup_duration": 0.034965652134653406,
+        "setup_cost_per_person": 0.04164849576538996
     },
-    "setup_cost": 0.10006311373929247,
-    "setup_duration": 0.020948314111505748
-  },
-  "297": {
-    "type": 1,
-    "name": "SALA DE AULA 18",
-    "cost_per_lecture": 3.859444444,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 297,
-    "qty_seats": 45,
-    "volume": 163.8,
-    "air_conditioning": {
-      "ac_1": { "power": 2866, "btu": 36000 },
-      "ac_2": { "power": 2866, "btu": 36000 }
+    "291": {
+        "type": 1,
+        "name": "SALA DE AULA 12",
+        "cost_per_lecture": 3.527777778,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 291,
+        "qty_seats": 48,
+        "volume": 182.27,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2440,
+                "btu": 24000
+            },
+            "ac_2": {
+                "power": 2440,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.14219365201425715,
+        "setup_duration": 0.034965652134653406,
+        "setup_cost_per_person": 0.042698457843509036
     },
-    "setup_cost": 0.10006311373929247,
-    "setup_duration": 0.020948314111505748
-  },
-  "298": {
-    "type": 1,
-    "name": "SALA DE AULA 19",
-    "cost_per_lecture": 3.846111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 298,
-    "qty_seats": 49,
-    "volume": 163.8,
-    "air_conditioning": {
-      "ac_1": { "power": 2866, "btu": 36000 },
-      "ac_2": { "power": 2866, "btu": 36000 }
+    "1": {
+        "type": 3,
+        "name": "\tLABORAT\u00d3RIO DE MATERIAIS 2",
+        "cost_per_lecture": 3.882777778,
+        "block_id": 69,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 1,
+        "qty_seats": 17,
+        "volume": 186.0,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2650,
+                "btu": 24000
+            },
+            "ac_2": {
+                "power": 2650,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.15759194178206937,
+        "setup_duration": 0.03568119436575155,
+        "setup_cost_per_person": 0.0463733251169258
     },
-    "setup_cost": 0.10006311373929247,
-    "setup_duration": 0.020948314111505748
-  },
-  "263": {
-    "type": 1,
-    "name": "SALA DE AULA 02",
-    "cost_per_lecture": 2.561111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 263,
-    "qty_seats": 47,
-    "volume": 182.27,
-    "air_conditioning": { "ac_1": { "power": 3193, "btu": 30000 } },
-    "setup_cost": 0.14886043635459778,
-    "setup_duration": 0.05594504341544545
-  },
-  "44": {
-    "type": 3,
-    "name": "CIRCUITOS DIGITAIS E TCC - A-137",
-    "cost_per_lecture": 2.529166667,
-    "block_id": 56,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 44,
-    "qty_seats": 16,
-    "volume": 170.1,
-    "air_conditioning": {
-      "ac_1": { "power": 1599, "btu": 18000 },
-      "ac_2": { "power": 1599, "btu": 18000 }
+    "293": {
+        "type": 1,
+        "name": "SALA DE AULA 14",
+        "cost_per_lecture": 3.766111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 293,
+        "qty_seats": 48,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2866,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 2866,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.10006311373929247,
+        "setup_duration": 0.020948314111505748,
+        "setup_cost_per_person": 0.03343545906543632
     },
-    "setup_cost": 0.1159489186071843,
-    "setup_duration": 0.04350803700081963
-  },
-  "45": {
-    "type": 3,
-    "name": "COMANDOS EL\u00c9TRICOS E AUTOMA\u00c7\u00c3O - A-136",
-    "cost_per_lecture": 5.300555556,
-    "block_id": 56,
-    "pc_cost_per_lecture": 0.2166666667,
-    "qty_pc": 17,
-    "id": 45,
-    "qty_seats": 25,
-    "volume": 321.3,
-    "air_conditioning": {
-      "ac_1": { "power": 3675, "btu": 36000 },
-      "ac_2": { "power": 3675, "btu": 36000 }
+    "294": {
+        "type": 1,
+        "name": "SALA DE AULA 15",
+        "cost_per_lecture": 3.766111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 294,
+        "qty_seats": 45,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2866,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 2866,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.10006311373929247,
+        "setup_duration": 0.020948314111505748,
+        "setup_cost_per_person": 0.03343545906543632
     },
-    "setup_cost": 0.2516819084839079,
-    "setup_duration": 0.041090923834107417
-  },
-  "302": {
-    "type": 1,
-    "name": "SALA DE AULA 22",
-    "cost_per_lecture": 3.766111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 302,
-    "qty_seats": 47,
-    "volume": 163.8,
-    "air_conditioning": {
-      "ac_1": { "power": 2866, "btu": 36000 },
-      "ac_2": { "power": 2866, "btu": 36000 }
+    "295": {
+        "type": 1,
+        "name": "SALA DE AULA 16",
+        "cost_per_lecture": 3.846111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 295,
+        "qty_seats": 50,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2866,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 2866,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.10006311373929247,
+        "setup_duration": 0.020948314111505748,
+        "setup_cost_per_person": 0.03343545906543632
     },
-    "setup_cost": 0.10006311373929247,
-    "setup_duration": 0.020948314111505748
-  },
-  "303": {
-    "type": 1,
-    "name": "SALA DE AULA 23",
-    "cost_per_lecture": 3.766111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 303,
-    "qty_seats": 54,
-    "volume": 163.8,
-    "air_conditioning": {
-      "ac_1": { "power": 2866, "btu": 36000 },
-      "ac_2": { "power": 2866, "btu": 36000 }
+    "296": {
+        "type": 1,
+        "name": "SALA DE AULA 17",
+        "cost_per_lecture": 3.859444444,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 296,
+        "qty_seats": 45,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2866,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 2866,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.10006311373929247,
+        "setup_duration": 0.020948314111505748,
+        "setup_cost_per_person": 0.03343545906543632
     },
-    "setup_cost": 0.10006311373929247,
-    "setup_duration": 0.020948314111505748
-  },
-  "304": {
-    "type": 1,
-    "name": "SALA DE AULA 24",
-    "cost_per_lecture": 3.859444444,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 304,
-    "qty_seats": 46,
-    "volume": 163.8,
-    "air_conditioning": {
-      "ac_1": { "power": 2866, "btu": 36000 },
-      "ac_2": { "power": 2866, "btu": 36000 }
+    "297": {
+        "type": 1,
+        "name": "SALA DE AULA 18",
+        "cost_per_lecture": 3.859444444,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 297,
+        "qty_seats": 45,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2866,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 2866,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.10006311373929247,
+        "setup_duration": 0.020948314111505748,
+        "setup_cost_per_person": 0.03343545906543632
     },
-    "setup_cost": 0.10006311373929247,
-    "setup_duration": 0.020948314111505748
-  },
-  "305": {
-    "type": 1,
-    "name": "SALA DE AULA 25",
-    "cost_per_lecture": 3.846111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 305,
-    "qty_seats": 45,
-    "volume": 163.8,
-    "air_conditioning": {
-      "ac_1": { "power": 2866, "btu": 36000 },
-      "ac_2": { "power": 2866, "btu": 36000 }
+    "298": {
+        "type": 1,
+        "name": "SALA DE AULA 19",
+        "cost_per_lecture": 3.846111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 298,
+        "qty_seats": 49,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2866,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 2866,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.10006311373929247,
+        "setup_duration": 0.020948314111505748,
+        "setup_cost_per_person": 0.03343545906543632
     },
-    "setup_cost": 0.10006311373929247,
-    "setup_duration": 0.020948314111505748
-  },
-  "306": {
-    "type": 1,
-    "name": "SALA DE AULA 26",
-    "cost_per_lecture": 2.864444444,
-    "block_id": 49,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 306,
-    "qty_seats": 46,
-    "volume": 97.22,
-    "air_conditioning": { "ac_1": { "power": 3193, "btu": 30000 } },
-    "setup_cost": 0.07939985528278924,
-    "setup_duration": 0.029840221214953676
-  },
-  "307": {
-    "type": 1,
-    "name": "SALA DE AULA 27",
-    "cost_per_lecture": 2.864444444,
-    "block_id": 49,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 307,
-    "qty_seats": 41,
-    "volume": 97.22,
-    "air_conditioning": { "ac_1": { "power": 3193, "btu": 30000 } },
-    "setup_cost": 0.07939985528278924,
-    "setup_duration": 0.029840221214953676
-  },
-  "308": {
-    "type": 1,
-    "name": "SALA DE AULA 28",
-    "cost_per_lecture": 3.512777778,
-    "block_id": 55,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 308,
-    "qty_seats": 32,
-    "volume": 109.51,
-    "air_conditioning": {
-      "ac_1": { "power": 2185, "btu": 21000 },
-      "ac_2": { "power": 2490, "btu": 24000 }
+    "263": {
+        "type": 1,
+        "name": "SALA DE AULA 02",
+        "cost_per_lecture": 2.561111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 263,
+        "qty_seats": 47,
+        "volume": 182.27,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3193,
+                "btu": 30000
+            }
+        },
+        "setup_cost": 0.14886043635459778,
+        "setup_duration": 0.05594504341544545,
+        "setup_cost_per_person": 0.04470038553912274
     },
-    "setup_cost": 0.0872990083947163,
-    "setup_duration": 0.022408301620034134
-  },
-  "94": {
-    "type": 3,
-    "name": "LABORATORIO DE REFRIGERA\u00c7\u00c3O",
-    "cost_per_lecture": 1.985555556,
-    "block_id": 58,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 94,
-    "qty_seats": 1313,
-    "volume": 127.05,
-    "air_conditioning": { "ac_1": { "power": 2410, "btu": 24000 } },
-    "setup_cost": 0.09789644035346459,
-    "setup_duration": 0.04874511552869605
-  },
-  "311": {
-    "type": 1,
-    "name": "SALA DE AULA 30 - IDIOMAS - NUCLI 2",
-    "cost_per_lecture": 1.246388889,
-    "block_id": 65,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 311,
-    "qty_seats": 25,
-    "volume": 52.08,
-    "air_conditioning": { "ac_1": { "power": 1084, "btu": 12000 } },
-    "setup_cost": 0.03609985371297637,
-    "setup_duration": 0.03996293768964173
-  },
-  "116": {
-    "type": 2,
-    "name": "LABORAT\u00d3RIO DE AUTOMA\u00c7\u00c3O Ai-05",
-    "cost_per_lecture": 2.8825,
-    "block_id": 58,
-    "pc_cost_per_lecture": 0.2241666667,
-    "qty_pc": 18,
-    "id": 116,
-    "qty_seats": 33,
-    "volume": 105.0,
-    "air_conditioning": {
-      "ac_1": { "power": 1630, "btu": 18000 },
-      "ac_2": { "power": 1630, "btu": 18000 }
+    "44": {
+        "type": 3,
+        "name": "CIRCUITOS DIGITAIS E TCC - A-137",
+        "cost_per_lecture": 2.529166667,
+        "block_id": 56,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 44,
+        "qty_seats": 16,
+        "volume": 170.1,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1599,
+                "btu": 18000
+            },
+            "ac_2": {
+                "power": 1599,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.1159489186071843,
+        "setup_duration": 0.04350803700081963,
+        "setup_cost_per_person": 0.03730865250916445
     },
-    "setup_cost": 0.0729610085507572,
-    "setup_duration": 0.026856812963468906
-  },
-  "61": {
-    "type": 3,
-    "name": "ELETRICIDADE II - A-131",
-    "cost_per_lecture": 4.137222222,
-    "block_id": 56,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 61,
-    "qty_seats": 25,
-    "volume": 321.3,
-    "air_conditioning": {
-      "ac_1": { "power": 3675, "btu": 36000 },
-      "ac_2": { "power": 1919, "btu": 22000 }
+    "45": {
+        "type": 3,
+        "name": "COMANDOS EL\u00c9TRICOS E AUTOMA\u00c7\u00c3O - A-136",
+        "cost_per_lecture": 5.300555556,
+        "block_id": 56,
+        "pc_cost_per_lecture": 0.2166666667,
+        "qty_pc": 17,
+        "id": 45,
+        "qty_seats": 25,
+        "volume": 321.3,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3675,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 3675,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.2516819084839079,
+        "setup_duration": 0.041090923834107417,
+        "setup_cost_per_person": 0.04287345152319555
     },
-    "setup_cost": 0.2377889254427554,
-    "setup_duration": 0.051009422690616105
-  },
-  "318": {
-    "type": 1,
-    "name": "SALA DE AULA 31 - MULTIMIDIA I",
-    "cost_per_lecture": 1.871111111,
-    "block_id": 69,
-    "pc_cost_per_lecture": 0.2166666667,
-    "qty_pc": 10,
-    "id": 318,
-    "qty_seats": 24,
-    "volume": 74.4,
-    "air_conditioning": { "ac_1": { "power": 1990, "btu": 22000 } },
-    "setup_cost": 0.05164041948206951,
-    "setup_duration": 0.031139951446474076
-  },
-  "309": {
-    "type": 1,
-    "name": "SALA DE AULA 29 - IDIOMAS - NUCLI 1",
-    "cost_per_lecture": 1.824166667,
-    "block_id": 65,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 309,
-    "qty_seats": 27,
-    "volume": 52.08,
-    "air_conditioning": { "ac_1": { "power": 2130, "btu": 24000 } },
-    "setup_cost": 0.035467107199557035,
-    "setup_duration": 0.019981468844820865
-  },
-  "64": {
-    "type": 3,
-    "name": "ELETR\u00d4NICA INDUSTRIAL - A-128",
-    "cost_per_lecture": 4.033055556,
-    "block_id": 56,
-    "pc_cost_per_lecture": 0.2166666667,
-    "qty_pc": 12,
-    "id": 64,
-    "qty_seats": 27,
-    "volume": 170.1,
-    "air_conditioning": {
-      "ac_1": { "power": 3675, "btu": 36000 },
-      "ac_2": { "power": 1919, "btu": 22000 }
+    "302": {
+        "type": 1,
+        "name": "SALA DE AULA 22",
+        "cost_per_lecture": 3.766111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 302,
+        "qty_seats": 47,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2866,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 2866,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.10006311373929247,
+        "setup_duration": 0.020948314111505748,
+        "setup_cost_per_person": 0.03343545906543632
     },
-    "setup_cost": 0.12588825464616465,
-    "setup_duration": 0.027004988483267354
-  },
-  "65": {
-    "type": 1,
-    "name": "ENERGIA RENOV\u00c1VEIS",
-    "cost_per_lecture": 1.9975,
-    "block_id": 58,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 65,
-    "qty_seats": 33,
-    "volume": 119.7,
-    "air_conditioning": { "ac_1": { "power": 2130, "btu": 24000 } },
-    "setup_cost": 0.08151714154736898,
-    "setup_duration": 0.04592515016753183
-  },
-  "322": {
-    "type": 1,
-    "name": "SALA DE AULA 35 - N\u00daCLEO DE PROGRESS\u00c3O PARCIAL",
-    "cost_per_lecture": 1.736111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 322,
-    "qty_seats": 22,
-    "volume": 163.8,
-    "air_conditioning": { "ac_1": { "power": 1990, "btu": 22000 } },
-    "setup_cost": 0.11369221385971758,
-    "setup_duration": 0.06855811891038247
-  },
-  "323": {
-    "type": 1,
-    "name": "SALA DE AULA 36 - TOPOGRAFIA E-111",
-    "cost_per_lecture": 2.049166667,
-    "block_id": 69,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 323,
-    "qty_seats": 31,
-    "volume": 119.7,
-    "air_conditioning": { "ac_1": { "power": 2185, "btu": 21000 } },
-    "setup_cost": 0.09556805058672099,
-    "setup_duration": 0.05248588590575066
-  },
-  "79": {
-    "type": 3,
-    "name": "LABORATORIO DE ENSAIOS MEC\u00c2NICOS",
-    "cost_per_lecture": 2.152222222,
-    "block_id": 58,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 79,
-    "qty_seats": 17,
-    "volume": 274.56,
-    "air_conditioning": { "ac_1": { "power": 2165, "btu": 22000 } },
-    "setup_cost": 0.20732845737787398,
-    "setup_duration": 0.11491646598311724
-  },
-  "71": {
-    "type": 3,
-    "name": "INSTALA\u00c7\u00d5ES EL\u00c9TRICAS - A-139",
-    "cost_per_lecture": 5.158888889,
-    "block_id": 56,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 71,
-    "qty_seats": 27,
-    "volume": 170.1,
-    "air_conditioning": {
-      "ac_1": { "power": 3675, "btu": 36000 },
-      "ac_2": { "power": 3675, "btu": 36000 }
+    "303": {
+        "type": 1,
+        "name": "SALA DE AULA 23",
+        "cost_per_lecture": 3.766111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 303,
+        "qty_seats": 54,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2866,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 2866,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.10006311373929247,
+        "setup_duration": 0.020948314111505748,
+        "setup_cost_per_person": 0.03343545906543632
     },
-    "setup_cost": 0.1332433633150101,
-    "setup_duration": 0.021754018500409814
-  },
-  "329": {
-    "type": 1,
-    "name": "SALA DE AULA 45 - SALA PROVIS\u00d3RIA \u2013 P 5",
-    "cost_per_lecture": 1.802777778,
-    "block_id": 59,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 329,
-    "qty_seats": 33,
-    "volume": 126.42,
-    "air_conditioning": { "ac_1": { "power": 1990, "btu": 22000 } },
-    "setup_cost": 0.08774706761993586,
-    "setup_duration": 0.0529128045949362
-  },
-  "330": {
-    "type": 1,
-    "name": "SALA DE AULA 48 \u2013 SALA PROVIS\u00d3RIA - P 8",
-    "cost_per_lecture": 2.659166667,
-    "block_id": 65,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 330,
-    "qty_seats": 38,
-    "volume": 52.08,
-    "air_conditioning": {
-      "ac_1": { "power": 1815, "btu": 18000 },
-      "ac_2": { "power": 1815, "btu": 18000 }
+    "304": {
+        "type": 1,
+        "name": "SALA DE AULA 24",
+        "cost_per_lecture": 3.859444444,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 304,
+        "qty_seats": 46,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2866,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 2866,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.10006311373929247,
+        "setup_duration": 0.020948314111505748,
+        "setup_cost_per_person": 0.03343545906543632
     },
-    "setup_cost": 0.04029596217038874,
-    "setup_duration": 0.013320979229880575
-  },
-  "331": {
-    "type": 1,
-    "name": "SALA DE AULA 49 - SALA PROVIS\u00d3RIA - P 9",
-    "cost_per_lecture": 1.877222222,
-    "block_id": 59,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 331,
-    "qty_seats": 32,
-    "volume": 126.42,
-    "air_conditioning": { "ac_1": { "power": 1739, "btu": 18000 } },
-    "setup_cost": 0.09371935547190134,
-    "setup_duration": 0.06467120561603312
-  },
-  "372": {
-    "type": 1,
-    "name": "SALA DE M\u00daSICA 12 - Audit\u00f3rio",
-    "cost_per_lecture": 3.991111111,
-    "block_id": 115,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 372,
-    "qty_seats": 48,
-    "volume": 141.05,
-    "air_conditioning": {
-      "ac_1": { "power": 3193, "btu": 30000 },
-      "ac_2": { "power": 2650, "btu": 24000 }
+    "305": {
+        "type": 1,
+        "name": "SALA DE AULA 25",
+        "cost_per_lecture": 3.846111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 305,
+        "qty_seats": 45,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2866,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 2866,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.10006311373929247,
+        "setup_duration": 0.020948314111505748,
+        "setup_cost_per_person": 0.03343545906543632
     },
-    "setup_cost": 0.11711206728269663,
-    "setup_duration": 0.024051768053951046
-  },
-  "190": {
-    "type": 3,
-    "name": "M\u00c1QUINAS EL\u00c9TRICA - A-130",
-    "cost_per_lecture": 4.206388889,
-    "block_id": 56,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 190,
-    "qty_seats": 27,
-    "volume": 321.3,
-    "air_conditioning": {
-      "ac_1": { "power": 3675, "btu": 36000 },
-      "ac_2": { "power": 1919, "btu": 22000 }
+    "306": {
+        "type": 1,
+        "name": "SALA DE AULA 26",
+        "cost_per_lecture": 2.864444444,
+        "block_id": 49,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 306,
+        "qty_seats": 46,
+        "volume": 97.22,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3193,
+                "btu": 30000
+            }
+        },
+        "setup_cost": 0.07939985528278924,
+        "setup_duration": 0.029840221214953676,
+        "setup_cost_per_person": 0.04470038553912274
     },
-    "setup_cost": 0.2377889254427554,
-    "setup_duration": 0.051009422690616105
-  },
-  "82": {
-    "type": 3,
-    "name": "LABORATORIO DE FRESAGEM",
-    "cost_per_lecture": 1.990555556,
-    "block_id": 58,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 82,
-    "qty_seats": 19,
-    "volume": 127.05,
-    "air_conditioning": { "ac_1": { "power": 2410, "btu": 24000 } },
-    "setup_cost": 0.09789644035346459,
-    "setup_duration": 0.04874511552869605
-  },
-  "301": {
-    "type": 1,
-    "name": "SALA DE AULA 21",
-    "cost_per_lecture": 3.846111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 301,
-    "qty_seats": 51,
-    "volume": 163.8,
-    "air_conditioning": {
-      "ac_1": { "power": 2866, "btu": 36000 },
-      "ac_2": { "power": 2866, "btu": 36000 }
+    "307": {
+        "type": 1,
+        "name": "SALA DE AULA 27",
+        "cost_per_lecture": 2.864444444,
+        "block_id": 49,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 307,
+        "qty_seats": 41,
+        "volume": 97.22,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3193,
+                "btu": 30000
+            }
+        },
+        "setup_cost": 0.07939985528278924,
+        "setup_duration": 0.029840221214953676,
+        "setup_cost_per_person": 0.04470038553912274
     },
-    "setup_cost": 0.10006311373929247,
-    "setup_duration": 0.020948314111505748
-  },
-  "292": {
-    "type": 1,
-    "name": "SALA DE AULA 13",
-    "cost_per_lecture": 3.766111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 292,
-    "qty_seats": 47,
-    "volume": 163.8,
-    "air_conditioning": {
-      "ac_1": { "power": 2866, "btu": 36000 },
-      "ac_2": { "power": 2866, "btu": 36000 }
+    "308": {
+        "type": 1,
+        "name": "SALA DE AULA 28",
+        "cost_per_lecture": 3.512777778,
+        "block_id": 55,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 308,
+        "qty_seats": 32,
+        "volume": 109.51,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2185,
+                "btu": 21000
+            },
+            "ac_2": {
+                "power": 2490,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.0872990083947163,
+        "setup_duration": 0.022408301620034134,
+        "setup_cost_per_person": 0.04363175746850378
     },
-    "setup_cost": 0.10006311373929247,
-    "setup_duration": 0.020948314111505748
-  },
-  "271": {
-    "type": 1,
-    "name": "SALA DE AULA 05",
-    "cost_per_lecture": 2.561111111,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 271,
-    "qty_seats": 47,
-    "volume": 182.27,
-    "air_conditioning": { "ac_1": { "power": 3193, "btu": 30000 } },
-    "setup_cost": 0.14886043635459778,
-    "setup_duration": 0.05594504341544545
-  },
-  "280": {
-    "type": 1,
-    "name": "SALA DE AULA 08",
-    "cost_per_lecture": 2.094444444,
-    "block_id": 57,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 280,
-    "qty_seats": 48,
-    "volume": 182.27,
-    "air_conditioning": { "ac_1": { "power": 2320, "btu": 27000 } },
-    "setup_cost": 0.1201782414109569,
-    "setup_duration": 0.06216115935049495
-  },
-  "357": {
-    "type": 2,
-    "name": "SALA DE INFORM\u00c1TICA 10 - (A-129)",
-    "cost_per_lecture": 3.922777778,
-    "block_id": 56,
-    "pc_cost_per_lecture": 0.2166666667,
-    "qty_pc": 23,
-    "id": 357,
-    "qty_seats": 34,
-    "volume": 170.1,
-    "air_conditioning": {
-      "ac_1": { "power": 3485, "btu": 36000 },
-      "ac_2": { "power": 1919, "btu": 22000 }
+    "94": {
+        "type": 3,
+        "name": "LABORATORIO DE REFRIGERA\u00c7\u00c3O",
+        "cost_per_lecture": 1.985555556,
+        "block_id": 58,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 94,
+        "qty_seats": 1313,
+        "volume": 127.05,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2410,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.09789644035346459,
+        "setup_duration": 0.04874511552869605,
+        "setup_cost_per_person": 0.04217347680444951
     },
-    "setup_cost": 0.12161246480298064,
-    "setup_duration": 0.027004988483267354
-  },
-  "97": {
-    "type": 3,
-    "name": "LABORATORIO DE TELEFONIA E REDES CONVERGENTES",
-    "cost_per_lecture": 2.943333333,
-    "block_id": 80,
-    "pc_cost_per_lecture": 0.4541666667,
-    "qty_pc": 8,
-    "id": 97,
-    "qty_seats": 27,
-    "volume": 78.72,
-    "air_conditioning": {
-      "ac_1": { "power": 2414, "btu": 24000 },
-      "ac_2": { "power": 1750, "btu": 18000 }
+    "311": {
+        "type": 1,
+        "name": "SALA DE AULA 30 - IDIOMAS - NUCLI 2",
+        "cost_per_lecture": 1.246388889,
+        "block_id": 65,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 311,
+        "qty_seats": 25,
+        "volume": 52.08,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1084,
+                "btu": 12000
+            }
+        },
+        "setup_cost": 0.03609985371297637,
+        "setup_duration": 0.03996293768964173,
+        "setup_cost_per_person": 0.0379386297560359
     },
-    "setup_cost": 0.05988705353632999,
-    "setup_duration": 0.017258516869259364
-  },
-  "327": {
-    "type": 1,
-    "name": "SALA DE AULA 41 - SALA P7",
-    "cost_per_lecture": 1.663333333,
-    "block_id": 59,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 327,
-    "qty_seats": 17,
-    "volume": 52.68,
-    "air_conditioning": { "ac_1": { "power": 1630, "btu": 18000 } },
-    "setup_cost": 0.036605580290037035,
-    "setup_duration": 0.02694889346505794
-  },
-  "356": {
-    "type": 2,
-    "name": "SALA DE INFORM\u00c1TICA 09",
-    "cost_per_lecture": 4.296388889,
-    "block_id": 54,
-    "pc_cost_per_lecture": 0.2241666667,
-    "qty_pc": 29,
-    "id": 356,
-    "qty_seats": 46,
-    "volume": 124.64,
-    "air_conditioning": {
-      "ac_1": { "power": 2320, "btu": 27000 },
-      "ac_2": { "power": 2561, "btu": 24000 }
+    "116": {
+        "type": 2,
+        "name": "LABORAT\u00d3RIO DE AUTOMA\u00c7\u00c3O Ai-05",
+        "cost_per_lecture": 2.8825,
+        "block_id": 58,
+        "pc_cost_per_lecture": 0.2241666667,
+        "qty_pc": 18,
+        "id": 116,
+        "qty_seats": 33,
+        "volume": 105.0,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1630,
+                "btu": 18000
+            },
+            "ac_2": {
+                "power": 1630,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.0729610085507572,
+        "setup_duration": 0.026856812963468906,
+        "setup_cost_per_person": 0.038031959718535374
     },
-    "setup_cost": 0.09153401283960547,
-    "setup_duration": 0.022503752388347995
-  },
-  "114": {
-    "type": 1,
-    "name": "LABORAT\u00d3RIO DE AUTOMA\u00c7\u00c3O AI-03",
-    "cost_per_lecture": 2.890833333,
-    "block_id": 58,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 114,
-    "qty_seats": 41,
-    "volume": 105.0,
-    "air_conditioning": {
-      "ac_1": { "power": 1630, "btu": 18000 },
-      "ac_2": { "power": 1630, "btu": 18000 }
+    "61": {
+        "type": 3,
+        "name": "ELETRICIDADE II - A-131",
+        "cost_per_lecture": 4.137222222,
+        "block_id": 56,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 61,
+        "qty_seats": 25,
+        "volume": 321.3,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3675,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 1919,
+                "btu": 22000
+            }
+        },
+        "setup_cost": 0.2377889254427554,
+        "setup_duration": 0.051009422690616105,
+        "setup_cost_per_person": 0.04050681286205589
     },
-    "setup_cost": 0.0729610085507572,
-    "setup_duration": 0.026856812963468906
-  },
-  "125": {
-    "type": 3,
-    "name": "LABORAT\u00d3RIO DE FIBRAS \u00d3PTICAS",
-    "cost_per_lecture": 2.941666667,
-    "block_id": 80,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 125,
-    "qty_seats": 22,
-    "volume": 78.72,
-    "air_conditioning": {
-      "ac_1": { "power": 1630, "btu": 18000 },
-      "ac_2": { "power": 1630, "btu": 18000 }
+    "318": {
+        "type": 1,
+        "name": "SALA DE AULA 31 - MULTIMIDIA I",
+        "cost_per_lecture": 1.871111111,
+        "block_id": 69,
+        "pc_cost_per_lecture": 0.2166666667,
+        "qty_pc": 10,
+        "id": 318,
+        "qty_seats": 24,
+        "volume": 74.4,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1990,
+                "btu": 22000
+            }
+        },
+        "setup_cost": 0.05164041948206951,
+        "setup_duration": 0.031139951446474076,
+        "setup_cost_per_person": 0.03798953700830834
     },
-    "setup_cost": 0.05469991041062482,
-    "setup_duration": 0.020134936347469257
-  },
-  "338": {
-    "type": 1,
-    "name": "SALA DE AULA DE METALOGRAFIA",
-    "cost_per_lecture": 2.549444444,
-    "block_id": 58,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 338,
-    "qty_seats": 43,
-    "volume": 107.25,
-    "air_conditioning": { "ac_1": { "power": 3032, "btu": 30000 } },
-    "setup_cost": 0.08317478241034995,
-    "setup_duration": 0.03291877931808046
-  },
-  "367": {
-    "type": 1,
-    "name": "SALA DE M\u00daSICA 07 - Teoria Musical",
-    "cost_per_lecture": 2.529444444,
-    "block_id": 115,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 367,
-    "qty_seats": 39,
-    "volume": 141.05,
-    "air_conditioning": { "ac_1": { "power": 3193, "btu": 30000 } },
-    "setup_cost": 0.11519594309439851,
-    "setup_duration": 0.04329318249711188
-  },
-  "113": {
-    "type": 2,
-    "name": "LABORAT\u00d3RIO DE AUTOMA\u00c7\u00c3O AI-02",
-    "cost_per_lecture": 2.875,
-    "block_id": 58,
-    "pc_cost_per_lecture": 0.2166666667,
-    "qty_pc": 12,
-    "id": 113,
-    "qty_seats": 20,
-    "volume": 105.0,
-    "air_conditioning": {
-      "ac_1": { "power": 1630, "btu": 18000 },
-      "ac_2": { "power": 1630, "btu": 18000 }
+    "309": {
+        "type": 1,
+        "name": "SALA DE AULA 29 - IDIOMAS - NUCLI 1",
+        "cost_per_lecture": 1.824166667,
+        "block_id": 65,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 309,
+        "qty_seats": 27,
+        "volume": 52.08,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2130,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.035467107199557035,
+        "setup_duration": 0.019981468844820865,
+        "setup_cost_per_person": 0.037273653773227146
     },
-    "setup_cost": 0.0729610085507572,
-    "setup_duration": 0.026856812963468906
-  },
-  "370": {
-    "type": 1,
-    "name": "SALA DE M\u00daSICA 10 - Cordas",
-    "cost_per_lecture": 1.635,
-    "block_id": 115,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 370,
-    "qty_seats": 16,
-    "volume": 73.72,
-    "air_conditioning": { "ac_1": { "power": 1815, "btu": 18000 } },
-    "setup_cost": 0.05703952248849957,
-    "setup_duration": 0.03771208098413195
-  },
-  "115": {
-    "type": 3,
-    "name": "LABORAT\u00d3RIO DE AUTOMA\u00c7\u00c3O AI-04",
-    "cost_per_lecture": 2.890833333,
-    "block_id": 58,
-    "pc_cost_per_lecture": 0.2166666667,
-    "qty_pc": 12,
-    "id": 115,
-    "qty_seats": 22,
-    "volume": 105.0,
-    "air_conditioning": {
-      "ac_1": { "power": 1630, "btu": 18000 },
-      "ac_2": { "power": 1630, "btu": 18000 }
+    "64": {
+        "type": 3,
+        "name": "ELETR\u00d4NICA INDUSTRIAL - A-128",
+        "cost_per_lecture": 4.033055556,
+        "block_id": 56,
+        "pc_cost_per_lecture": 0.2166666667,
+        "qty_pc": 12,
+        "id": 64,
+        "qty_seats": 27,
+        "volume": 170.1,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3675,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 1919,
+                "btu": 22000
+            }
+        },
+        "setup_cost": 0.12588825464616465,
+        "setup_duration": 0.027004988483267354,
+        "setup_cost_per_person": 0.04050681286205589
     },
-    "setup_cost": 0.0729610085507572,
-    "setup_duration": 0.026856812963468906
-  },
-  "25": {
-    "type": 3,
-    "name": "AFERI\u00c7\u00c3O E CALIBRA\u00c7\u00c3O DE EQUIPAMENTOS BIOM\u00c9DICOS",
-    "cost_per_lecture": 2.498888889,
-    "block_id": 80,
-    "pc_cost_per_lecture": 0.2183333333,
-    "qty_pc": 8,
-    "id": 25,
-    "qty_seats": 13,
-    "volume": 78.72,
-    "air_conditioning": { "ac_1": { "power": 2414, "btu": 24000 } },
-    "setup_cost": 0.060757170428488494,
-    "setup_duration": 0.030202404521203888
-  },
-  "117": {
-    "type": 2,
-    "name": "LABORAT\u00d3RIO DE AUTOMA\u00c7\u00c3O Ai-06",
-    "cost_per_lecture": 3.529722222,
-    "block_id": 58,
-    "pc_cost_per_lecture": 0.2241666667,
-    "qty_pc": 20,
-    "id": 117,
-    "qty_seats": 31,
-    "volume": 105.0,
-    "air_conditioning": {
-      "ac_1": { "power": 2165, "btu": 22000 },
-      "ac_2": { "power": 2130, "btu": 24000 }
+    "65": {
+        "type": 1,
+        "name": "ENERGIA RENOV\u00c1VEIS",
+        "cost_per_lecture": 1.9975,
+        "block_id": 58,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 65,
+        "qty_seats": 33,
+        "volume": 119.7,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2130,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.08151714154736898,
+        "setup_duration": 0.04592515016753183,
+        "setup_cost_per_person": 0.037273653773227146
     },
-    "setup_cost": 0.0752282684857167,
-    "setup_duration": 0.021018375362714798
-  },
-  "118": {
-    "type": 3,
-    "name": "LABORAT\u00d3RIO DE BIOLOGIA",
-    "cost_per_lecture": 4.585555556,
-    "block_id": 49,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 118,
-    "qty_seats": 48,
-    "volume": 203.36,
-    "air_conditioning": {
-      "ac_1": { "power": 1919, "btu": 22000 },
-      "ac_2": { "power": 3193, "btu": 30000 }
+    "322": {
+        "type": 1,
+        "name": "SALA DE AULA 35 - N\u00daCLEO DE PROGRESS\u00c3O PARCIAL",
+        "cost_per_lecture": 1.736111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 322,
+        "qty_seats": 22,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1990,
+                "btu": 22000
+            }
+        },
+        "setup_cost": 0.11369221385971758,
+        "setup_duration": 0.06855811891038247,
+        "setup_cost_per_person": 0.03798953700830834
     },
-    "setup_cost": 0.15340498234885327,
-    "setup_duration": 0.03601055923682002
-  },
-  "319": {
-    "type": 1,
-    "name": "SALA DE AULA 32 - MULTIMIDIA II",
-    "cost_per_lecture": 2.616666667,
-    "block_id": 59,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 319,
-    "qty_seats": 37,
-    "volume": 126.42,
-    "air_conditioning": {
-      "ac_1": { "power": 1630, "btu": 18000 },
-      "ac_2": { "power": 1630, "btu": 18000 }
+    "323": {
+        "type": 1,
+        "name": "SALA DE AULA 36 - TOPOGRAFIA E-111",
+        "cost_per_lecture": 2.049166667,
+        "block_id": 69,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 323,
+        "qty_seats": 31,
+        "volume": 119.7,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2185,
+                "btu": 21000
+            }
+        },
+        "setup_cost": 0.09556805058672099,
+        "setup_duration": 0.05248588590575066,
+        "setup_cost_per_person": 0.04369842172743196
     },
-    "setup_cost": 0.08784505429511166,
-    "setup_duration": 0.03233560280801656
-  },
-  "253": {
-    "type": 1,
-    "name": "SALA DA AULA 39 - LAB. DE TECNOLOGIA DA CONSTRU\u00c7\u00c3O",
-    "cost_per_lecture": 3.852222222,
-    "block_id": 69,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 253,
-    "qty_seats": 36,
-    "volume": 74.4,
-    "air_conditioning": {
-      "ac_1": { "power": 2561, "btu": 24000 },
-      "ac_2": { "power": 2561, "btu": 24000 }
+    "79": {
+        "type": 3,
+        "name": "LABORATORIO DE ENSAIOS MEC\u00c2NICOS",
+        "cost_per_lecture": 2.152222222,
+        "block_id": 58,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 79,
+        "qty_seats": 17,
+        "volume": 274.56,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2165,
+                "btu": 22000
+            }
+        },
+        "setup_cost": 0.20732845737787398,
+        "setup_duration": 0.11491646598311724,
+        "setup_cost_per_person": 0.04133032543868722
     },
-    "setup_cost": 0.06091969251379314,
-    "setup_duration": 0.014272477746300619
-  },
-  "126": {
-    "type": 3,
-    "name": "LABORAT\u00d3RIO DE F\u00cdSICA",
-    "cost_per_lecture": 6.457777778,
-    "block_id": 49,
-    "pc_cost_per_lecture": null,
-    "qty_pc": null,
-    "id": 126,
-    "qty_seats": 30,
-    "volume": 203.36,
-    "air_conditioning": {
-      "ac_1": { "power": 2410, "btu": 24000 },
-      "ac_2": { "power": 2320, "btu": 27000 },
-      "ac_3": { "power": 2490, "btu": 24000 }
+    "71": {
+        "type": 3,
+        "name": "INSTALA\u00c7\u00d5ES EL\u00c9TRICAS - A-139",
+        "cost_per_lecture": 5.158888889,
+        "block_id": 56,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 71,
+        "qty_seats": 27,
+        "volume": 170.1,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3675,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 3675,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.1332433633150101,
+        "setup_duration": 0.021754018500409814,
+        "setup_cost_per_person": 0.04287345152319555
     },
-    "setup_cost": 0.150220048443019,
-    "setup_duration": 0.02496732107086188
-  }
+    "329": {
+        "type": 1,
+        "name": "SALA DE AULA 45 - SALA PROVIS\u00d3RIA \u2013 P 5",
+        "cost_per_lecture": 1.802777778,
+        "block_id": 59,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 329,
+        "qty_seats": 33,
+        "volume": 126.42,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1990,
+                "btu": 22000
+            }
+        },
+        "setup_cost": 0.08774706761993586,
+        "setup_duration": 0.0529128045949362,
+        "setup_cost_per_person": 0.03798953700830834
+    },
+    "330": {
+        "type": 1,
+        "name": "SALA DE AULA 48 \u2013 SALA PROVIS\u00d3RIA - P 8",
+        "cost_per_lecture": 2.659166667,
+        "block_id": 65,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 330,
+        "qty_seats": 38,
+        "volume": 52.08,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1815,
+                "btu": 18000
+            },
+            "ac_2": {
+                "power": 1815,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.04029596217038874,
+        "setup_duration": 0.013320979229880575,
+        "setup_cost_per_person": 0.04234847048413601
+    },
+    "331": {
+        "type": 1,
+        "name": "SALA DE AULA 49 - SALA PROVIS\u00d3RIA - P 9",
+        "cost_per_lecture": 1.877222222,
+        "block_id": 59,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 331,
+        "qty_seats": 32,
+        "volume": 126.42,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1739,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.09371935547190134,
+        "setup_duration": 0.06467120561603312,
+        "setup_cost_per_person": 0.04057520119664602
+    },
+    "372": {
+        "type": 1,
+        "name": "SALA DE M\u00daSICA 12 - Audit\u00f3rio",
+        "cost_per_lecture": 3.991111111,
+        "block_id": 115,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 372,
+        "qty_seats": 48,
+        "volume": 141.05,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3193,
+                "btu": 30000
+            },
+            "ac_2": {
+                "power": 2650,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.11711206728269663,
+        "setup_duration": 0.024051768053951046,
+        "setup_cost_per_person": 0.04544391424036855
+    },
+    "190": {
+        "type": 3,
+        "name": "M\u00c1QUINAS EL\u00c9TRICA - A-130",
+        "cost_per_lecture": 4.206388889,
+        "block_id": 56,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 190,
+        "qty_seats": 27,
+        "volume": 321.3,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3675,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 1919,
+                "btu": 22000
+            }
+        },
+        "setup_cost": 0.2377889254427554,
+        "setup_duration": 0.051009422690616105,
+        "setup_cost_per_person": 0.04050681286205589
+    },
+    "82": {
+        "type": 3,
+        "name": "LABORATORIO DE FRESAGEM",
+        "cost_per_lecture": 1.990555556,
+        "block_id": 58,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 82,
+        "qty_seats": 19,
+        "volume": 127.05,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2410,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.09789644035346459,
+        "setup_duration": 0.04874511552869605,
+        "setup_cost_per_person": 0.04217347680444951
+    },
+    "301": {
+        "type": 1,
+        "name": "SALA DE AULA 21",
+        "cost_per_lecture": 3.846111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 301,
+        "qty_seats": 51,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2866,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 2866,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.10006311373929247,
+        "setup_duration": 0.020948314111505748,
+        "setup_cost_per_person": 0.03343545906543632
+    },
+    "292": {
+        "type": 1,
+        "name": "SALA DE AULA 13",
+        "cost_per_lecture": 3.766111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 292,
+        "qty_seats": 47,
+        "volume": 163.8,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2866,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 2866,
+                "btu": 36000
+            }
+        },
+        "setup_cost": 0.10006311373929247,
+        "setup_duration": 0.020948314111505748,
+        "setup_cost_per_person": 0.03343545906543632
+    },
+    "271": {
+        "type": 1,
+        "name": "SALA DE AULA 05",
+        "cost_per_lecture": 2.561111111,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 271,
+        "qty_seats": 47,
+        "volume": 182.27,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3193,
+                "btu": 30000
+            }
+        },
+        "setup_cost": 0.14886043635459778,
+        "setup_duration": 0.05594504341544545,
+        "setup_cost_per_person": 0.04470038553912274
+    },
+    "280": {
+        "type": 1,
+        "name": "SALA DE AULA 08",
+        "cost_per_lecture": 2.094444444,
+        "block_id": 57,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 280,
+        "qty_seats": 48,
+        "volume": 182.27,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2320,
+                "btu": 27000
+            }
+        },
+        "setup_cost": 0.1201782414109569,
+        "setup_duration": 0.06216115935049495,
+        "setup_cost_per_person": 0.03608758549979635
+    },
+    "357": {
+        "type": 2,
+        "name": "SALA DE INFORM\u00c1TICA 10 - (A-129)",
+        "cost_per_lecture": 3.922777778,
+        "block_id": 56,
+        "pc_cost_per_lecture": 0.2166666667,
+        "qty_pc": 23,
+        "id": 357,
+        "qty_seats": 34,
+        "volume": 170.1,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3485,
+                "btu": 36000
+            },
+            "ac_2": {
+                "power": 1919,
+                "btu": 22000
+            }
+        },
+        "setup_cost": 0.12161246480298064,
+        "setup_duration": 0.027004988483267354,
+        "setup_cost_per_person": 0.03913100048383089
+    },
+    "97": {
+        "type": 3,
+        "name": "LABORATORIO DE TELEFONIA E REDES CONVERGENTES",
+        "cost_per_lecture": 2.943333333,
+        "block_id": 80,
+        "pc_cost_per_lecture": 0.4541666667,
+        "qty_pc": 8,
+        "id": 97,
+        "qty_seats": 27,
+        "volume": 78.72,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2414,
+                "btu": 24000
+            },
+            "ac_2": {
+                "power": 1750,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.05988705353632999,
+        "setup_duration": 0.017258516869259364,
+        "setup_cost_per_person": 0.04163849612655074
+    },
+    "327": {
+        "type": 1,
+        "name": "SALA DE AULA 41 - SALA P7",
+        "cost_per_lecture": 1.663333333,
+        "block_id": 59,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 327,
+        "qty_seats": 17,
+        "volume": 52.68,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1630,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.036605580290037035,
+        "setup_duration": 0.02694889346505794,
+        "setup_cost_per_person": 0.038031959718535374
+    },
+    "356": {
+        "type": 2,
+        "name": "SALA DE INFORM\u00c1TICA 09",
+        "cost_per_lecture": 4.296388889,
+        "block_id": 54,
+        "pc_cost_per_lecture": 0.2241666667,
+        "qty_pc": 29,
+        "id": 356,
+        "qty_seats": 46,
+        "volume": 124.64,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2320,
+                "btu": 27000
+            },
+            "ac_2": {
+                "power": 2561,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.09153401283960547,
+        "setup_duration": 0.022503752388347995,
+        "setup_cost_per_person": 0.04019501884940552
+    },
+    "114": {
+        "type": 1,
+        "name": "LABORAT\u00d3RIO DE AUTOMA\u00c7\u00c3O AI-03",
+        "cost_per_lecture": 2.890833333,
+        "block_id": 58,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 114,
+        "qty_seats": 41,
+        "volume": 105.0,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1630,
+                "btu": 18000
+            },
+            "ac_2": {
+                "power": 1630,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.0729610085507572,
+        "setup_duration": 0.026856812963468906,
+        "setup_cost_per_person": 0.038031959718535374
+    },
+    "125": {
+        "type": 3,
+        "name": "LABORAT\u00d3RIO DE FIBRAS \u00d3PTICAS",
+        "cost_per_lecture": 2.941666667,
+        "block_id": 80,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 125,
+        "qty_seats": 22,
+        "volume": 78.72,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1630,
+                "btu": 18000
+            },
+            "ac_2": {
+                "power": 1630,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.05469991041062482,
+        "setup_duration": 0.020134936347469257,
+        "setup_cost_per_person": 0.038031959718535374
+    },
+    "338": {
+        "type": 1,
+        "name": "SALA DE AULA DE METALOGRAFIA",
+        "cost_per_lecture": 2.549444444,
+        "block_id": 58,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 338,
+        "qty_seats": 43,
+        "volume": 107.25,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3032,
+                "btu": 30000
+            }
+        },
+        "setup_cost": 0.08317478241034995,
+        "setup_duration": 0.03291877931808046,
+        "setup_cost_per_person": 0.04244646694476046
+    },
+    "367": {
+        "type": 1,
+        "name": "SALA DE M\u00daSICA 07 - Teoria Musical",
+        "cost_per_lecture": 2.529444444,
+        "block_id": 115,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 367,
+        "qty_seats": 39,
+        "volume": 141.05,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 3193,
+                "btu": 30000
+            }
+        },
+        "setup_cost": 0.11519594309439851,
+        "setup_duration": 0.04329318249711188,
+        "setup_cost_per_person": 0.04470038553912274
+    },
+    "113": {
+        "type": 2,
+        "name": "LABORAT\u00d3RIO DE AUTOMA\u00c7\u00c3O AI-02",
+        "cost_per_lecture": 2.875,
+        "block_id": 58,
+        "pc_cost_per_lecture": 0.2166666667,
+        "qty_pc": 12,
+        "id": 113,
+        "qty_seats": 20,
+        "volume": 105.0,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1630,
+                "btu": 18000
+            },
+            "ac_2": {
+                "power": 1630,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.0729610085507572,
+        "setup_duration": 0.026856812963468906,
+        "setup_cost_per_person": 0.038031959718535374
+    },
+    "370": {
+        "type": 1,
+        "name": "SALA DE M\u00daSICA 10 - Cordas",
+        "cost_per_lecture": 1.635,
+        "block_id": 115,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 370,
+        "qty_seats": 16,
+        "volume": 73.72,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1815,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.05703952248849957,
+        "setup_duration": 0.03771208098413195,
+        "setup_cost_per_person": 0.04234847048413601
+    },
+    "115": {
+        "type": 3,
+        "name": "LABORAT\u00d3RIO DE AUTOMA\u00c7\u00c3O AI-04",
+        "cost_per_lecture": 2.890833333,
+        "block_id": 58,
+        "pc_cost_per_lecture": 0.2166666667,
+        "qty_pc": 12,
+        "id": 115,
+        "qty_seats": 22,
+        "volume": 105.0,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1630,
+                "btu": 18000
+            },
+            "ac_2": {
+                "power": 1630,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.0729610085507572,
+        "setup_duration": 0.026856812963468906,
+        "setup_cost_per_person": 0.038031959718535374
+    },
+    "25": {
+        "type": 3,
+        "name": "AFERI\u00c7\u00c3O E CALIBRA\u00c7\u00c3O DE EQUIPAMENTOS BIOM\u00c9DICOS",
+        "cost_per_lecture": 2.498888889,
+        "block_id": 80,
+        "pc_cost_per_lecture": 0.2183333333,
+        "qty_pc": 8,
+        "id": 25,
+        "qty_seats": 13,
+        "volume": 78.72,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2414,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.060757170428488494,
+        "setup_duration": 0.030202404521203888,
+        "setup_cost_per_person": 0.04224347427632411
+    },
+    "117": {
+        "type": 2,
+        "name": "LABORAT\u00d3RIO DE AUTOMA\u00c7\u00c3O Ai-06",
+        "cost_per_lecture": 3.529722222,
+        "block_id": 58,
+        "pc_cost_per_lecture": 0.2241666667,
+        "qty_pc": 20,
+        "id": 117,
+        "qty_seats": 31,
+        "volume": 105.0,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2165,
+                "btu": 22000
+            },
+            "ac_2": {
+                "power": 2130,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.0752282684857167,
+        "setup_duration": 0.021018375362714798,
+        "setup_cost_per_person": 0.039213801091490655
+    },
+    "118": {
+        "type": 3,
+        "name": "LABORAT\u00d3RIO DE BIOLOGIA",
+        "cost_per_lecture": 4.585555556,
+        "block_id": 49,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 118,
+        "qty_seats": 48,
+        "volume": 203.36,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1919,
+                "btu": 22000
+            },
+            "ac_2": {
+                "power": 3193,
+                "btu": 30000
+            }
+        },
+        "setup_cost": 0.15340498234885327,
+        "setup_duration": 0.03601055923682002,
+        "setup_cost_per_person": 0.041287739564190074
+    },
+    "319": {
+        "type": 1,
+        "name": "SALA DE AULA 32 - MULTIMIDIA II",
+        "cost_per_lecture": 2.616666667,
+        "block_id": 59,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 319,
+        "qty_seats": 37,
+        "volume": 126.42,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 1630,
+                "btu": 18000
+            },
+            "ac_2": {
+                "power": 1630,
+                "btu": 18000
+            }
+        },
+        "setup_cost": 0.08784505429511166,
+        "setup_duration": 0.03233560280801656,
+        "setup_cost_per_person": 0.038031959718535374
+    },
+    "253": {
+        "type": 1,
+        "name": "SALA DA AULA 39 - LAB. DE TECNOLOGIA DA CONSTRU\u00c7\u00c3O",
+        "cost_per_lecture": 3.852222222,
+        "block_id": 69,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 253,
+        "qty_seats": 36,
+        "volume": 74.4,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2561,
+                "btu": 24000
+            },
+            "ac_2": {
+                "power": 2561,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.06091969251379314,
+        "setup_duration": 0.014272477746300619,
+        "setup_cost_per_person": 0.04481588136771584
+    },
+    "126": {
+        "type": 3,
+        "name": "LABORAT\u00d3RIO DE F\u00cdSICA",
+        "cost_per_lecture": 6.457777778,
+        "block_id": 49,
+        "pc_cost_per_lecture": null,
+        "qty_pc": null,
+        "id": 126,
+        "qty_seats": 30,
+        "volume": 203.36,
+        "air_conditioning": {
+            "ac_1": {
+                "power": 2410,
+                "btu": 24000
+            },
+            "ac_2": {
+                "power": 2320,
+                "btu": 27000
+            },
+            "ac_3": {
+                "power": 2490,
+                "btu": 24000
+            }
+        },
+        "setup_cost": 0.150220048443019,
+        "setup_duration": 0.02496732107086188,
+        "setup_cost_per_person": 0.040430539754771844
+    }
 }
