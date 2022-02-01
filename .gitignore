@@ -1,0 +1,5 @@
+cap
+.vscode
+obj/*
+lp/*
+results/*
