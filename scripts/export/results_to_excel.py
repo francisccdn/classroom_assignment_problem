@@ -18,8 +18,10 @@ def new_sheet(name: str):
     sheet["E1"].value = "Gap"
     sheet["F1"].value = "Solution value"
     
-    sheet["G1"].value = "Time reported at < 1%"
-    sheet["H1"].value = "Time reported at < 0.1%"
+    if "time to 1%" in data:
+        sheet["G1"].value = "Time reported at < 1%"
+    if "time to 0.1%" in data:
+        sheet["H1"].value = "Time reported at < 0.1%"
     
     sheet["I1"].value = "Time: Solver"
     sheet["J1"].value = "Time: Model construction"

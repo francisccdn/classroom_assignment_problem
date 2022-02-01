@@ -31,7 +31,10 @@ for file in os.listdir(log_path):
 
                 pctstart = pctline.rfind(' ')
                 pctend = pctline.rfind('%')
-                pct = float(pctline[pctstart:pctend])
+                try:
+                    pct = float(pctline[pctstart:pctend])
+                except ValueError:
+                    pct = 9999999
 
                 if pct <= 1 and timeTo1Pct > time:
                     timeTo1Pct = time
