@@ -601,6 +601,8 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
     */
 
     IloCplex cplex(model);
+    // Num threads
+    cplex.setParam(IloCplex::Param::Threads, 1);
     // Gap tolerance
     cplex.setParam(IloCplex::Param::MIP::Tolerances::MIPGap, 1e-06);
     // Time limit
