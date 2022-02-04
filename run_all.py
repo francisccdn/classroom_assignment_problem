@@ -69,19 +69,21 @@ for scenario in range(1, 11):
     for instance in instances:
         # for heuristic in range(0, 2):
         heuristic = 0
+        setup_before = 1
 
         args = []
         time_limit_str = str(time_limit) if heuristic == 0 else "0"
 
-        # No setup
+        # With setup - setup before class
+        # not running no setup or setup during class, as they are not considered in paper
+        if [instance, scenario, 1, setup_before, heuristic] not in found:
+            print(f"{bcolors.OKBLUE}" + "Rodando -- Instancia: " + str(instance) + " Cenario: " + str(
+                scenario) + " Heuristica: " + str(heuristic) + " Setup antes: " + str(setup_before) + f"{bcolors.ENDC}")
 
-        if [instance, scenario, 0, 0, heuristic] not in found:
-            print(f"{bcolors.OKBLUE}" + "Rodando -- Instancia: " + str(instance) + " Cenario: " +
-                    str(scenario) + " Heuristica: " + str(heuristic) + " Sem setup" + f"{bcolors.ENDC}")
+            args = ['./cap', str(instance), str(scenario), "1", str(setup_before), time_limit_str, str(heuristic)]
+            logname = str(instance) + "_" + str(scenario) + "_setup"
 
-            args = ['./cap', str(instance), str(scenario), "0", "0", time_limit_str, str(heuristic)]
-            logname = str(instance) + "_" + str(scenario)
-
+            logname = logname + "_duringclass" if setup_before == 0 else logname
             logname = logname + "_heuristic" if heuristic == 1 else logname
 
             # Run cap
@@ -91,32 +93,8 @@ for scenario in range(1, 11):
                 f.write(result.stdout.decode("utf8"))
 
         else:  # If results were already found
-            print(f"{bcolors.OKGREEN}" + "Instancia: " + str(instance) + " Cenario: " + str(scenario) +
-                    " Heuristica: " + str(heuristic) + " Sem setup \t\t Resultados gerados encontrados" + f"{bcolors.ENDC}")
-
-        # With setup
-
-        for setup_before in range(0, 2):
-
-            if [instance, scenario, 1, setup_before, heuristic] not in found:
-                print(f"{bcolors.OKBLUE}" + "Rodando -- Instancia: " + str(instance) + " Cenario: " + str(
-                    scenario) + " Heuristica: " + str(heuristic) + " Setup antes: " + str(setup_before) + f"{bcolors.ENDC}")
-
-                args = ['./cap', str(instance), str(scenario), "1", str(setup_before), time_limit_str, str(heuristic)]
-                logname = str(instance) + "_" + str(scenario) + "_setup"
-
-                logname = logname + "_duringclass" if setup_before == 0 else logname
-                logname = logname + "_heuristic" if heuristic == 1 else logname
-
-                # Run cap
-                result = subprocess.run(args, stdout=PIPE, stderr=PIPE)
-                # Save log to file
-                with open("results_log/" + logname + ".log", 'w') as f:
-                    f.write(result.stdout.decode("utf8"))
-
-            else:  # If results were already found
-                print(f"{bcolors.OKGREEN}" + "Instancia: " + str(instance) + " Cenario: " + str(scenario) + " Heuristica: " + str(
-                    heuristic) + " Setup antes: " + str(setup_before) + " \t Resultados gerados encontrados" + f"{bcolors.ENDC}")
+            print(f"{bcolors.OKGREEN}" + "Instancia: " + str(instance) + " Cenario: " + str(scenario) + " Heuristica: " + str(
+                heuristic) + " Setup antes: " + str(setup_before) + " \t Resultados gerados encontrados" + f"{bcolors.ENDC}")
 
 # Done!
 print(f"{bcolors.OKBLUE}" +
