@@ -38,7 +38,6 @@ def parse_args():
 
 
 def main(args):
-    print(args)
     class bcolors:
         HEADER =    '\033[95m' if args.colors == 'yes' else ''
         OKBLUE =    '\033[94m' if args.colors == 'yes' else ''
