@@ -2,7 +2,7 @@ import os
 import json
 
 manual_path = os.path.dirname(os.path.realpath(__file__)) + '/results_manual'
-data_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__)))) + '/data'
+data_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__)))) + '/instances'
 
 # Output object
 solution_values = {}
