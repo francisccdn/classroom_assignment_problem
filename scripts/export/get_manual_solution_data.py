@@ -72,20 +72,20 @@ for file in os.listdir(manual_path):
             qtd = classes_data[a_class]["qty_students"]
 
         if assignment["requires"] == "classroom":
-            base_cost = rooms_data[a_room]["cost_per_lecture"]
+            base_cost = rooms_data[a_room]["cost_per_lecture"] + (qtd * rooms_data[a_room]["ac_cost_per_person_per_lecture"])
 
-            setup_cost = rooms_data[a_room]["setup_cost"] + (qtd * rooms_data[a_room]["setup_cost_per_person"])
+            setup_cost = rooms_data[a_room]["setup_cost"]
             setup_during_cost = setup_cost - (rooms_data[a_room]["cost_per_lecture"]*rooms_data[a_room]["setup_duration"])
 
             solution_values[instance]["classroom"]["setup_before"] += base_cost + setup_cost
             solution_values[instance]["classroom"]["n_assignments"] += 1
         else:
-            base_cost = pc_rooms_data[a_room]["cost_per_lecture"]
-            base_cost = base_cost + \
-                (pc_rooms_data[a_room]["pc_cost_per_lecture"] * qtd)
+            base_cost = pc_rooms_data[a_room]["cost_per_lecture"]  + \
+                (qtd * pc_rooms_data[a_room]["pc_cost_per_lecture"]) + \
+                (qtd * pc_rooms_data[a_room]["ac_cost_per_person_per_lecture"])
 
-            setup_cost = pc_rooms_data[a_room]["setup_cost"] + (qtd * pc_rooms_data[a_room]["setup_cost_per_person"])
-            setup_during_cost =  - (pc_rooms_data[a_room]["cost_per_lecture"]*pc_rooms_data[a_room]["setup_duration"])
+            setup_cost = pc_rooms_data[a_room]["setup_cost"]
+            setup_during_cost = setup_cost - (pc_rooms_data[a_room]["cost_per_lecture"]*pc_rooms_data[a_room]["setup_duration"])
 
             solution_values[instance]["pc"]["setup_before"] += base_cost + setup_cost
             solution_values[instance]["pc"]["n_assignments"] += 1

@@ -1,79 +1,79 @@
 {
     "20191": {
         "classroom": {
-            "setup_before": 10942.719390186976,
+            "setup_before": 10473.599413549517,
             "n_assignments": 2475
         },
         "pc": {
-            "setup_before": 3833.3402670700193,
+            "setup_before": 3753.2157458094985,
             "n_assignments": 569
         },
-        "setup_during": 14049.622988669687,
-        "setup_before": 14776.059657257012,
-        "no_setup": 11800.003555669273,
+        "setup_during": 13938.85875757948,
+        "setup_before": 14226.815159359056,
+        "no_setup": 13914.79532677289,
         "n_assignments": 3044,
         "highest": {
             "room": {
-                "setup_during": 8.277314734090552,
-                "setup_before": 8.40219241118526,
-                "no_setup": 6.457777778
+                "setup_during": 7.72288988261792,
+                "setup_before": 7.847767559712626,
+                "no_setup": 7.722238023005942
             },
             "pc": {
-                "setup_during": 11.22734408346925,
-                "setup_before": 13.51780618349915,
-                "no_setup": 11.298055556
+                "setup_during": 13.004732430599296,
+                "setup_before": 13.075443903130045,
+                "no_setup": 13.001311781508786
             }
         }
     },
     "20182": {
         "classroom": {
-            "setup_before": 10469.987316067334,
+            "setup_before": 9983.39206242927,
             "n_assignments": 2427
         },
         "pc": {
-            "setup_before": 3945.6343642576226,
+            "setup_before": 3861.279863579329,
             "n_assignments": 589
         },
-        "setup_during": 13653.673184703213,
-        "setup_before": 14415.621680324937,
-        "no_setup": 11329.406666853183,
+        "setup_during": 13544.055572143216,
+        "setup_before": 13844.671926008594,
+        "no_setup": 13527.771596793953,
         "n_assignments": 3016,
         "highest": {
             "room": {
-                "setup_during": 8.654741102438424,
-                "setup_before": 8.779618779533129,
-                "no_setup": 6.457777778
+                "setup_during": 8.022502236724016,
+                "setup_before": 8.147379913818723,
+                "no_setup": 8.021850377112038
             },
             "pc": {
-                "setup_during": 11.4332892773879,
-                "setup_before": 13.028656534930565,
-                "no_setup": 11.497222223800001
+                "setup_during": 12.663672122439822,
+                "setup_before": 12.727605068851922,
+                "no_setup": 12.656380241000617
             }
         }
     },
     "20181": {
         "classroom": {
-            "setup_before": 9756.968677107287,
+            "setup_before": 9306.415532765206,
             "n_assignments": 2256
         },
         "pc": {
-            "setup_before": 4171.602132406888,
+            "setup_before": 4080.1800967693216,
             "n_assignments": 597
         },
-        "setup_during": 13144.577950331655,
-        "setup_before": 13928.570809514158,
-        "no_setup": 10997.074555766863,
+        "setup_during": 13099.616013569936,
+        "setup_before": 13386.595629534515,
+        "no_setup": 13083.876799849155,
         "n_assignments": 2853,
         "highest": {
             "room": {
-                "setup_during": 8.418849622221005,
-                "setup_before": 8.54372729931571,
-                "no_setup": 6.457777778
+                "setup_during": 7.835244515407706,
+                "setup_before": 7.9601221925024115,
+                "no_setup": 7.834592655795728
             },
             "pc": {
-                "setup_during": 11.192461620622158,
-                "setup_before": 12.948345486473565,
-                "no_setup": 11.296944445800001
+                "setup_during": 12.54136771782429,
+                "setup_before": 12.621128320502134,
+                "no_setup": 12.532127734613363
             }
         }
     }
