@@ -66,29 +66,26 @@ for file in os.listdir(manual_path):
         a_class = str(assignment["class_id"])
 
         # Calculate cost of assignment
+        if a_class in pc_classes_data:
+            qtd = pc_classes_data[a_class]["qty_students"]
+        else:
+            qtd = classes_data[a_class]["qty_students"]
+
         if assignment["requires"] == "classroom":
             base_cost = rooms_data[a_room]["cost_per_lecture"]
 
-            setup_cost = rooms_data[a_room]["setup_cost"]
-            setup_during_cost = rooms_data[a_room]["setup_cost"] - (
-                rooms_data[a_room]["cost_per_lecture"]*rooms_data[a_room]["setup_duration"])
+            setup_cost = rooms_data[a_room]["setup_cost"] + (qtd * rooms_data[a_room]["setup_cost_per_person"])
+            setup_during_cost = setup_cost - (rooms_data[a_room]["cost_per_lecture"]*rooms_data[a_room]["setup_duration"])
 
             solution_values[instance]["classroom"]["setup_before"] += base_cost + setup_cost
             solution_values[instance]["classroom"]["n_assignments"] += 1
         else:
             base_cost = pc_rooms_data[a_room]["cost_per_lecture"]
-
-            if a_class in pc_classes_data:
-                qtd = pc_classes_data[a_class]["qty_students"]
-            else:
-                qtd = classes_data[a_class]["qty_students"]
-
             base_cost = base_cost + \
                 (pc_rooms_data[a_room]["pc_cost_per_lecture"] * qtd)
 
-            setup_cost = pc_rooms_data[a_room]["setup_cost"]
-            setup_during_cost = pc_rooms_data[a_room]["setup_cost"] - (
-                pc_rooms_data[a_room]["cost_per_lecture"]*pc_rooms_data[a_room]["setup_duration"])
+            setup_cost = pc_rooms_data[a_room]["setup_cost"] + (qtd * pc_rooms_data[a_room]["setup_cost_per_person"])
+            setup_during_cost =  - (pc_rooms_data[a_room]["cost_per_lecture"]*pc_rooms_data[a_room]["setup_duration"])
 
             solution_values[instance]["pc"]["setup_before"] += base_cost + setup_cost
             solution_values[instance]["pc"]["n_assignments"] += 1
