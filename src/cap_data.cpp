@@ -134,7 +134,7 @@ CapData::CapData(int scenario, string instance_name, bool setup, bool setup_befo
     num_students_in_class = vector<int>();
     location_setup_cost = vector<float>();
     location_setup_duration = vector<float>();
-    location_setup_cost_per_person = vector<float>();
+    location_cost_per_person = vector<float>();
 
     classes_json_key = vector<string>();
     locations_json_key = vector<string>();
@@ -288,7 +288,7 @@ void CapData::PreProcessing(bool is_computer, int *classes, vector<vector<int>> 
 
             location_cost.push_back(location_data["cost_per_lecture"]);
             location_setup_cost.push_back(location_data["setup_cost"]);
-            location_setup_cost_per_person.push_back(location_data["setup_cost_per_person"]);
+            location_cost_per_person.push_back(location_data["ac_cost_per_person_per_lecture"]);
             location_setup_duration.push_back(location_data["setup_duration"]);
             if (!location_data["pc_cost_per_lecture"].is_null())
             {

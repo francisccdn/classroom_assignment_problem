@@ -72,7 +72,7 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
     // d_j  -- j in L
     vector<float> location_setup_duration = data.get_location_setup_duration();
     // p_j  -- j in L
-    vector<float> location_setup_cost_per_person = data.get_location_setup_cost_per_person();
+    vector<float> location_cost_per_person = data.get_location_cost_per_person();
 
     /*
     * VARIABLES
@@ -235,7 +235,7 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
 
     IloExpr of_sum(env);
 
-    // sum_i_in_B sum_k_in_H_i sum_j_in_S_i (c_j * x_ikj)
+    // sum_i_in_B sum_k_in_H_i sum_j_in_S_i ((c_j + q_i * p_j) * x_ikj)
     for (int i = 0; i < num_classes_classroom; i++)
     {
         for (int k : lectures_of_class[i_in_A(i, false)])
@@ -245,12 +245,15 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                 if (x[i][k].count(j) == 0)
                     continue;
 
-                of_sum += location_cost[j] * x[i][k][j];
+                float assignment_cost = location_cost[j] + 
+                                        (num_students_in_class[i_in_A(i, false)] * location_cost_per_person[j]);
+                
+                of_sum += assignment_cost * x[i][k][j];
             }
         }
     }
 
-    // sum_i_in_C sum_k_in_H_i sum_j_in_I_i ((c_j + q_i m_j)* t_ikj)
+    // sum_i_in_C sum_k_in_H_i sum_j_in_I_i ((c_j + q_i m_j + q_i * p_j) * t_ikj)
     for (int i = 0; i < num_classes_computer; i++)
     {
         for (int k : lectures_of_class[i_in_A(i, true)])
@@ -260,12 +263,16 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                 if (t[i][k].count(j) == 0)
                     continue;
 
-                of_sum += (location_cost[j] + (num_students_in_class[i_in_A(i, true)] * location_computer_cost[j])) * t[i][k][j];
+                float assignment_cost = location_cost[j] + 
+                                        (num_students_in_class[i_in_A(i, true)] * location_cost_per_person[j]) +
+                                        (num_students_in_class[i_in_A(i, true)] * location_computer_cost[j]);
+                
+                of_sum += assignment_cost * t[i][k][j];
             }
         }
     }
 
-    // sum_i_in_A sum_k_in_H_i sum_j_in_L_i ((s_j + q_i * p_j) * z_ikj)
+    // sum_i_in_A sum_k_in_H_i sum_j_in_L_i (s_j * z_ikj)
     if (data.is_setup())
     {
         for (int i = 0; i < num_classes_classroom; i++)
@@ -277,12 +284,10 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                     if (z[i_in_A(i, false)][k].count(j) == 0)
                         continue;
 
-                    float total_setup_cost = location_setup_cost[j] + (num_students_in_class[i_in_A(i, false)] * location_setup_cost_per_person[j]);
-
                     if (data.is_setup_before_class())
-                        of_sum += total_setup_cost * z[i_in_A(i, false)][k][j];
+                        of_sum += location_setup_cost[j] * z[i_in_A(i, false)][k][j];
                     else
-                        of_sum += (total_setup_cost - (location_cost[j] * location_setup_duration[j])) * z[i_in_A(i, false)][k][j];
+                        of_sum += (location_setup_cost[j] - (location_cost[j] * location_setup_duration[j])) * z[i_in_A(i, false)][k][j];
                 }
             }
         }
@@ -295,12 +300,10 @@ CapResults Cap::Solve(int time_limit_min, double upper_bound)
                     if (z[i_in_A(i, true)][k].count(j) == 0)
                         continue;
 
-                    float total_setup_cost = location_setup_cost[j] + (num_students_in_class[i_in_A(i, true)] * location_setup_cost_per_person[j]);
-
                     if (data.is_setup_before_class())
-                        of_sum += total_setup_cost * z[i_in_A(i, true)][k][j];
+                        of_sum += location_setup_cost[j] * z[i_in_A(i, true)][k][j];
                     else
-                        of_sum += (total_setup_cost - (location_cost[j] * location_setup_duration[j])) * z[i_in_A(i, true)][k][j];
+                        of_sum += (location_setup_cost[j] - (location_cost[j] * location_setup_duration[j])) * z[i_in_A(i, true)][k][j];
                 }
             }
         }
