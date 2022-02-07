@@ -1,5 +1,4 @@
 import json
-import random
 import os 
 
 # Parameters
@@ -13,8 +12,8 @@ temp_initial_kelvin = temp_initial + 273.15
 air_pressure = 100
 specific_heat = 1.006
 specific_constant_air = 0.287
-sensible_heat_occupancy = 243
-latent_heat_occupancy = 200
+sensible_heat_occupancy = 258.5
+latent_heat_occupancy = 163.5
 cooling_load_factor = 1
 occupancy_constant = (sensible_heat_occupancy * cooling_load_factor) + latent_heat_occupancy
 
@@ -52,11 +51,11 @@ for semester in semesters:
                 heat_removal_capacity = ac_btu * btu_to_kW
 
                 ac_setup_cost = ( thermal_energy / (heat_removal_capacity / ac_power) ) / kJ_to_kWh
-                ac_setup_cost_per_person = ( occupancy_constant / (heat_removal_capacity / ac_power) ) / kJ_to_kWh
+                ac_cost_per_person_per_lecture = ( occupancy_constant / (heat_removal_capacity / ac_power) ) / kJ_to_kWh * (50/60)
                 setup_duration_lectures = ( thermal_energy / (heat_removal_capacity / 1000) ) / lecture_duration_seconds
 
                 location["setup_cost"] = ac_setup_cost
-                location["setup_cost_per_person"] = ac_setup_cost_per_person
+                location["ac_cost_per_person_per_lecture"] = ac_cost_per_person_per_lecture
                 location["setup_duration"] = setup_duration_lectures
 
             with open(filepath, 'w+') as fw:

@@ -21,7 +21,7 @@
         },
         "setup_cost": 0.12910104870517378,
         "setup_duration": 0.038924939308092606,
-        "setup_cost_per_person": 0.03798953700830834
+        "ac_cost_per_person_per_lecture": 0.030157232162351614
     },
     "129": {
         "type": 3,
@@ -45,7 +45,7 @@
         },
         "setup_cost": 0.1786980224046414,
         "setup_duration": 0.05844579637110102,
-        "setup_cost_per_person": 0.03852310864618885
+        "ac_cost_per_person_per_lecture": 0.030580797307546457
     },
     "131": {
         "type": 3,
@@ -65,7 +65,7 @@
         },
         "setup_cost": 0.06091969251379314,
         "setup_duration": 0.028544955492601238,
-        "setup_cost_per_person": 0.04481588136771584
+        "ac_cost_per_person_per_lecture": 0.03557618874562845
     },
     "1": {
         "type": 3,
@@ -89,7 +89,7 @@
         },
         "setup_cost": 0.15759194178206937,
         "setup_duration": 0.03568119436575155,
-        "setup_cost_per_person": 0.0463733251169258
+        "ac_cost_per_person_per_lecture": 0.03681253423503139
     },
     "266": {
         "type": 1,
@@ -109,7 +109,7 @@
         },
         "setup_cost": 0.14886043635459778,
         "setup_duration": 0.05594504341544545,
-        "setup_cost_per_person": 0.04470038553912274
+        "ac_cost_per_person_per_lecture": 0.035484504698099696
     },
     "151": {
         "type": 3,
@@ -133,7 +133,7 @@
         },
         "setup_cost": 0.15759194178206937,
         "setup_duration": 0.03568119436575155,
-        "setup_cost_per_person": 0.0463733251169258
+        "ac_cost_per_person_per_lecture": 0.03681253423503139
     },
     "268": {
         "type": 1,
@@ -157,7 +157,7 @@
         },
         "setup_cost": 0.1394053653953143,
         "setup_duration": 0.03227598658583391,
-        "setup_cost_per_person": 0.04186118039147049
+        "ac_cost_per_person_per_lecture": 0.033230658625283196
     },
     "142": {
         "type": 2,
@@ -181,7 +181,7 @@
         },
         "setup_cost": 0.08609354247634411,
         "setup_duration": 0.02425170210601242,
-        "setup_cost_per_person": 0.037273653773227146
+        "ac_cost_per_person_per_lecture": 0.029588942611553534
     },
     "365": {
         "type": 2,
@@ -205,7 +205,7 @@
         },
         "setup_cost": 0.09458163821344845,
         "setup_duration": 0.02425170210601242,
-        "setup_cost_per_person": 0.04094852104664391
+        "ac_cost_per_person_per_lecture": 0.032506162305650364
     },
     "115": {
         "type": 3,
@@ -229,7 +229,7 @@
         },
         "setup_cost": 0.0729610085507572,
         "setup_duration": 0.026856812963468906,
-        "setup_cost_per_person": 0.038031959718535374
+        "ac_cost_per_person_per_lecture": 0.03019090858017669
     },
     "280": {
         "type": 1,
@@ -249,7 +249,7 @@
         },
         "setup_cost": 0.1201782414109569,
         "setup_duration": 0.06216115935049495,
-        "setup_cost_per_person": 0.03608758549979635
+        "ac_cost_per_person_per_lecture": 0.028647406096527578
     },
     "259": {
         "type": 1,
@@ -269,7 +269,7 @@
         },
         "setup_cost": 0.14886043635459778,
         "setup_duration": 0.05594504341544545,
-        "setup_cost_per_person": 0.04470038553912274
+        "ac_cost_per_person_per_lecture": 0.035484504698099696
     },
     "149": {
         "type": 3,
@@ -289,7 +289,7 @@
         },
         "setup_cost": 0.060757170428488494,
         "setup_duration": 0.030202404521203888,
-        "setup_cost_per_person": 0.04224347427632411
+        "ac_cost_per_person_per_lecture": 0.03353413495976068
     },
     "278": {
         "type": 1,
@@ -313,7 +313,7 @@
         },
         "setup_cost": 0.1263943573460064,
         "setup_duration": 0.031080579675247477,
-        "setup_cost_per_person": 0.03795418474978582
+        "ac_cost_per_person_per_lecture": 0.030129168480830724
     },
     "153": {
         "type": 3,
@@ -333,7 +333,7 @@
         },
         "setup_cost": 0.06429085175746935,
         "setup_duration": 0.024161923616963114,
-        "setup_cost_per_person": 0.04470038553912274
+        "ac_cost_per_person_per_lecture": 0.035484504698099696
     },
     "152": {
         "type": 3,
@@ -357,7 +357,7 @@
         },
         "setup_cost": 0.1481619118425493,
         "setup_duration": 0.040778507846573206,
-        "setup_cost_per_person": 0.043598425339039674
+        "ac_cost_per_person_per_lecture": 0.0346097356905093
     },
     "25": {
         "type": 3,
@@ -377,7 +377,7 @@
         },
         "setup_cost": 0.060757170428488494,
         "setup_duration": 0.030202404521203888,
-        "setup_cost_per_person": 0.04224347427632411
+        "ac_cost_per_person_per_lecture": 0.03353413495976068
     },
     "282": {
         "type": 1,
@@ -401,7 +401,7 @@
         },
         "setup_cost": 0.12328629937848165,
         "setup_duration": 0.031080579675247477,
-        "setup_cost_per_person": 0.03702088512479108
+        "ac_cost_per_person_per_lecture": 0.02938828728867915
     },
     "285": {
         "type": 1,
@@ -425,7 +425,7 @@
         },
         "setup_cost": 0.1201782414109569,
         "setup_duration": 0.031080579675247477,
-        "setup_cost_per_person": 0.03608758549979635
+        "ac_cost_per_person_per_lecture": 0.028647406096527578
     },
     "30": {
         "type": 1,
@@ -449,7 +449,7 @@
         },
         "setup_cost": 0.12552953670668401,
         "setup_duration": 0.022349472410685578,
-        "setup_cost_per_person": 0.04717829604348377
+        "ac_cost_per_person_per_lecture": 0.03745154426326213
     },
     "289": {
         "type": 1,
@@ -473,7 +473,7 @@
         },
         "setup_cost": 0.13869708680079185,
         "setup_duration": 0.034965652134653406,
-        "setup_cost_per_person": 0.04164849576538996
+        "ac_cost_per_person_per_lecture": 0.033061823199764036
     },
     "291": {
         "type": 1,
@@ -497,7 +497,7 @@
         },
         "setup_cost": 0.14219365201425715,
         "setup_duration": 0.034965652134653406,
-        "setup_cost_per_person": 0.042698457843509036
+        "ac_cost_per_person_per_lecture": 0.033895314540934564
     },
     "292": {
         "type": 1,
@@ -521,7 +521,7 @@
         },
         "setup_cost": 0.10006311373929247,
         "setup_duration": 0.020948314111505748,
-        "setup_cost_per_person": 0.03343545906543632
+        "ac_cost_per_person_per_lecture": 0.026542068708830184
     },
     "293": {
         "type": 1,
@@ -545,7 +545,7 @@
         },
         "setup_cost": 0.10006311373929247,
         "setup_duration": 0.020948314111505748,
-        "setup_cost_per_person": 0.03343545906543632
+        "ac_cost_per_person_per_lecture": 0.026542068708830184
     },
     "294": {
         "type": 1,
@@ -569,7 +569,7 @@
         },
         "setup_cost": 0.10006311373929247,
         "setup_duration": 0.020948314111505748,
-        "setup_cost_per_person": 0.03343545906543632
+        "ac_cost_per_person_per_lecture": 0.026542068708830184
     },
     "295": {
         "type": 1,
@@ -593,7 +593,7 @@
         },
         "setup_cost": 0.10006311373929247,
         "setup_duration": 0.020948314111505748,
-        "setup_cost_per_person": 0.03343545906543632
+        "ac_cost_per_person_per_lecture": 0.026542068708830184
     },
     "296": {
         "type": 1,
@@ -617,7 +617,7 @@
         },
         "setup_cost": 0.10006311373929247,
         "setup_duration": 0.020948314111505748,
-        "setup_cost_per_person": 0.03343545906543632
+        "ac_cost_per_person_per_lecture": 0.026542068708830184
     },
     "263": {
         "type": 1,
@@ -637,7 +637,7 @@
         },
         "setup_cost": 0.14886043635459778,
         "setup_duration": 0.05594504341544545,
-        "setup_cost_per_person": 0.04470038553912274
+        "ac_cost_per_person_per_lecture": 0.035484504698099696
     },
     "44": {
         "type": 3,
@@ -661,7 +661,7 @@
         },
         "setup_cost": 0.1159489186071843,
         "setup_duration": 0.04350803700081963,
-        "setup_cost_per_person": 0.03730865250916445
+        "ac_cost_per_person_per_lecture": 0.029616725656259214
     },
     "45": {
         "type": 3,
@@ -685,7 +685,7 @@
         },
         "setup_cost": 0.2516819084839079,
         "setup_duration": 0.041090923834107417,
-        "setup_cost_per_person": 0.04287345152319555
+        "ac_cost_per_person_per_lecture": 0.034034229764462985
     },
     "125": {
         "type": 3,
@@ -709,7 +709,7 @@
         },
         "setup_cost": 0.05469991041062482,
         "setup_duration": 0.020134936347469257,
-        "setup_cost_per_person": 0.038031959718535374
+        "ac_cost_per_person_per_lecture": 0.03019090858017669
     },
     "306": {
         "type": 1,
@@ -729,7 +729,7 @@
         },
         "setup_cost": 0.07939985528278924,
         "setup_duration": 0.029840221214953676,
-        "setup_cost_per_person": 0.04470038553912274
+        "ac_cost_per_person_per_lecture": 0.035484504698099696
     },
     "307": {
         "type": 1,
@@ -749,7 +749,7 @@
         },
         "setup_cost": 0.07939985528278924,
         "setup_duration": 0.029840221214953676,
-        "setup_cost_per_person": 0.04470038553912274
+        "ac_cost_per_person_per_lecture": 0.035484504698099696
     },
     "308": {
         "type": 1,
@@ -773,7 +773,7 @@
         },
         "setup_cost": 0.0872990083947163,
         "setup_duration": 0.022408301620034134,
-        "setup_cost_per_person": 0.04363175746850378
+        "ac_cost_per_person_per_lecture": 0.03463619573308614
     },
     "309": {
         "type": 1,
@@ -793,7 +793,7 @@
         },
         "setup_cost": 0.035467107199557035,
         "setup_duration": 0.019981468844820865,
-        "setup_cost_per_person": 0.037273653773227146
+        "ac_cost_per_person_per_lecture": 0.029588942611553534
     },
     "311": {
         "type": 1,
@@ -813,7 +813,7 @@
         },
         "setup_cost": 0.03609985371297637,
         "setup_duration": 0.03996293768964173,
-        "setup_cost_per_person": 0.0379386297560359
+        "ac_cost_per_person_per_lecture": 0.030116820460961535
     },
     "372": {
         "type": 1,
@@ -837,7 +837,7 @@
         },
         "setup_cost": 0.11711206728269663,
         "setup_duration": 0.024051768053951046,
-        "setup_cost_per_person": 0.04544391424036855
+        "ac_cost_per_person_per_lecture": 0.03607474004784712
     },
     "61": {
         "type": 3,
@@ -861,7 +861,7 @@
         },
         "setup_cost": 0.2377889254427554,
         "setup_duration": 0.051009422690616105,
-        "setup_cost_per_person": 0.04050681286205589
+        "ac_cost_per_person_per_lecture": 0.032155521120744136
     },
     "318": {
         "type": 1,
@@ -881,7 +881,7 @@
         },
         "setup_cost": 0.05164041948206951,
         "setup_duration": 0.031139951446474076,
-        "setup_cost_per_person": 0.03798953700830834
+        "ac_cost_per_person_per_lecture": 0.030157232162351614
     },
     "319": {
         "type": 1,
@@ -905,7 +905,7 @@
         },
         "setup_cost": 0.08784505429511166,
         "setup_duration": 0.03233560280801656,
-        "setup_cost_per_person": 0.038031959718535374
+        "ac_cost_per_person_per_lecture": 0.03019090858017669
     },
     "64": {
         "type": 3,
@@ -929,7 +929,7 @@
         },
         "setup_cost": 0.12588825464616465,
         "setup_duration": 0.027004988483267354,
-        "setup_cost_per_person": 0.04050681286205589
+        "ac_cost_per_person_per_lecture": 0.032155521120744136
     },
     "321": {
         "type": 1,
@@ -949,7 +949,7 @@
         },
         "setup_cost": 0.060786943124002284,
         "setup_duration": 0.04475112377227162,
-        "setup_cost_per_person": 0.038031959718535374
+        "ac_cost_per_person_per_lecture": 0.03019090858017669
     },
     "323": {
         "type": 1,
@@ -969,7 +969,7 @@
         },
         "setup_cost": 0.09556805058672099,
         "setup_duration": 0.05248588590575066,
-        "setup_cost_per_person": 0.04369842172743196
+        "ac_cost_per_person_per_lecture": 0.03468911581823982
     },
     "79": {
         "type": 3,
@@ -989,7 +989,7 @@
         },
         "setup_cost": 0.20732845737787398,
         "setup_duration": 0.11491646598311724,
-        "setup_cost_per_person": 0.04133032543868722
+        "ac_cost_per_person_per_lecture": 0.032809250066076004
     },
     "71": {
         "type": 3,
@@ -1013,7 +1013,7 @@
         },
         "setup_cost": 0.1332433633150101,
         "setup_duration": 0.021754018500409814,
-        "setup_cost_per_person": 0.04287345152319555
+        "ac_cost_per_person_per_lecture": 0.034034229764462985
     },
     "329": {
         "type": 1,
@@ -1033,7 +1033,7 @@
         },
         "setup_cost": 0.08774706761993586,
         "setup_duration": 0.0529128045949362,
-        "setup_cost_per_person": 0.03798953700830834
+        "ac_cost_per_person_per_lecture": 0.030157232162351614
     },
     "330": {
         "type": 1,
@@ -1057,7 +1057,7 @@
         },
         "setup_cost": 0.04029596217038874,
         "setup_duration": 0.013320979229880575,
-        "setup_cost_per_person": 0.04234847048413601
+        "ac_cost_per_person_per_lecture": 0.03361748409387772
     },
     "331": {
         "type": 1,
@@ -1077,7 +1077,7 @@
         },
         "setup_cost": 0.09371935547190134,
         "setup_duration": 0.06467120561603312,
-        "setup_cost_per_person": 0.04057520119664602
+        "ac_cost_per_person_per_lecture": 0.03220980982878974
     },
     "333": {
         "type": 1,
@@ -1097,7 +1097,7 @@
         },
         "setup_cost": 0.07162331836498323,
         "setup_duration": 0.04318994072260295,
-        "setup_cost_per_person": 0.03798953700830834
+        "ac_cost_per_person_per_lecture": 0.030157232162351614
     },
     "190": {
         "type": 3,
@@ -1121,7 +1121,7 @@
         },
         "setup_cost": 0.2377889254427554,
         "setup_duration": 0.051009422690616105,
-        "setup_cost_per_person": 0.04050681286205589
+        "ac_cost_per_person_per_lecture": 0.032155521120744136
     },
     "82": {
         "type": 3,
@@ -1141,7 +1141,7 @@
         },
         "setup_cost": 0.09789644035346459,
         "setup_duration": 0.04874511552869605,
-        "setup_cost_per_person": 0.04217347680444951
+        "ac_cost_per_person_per_lecture": 0.03347856887034931
     },
     "301": {
         "type": 1,
@@ -1165,7 +1165,7 @@
         },
         "setup_cost": 0.10006311373929247,
         "setup_duration": 0.020948314111505748,
-        "setup_cost_per_person": 0.03343545906543632
+        "ac_cost_per_person_per_lecture": 0.026542068708830184
     },
     "271": {
         "type": 1,
@@ -1185,7 +1185,7 @@
         },
         "setup_cost": 0.14886043635459778,
         "setup_duration": 0.05594504341544545,
-        "setup_cost_per_person": 0.04470038553912274
+        "ac_cost_per_person_per_lecture": 0.035484504698099696
     },
     "94": {
         "type": 3,
@@ -1205,7 +1205,7 @@
         },
         "setup_cost": 0.09789644035346459,
         "setup_duration": 0.04874511552869605,
-        "setup_cost_per_person": 0.04217347680444951
+        "ac_cost_per_person_per_lecture": 0.03347856887034931
     },
     "357": {
         "type": 2,
@@ -1229,7 +1229,7 @@
         },
         "setup_cost": 0.12161246480298064,
         "setup_duration": 0.027004988483267354,
-        "setup_cost_per_person": 0.03913100048383089
+        "ac_cost_per_person_per_lecture": 0.031063360053003454
     },
     "97": {
         "type": 3,
@@ -1253,7 +1253,7 @@
         },
         "setup_cost": 0.05988705353632999,
         "setup_duration": 0.017258516869259364,
-        "setup_cost_per_person": 0.04163849612655074
+        "ac_cost_per_person_per_lecture": 0.03305388518699099
     },
     "327": {
         "type": 1,
@@ -1273,7 +1273,7 @@
         },
         "setup_cost": 0.036605580290037035,
         "setup_duration": 0.02694889346505794,
-        "setup_cost_per_person": 0.038031959718535374
+        "ac_cost_per_person_per_lecture": 0.03019090858017669
     },
     "356": {
         "type": 2,
@@ -1297,7 +1297,7 @@
         },
         "setup_cost": 0.09153401283960547,
         "setup_duration": 0.022503752388347995,
-        "setup_cost_per_person": 0.04019501884940552
+        "ac_cost_per_person_per_lecture": 0.03190800969610445
     },
     "114": {
         "type": 1,
@@ -1321,7 +1321,7 @@
         },
         "setup_cost": 0.0729610085507572,
         "setup_duration": 0.026856812963468906,
-        "setup_cost_per_person": 0.038031959718535374
+        "ac_cost_per_person_per_lecture": 0.03019090858017669
     },
     "145": {
         "type": 2,
@@ -1345,7 +1345,7 @@
         },
         "setup_cost": 0.08696256180180954,
         "setup_duration": 0.02425170210601242,
-        "setup_cost_per_person": 0.037649890184553156
+        "ac_cost_per_person_per_lecture": 0.029887610342139635
     },
     "338": {
         "type": 1,
@@ -1365,7 +1365,7 @@
         },
         "setup_cost": 0.08317478241034995,
         "setup_duration": 0.03291877931808046,
-        "setup_cost_per_person": 0.04244646694476046
+        "ac_cost_per_person_per_lecture": 0.03369527661905364
     },
     "367": {
         "type": 1,
@@ -1385,7 +1385,7 @@
         },
         "setup_cost": 0.11519594309439851,
         "setup_duration": 0.04329318249711188,
-        "setup_cost_per_person": 0.04470038553912274
+        "ac_cost_per_person_per_lecture": 0.035484504698099696
     },
     "113": {
         "type": 2,
@@ -1409,7 +1409,7 @@
         },
         "setup_cost": 0.0729610085507572,
         "setup_duration": 0.026856812963468906,
-        "setup_cost_per_person": 0.038031959718535374
+        "ac_cost_per_person_per_lecture": 0.03019090858017669
     },
     "370": {
         "type": 1,
@@ -1429,7 +1429,7 @@
         },
         "setup_cost": 0.05703952248849957,
         "setup_duration": 0.03771208098413195,
-        "setup_cost_per_person": 0.04234847048413601
+        "ac_cost_per_person_per_lecture": 0.03361748409387772
     },
     "275": {
         "type": 1,
@@ -1453,7 +1453,7 @@
         },
         "setup_cost": 0.13786827134278526,
         "setup_duration": 0.031080579675247477,
-        "setup_cost_per_person": 0.04139961586539137
+        "ac_cost_per_person_per_lecture": 0.03286425488185696
     },
     "116": {
         "type": 2,
@@ -1477,7 +1477,7 @@
         },
         "setup_cost": 0.0729610085507572,
         "setup_duration": 0.026856812963468906,
-        "setup_cost_per_person": 0.038031959718535374
+        "ac_cost_per_person_per_lecture": 0.03019090858017669
     },
     "117": {
         "type": 2,
@@ -1501,7 +1501,7 @@
         },
         "setup_cost": 0.0752282684857167,
         "setup_duration": 0.021018375362714798,
-        "setup_cost_per_person": 0.039213801091490655
+        "ac_cost_per_person_per_lecture": 0.0311290896550208
     },
     "118": {
         "type": 3,
@@ -1525,7 +1525,7 @@
         },
         "setup_cost": 0.15340498234885327,
         "setup_duration": 0.03601055923682002,
-        "setup_cost_per_person": 0.041287739564190074
+        "ac_cost_per_person_per_lecture": 0.03277544412356699
     },
     "253": {
         "type": 1,
@@ -1549,7 +1549,7 @@
         },
         "setup_cost": 0.06091969251379314,
         "setup_duration": 0.014272477746300619,
-        "setup_cost_per_person": 0.04481588136771584
+        "ac_cost_per_person_per_lecture": 0.03557618874562845
     },
     "126": {
         "type": 3,
@@ -1577,6 +1577,6 @@
         },
         "setup_cost": 0.150220048443019,
         "setup_duration": 0.02496732107086188,
-        "setup_cost_per_person": 0.040430539754771844
+        "ac_cost_per_person_per_lecture": 0.03209497324400624
     }
 }
