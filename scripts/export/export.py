@@ -63,7 +63,8 @@ def write_instance(sheet, start_row, instance):
     sheet[f"A{start_row}"].border = borders.tblr
     sheet[f"A{start_row+9}"].border = borders.blr
 
-    manual_col = "T"
+    if instance["name"] == "20181":
+        manual_col = "T"
     if instance["name"] == "20182":
         manual_col = "S"    
     elif instance["name"] == "20191":
@@ -98,7 +99,7 @@ def write_instance(sheet, start_row, instance):
         sheet[f"K{row}"].value = f"=(((E{row}*50/60)/5)*100)"
         sheet[f"L{row}"].value = f"=(K{row}*0,82961)"
 
-        sheet[f"M{row}"].value = f"=((E{row}-${manual_col}$6)/${manual_col}$6)*(-100)"
+        sheet[f"M{row}"].value = f"=((E{row}-${manual_col}$6)/${manual_col}$6)*(-1)"
         sheet[f"N{row}"].value = f"=${manual_col}$7-K{row}"
         sheet[f"O{row}"].value = f"=${manual_col}$8-L{row}"
         
@@ -145,9 +146,9 @@ def write_manual_results(sheet, data):
         sheet[f"{col}5"].value = instance
         sheet[f"{col}6"].value = data[instance]["setup_before"]
         sheet[f"{col}7"].value = f"=((({col}6*50/60)/5)*100)"
-        sheet[f"{col}8"].value = f"=({col}7*0,82961)"
+        sheet[f"{col}8"].value = f"=({col}7*0.82961)"
         sheet[f"{col}9"].value = data[instance]["n_assignments"]
-        sheet[f"{col}10"].value = f"=DIVIDE({col}3;{col}5)"
+        sheet[f"{col}10"].value = f"=({col}6/{col}9)"
         sheet[f"{col}11"].value = data[instance]["highest"]["room"]["setup_before"]
         sheet[f"{col}12"].value = data[instance]["highest"]["pc"]["setup_before"]
 
