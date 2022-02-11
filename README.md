@@ -11,6 +11,7 @@
 - [3. Optimal Solutions](#3-optimal-solutions)
   - [3.1. Optimal solution file structure](#31-optimal-solution-file-structure)
 - [4. Source Files](#4-source-files)
+- [5. Gap Development](#5-gap-development)
 
 ## 1. Instances
 ### 1.1. Folder structure
@@ -118,7 +119,7 @@ Each name/value pair represents a lecture that took place in that academic term,
 ```
 
 ## 3. Optimal Solutions
-Optimal solutions for each scenario/term (with the exception of scenario 9 of term 20182, whose solution is not optimal but still available) can be found in folder **/solutions**. Each solution is shown in a file with an identifiable name. The naming scheme for each file is **[term]_[scenario].json**. Solution files are formatted as [JSON](https://www.json.org/json-en.html) objects, and their structure is detailed in subsection [3.1.]
+Optimal solutions and best solutions for each scenario/term can be found in folder **/solutions**. Each solution is shown in a file with an identifiable name. The naming scheme for each file is **[term]_[scenario].json**. Solution files are formatted as [JSON](https://www.json.org/json-en.html) objects, and their structure is detailed in subsection [3.1.]
 
 ### 3.1. Optimal solution file structure
 A solution object contains 6 elements of "metadata" about the solution, these are:
@@ -163,3 +164,6 @@ All source files can be found in folder **/src**.
 - **cap_data.cpp** contains code for reading the instance files described in section [1.](#1-instances)
 - **main.cpp** contains code to call functions declared in other files.
 - **utility.cpp** contains algorithms to help with data handling.
+
+## 5. Gap Development
+Line graphs showing the solution gap development over time can be found in folder **/gap_development**. There is one image for each scenario, and the naming scheme for each file is **graph_s[scenario].png**.
