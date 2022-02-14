@@ -102,6 +102,7 @@ def save_scenario_graph(scenario, data, path):
         df = pd.DataFrame([(36000, ymax), (36000, ymin)], columns=["Seconds", "Time limit"])
         final_ax = df.plot(ax=ax, x="Seconds", y="Time limit", style=["k-"])
         final_ax.set_ylim(ymin, ymax)
+        final_ax.legend(loc="upper right", bbox_to_anchor=(0.95, 1))
 
     plt.savefig(f"{path}/graph_s{scenario}.png")
 
